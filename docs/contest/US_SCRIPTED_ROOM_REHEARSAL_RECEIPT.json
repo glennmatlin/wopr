@@ -1,0 +1,2039 @@
+{
+  "active_seat_ids": [
+    "SEAT_PRESIDENT",
+    "SEAT_VICE_PRESIDENT",
+    "SEAT_STATE",
+    "SEAT_TREASURY",
+    "SEAT_DEFENSE",
+    "SEAT_ENERGY",
+    "SEAT_ATTORNEY_GENERAL",
+    "SEAT_CHIEF_OF_STAFF",
+    "SEAT_NSA",
+    "SEAT_DNI",
+    "SEAT_CJCS",
+    "SEAT_CIA_DIRECTOR",
+    "SEAT_WHITE_HOUSE_COUNSEL",
+    "SEAT_THEATER_COMMANDER"
+  ],
+  "bridge_fixture_hash": "4b47bc86dad3226692146cc92b21f7b3da61a5919b87ce26924514d7f44ce465",
+  "call_counts": {
+    "confirmation": 6,
+    "group_product": 16,
+    "portfolio_product": 92,
+    "total": 114
+  },
+  "call_manifest": [
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_THREAT_ATTRIBUTION::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "cd6d775bf2b6c60af43094846c040147628b0a3fbba76056732215c47cf01c61",
+      "prompt_hashes": [
+        "f31b3340bbc3b77e1bcc6db14c8f29af4f92d539831ede4a16cc63f51f1c236d"
+      ],
+      "raw_response_hashes": [
+        "8da5335764766384b648d4e6f578260408b0b11527bb18ce9e588c892d5671e1"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "a5f7c090dd1df1bcab07cd68c805913c380e2e95968484d055a1a53b36931709"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_THREAT_ATTRIBUTION::SEAT_CIA_DIRECTOR::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "b66aba2ee6df12f257abeca1507b3884d063bc561f8447fbc5d2e26390705b23",
+      "prompt_hashes": [
+        "eb3fd89124cced708892f08ed18d6a128e0187511c490646d5ecf56c6419c5c2"
+      ],
+      "raw_response_hashes": [
+        "b93543c48d75e56f26c9cdd530256f3fdea72c6bc36fd97c797474ac57d2494c"
+      ],
+      "seat_id": "SEAT_CIA_DIRECTOR",
+      "status": "accepted",
+      "trace_hash": "c866903f70e1976ff15e48cf7165b6b311f30fa9b6ee680b395c4cbe7b34e570"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_THREAT_ATTRIBUTION::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "ece2e9e7622e4417cb94dc9207761e83020ff9513cbc71595f33bea8a7eaaf3f",
+      "prompt_hashes": [
+        "1b56aea7e7f05dca8526f0dc20c0f6022458700ccffa80bf6234d1a20534dc33"
+      ],
+      "raw_response_hashes": [
+        "6fc5c3e936d31d17788be179fa4f98a1bb66da9fb0947cf02d0fa675cef41082"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "2f0fe95623a156e411088d93f10a59346abf138e493279b4a869fabc83853627"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_THREAT_ATTRIBUTION::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "ef9c773255d2ef9638228dc340d63df8134413919b6e0ddcd44bb701b86b2d3b",
+      "prompt_hashes": [
+        "d7c94301091ed118380ffa40163bcf6f921718cf93b3b32581def1ad13d01ab4"
+      ],
+      "raw_response_hashes": [
+        "e170cefeecc10566666743f95442e94d469a6c4e105e0b9c64038a29f2269592"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "23fef54af5ec925f1590654ab88c3672ec85026e589de27cfe5a488be0ca8aab"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DIPLOMATIC_ECONOMIC::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+      "parsed_product_hash": "ea3e4d27be58a08c8d4d5cc26460471444f2cde7f131056c7367f2ec245e39b2",
+      "prompt_hashes": [
+        "e67b088c5647b282d4deea7b19fb0705710372d3613163720e389ad5f12c15ba"
+      ],
+      "raw_response_hashes": [
+        "6cbf06d5f425876ee47f4d002f253716666553c7f5a15f5781f355a126ab3c03"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "0749bab4417720aeb7eb5248b110ecbe39733abf7475243f4244821fe7909747"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DIPLOMATIC_ECONOMIC::SEAT_TREASURY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+      "parsed_product_hash": "9464050f93537b9b558fb88375d94f06044c1c191ca849dd1d6cffd1254699a2",
+      "prompt_hashes": [
+        "edb08a19fe6d23a9acf864597763f0391a0afa9322bc2c3fb00ee1518bdecb04"
+      ],
+      "raw_response_hashes": [
+        "3ba9576b3eb2e1328fc3f380601d2b8bdccdff67cddde66952f6ad1ec63d84aa"
+      ],
+      "seat_id": "SEAT_TREASURY",
+      "status": "accepted",
+      "trace_hash": "41d17150f0f6406f58e0b5a8b65b10d02cc966702695d5d196dfb8f94999ff85"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_ENERGY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "5592b99ccf9f033bbb09b701ed9e086b5606f82f91d84dd46f4da25989b8b403",
+      "prompt_hashes": [
+        "d00b140c7c997ce95172ac3fb95def316939cf91a0e340b1450f9697a635e4fd"
+      ],
+      "raw_response_hashes": [
+        "984ae970936cc64901d49a9afe19e408da16fdb98a6325c6b453ed8650091fd9"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "98267cd383588acb3e513b37b3ee21a1b36548b81909ae5222ec0510f66a9a23"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "fcab8f3ccc78a35b58aaca27c49de157b9b09d65d4376869d0bcbd58c936d8f6",
+      "prompt_hashes": [
+        "f42772a3d7ac7491b536bff5dae7aff75fc086f469684e5be39951d88a156b71"
+      ],
+      "raw_response_hashes": [
+        "fdd5fbe1286018f9d0e3a6b226703b2af497828bbd17a1934c563ec49e3eb9a9"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "fe79e82196e9e968bd6ec964094ae49f5e5be225bdf33ee12ad12248977b3d68"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "1f08d8d37ae336c809edde42e0d098cb4b21ba944fd39bf9bac0e6f2d93d6c20",
+      "prompt_hashes": [
+        "fc87cb850baa1b3dd6c7eb4fdd1e1f1f4b51345d292ed21c85ee3a1f078d56f6"
+      ],
+      "raw_response_hashes": [
+        "59cf6015ad023dd5d8b2893b3b6a7f7088d44de0dc04dc0615217117115911b1"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "eb2cd3016c50fc3b1ad3ee338780e5eb6b5d78d1806a3f24eb68755d06e1a5aa"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "2075c1d9f8816bae8d13e21599c5889b96b644f660fbede6a8421c615ac37db8",
+      "prompt_hashes": [
+        "b6bdd24ce390e76f3743f93400ecc7b768a792f9ee6163f187cf4b9b612cc5c0"
+      ],
+      "raw_response_hashes": [
+        "90209c16a8c976a89f99c760fc20b59e64ea0a1cfd729baf9e9e119b53d7e300"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "8f93b6dda8db2dd1ea6dc19637bb4560c89365fa3dfe734a86be54d1d56ca828"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DEFENSE_ESCALATION::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "c83579bc2509cad9ab5b4598beb258a755ee764179368e11eea5a8f4070517eb",
+      "prompt_hashes": [
+        "3f041aa3589ad0cd2fcf6b55f5e9cb995233474ee27805cdaf6081b8283ca40a"
+      ],
+      "raw_response_hashes": [
+        "cac7a05a6b2f6798d6be3dfe2804d6d27cc0d9bdbf9078431874a5446879a379"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "3f44e92dff5ee00a17155c74cd3092cc3ac9f0806e1d210e4fdc5a22945ddef6"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DEFENSE_ESCALATION::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "7815cc2f3f2564dddc03170ae3f7e0bee7e7d83425fc8a983fa02633d6a36cda",
+      "prompt_hashes": [
+        "91f7eb4fdfb436de950b9337c6ea1d311964fbdda3761f293975a612d34b69fa"
+      ],
+      "raw_response_hashes": [
+        "3d9683acf3cebcb218ec2cce3ea64f4fec2db0cb53d18f99b0355c80e30da769"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "e4290fab1c6b43053d6ff17543b97eb3320a1244a35ca15837c041727c21015a"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DEFENSE_ESCALATION::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "370630f53a75c93ad0a7c8dd09244b4f551fcaf83f6710df144834117f10e8db",
+      "prompt_hashes": [
+        "f3f6c5ce65f901ff8d94176379e7a34fb14c73fce7935f570c222a6b9c92ae4b"
+      ],
+      "raw_response_hashes": [
+        "20d02d3e606a89e1a5dfd0f44c12ffe97a79b12a068e8e3703dd0e8cb73fffce"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "72014ce20466ddb6d46bbb910e7d93b7e3609705c610cfc3f9221554c759a907"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DEFENSE_ESCALATION::SEAT_THEATER_COMMANDER::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "8db9b5752399c752c82e6665b783bf2dc735ad174681acf7101521cfbbf1acd2",
+      "prompt_hashes": [
+        "93ff4a0dfda539e0305fb21dd6533a695cadd9be434664261b0b8a7cc432730d"
+      ],
+      "raw_response_hashes": [
+        "2a10599b23fbfa4aa1b06271981f0d365a4032d2c23e71a062444e92115534db"
+      ],
+      "seat_id": "SEAT_THEATER_COMMANDER",
+      "status": "accepted",
+      "trace_hash": "c60e5e39747809724bec116345f71fff0242b6809efb94de5fc409ebdb7fecb1"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_LEGAL_AUTHORITY::SEAT_ATTORNEY_GENERAL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_LEGAL_AUTHORITY",
+      "parsed_product_hash": "a3d02d57260059dcea3736fd545211cc6a19d436ee491922cc41c90f899be734",
+      "prompt_hashes": [
+        "bd608cda9f0955ae80bbae2b72f6e7586c6fbd4fe05c99cab24a46cbcf40d735"
+      ],
+      "raw_response_hashes": [
+        "0c74b12c28a8afdf83a7bd5088ab66f4ca3513906cf66006a987c5ef46f68b89"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "6fc5e407aae7de430e9d22381c0d871b2bce849df1404e2dfd3793c9350c7cd1"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_LEGAL_AUTHORITY::SEAT_WHITE_HOUSE_COUNSEL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_LEGAL_AUTHORITY",
+      "parsed_product_hash": "940249beaf7b6143b83b909ba9360cc6b808f21396d80a19e9ba07776cd6364a",
+      "prompt_hashes": [
+        "487086f2eed11eb05de32edb24736940fab2e2ed55d80ac68c3d72d016bca11c"
+      ],
+      "raw_response_hashes": [
+        "8211a7139d70e22a75a197ac889534d9f4d353ced5a9b991ccf34947204d8fc3"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "dd22368b10e88f6218b9866ab800fd8d2993bad86c5501164e26347b3aba732c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_NSA::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "ec9140d07eaaa08261f42072514a97a157fa6f8ada4784220fa22ce2d6218e85",
+      "prompt_hashes": [
+        "4e8cc36c92128217c179d492c242d79a334c0c76f68059b8b074987c05cbc7f0"
+      ],
+      "raw_response_hashes": [
+        "7fb11e13673abadcba40dd3434d0d6fb79c1db7d9a37c17af745b90092ce289d"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "df9fe0b92f4c87efd4f15090d5be6390c06090b807c6fa000f89ce28d22a55e4"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_VICE_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "aeabbaf5f37ae792e63f2bf8f839db34a3c715f31dcf687ce217d403ae4c29da",
+      "prompt_hashes": [
+        "402aa196d5f253d104432c366a27b1fcfece52029a5013c32e5d0ced61253de5"
+      ],
+      "raw_response_hashes": [
+        "0a89894059dd744728bc4973f1f4ad126b7bc8e1b92377ae83dc17c08b256506"
+      ],
+      "seat_id": "SEAT_VICE_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "d0065e920e6a137f8622bfe03089f2fd4849e2e8868bad4e069be93261e4ec87"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_CHIEF_OF_STAFF::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "f479ca121d9693ca9caac0ef1c9dc852b603863dbe6b225ea956d1eb6dd6da8d",
+      "prompt_hashes": [
+        "2da42b6249d710b2b0d2835152a110fd2f02ad8d08131273a2343a7a159d8601"
+      ],
+      "raw_response_hashes": [
+        "28816018560867b580982be3346e3938d8f8f9ae5dfef62b44523cfcca5c3d46"
+      ],
+      "seat_id": "SEAT_CHIEF_OF_STAFF",
+      "status": "accepted",
+      "trace_hash": "6a6786f025dcd3f0c34d88b7555997009c170740f2cadc9d69f969ed1ed578ae"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_NSA::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "c146311beaaacd5764c717cdb4e0372e4467ed1c07f59f1e513f4f1ecf2cba81",
+      "prompt_hashes": [
+        "6c5d3351c79d8ad5f3f9948505fd80b139b71d6d52a8a331cb363bcf3a77f2d1"
+      ],
+      "raw_response_hashes": [
+        "cef45d3670f3e38bcdd3bd0ef9572f7c85c258c38dd06054efe508393514ab77"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "ccf097cf4f07fd1aa93abc82844cdc3f33c59f56b8ab14d95f38c54646a9325b"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_VICE_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "0d867e8aaf912f137d9040acb5a62a06944339ca6451e66558438b710a27d086",
+      "prompt_hashes": [
+        "bbb95835e91762257727c4f2c2fdff4c09c5a5d7a5cc379e7eacf722375c7cf9"
+      ],
+      "raw_response_hashes": [
+        "9959179c3a25fd64b63f8b659708b0e08c308098976c99fe1a9b1104d19f1aa1"
+      ],
+      "seat_id": "SEAT_VICE_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "1d7fbf62542019cfa77ab83a8a7baf2b24dea318998bcc6a129abba42f77bc7e"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "826efed189b5f6c237764e2b9bda8f5be79de44f90814bb4ba3327affc6e9df1",
+      "prompt_hashes": [
+        "bbba995d364e93e06fc1ba33a4405704bd39615f9128585851aeb2c843527252"
+      ],
+      "raw_response_hashes": [
+        "0af4a2d585840a2e7b410be962d644d1158187e7db1810fb51cf80b14f0d1541"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "378e4153bacad6017e4cbc8b6e5951e899a7ff41ee057f535df8f25843e69b2f"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_TREASURY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "39ab9fdc8e4ca94a61c52e7ffffe401c4c405a67e71bfb2fe31e984d1bc36586",
+      "prompt_hashes": [
+        "bef35c95c38a926badafa58eecea66c8e2933a5515f13f897eb8ea90b0c397d0"
+      ],
+      "raw_response_hashes": [
+        "c5695a0f9c94b1733ce2fbed9b1fd6fad4b88ea989e9bf124b222d222921550c"
+      ],
+      "seat_id": "SEAT_TREASURY",
+      "status": "accepted",
+      "trace_hash": "57451723c2d3f7c5d46bb80316a8f35d7f8b34443846edff1a669273bf6efa03"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "9c0af430cd1e4d055a2651189981f28b39e50f0573ed10a1d5a16e401356c4a9",
+      "prompt_hashes": [
+        "dd2aa7fde967dc800fdd679fee23f3e9560bbf2a319928a4d13f76d2c8ba568f"
+      ],
+      "raw_response_hashes": [
+        "2303efc334f996889a992e37f7d2715940192845b3c3addca4d3e30ebb0a0c6e"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "c90f5ffc0c843d1b5d47a9e4a346ff1a2f34c5e0d27b884a422d8901dc3d7778"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_ENERGY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "dab71948650bcbf47b1bef46fbc4b06ca77992e43c40403684846d6f62b24c65",
+      "prompt_hashes": [
+        "371468237d57118351c4e13e355dc98193392aec53b7fb75ed090f1de585b291"
+      ],
+      "raw_response_hashes": [
+        "a48289d6d2b3392f6fe9dd621ebadd3ca38e158b1c546b5c98f47620842d3627"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "1ebc1298e983ad31f9218e0636b56189c418713c368e9f248d2e3d0397a2d5bd"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_ATTORNEY_GENERAL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "728d4a6af4db69b76043947f40fe877531b69c895a882c1ab0d1c5cfc7ae9462",
+      "prompt_hashes": [
+        "59c2195977fd1c195916c978b8e5e885ae6cfe77c680cefa92301b52aeed8e58"
+      ],
+      "raw_response_hashes": [
+        "173b9ae31ffd37cdfb1318cc202620d7f64b37fe55a287a93e12298d6a6d4ed7"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "62e0fd3bd33237ee8b36764504f08c1319e1daed2dc8888cffc493b2d99cda31"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_CHIEF_OF_STAFF::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "3121291b7339dbd8e7080dc56ca57a13027d18e4a675e48fd06ecc24fcb4759f",
+      "prompt_hashes": [
+        "74b7d59be0512b700323968b4b39d208d667c1ca3b2a9e05b92088ab9e17752b"
+      ],
+      "raw_response_hashes": [
+        "f70d2f840080ba0fc6ff0cd4be25ccf5d5152544e66c40ecbdb6353c23558afe"
+      ],
+      "seat_id": "SEAT_CHIEF_OF_STAFF",
+      "status": "accepted",
+      "trace_hash": "5d0f0522c7306823b70a2fa15caed7e3d9d8efb76bfd55535dc0ab8e3d9c8767"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "7c1da1e089d337bbb5ea3f0ff6e45f84fb5b1a8ef3cd8437c64e9b76ec9c95ee",
+      "prompt_hashes": [
+        "41647001fbf0fa8c89079505416b418b1372474b9164216c0da868e131857ecc"
+      ],
+      "raw_response_hashes": [
+        "75bab417173341527eba1d357c7ba1ffbb8209e7e30dba0aed49e166155d18e9"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "0ff63f849efe90b41760f15225c74536bab47b1000016345a0d89679e7b9c5be"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "8d1b726fc299e0a3ce2a16b38b2d4dc53a9c443abd7248b22098c15f6bd4c9cb",
+      "prompt_hashes": [
+        "cedcefc95ab4685450ec3afcd068f6655b8dc1d5dc38ac88a6b0371b6ad4b8b3"
+      ],
+      "raw_response_hashes": [
+        "3a87e522bf9d0ec9e4c566f34d357e5f1497187a21cc5c644647da03fd2d53f5"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "f698f76bfdb8fd2ebf5f3a1b82a8f765db7556b3cd5423435a01b8fc97be6a25"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_CIA_DIRECTOR::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "6910fcad8388b3c1ae5a097ace426850211fcecc95eb5891ae7be339e7fe40c3",
+      "prompt_hashes": [
+        "623518ee12d95b9edc05ec0587d541171932a3cd95cfff9ba2d807162b8f6ec4"
+      ],
+      "raw_response_hashes": [
+        "0af9b9d988c7849bb4f96386f3b2756577a6c9ef6624108ea94c9c7a6f442212"
+      ],
+      "seat_id": "SEAT_CIA_DIRECTOR",
+      "status": "accepted",
+      "trace_hash": "6129c107c4e0bec71fa65dcf20cc0eb2122c17e3854e8c7b0b490cb36a082f12"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_WHITE_HOUSE_COUNSEL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "a6a9a873874826f644f4120bb3137eacea42f61d4ae0fccebb45ed216c4581d1",
+      "prompt_hashes": [
+        "b36e81935a1abbb66acb005d1ac33e848a7a7fae74b1bfef757c0a4321bb02f2"
+      ],
+      "raw_response_hashes": [
+        "b4bcc8d21b6100c0aa7e1e7e48e21b6df1e4f2e8def83a063d692961ba377bc5"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "ad7bc5b50c218e085633b0b8d4c1491b7b0a97a13abe9401e3af1474852ac252"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_THEATER_COMMANDER::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "c91375d6550f2164822dcda1b6f9e1ae2af9d67631cf80cf6ed8a3ed2291e7b1",
+      "prompt_hashes": [
+        "874cf123ed79c66f710386c16827e165e4748313d3db05b9764b0bde6d60a04c"
+      ],
+      "raw_response_hashes": [
+        "19d26249fc16f58ae5e5fa2103581d18cc7eff9bf7a71f167bb4ecf2b8d65f4d"
+      ],
+      "seat_id": "SEAT_THEATER_COMMANDER",
+      "status": "accepted",
+      "trace_hash": "f45e30a490e6170344ba0300e2c0ee16527d17c2ffc5046acff190e4ef9e0052"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "7e98c5b3671a47d20de9427bff017d75c4097e8c4564937d1fc60f2be7fe6dce",
+      "prompt_hashes": [
+        "d04d02e2158d9e5008cd493e2b8260709f53e89971dfee4b9a42c74c444edd68"
+      ],
+      "raw_response_hashes": [
+        "19d2f1181ce431122914f022d0cfdead1f424620450f5c83c76a81766b8a9c67"
+      ],
+      "seat_id": "SEAT_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "89a29d12b1fde8b0495a62629d05d6901fb14cc95dbe10d73b8d86c2aa415079"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_VICE_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "72d87b32bedd124a17b7f933c4723b0c7455ad6ab2677c29b358d7dcb05802f6",
+      "prompt_hashes": [
+        "e7b242badd2511c3133a3b9006a977030c76ccbc9f7100682d68841592409e9a"
+      ],
+      "raw_response_hashes": [
+        "123618454038e364c757d888aa9702d9e3912e1dfa2aad46af826b16fc86b0a2"
+      ],
+      "seat_id": "SEAT_VICE_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "35e77dcebc1cb6d0c74ea4797be6c69287abd3dcc97253710ee6eeefcf82a9a8"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "9996612c77e63b39b2a50907930b2cb1d0076bb28e7308945c905c0303f533f4",
+      "prompt_hashes": [
+        "2398dfb71a756618d33fcb2fb652d02788b434d75866b6756a8e2b9bc079dcb5"
+      ],
+      "raw_response_hashes": [
+        "cf17b549f0b62e8d959570e5716b187ed6a23c7a9c66d60378576f8d661450ba"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "e265eb8117f326b4c6265467e1d48b8f80c4368d591f610f53e93856a7114cbc"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_TREASURY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "51788a0669a47436e5b45d41792f7d1d0719f444e5fa1495005d0e822190e5d7",
+      "prompt_hashes": [
+        "78ef67b58bf90bccef6c174f056e8263c77dacf9e7254369c041fa26552d265d"
+      ],
+      "raw_response_hashes": [
+        "09cf9c238892e58c844f8810b6ba9b6554fc2009f52ba74d25d2de243e88462b"
+      ],
+      "seat_id": "SEAT_TREASURY",
+      "status": "accepted",
+      "trace_hash": "7b78afe10330ae0650f94d150905a09eea411f636cc8936f646d9376fc7bd42a"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "01367edbbf4c48ac19969bd73320a4a8149ed8aaa3f4efc423a3588eefcc2653",
+      "prompt_hashes": [
+        "e5ba477ab2e5f1663f06f72239e373e3643bcf6a03c68fb10f376c3b6f857fc1"
+      ],
+      "raw_response_hashes": [
+        "c34b67bcf02e54787d9a49d86143ef0e765b908cde5651112274d04f50a7aa6a"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "6d359077cb870480e9ddcc736247cbdb021bc2ab245962b9c6bcd9df20e1f591"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_ENERGY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "da3b20b4aaaa323d754772b3376766e689397d907b8ce7d1f1d48d16db7469ee",
+      "prompt_hashes": [
+        "b9bfae528295a5b2269cab2225cc61949d6016bdba43e6e6568ec44b0dd61ed9"
+      ],
+      "raw_response_hashes": [
+        "6acbf404b611145fac7284fa2ac2b4888eb2a0b1f215909da3a81b1235ebbeee"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "708ac95bc3b2c8f64cea30ed1274c3f268a2cb622a56b7ffdce1a967428659a0"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_ATTORNEY_GENERAL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "bd39c003a1202d7544334b61d70a60f04cfa71ccdc9b2fd57e066ec48110f4ff",
+      "prompt_hashes": [
+        "86e358cc729db7e5bb3181248ed47a3ca8124685ae4baa2f214c20232b63fed1"
+      ],
+      "raw_response_hashes": [
+        "e419d9ca028b85c1389ee2edb23f633c15be095aac00f3289ea603768c07f0e6"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "cd1a6dbb005c15030d163e00a56f80d80939a07aee76abfd33f56b097aaf0ed3"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_CHIEF_OF_STAFF::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "35f03885936db8a99da45d03ae29a42fedbefbe871aa102090a629c460730693",
+      "prompt_hashes": [
+        "f84bd90524a1f67f0bab3b9d01b05e1351cc52482e3ba1ca13ff6bfc917ffc23"
+      ],
+      "raw_response_hashes": [
+        "e0dc5d60ff90a7eefd6bd13e1c25699b3a67360f9fb66ee9afbe43a19315edbc"
+      ],
+      "seat_id": "SEAT_CHIEF_OF_STAFF",
+      "status": "accepted",
+      "trace_hash": "0fb8ac73591c0fdc9146bceb0279361e669ad9d93426deefcb4ed101c5f2fdd8"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_NSA::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "96529d75f2705ca80ccfeb089b28e272bc85d25b65b6cfb017c86c355aa25a5d",
+      "prompt_hashes": [
+        "8ef14d144b884ccf1cd310e5497597366dd51b8d7490470e2ebbaf7f89f4ff02"
+      ],
+      "raw_response_hashes": [
+        "da2a455a5a13bddc20285c8b516366f37283c6f0eaa66696480fb049090c3896"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "906e5e6f3b2d2860de3a76efd622c94839406b094f09057ed690275e81fa47aa"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "3b0671d3a5c3e6ab453e5afad781da1908bdcdcfb85eeb35fd6bb25636e470e8",
+      "prompt_hashes": [
+        "25d7cee5eef4fdc7ad16064a41e418ef55a22f52cd89472054c3ab63b496dd52"
+      ],
+      "raw_response_hashes": [
+        "dca49733f4e9fc3be470905524a8a46ca9bada077d5930e096d79373919866ef"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "4f5c5d50bc324fdbce63fa1c8cf11c645e1a11ae664a2d0d3761d2aed910f5eb"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "d1c05495ccad962685c5c65f22e1b17a64a01efcd81bd8e36b1d7f7478dfb881",
+      "prompt_hashes": [
+        "8403d455bf98e2330c399b17ce444853d944f64ef848224a6141510d587f6d37"
+      ],
+      "raw_response_hashes": [
+        "dab8f4c27bf55af4348611efb3035e1bcc5644c01f2a0436f2a6ab936affeb7a"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "f46dfed586727715fafca3530f6b9b081d362bd84fc56bd80559601e02ee7c4d"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_CIA_DIRECTOR::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "02fd23f623fd01945ae4ef7bfba4275afcb5276658dd03c4304a2748c68542bf",
+      "prompt_hashes": [
+        "70760b0f26e6d0c831c2d25a38193cb44c8a8ecba4ff8ab99953d9c011b2c5a7"
+      ],
+      "raw_response_hashes": [
+        "ec705f008e4c29a0c51ee5bba8de0a9d4e5ae876504debbc2e75a6d6ba831a95"
+      ],
+      "seat_id": "SEAT_CIA_DIRECTOR",
+      "status": "accepted",
+      "trace_hash": "3a20b79a9a9416cb961032b878840b62af911a97cbb80ff1f401592f6a533807"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_WHITE_HOUSE_COUNSEL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "8d5536665db41ae4bf32627f356499607e91b2ade0ab580c0f7a571f192c97e1",
+      "prompt_hashes": [
+        "56d4d20c88e2124f1535c1a6c9b44fd8a01392e72293f66671652036d3593611"
+      ],
+      "raw_response_hashes": [
+        "827b4f5b7c080f0cfd37adadd08d1b95887b312a0bb0152c97651032578f40b9"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "707e101b287d1225b358d93270592af3c7cb70fbe9b0e31aba5713fed3a8c131"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_THEATER_COMMANDER::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "f52e90da8548dbdae34cf9a3c6f9f588015ea6af84a60dda41e7d7d1c368471f",
+      "prompt_hashes": [
+        "921448341d503af2e99d435143293512300e9818e3060ae26aeb4cb4a2ffec61"
+      ],
+      "raw_response_hashes": [
+        "8b6f7e4896b5322265c4fbc500d353373f43998cca59401685f8b7f00b80730f"
+      ],
+      "seat_id": "SEAT_THEATER_COMMANDER",
+      "status": "accepted",
+      "trace_hash": "6c93894f8e63d000e68da9deeee1cd68cade13292e8d3c6ab2d4ed8ce1781310"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_THREAT_ATTRIBUTION::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "f93a6c36318e7f4c17b646087454f5963dcaccd34c9a831be9399bbd5580ee1f",
+      "prompt_hashes": [
+        "69f0f15d3b0c22fff9a0459429ed12ca7fb176fa5e25bbae3c186476f1e30fde"
+      ],
+      "raw_response_hashes": [
+        "a532b815d81befc8b4d00069682a143f84dd1049064505ff7e6826bd49246feb"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "380236f85bb71f16a226b27d76e965deb815f9bf64a0001a4b0fc58c9b104e0c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_THREAT_ATTRIBUTION::SEAT_CIA_DIRECTOR::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "5721809ca6daa8dce7244d93d6f6e6519b5742868adf886b4bb81f4fa6ddc661",
+      "prompt_hashes": [
+        "89a0cb3d3aaa72caf289c0892af40fe63636fa43f1a0227515902fa36f070385"
+      ],
+      "raw_response_hashes": [
+        "0ebd74a76ae014d8a0b5eb72b5e5e773ba4bc32c0f30c16c86ebe9232059c504"
+      ],
+      "seat_id": "SEAT_CIA_DIRECTOR",
+      "status": "accepted",
+      "trace_hash": "6d85a849dc5bc75a3bf55af1e1cdc5801b9e1b4e1088168c4c21e36382cfa9dc"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_THREAT_ATTRIBUTION::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "7734b69e34484b925e04a0f33ed20b72199434b51df1f82136ea8f0697814ab4",
+      "prompt_hashes": [
+        "7e191584a5cc69fe9db95083671d656d0c97020083a8a12174eba11ad8680b76"
+      ],
+      "raw_response_hashes": [
+        "4542f6198552c2a6d034b4e24db9b4dbf5c8bb137d0c2335824646b2f6b0f652"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "c8fc5fd4b41a972dc466a2deefd251a6ad32466fa2be414ad941bc5c8e7c544c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_THREAT_ATTRIBUTION::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "f4964d15b09fd63f2f2f693b49780977d9ef3c0e48a361c80e05ae8566051a9e",
+      "prompt_hashes": [
+        "642cd5e74ae0ebf6d58761ff4e1c5f69a98421abaa6fdaad056bf0cc1d820b55"
+      ],
+      "raw_response_hashes": [
+        "2b6d3d5c41dced1a95d8332cb7084b2ff6cc4f86235c53e2de3200352592999d"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "e80bf4341c7c1466ca82ba149a2c87ca21f94b7092a533d6fae1bf8ad605cc95"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DIPLOMATIC_ECONOMIC::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+      "parsed_product_hash": "8799f50f3b4a25314f084fb64c19002c284108c1b9bc12ceaa9aeca27ea57a1d",
+      "prompt_hashes": [
+        "11f0e0a74179f9d66359b1a1b343bcf8ea039a5261289be1d80f1a71fc79de16"
+      ],
+      "raw_response_hashes": [
+        "9275cb09dc13a903ec07505a3ac512b6c6cfe8f64afbdb149e99aafcab5003b9"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "96c231b2a2bd2f80484eadeab07451e1e3e170d0c2b60c562826c68b2b380cfc"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DIPLOMATIC_ECONOMIC::SEAT_TREASURY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+      "parsed_product_hash": "6dc1f08b630b2a8da6cb8a7d890923b2289c5f741dfd93da23c82e30aab26156",
+      "prompt_hashes": [
+        "bd5ca3ec7b9496921ad1979e771cc9dc7159c30c9f115dc8e5f8bc2d05ac8b7b"
+      ],
+      "raw_response_hashes": [
+        "b34338b63b695883af48536c9c65d6defc5c43e43df452a88f061a41dbc1fc95"
+      ],
+      "seat_id": "SEAT_TREASURY",
+      "status": "accepted",
+      "trace_hash": "85785617feaf567cabe3136f6a7121bf035bdfb7f61122553bd76fdcd36a0b85"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_ENERGY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "7fb085c6ea3d7ba51b5b5c7ccfcd5393702c1be6f2f8464ac3f35f44367b6dda",
+      "prompt_hashes": [
+        "553f3db78c0a555ae62d487759f5a9629f4223149fed885170361d6cab52e444"
+      ],
+      "raw_response_hashes": [
+        "c32a05984c68a7bc7b6ab6558a0af725b0ac2a06135989a108043cae4c4ff31c"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "f4e986a60b3e660b677126ac4644573a907cbfa3a63d617a0b45f3c1697ffb8e"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "67b0df2a4e66c25536da458c18cba555bf92495fb3ffcb009a0e971b1233833f",
+      "prompt_hashes": [
+        "19448663469ebb4e8fed0772318fa460dbf7084e8ddb2e983f97f7cc39f98e56"
+      ],
+      "raw_response_hashes": [
+        "06e4e3d76041e43a8e3e09d4ba021f4d13daaef3e8e1fffd9cfd9bae2f20b919"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "1c24c562063d753a0f690cae05f07eac7ab6969221a1df2c2fc0d9f89dcb9771"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "219066d28db02fc8a065800da1b92dc30d5679179b040f765918beed999626f9",
+      "prompt_hashes": [
+        "aa983fc14957dadf301aa5a0daa51e63bc17fc9061f608fe7e0e11b171526dc8"
+      ],
+      "raw_response_hashes": [
+        "2a414ce3fc92fb1410fda914cbaf7d9f09155bd897a4b12c701d1d7621c80598"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "fd4815171c2ae4cabb06ed6a43e96d916d77512b1ac3e9f4e3b3dcac7c2f4f4c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "2dd79a7f81211c61f21063ba01ff3c15796f10a98f6da2cc2e3ddf57eb891a9d",
+      "prompt_hashes": [
+        "f57c68c2fce2d4f1c21416b4f1b0bac81a9b99d0a096b2ed511168d6c6b80f9d"
+      ],
+      "raw_response_hashes": [
+        "2da55fc1e5f980828a8c7d9f8f6d960a28f9349bb00329859c66e92b6c1d9fdf"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "5c34060115dc766a43bc421687149ef30a4ba0d3ffb05486d82cc5482d2867cc"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DEFENSE_ESCALATION::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "9e21ef49f9e80a18662249b285e30a3634db2b27e02fd22681b22355e97ef012",
+      "prompt_hashes": [
+        "1b78b3b7d02760472aae9b32b7a57e1eb3ae7c9e55c0ffe5c27fb9ace62afeb6"
+      ],
+      "raw_response_hashes": [
+        "49f306061dfae686727123adbabcd8c3da633c5a4382b97040950176ab546179"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "a7ab6cb5d920cec7452e608b30a66f0f82f7f36dfd5f4b5294c63146d01a7e02"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DEFENSE_ESCALATION::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "3e731babde6dfe73e0c23b0331573f546abaae5baba56c4f77f7267dae9dd2de",
+      "prompt_hashes": [
+        "d018530011579056d3fc7987c8f0b39dc559db0fd38beec2601d8eeecd6c6f88"
+      ],
+      "raw_response_hashes": [
+        "0ba80db39b7cc99e0c2c7d9979d3ce687f335e54ccbedaa84d366c081bcdc7fd"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "b115dc5cb33b78c78a581b55f77c33d3808a0eca716cdcb5f90cba1b12ab7bd4"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DEFENSE_ESCALATION::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "26d22e49733427fab8d4188812ca7a5cce96c883dbceebc9eab6872a6ac6d110",
+      "prompt_hashes": [
+        "96f2f8a021309d536b13b2ce8a49e25be3b6c80fd974f8089c4c7045dbee4388"
+      ],
+      "raw_response_hashes": [
+        "e1134794ec7d0bec61de2cecd7931c975155a30e6ded1d46bf7e85ec212d8f5b"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "8437463af16bae51799a916d9cbcdb29b1fe2d04453d64171df4687304710f73"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DEFENSE_ESCALATION::SEAT_THEATER_COMMANDER::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "019f5be6def6655e032ee802787361c470225316ce6af89f182ee6bd36d79960",
+      "prompt_hashes": [
+        "66ef7183bb9e0a60365c20a5ff769c284fc1ab97c55f4c0db1ebdb706414aa31"
+      ],
+      "raw_response_hashes": [
+        "4c89e7a6a4054599385f20f0b49a5aa7ac06321d499c0e9f0dfe650fa0e0eacc"
+      ],
+      "seat_id": "SEAT_THEATER_COMMANDER",
+      "status": "accepted",
+      "trace_hash": "16d6a1e988f513e7b84254873a7a9c5110980a751813fc67a256b5cfbb95133e"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_LEGAL_AUTHORITY::SEAT_ATTORNEY_GENERAL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_LEGAL_AUTHORITY",
+      "parsed_product_hash": "ae0ff9821b0d2dc8e9a2105585e11905c08ba9057810445a437856831157f9be",
+      "prompt_hashes": [
+        "28531678c6e5e6a7f2bc39e5b0e06be0ba317afe678d1fe56814f234b852e019"
+      ],
+      "raw_response_hashes": [
+        "bcfd485323431a16de241f64b1597d686c60cd44bc638939bd3a9675ffc4cdcd"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "bc08dc4f04806b0a608e15b1372bb3afb0e7218a9353554fca13cb224d844339"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_LEGAL_AUTHORITY::SEAT_WHITE_HOUSE_COUNSEL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_LEGAL_AUTHORITY",
+      "parsed_product_hash": "c349bb6dc7e5e8f5a379d7702d49cb97d5c44e404b7c9f6a9575f97fd4c8450e",
+      "prompt_hashes": [
+        "9ef0a4372415c708712b63920eea49e5cd5f06d84effd8689d59032101aa0862"
+      ],
+      "raw_response_hashes": [
+        "c942a5f492de8b131873c2b01c749c163871d49a82869398d85c3d5238e5893b"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "a7c9f2a5b90ea5ab5af55b011bd623b60b316e3e4c4177a650de8be43b6a0498"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_NSA::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "27f9a563beec746e686303a3232f2d8b477765cabbf746f8dae82caaad94d934",
+      "prompt_hashes": [
+        "e78eab58d3349ca845b9bb29073ec2ceb3686209a5e1a8c521014806b5434479"
+      ],
+      "raw_response_hashes": [
+        "46048edcfde5f829f68bf0c2065a0c21452812e7f7edc17b79bfd952670799ca"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "d0307434c33f50654927d671d0a5b206f612f64e7a5d68cbd17bde2f697864ae"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_VICE_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "c440bfaeac268df66a1407dede192ff8fbd0271b44ef065167c4042873a5f267",
+      "prompt_hashes": [
+        "02ab302ebf19bd4e03ca7b37d7f9df1e9c793360fc0ae96a234b51731a3ac743"
+      ],
+      "raw_response_hashes": [
+        "4608d124ea32acc30f073b79bcf99576dd1048461c6f83ab9f9dda015f7edd78"
+      ],
+      "seat_id": "SEAT_VICE_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "17fe9e500e5bfab5401fdfc5855a17b7355f668adef4be8e2a7b3e0235e7c3e3"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_CHIEF_OF_STAFF::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "72e826b156199eab2c790fb1dc433f8a627109a387bafdeaf3f81b56213ba510",
+      "prompt_hashes": [
+        "de59d30a82d24b9dd46d93af683558aae42bbeebab22c11e3aa20b73e09d953e"
+      ],
+      "raw_response_hashes": [
+        "19796f20c83727163f93acc8832e8a5575007e9c1a3a2f4aff907fb9769a43b0"
+      ],
+      "seat_id": "SEAT_CHIEF_OF_STAFF",
+      "status": "accepted",
+      "trace_hash": "137c220895f44eb10261d15d625566d6af076f1d1c9912815275cfb1158e6c9f"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_NSA::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "552a66006c92cf1ea5fa757cc80693138ecedf6dd4b0b1e7d8948c3012ece1a0",
+      "prompt_hashes": [
+        "33d4d3b0f286239e1902751e78139897041da2ef72ef7ab4654dee66d2825286"
+      ],
+      "raw_response_hashes": [
+        "e3a5d033b4680def69a06f7dcdbcf1fe5ef352b147ce2dfb98391be2e67a6ea9"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "60398774732435b165248ce4f1ef262a29c2729291c77a64520d8e30e3eb4b05"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_VICE_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "e87419ee0bf58ba157c4cc8d5e1ecd1221bcc751606bc8c44bb8cb616ea2545e",
+      "prompt_hashes": [
+        "383eedb7912caf8e1d052177144729a4eec60b2b6f562440c6f9cd3007620870"
+      ],
+      "raw_response_hashes": [
+        "c3bed3ebd3c5a1809086eabe4f20bfb92686e25022a02e1e700c38a819b083b0"
+      ],
+      "seat_id": "SEAT_VICE_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "515e47fac25e0b13b37ede6bc5d0eea5687ee5ef165d12087db02e44d6793083"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "671d389652272a93f895244e76584f5e893b2634ebcb6a2b2d1a0189ec7b90f1",
+      "prompt_hashes": [
+        "b7289f725f1a38f25083e70a098c3529a3a177db69538dbfc7f60a7ebd365201"
+      ],
+      "raw_response_hashes": [
+        "b2c6ea5b472c30e0e7aa75b624aeb7b67710b2714a23d63b9696fba21e552acb"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "2a3d06aa19b0413f4adfe39807dfb2a68a32fe9c8d974b650511d7be5719d523"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_TREASURY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "75607d5893d3b8e00f5231183e59d24ee9e547f741832ad55c5c33c22103f5b9",
+      "prompt_hashes": [
+        "9aed779937cd3917f5c58fb974967e0d5fda3240d4219df9499abbdeb2c76d4a"
+      ],
+      "raw_response_hashes": [
+        "815607f5a4d55ce3aea5531cec7ffdb598e1df1f00600112bc11fb286197b5d2"
+      ],
+      "seat_id": "SEAT_TREASURY",
+      "status": "accepted",
+      "trace_hash": "c3475f4535a52f10346033323575d1e139b56351222cbe892d47f78a4042f58b"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "2e102f755e2224b9771e4fb205db814bb7d1e2ca927f4f1281074f80c91c4ee8",
+      "prompt_hashes": [
+        "1c9c8817d6e11d4680d532c1a9852772d3ecacbf0276b313069cea5a6a991b31"
+      ],
+      "raw_response_hashes": [
+        "42bf16d3629d918aa66478881e1db02ed471d22162beab7ed80a7ae6107f7180"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "09f5d2e8c5ee1f1d29e5772a4ac046911f47569bfd67863ce8987d4382197881"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_ENERGY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "f056da5b3e80d05cca05316e694443cf522e6ee998fb7de0d7056923cfe416ea",
+      "prompt_hashes": [
+        "4f0680ccc64071f13f7bab16cced6a5835fdb7749fc4b1b47858d5da64bb9041"
+      ],
+      "raw_response_hashes": [
+        "19764bb4bdaf7649ed7bcc8544f849a41e1dc8c432d3a7dda5bc4ef566b2d7b2"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "c6ab3c5f9c62d4c768ed9a883e5a3c0d2393d80ec0f162a2246595b0edef8f1b"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_ATTORNEY_GENERAL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "77ca69a67b7aca697256aefe6ce267528cf57c80053c5f3da072b255ec444d76",
+      "prompt_hashes": [
+        "dc67500fd57335c97f700d6df3928fb6b35ebfb2822664ff1b3d278fea618168"
+      ],
+      "raw_response_hashes": [
+        "eb378d5896c7a433469e5612366cbd24e842ed8171167c2e1f463afa77bd09a1"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "54a0ea883de33128a6dd1e05da0cf8c9ff519fa55fd8fe61b8bb4609aae6608d"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_CHIEF_OF_STAFF::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "4ed55b4170854566e9b86d2376613fb2fc07364b9ccc48dfe57cd973b7d225a5",
+      "prompt_hashes": [
+        "8cbdb9d9ddab93798b66e4cc81dc6ccd77e82c72b7e833269bbaeade69321519"
+      ],
+      "raw_response_hashes": [
+        "9ada3d4cc6b50212d5b3bb3f8c71e6bb3ac9554d29a9aeaf72f88413da4b3246"
+      ],
+      "seat_id": "SEAT_CHIEF_OF_STAFF",
+      "status": "accepted",
+      "trace_hash": "8fa0e9885b66f274b307732df632494b92f895d45f2c08975852bfdb3364727c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "a7b1227ab2f14dec417d2419c2ce990c6a11a5e57a20edb9e14f9e6a9d07d3c9",
+      "prompt_hashes": [
+        "08d7f2e7d7b75c1a20bcb884c5fe814a7aa229151e29b54d6e6d02474631df3f"
+      ],
+      "raw_response_hashes": [
+        "11ed31ab8a63808cbf50254f110c896992df4bc2e40fb0eeb7d987bc1245358a"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "4058d446aa0662f2d90d3c4cab1f556a40b6970665ee3151b0700ab36d18f858"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "c2e946e1f2204deca80d556fd90d218bbae857792f8e18dcfed5c9fe09a9ae73",
+      "prompt_hashes": [
+        "21819f4a3ab327709b4fd2643f79313a4631bdf5c9951fec97ac84711ba18db7"
+      ],
+      "raw_response_hashes": [
+        "25492fd0bea870119bf8b4ef6f3a6bc6329aa796e74f0e9f1518bd9bcd95d1f0"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "fc7911f4140aa348dfc62720e04855b35dce1cd367a590ccb30dfdfe81a529eb"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_CIA_DIRECTOR::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "d039858da9245239bdc6546d9f6f72ad902e29c1f215671b30a32f12882640a0",
+      "prompt_hashes": [
+        "4b0d87d6fd7bdecfe4a34b41e65008b60a334ea539be0f3a971a2e4c83b4701c"
+      ],
+      "raw_response_hashes": [
+        "46beab75b56512336ce486f935ed244364c584381cd7a04716797dffd1356e7c"
+      ],
+      "seat_id": "SEAT_CIA_DIRECTOR",
+      "status": "accepted",
+      "trace_hash": "5463167b5edb9499314b3d71e4afb92b5f08143da1823367bf763af962a6c589"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_WHITE_HOUSE_COUNSEL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "792050ce8704e5586a911ee8d2707dde54ce29f9be1f0ba59ad14f1bfa2aa015",
+      "prompt_hashes": [
+        "c805529e15f228b0414a45a944760e9654e45e3288f8db3c7f12ef890b5a37e8"
+      ],
+      "raw_response_hashes": [
+        "b75de27690eceaf30d17fdfc50ae8d5176b35ee259c5896bfa44b670f147e23a"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "b075a0a9782559911ac3219866478acf585e789e493ca5fd9fa8871eda4b16a9"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_THEATER_COMMANDER::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "56afb6003c7803c59b74846875667f42cee7788de45192f0a86a0d17a5b131b9",
+      "prompt_hashes": [
+        "da9270482ebd5a1a310e80d52aeab61855f45e8a89f2bc63a8ff621855cacad7"
+      ],
+      "raw_response_hashes": [
+        "9592d194b0adf8362af01e8a723806ca3efe6ac6c173b4266bb9a6b28a855e9d"
+      ],
+      "seat_id": "SEAT_THEATER_COMMANDER",
+      "status": "accepted",
+      "trace_hash": "ddfeca6ab8ce52ecf5f6cda565fadf34aaca86c3fbb5ed617ed3087b2e17bdb7"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "948a477c6a103c090fcb6746243a298857783c73120134e5352fb09050154f41",
+      "prompt_hashes": [
+        "e1c6e689d3ef008652c66f26e407863917a81b766e27e9553a4e3e1e184b618d"
+      ],
+      "raw_response_hashes": [
+        "31d94c14a548f2b4afc8d3299bfad2a9a09daa4227ce1531ac75e67fbc84a7c1"
+      ],
+      "seat_id": "SEAT_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "39800cf189e522bdce9c0fc97b612e8a190cf232c382e23b91f0fe12335dd7d8"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_VICE_PRESIDENT::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "66cda99f136b201327dbd310ac9745d6c8559906c1a69e09a2b065bee2043a3a",
+      "prompt_hashes": [
+        "cdf80828490e5d1caa7d45418627dbd00f6edf1cc71310dcc20c833fc941ffa7"
+      ],
+      "raw_response_hashes": [
+        "b48282a4a143a9bbc497e8ef82a161ba1869d51ddf375a3b97f67cf3c899fd6c"
+      ],
+      "seat_id": "SEAT_VICE_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "8950b0e4451a85eb97ac34d6559d7e0c719222add8acde4e74bce32b4c3c259c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_STATE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "d59d4bf17090d98d708503ce738f8ea3a083a60f17ca2f1f12d53d5f335428a1",
+      "prompt_hashes": [
+        "174c569b0fa8e3b4757f426b3f0d576b75620504f07b1b0797d1766c1b50b995"
+      ],
+      "raw_response_hashes": [
+        "4dc508d6c8928db590cf80e946e113d981f717e57de5552bbad6dc7aac74f348"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "5409b13263409a91f33d00de32cf8961f6be0de8850f68e0124a4166acb740c6"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_TREASURY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "9ccb27d57e1cf41a167c9e5591816b52df49fa9fd8531b6d662ad316e5989166",
+      "prompt_hashes": [
+        "77d73399981bfdcea718e7995d74a7b815036bd24aeacdf426a911747da20915"
+      ],
+      "raw_response_hashes": [
+        "b64083ba26ed1e254ea5f599986d3b805523cce10fcdc735777ffd321b83d6a6"
+      ],
+      "seat_id": "SEAT_TREASURY",
+      "status": "accepted",
+      "trace_hash": "30f0ae6d55ef6a999d9992f4365b3eaaa30b402c492d033a70a556a72c182d50"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_DEFENSE::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "5e4d87b44b53dba116feef83b8b21f1b9f9bb3c164b6ab80b7d4be10f9d02611",
+      "prompt_hashes": [
+        "06f3646ef45d1d7a0862ab69ce08c7d677d6a451c76413e79788446ab33843c1"
+      ],
+      "raw_response_hashes": [
+        "527a36dbbeb6e93fe66e8d2beb53f64b36509a306a2230dbdb40c8db6970d2e3"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "cf203e1fc0db6884658d0465cdbbb646cf3c6a98873ad51ec0adcf65fbd332f1"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_ENERGY::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "77c53ce314cf188a6d3f57fd3f5537c827878d622153c66942bf860793ebf1f1",
+      "prompt_hashes": [
+        "d18ec50ccc366ddf822eec436657091ef27b148f2fdf844e5091767f597f2f15"
+      ],
+      "raw_response_hashes": [
+        "064f04852118933de9435846b652f581627360afd8c50918c32e04770002d2a5"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "e68954b783d272c8ad7efd08634e71871358ee80310be46c083dbfd46eabd159"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_ATTORNEY_GENERAL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "39fd0423aad83f984c2ebe6f0afa70d2dac7382aa134ab551c54f2ede7970302",
+      "prompt_hashes": [
+        "71702daf08ac0eda5542e55d0cfe298f172f929e372eba85ed65eeee3395abea"
+      ],
+      "raw_response_hashes": [
+        "723494cd58557c2e0b136145d156bd795eba02f9f98fa609e884d2f975385e25"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "aa801a92f6c3c7ee6c1417ae16f9569ae3230bc39242565fb3e0053dcbd54177"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_CHIEF_OF_STAFF::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "ba2a5c65a68b57aa6d55db569cb7a795e03b84606dfc8d9e8b5b059ae9315bf5",
+      "prompt_hashes": [
+        "578f95314088e1a2fdda74b2b6d532107681787bc7196556abb01a23bb06ae9a"
+      ],
+      "raw_response_hashes": [
+        "e51068ee55432b79024356b34ad14525f19c50641f4b2e7b242889723913307b"
+      ],
+      "seat_id": "SEAT_CHIEF_OF_STAFF",
+      "status": "accepted",
+      "trace_hash": "81ffcd32c19313759baf63d4d0214fbf74b3d7814bf81e3b1c282794f0754db9"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_NSA::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "821079d4ff61421222cf6f6b78e5ebdfe67bd4e94d5bdf8b6d811880c4f3ea9e",
+      "prompt_hashes": [
+        "721eac393ef2334678271a7f69614d465c06fdea73ed306056d56337ee6e9b60"
+      ],
+      "raw_response_hashes": [
+        "a72d1790e5464a26809fc8d4589335bd84a48fbcc14153fd898d8368d7a1afeb"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "920d341d9d4eba162f0ced0c2e94bf0cf478c6f9178c0cf0f0d69d4c5d916588"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_DNI::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "75cc37ecf3a98bfaf41feb3b36cbf03d12e21c4f7ac6685f8723fe07d2182bb0",
+      "prompt_hashes": [
+        "846e3e887e1488259428d7720c45fb9070020d98f13d5bd325d2b791d99b4f4d"
+      ],
+      "raw_response_hashes": [
+        "96d07db57af2f3a90f7c49d5c8ad726000d858aa2f723181abe44adc13092ac5"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "96aa329969b17857bee1bb576ea6980b3a9e7eef1b11f4773f7415cbce948b60"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_CJCS::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "805c2546095bb12f29d97139656bb5bda445f614e470466d19e53c5188b4b43f",
+      "prompt_hashes": [
+        "61daf4d7cbf56d6cc993959735e4b6398b551f9b88bdbc0edff8496db37d9c16"
+      ],
+      "raw_response_hashes": [
+        "c22720be55e57ca51cfcb878f4484f103d8a0a766cf6edd1556373064e9fc103"
+      ],
+      "seat_id": "SEAT_CJCS",
+      "status": "accepted",
+      "trace_hash": "8414d2d4de6ba8dba7e362eed9ad2bd402e81d9cd2be70c92e3351863f1c3dc4"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_CIA_DIRECTOR::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "8551893e1c9ed89ec633aaa39c9645ab5e995819ae533643366185fa4b2cffdd",
+      "prompt_hashes": [
+        "e512df95d59510eed32f07811311652882d2128059bbdb7cfc981fb6a89a789c"
+      ],
+      "raw_response_hashes": [
+        "96f2fd129e4699a5141788c59fb2561c9ba862e061dd6700dcf2738e3268a803"
+      ],
+      "seat_id": "SEAT_CIA_DIRECTOR",
+      "status": "accepted",
+      "trace_hash": "b0f00c637639a2524ace7977ecf45d2502dbd1c36d8ac72cdbf572fe4d485b79"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_WHITE_HOUSE_COUNSEL::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "90ed66d5561adf76c41b1f2ebf112a3c762f6aaa2d858890e0f025ed27e8cbc1",
+      "prompt_hashes": [
+        "81a28c5def5f558d67be9824150c6e5c71eaab2bfd174e9a2fab0ef3901e436a"
+      ],
+      "raw_response_hashes": [
+        "7407ef3b4ce0eb1559e957398c25c95b8cf1a060c0e42b155f10a7ba2675fc55"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "bd6292cd407a22b91c86082ab64a84b41df6872f55fb3c6de138e22c50c526ed"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_THEATER_COMMANDER::portfolio",
+      "call_type": "portfolio_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "08d3eb447c499d6358929cef16a9e48a3db2aa4c6476b839c02a1c4f8768c912",
+      "prompt_hashes": [
+        "2ff3eab186ed1dca7056adbf4a1eca1b79d16210ce9227309eb8af48e5ff269f"
+      ],
+      "raw_response_hashes": [
+        "75e4631d70c8b4ae1496631cae12d0150c800f31fa72c1fac19fb25077f567ac"
+      ],
+      "seat_id": "SEAT_THEATER_COMMANDER",
+      "status": "accepted",
+      "trace_hash": "a0d7733dd5546e7dc9f122d359106b133566b677dbd8366fd332f998fb38c8b0"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_THREAT_ATTRIBUTION::SEAT_DNI::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "fb0e2b06bdbc9ebce44e0c335a4ddc04503a78a145ca2af9c44c55fec95bcf76",
+      "prompt_hashes": [
+        "14f510360d078ee79ae6e77d66f6fda8e61f17ecbfd1f63503192908efeee29f"
+      ],
+      "raw_response_hashes": [
+        "f3c94cd12e93742bf2bb8d76cc6d11ceb3725dbb028bf8ac0a5e24a00d989f4f"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "74383151930051b5d55b00fe9ad53c72d0a4ed227c48d5906b3c781f6c1309c8"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DIPLOMATIC_ECONOMIC::SEAT_STATE::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+      "parsed_product_hash": "67b22ac117f338b4559fae83baaa8453de4e8ba4fdece8970bcd79ca09781b8d",
+      "prompt_hashes": [
+        "77173c1ca35d649bd0cc7f47c79a10124908eb1fe6e243cb2f1dcdefddc3decd"
+      ],
+      "raw_response_hashes": [
+        "727f9deee4f549e0b58fb0802e86a63370749243637e11e962594bad9a15a872"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "a8f7b8caa8fa53b5534075d9950838a959694ee33fb1fabbc7da30417c8658e7"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_ENERGY::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "253a1b7c7e971d44217dbeab5d2b0e12a5dd454660ec879f83e52605adf02bb4",
+      "prompt_hashes": [
+        "a2c8c24797b71d698b6068b9092cca67b6ac1c37c76cb589ff84cf29c1e47da4"
+      ],
+      "raw_response_hashes": [
+        "bb972aee8017275f7e13fd09a1b7f21832fed5bf3292aec1d6fdbf192d913844"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "4ab85f41ac1bd27d01a69cc88747fb9bdd2024da3796ad492746215eba494db0"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_DEFENSE_ESCALATION::SEAT_DEFENSE::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "ae697952f23cd1d20e3d610c5b79de73aa2a3d1c0005d3655046cd1b4947181f",
+      "prompt_hashes": [
+        "c71a74f8b4c4bf2ab30d088c3ad67345c356b0e9540d3a03c4aeb1ca9501fe27"
+      ],
+      "raw_response_hashes": [
+        "bfe8168ee5c770452c806cb733ec1ac3eff9d6a30bf9715060788fa96b995f39"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "1e4eec641330577929653278e73f6268e4ce9b4f56c5d71117c16b50a6ba4253"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_LEGAL_AUTHORITY::SEAT_ATTORNEY_GENERAL::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_LEGAL_AUTHORITY",
+      "parsed_product_hash": "0f417913803bd0bdea7298ee3dfd8d6a8002ca72bd4a869483f6d1e651feb96d",
+      "prompt_hashes": [
+        "9f5ec30b984c7a0594b595f139c885886ff7bd218cffbf0d520fa609d07f84ab"
+      ],
+      "raw_response_hashes": [
+        "cb8f6307f9cd835f01897be7919a35f8c3c276255bdddbf59bdbbf2392974a02"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "8c630edbdceb4c22b2a22f25a528e3413f835d3fde1cd8e05385daac76331b27"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_NSA::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "33c136456eba0880450741f988b5fbe5c56de7f5ed6ff60b7e001b493ecbd1ba",
+      "prompt_hashes": [
+        "55736b924b372d6631bfa166d9a3fe6531a2e4957b27e1e123f84996cd1b9851"
+      ],
+      "raw_response_hashes": [
+        "ffcc77e5d9910bf31cb3138edd6d4cbeb97112e0d8c57914678836d5e9b3d06d"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "0da0945650ed905bfdc8c2c45b75de9d173fa0e6cf271e712b92900e937b5b5c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_PC::SEAT_NSA::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "d83ccbc13b1a143c131d8cdf6bd60493ae1381f2e95462926f5f2b714a093dd0",
+      "prompt_hashes": [
+        "24e9747bf9b1d0f3866c3b9d505aa46791dd4428afbcdf0f6940f0902307b149"
+      ],
+      "raw_response_hashes": [
+        "8db2e0ba94aa9a3d8e000eff85f064ec687cc35a88e27ae5c1da42be92ee6659"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "f23b4d50ab791965ff236dfab96401cce89c86365f059b989c09ac3073275e2a"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::GROUP_NSC::SEAT_PRESIDENT::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "6dafc958d0086f99e8c507e631624b6526d1d38474eddd676d071d8f83383309",
+      "prompt_hashes": [
+        "dfa399333c913ef9d88471fe4642b6099d352325cced6c8e45e331f3fcc4414c"
+      ],
+      "raw_response_hashes": [
+        "1b459dd954c41690fcdcdf67f04d7a2e8235e2dcd1ea9ffb7b6979faa9e3075a"
+      ],
+      "seat_id": "SEAT_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "c90bc6d10673f4abcdc048042cf4fa888a076a5699bf0ffd24db28c51fcdac45"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_THREAT_ATTRIBUTION::SEAT_DNI::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "parsed_product_hash": "784fcc2696a8ca82ecb98353862ca083fef169334502a898dee663fc498376cb",
+      "prompt_hashes": [
+        "97566b6b4af7c5b512113c09ea2dfd20e345c0acfc7eb61edac9bb871c78301c"
+      ],
+      "raw_response_hashes": [
+        "9b96b531cb8e6c2691602a5efb971e08c0890aa8d0294d529c41525e1641c607"
+      ],
+      "seat_id": "SEAT_DNI",
+      "status": "accepted",
+      "trace_hash": "007b225f6a68d4be563e1e6d0af9ee45634343c9dc39bcaffc1b8223d42a7076"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DIPLOMATIC_ECONOMIC::SEAT_STATE::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+      "parsed_product_hash": "1a38f69870c0185b835c4617fa5afd6a659fd6216216671fcd911a327603071c",
+      "prompt_hashes": [
+        "5ad4a611a993ed33a662346db39449358a30c96d700444031ab8c0648053ae99"
+      ],
+      "raw_response_hashes": [
+        "c67361f68332d2a7e7c4263e482bfc0e6482b4663942c7b3d19139e8682bc69f"
+      ],
+      "seat_id": "SEAT_STATE",
+      "status": "accepted",
+      "trace_hash": "1fa25c4b9736188dbc944b028714112da48a8e23a01639fb9a910ef51863176c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NUCLEAR_RADIOLOGICAL::SEAT_ENERGY::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "parsed_product_hash": "561b5d00d8a945908ca5a04046f8b4f32c39de70cc56715c1bda29147d174dfe",
+      "prompt_hashes": [
+        "17509cf73a24eda6ce28b424709350f915529c4ee4dca8da19765b0480f1691a"
+      ],
+      "raw_response_hashes": [
+        "1f859d519810e715e6e3c9f7fc5cbbd5060d42c23c50fdf0c98d34cf94e1f545"
+      ],
+      "seat_id": "SEAT_ENERGY",
+      "status": "accepted",
+      "trace_hash": "30b685d3ec31b7dab32a9c926dca50708707950972091a4e79ccfd34bb6a4a2f"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_DEFENSE_ESCALATION::SEAT_DEFENSE::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "parsed_product_hash": "30d0482173f441e13a8d218175d27487bf07d955e73523837c84d144e81a1fed",
+      "prompt_hashes": [
+        "b04e7df9249639834b77a05f319f5ba0722eef75911453adc9922b45c1ce6f3d"
+      ],
+      "raw_response_hashes": [
+        "0f80e3e6bedea10feff248496fa862edadda9f8adea35c54137b3ae0f538ec17"
+      ],
+      "seat_id": "SEAT_DEFENSE",
+      "status": "accepted",
+      "trace_hash": "c390a92a8ddfb43182fe91be7935335f2c744bb987eba4999cf6c27b5dce999f"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_LEGAL_AUTHORITY::SEAT_ATTORNEY_GENERAL::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_LEGAL_AUTHORITY",
+      "parsed_product_hash": "65af54f36785025714c724ed8c6ec13e188cc9372e66c8bff528910e6b8f4034",
+      "prompt_hashes": [
+        "c866a3399c61c9bbf948b1e80375704082d0f73781b1781d0d88a60939a298f9"
+      ],
+      "raw_response_hashes": [
+        "0af75f79cb6eaa5da6a1c83dd82f4e8af8def5ab38adcd134500df8b790d03f9"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "2cb90696aee1a543277aa3f2f5131769da475d3d1d0456e15bda8346224b0f1e"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PRESIDENTIAL_SYNTHESIS::SEAT_NSA::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "parsed_product_hash": "b9673cdf34a641e29e085005681a4ba15da2093c6f34a74cec8cf0deb9116c3e",
+      "prompt_hashes": [
+        "55b491e880313f0bb66b1fd28ed1b97f4ba6e7144248060ebe841912a6e71188"
+      ],
+      "raw_response_hashes": [
+        "1e00eedf9c0eedaff2eee90d80c313fef65e6dd8615c89b335b5afaab81605ba"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "1ec2119041d7f04384b6661f9c6c7df2af055ec4796ef8c4b45ff3308a2404a2"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_PC::SEAT_NSA::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_PC",
+      "parsed_product_hash": "ad297583b22bdc04c99e65be7bd2ee24b882b98b500d881499cf036803d3b697",
+      "prompt_hashes": [
+        "bd5873d53b452f565845cc9617059884fcb4be2496ca13fa9115a9514e55cb93"
+      ],
+      "raw_response_hashes": [
+        "56f71bd1657c7950f86aafb2f5cda038d55c6ddaaf1bc6990e7d59a6356bb090"
+      ],
+      "seat_id": "SEAT_NSA",
+      "status": "accepted",
+      "trace_hash": "456570be768536a8f01b1a913c699646180d35a63ea19ad130570659d4095719"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::GROUP_NSC::SEAT_PRESIDENT::group_product",
+      "call_type": "group_product",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "bae6b5e0494fa5ae60fb21bb8662766f22c4dfda2e623486933dccd4df4d40a9",
+      "prompt_hashes": [
+        "102baba4aa5a7b58fb6ddfcaba41b6952e3a0749019d659d8e1fb8f750faf427"
+      ],
+      "raw_response_hashes": [
+        "af1f56927cf187ca02ce6d5b20641a44d030c1f4ee710b61218d9a4551c5e6a7"
+      ],
+      "seat_id": "SEAT_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "2767e676487021cc7245bad4653f70ec2195e39e9cc3d0e601da17e1ff2665de"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::CONFIRM_NSC_PRESIDENTIAL_DECISION::SEAT_PRESIDENT::confirmation",
+      "call_type": "confirmation",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "27752f21c6d9328e9e44ae2dce045adf805a85a8b439563a647662171228b936",
+      "prompt_hashes": [
+        "9bcc5f0159277cc989e7066bf9664ac9d63319b63189671fefa453337c394579"
+      ],
+      "raw_response_hashes": [
+        "137400ce319fb4ac57f8c7de60b805e70d835c787549f5d512d789da7763819c"
+      ],
+      "seat_id": "SEAT_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "4477686807cabffa5fe332ecaedc3ec574a6d5ee6c5212387b8b6ca5c2ceee8a"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::CONFIRM_NSC_AUTHORITY_RECORD::SEAT_ATTORNEY_GENERAL::confirmation",
+      "call_type": "confirmation",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "f6c1bef80d869e1bc58bea18adacc229dcf75a5c2b7a92a153e54567f0058d10",
+      "prompt_hashes": [
+        "75154b255b22e035ff88134227bc918e538367e6a5926c0aca56536c59c83681"
+      ],
+      "raw_response_hashes": [
+        "4a0566d7faa89246ee2120b9b4c0a8b75ed82cedaa1a8ed51d013cddf228803a"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "ff8538f51fad73754e5e04bfcaf56576ec5a3e551bccc8addcedf5eac82ce39c"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_1::CONFIRM_NSC_AUTHORITY_RECORD::SEAT_WHITE_HOUSE_COUNSEL::confirmation",
+      "call_type": "confirmation",
+      "cycle_id": "CYCLE_1",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "b2c2d501473b124c8fce4dfc95044401ce7c68c810f31d4f8b1148050ed40aaa",
+      "prompt_hashes": [
+        "a56be63935824b429afcac5befa1b1311f613d9b293a6c75d520df8885e48de8"
+      ],
+      "raw_response_hashes": [
+        "19b7410f4f42b3e85dd687080d63a4093aef610805c858de0272beff122be28b"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "3f85a67a068fd153c6599697bb8d22a46ba93e6abb2c2ce509aeb3d026558173"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::CONFIRM_NSC_PRESIDENTIAL_DECISION::SEAT_PRESIDENT::confirmation",
+      "call_type": "confirmation",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "791a17f4a5e7f487b61576578c57e4bafce615cb501e0ab00c5c3c4f184ac57f",
+      "prompt_hashes": [
+        "a392a355b9c46a2a3c35168830714113cfc732cea6716de9bea50607cac424e7"
+      ],
+      "raw_response_hashes": [
+        "7738eccaba9446378ddc99c8e61bbf3dd20b80aca28a3e2ba60d7effb373d3e4"
+      ],
+      "seat_id": "SEAT_PRESIDENT",
+      "status": "accepted",
+      "trace_hash": "560215e1f1c19a80105640d4d2c420c81c5f3049b1594837b687182d5d23a0a1"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::CONFIRM_NSC_AUTHORITY_RECORD::SEAT_ATTORNEY_GENERAL::confirmation",
+      "call_type": "confirmation",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "439fe74a85f6c2ba6eb9019e571e0effc7b68b0afbd37870fe61efce63507e43",
+      "prompt_hashes": [
+        "1d4cc0c77cc3e443afb907ec01297d0a86940df5b3784df06eb00f3751d7ca36"
+      ],
+      "raw_response_hashes": [
+        "a825f8b21bfa4a808e49f16ad5f7d29313be0143a600dc63a3e7e92fee0286b6"
+      ],
+      "seat_id": "SEAT_ATTORNEY_GENERAL",
+      "status": "accepted",
+      "trace_hash": "13acba286f102a217997b1b502e76bd40116933eb82e9f0c00500a1c81167529"
+    },
+    {
+      "attempt_count": 1,
+      "call_id": "CYCLE_2::CONFIRM_NSC_AUTHORITY_RECORD::SEAT_WHITE_HOUSE_COUNSEL::confirmation",
+      "call_type": "confirmation",
+      "cycle_id": "CYCLE_2",
+      "group_id": "GROUP_NSC",
+      "parsed_product_hash": "88042664b4a896e376c4e091aeef72a54d28c0bb1a2ecbdbe47e3fa51fc9007d",
+      "prompt_hashes": [
+        "e42a0db59048b371f00df051913424318b97b6653f47fb9bebd6684fb270cc83"
+      ],
+      "raw_response_hashes": [
+        "9620682a3b2272911e0120a90aa3707f9a584f73e45b90a976245667df4bb043"
+      ],
+      "seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+      "status": "accepted",
+      "trace_hash": "142eb36bcec9720ace1b83d97f670bbd7d80d17730ba0c8c57be2d40b3fe4bbf"
+    }
+  ],
+  "call_manifest_hash": "dd684800975148c90589792581132275ffef470b6176f7d21c43037f1f01cd8a",
+  "charter_hash": "fe3837ad22a898218c3c298d1facf91e1ddd09b1a2d58dfc9a48b9d3c4bf83d2",
+  "claim_boundary": [
+    "no_live_model_behavior_evidence",
+    "no_government_behavior_evidence",
+    "no_creative_excon_evidence",
+    "no_matched_us_condition_evidence",
+    "no_date_evaluation_evidence"
+  ],
+  "cycle1_fixture_hash": "ea7333ec4e7423ad628455d18638c6e0eefd9fdca3b0bd17f85d35fb2d2ac9fc",
+  "cycle2_fixture_hash": "dc99ac7a92e2402451973041325f670c0bb626058068a221f695ee4cd0d9119f",
+  "cycle_schedules": {
+    "CYCLE_1": [
+      [
+        "GROUP_THREAT_ATTRIBUTION"
+      ],
+      [
+        "GROUP_DIPLOMATIC_ECONOMIC",
+        "GROUP_NUCLEAR_RADIOLOGICAL"
+      ],
+      [
+        "GROUP_DEFENSE_ESCALATION"
+      ],
+      [
+        "GROUP_LEGAL_AUTHORITY"
+      ],
+      [
+        "GROUP_PRESIDENTIAL_SYNTHESIS"
+      ],
+      [
+        "GROUP_PC"
+      ],
+      [
+        "GROUP_NSC"
+      ]
+    ],
+    "CYCLE_2": [
+      [
+        "GROUP_THREAT_ATTRIBUTION"
+      ],
+      [
+        "GROUP_DIPLOMATIC_ECONOMIC",
+        "GROUP_NUCLEAR_RADIOLOGICAL"
+      ],
+      [
+        "GROUP_DEFENSE_ESCALATION"
+      ],
+      [
+        "GROUP_LEGAL_AUTHORITY"
+      ],
+      [
+        "GROUP_PRESIDENTIAL_SYNTHESIS"
+      ],
+      [
+        "GROUP_PC"
+      ],
+      [
+        "GROUP_NSC"
+      ]
+    ]
+  },
+  "date_profile_hash": "64f4009b91381b27f43e76f61cd929f989b7ca866bdab7e8eb28326403e0c477",
+  "episode_run_hash": "83a143f8712d9b6d012b6dde2f03940062f63b961ad68ccf5bb3b3ae25660597",
+  "evidence_status": "scripted_rehearsal_non_evidence",
+  "executor_revision": "ae3ccfa8f20e4fc4966b111cfcbfeaf6ce1dedf1",
+  "fixture_hash": "2a7d484d4096e598cee64cbf30c60344c3cca57a7f9cf52f384e6b0ce8f94e66",
+  "fixture_id": "US_TWO_CYCLE_EPISODE.development.v0_1",
+  "receipt_hash": "503200c727404b9a88c7d3a70041441c97cc28f4ff7cd4c58ed3e052cfdd42d9",
+  "replay_matched": true,
+  "run_hash": "f977c3e63f800e978f0574fe3bc9b8c4786dc16143c7d920914664a3b5b1f2f2",
+  "schema_version": "scripted-room-rehearsal-receipt.v0.1",
+  "source_register_hash": "73dbda61ad01472abeadb5bd8aae2aead8a84b5596bbd00c5afbccba21d5051f",
+  "status": "passed",
+  "tracer_id": "m6-complete-scripted-us-room-v1"
+}

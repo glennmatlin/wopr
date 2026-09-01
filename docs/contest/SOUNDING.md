@@ -3,7 +3,8 @@
 Status: corrected execution completed 2026-08-21. 12 of 18 cells Tier A and 6
 Tier C. Descriptive Sounding only; not a population estimate.
 
-Output directory: `/private/tmp/wopr-contest-sounding-fd48b11`.
+Output directory: retained in the private engineering record and excluded from
+the curated release.
 Executor: `fd48b11e49675c3a8a82319e13f07c7900a5ddba`.
 Analysis copy: [SOUNDING_ANALYSIS.corrected.json](SOUNDING_ANALYSIS.corrected.json).
 Hashes and compact counts: [CORRECTED_RUN_RECEIPT.json](CORRECTED_RUN_RECEIPT.json).
@@ -42,10 +43,6 @@ changes the live command process materially, but the small, incomplete Sounding
 does not support a population claim about downstream escalation or loss.
 
 ## Superseded August 18 execution
-
-> **HISTORICAL RECEIPT.** This is the August 18 Nuclear War Instrument
-> execution retained in this checkout. It is neither DATE evidence nor the
-> same-Room cross-World run. See [CURRENT_STATUS.md](CURRENT_STATUS.md).
 
 The frozen manifest encodes two-thirds as `0.6666666667`. The August 18
 executor compared the computed vote share strictly against that decimal, so an

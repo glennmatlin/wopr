@@ -6,28 +6,30 @@ from typing import Any
 
 from .compiled_models import CompiledUsCharter
 
-_DOMAIN_IDS = frozenset(
-    {
-        "diplomacy_private_channels",
-        "intelligence_collection_sharing",
-        "defense_support_posture",
-        "economic_financial_measures",
-        "public_communication",
-        "contingency_reassessment",
-    }
+_ORDERED_DOMAIN_IDS = (
+    "diplomacy_private_channels",
+    "intelligence_collection_sharing",
+    "defense_support_posture",
+    "economic_financial_measures",
+    "public_communication",
+    "contingency_reassessment",
 )
-_DISPOSITIONS = frozenset(
-    {"immediate_action", "conditional_action", "no_action", "not_applicable"}
+_DOMAIN_IDS = frozenset(_ORDERED_DOMAIN_IDS)
+_ORDERED_DISPOSITIONS = (
+    "immediate_action",
+    "conditional_action",
+    "no_action",
+    "not_applicable",
 )
-_FIELDS = frozenset(
-    {
-        "domain_id",
-        "responsible_seat_ids",
-        "deciding_forum_group_id",
-        "reason",
-        "disposition",
-    }
+_DISPOSITIONS = frozenset(_ORDERED_DISPOSITIONS)
+_ORDERED_FIELDS = (
+    "domain_id",
+    "responsible_seat_ids",
+    "deciding_forum_group_id",
+    "reason",
+    "disposition",
 )
+_FIELDS = frozenset(_ORDERED_FIELDS)
 
 
 def policy_package_is_complete(
@@ -68,4 +70,39 @@ def policy_package_is_complete(
     return found == _DOMAIN_IDS
 
 
-__all__ = ["policy_package_is_complete"]
+def policy_package_domain_dispositions_schema() -> dict[str, Any]:
+    return {
+        "type": "array",
+        "minItems": len(_ORDERED_DOMAIN_IDS),
+        "maxItems": len(_ORDERED_DOMAIN_IDS),
+        "required_domain_ids": list(_ORDERED_DOMAIN_IDS),
+        "items": _domain_disposition_item_schema(),
+    }
+
+
+def _domain_disposition_item_schema() -> dict[str, Any]:
+    return {
+        "type": "object",
+        "required": list(_ORDERED_FIELDS),
+        "properties": {
+            "domain_id": {"type": "string", "enum": list(_ORDERED_DOMAIN_IDS)},
+            "responsible_seat_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": True,
+                "items": {"type": "string"},
+            },
+            "deciding_forum_group_id": {"type": "string"},
+            "reason": {"type": "string", "minLength": 1},
+            "disposition": {
+                "type": "string",
+                "enum": list(_ORDERED_DISPOSITIONS),
+            },
+        },
+    }
+
+
+__all__ = [
+    "policy_package_domain_dispositions_schema",
+    "policy_package_is_complete",
+]

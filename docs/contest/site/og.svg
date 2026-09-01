@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">WOPR: Institutional Sensitivity in Strategic AI Agents</title>
-  <desc id="desc">A matched evaluation of communication and command authority in a replay-validated strategic environment.</desc>
-  <rect width="1200" height="630" fill="#172b3a"/>
-  <rect x="72" y="72" width="12" height="486" fill="#a64232"/>
-  <text x="130" y="170" fill="#e8b7a6" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">WOPR / SITUATION ROOM</text>
-  <text x="130" y="280" fill="#ffffff" font-family="Arial, sans-serif" font-size="64" font-weight="700">Institutional</text>
-  <text x="130" y="355" fill="#ffffff" font-family="Arial, sans-serif" font-size="64" font-weight="700">Sensitivity</text>
-  <text x="130" y="445" fill="#cbd5d8" font-family="Arial, sans-serif" font-size="26">Communication × command authority × matched replay</text>
+  <title id="title">WOPR: A U.S. Situation Room for Open-Ended Crisis Decisions</title>
+  <desc id="desc">An institutional Room turns selective evidence into open policy proposals while the World owns consequences.</desc>
+  <rect width="1200" height="630" fill="#1b292d"/>
+  <rect x="72" y="72" width="12" height="486" fill="#bd6f31"/>
+  <text x="130" y="150" fill="#e0a36b" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">WOPR / U.S. SITUATION ROOM</text>
+  <text x="130" y="265" fill="#fffdf8" font-family="Georgia, serif" font-size="62">Open-ended crisis</text>
+  <text x="130" y="340" fill="#fffdf8" font-family="Georgia, serif" font-size="62">decisions, bounded truth</text>
+  <text x="130" y="435" fill="#b7c7c6" font-family="Arial, sans-serif" font-size="25">SELECTIVE EVIDENCE / OPEN PROPOSALS / WORLD CONSEQUENCES</text>
 </svg>

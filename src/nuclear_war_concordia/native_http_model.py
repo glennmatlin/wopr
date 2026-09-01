@@ -8,17 +8,18 @@ from collections.abc import Collection, Mapping, Sequence
 from dataclasses import dataclass
 from typing import Any
 
-from nuclear_war_agents import LLMCompletion, LLMHttpClient
+from nuclear_war_agents import LLMCompletion, LLMModelClient
+from nuclear_war_agents.llm_completion import normalize_completion
 
+from .native_prompt_guard import require_scene_payload
 from .response import parse_concordia_response
-
-_SCENE_JSON_MARKER = "Scene JSON:"
 
 
 @dataclass
 class ConcordiaHTTPChoiceModel:
-    client: LLMHttpClient
+    client: LLMModelClient
     last_completion: LLMCompletion | None = None
+    last_prompt: str | None = None
 
     def sample_text(
         self,
@@ -33,7 +34,9 @@ class ConcordiaHTTPChoiceModel:
         seed: int | None = None,
     ) -> str:
         del max_tokens, terminators, temperature, top_p, top_k, timeout, seed
-        completion = self.client.complete(prompt)
+        self.last_prompt = prompt
+        require_scene_payload(prompt)
+        completion = normalize_completion(self.client.complete(prompt))
         self.last_completion = completion
         return completion.raw_response
 
@@ -45,20 +48,10 @@ class ConcordiaHTTPChoiceModel:
         seed: int | None = None,
     ) -> tuple[int, str, Mapping[str, Any]]:
         del seed
-        # Runtime blind-agent guard: every native WOPR decision reaches this
-        # model through entity.observe(scene_text) followed by a choice act,
-        # so the assembled prompt must carry the scene payload. A missing
-        # marker means the entity's context components dropped the game state;
-        # fail before spending a provider call on a blind decision.
-        if _SCENE_JSON_MARKER not in prompt:
-            raise ValueError(
-                "Concordia HTTP model prompt is missing the scene payload "
-                f"marker {_SCENE_JSON_MARKER!r}; the entity would choose "
-                "blind (context components not delivering observations)"
-            )
+        require_scene_payload(prompt)
         options_by_letter = _options_by_letter(prompt, responses)
-        completion = self.client.complete(
-            _choice_prompt(prompt, responses, options_by_letter)
+        completion = normalize_completion(
+            self.client.complete(_choice_prompt(prompt, responses, options_by_letter))
         )
         self.last_completion = completion
         choice = _choice_from_raw(completion.raw_response, responses, options_by_letter)

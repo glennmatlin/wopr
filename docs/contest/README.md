@@ -1,75 +1,80 @@
-# ChinaTalk Situation Room documentation
+# Situation Room contest Packet
 
-Status date: 2026-08-30.
+This Packet presents an evidence-honest evaluation design centered on a
+machine-operated U.S. Situation Room. The first episode places that Room in an
+open-ended Himaldesh-Olvana nuclear crisis built with DATE concepts. A later
+comparison will place the same Room in the closed Nuclear War game.
 
-This directory now separates the current ChinaTalk design from the earlier
-Nuclear War-only contest packet. The current project defines and partially
-exercises one complete machine-operated U.S. Situation Room across two Worlds:
+## Read the entry
 
-> Same Room, two Worlds: one open crisis, one closed game, every decision
-> traceable.
+1. [`EVIDENCE_MATRIX.md`](EVIDENCE_MATRIX.md) separates what is implemented,
+   executed, specified, and still unverified.
+2. [`EPISODE_1.md`](EPISODE_1.md) explains the crisis, Room, information path,
+   two cycles, proposal contract, interpreter, and World consequences.
+3. [`PROTOCOL.md`](PROTOCOL.md) defines the evaluation and its claim boundary.
+4. [`APPLICATION_DRAFT.md`](APPLICATION_DRAFT.md) contains the final form copy
+   and publication fields.
+5. [`site/index.html`](site/index.html) is the static microsite source.
 
-DATE is the primary, authenticity-oriented, open-ended crisis lane. Nuclear War
-is the secondary, deliberately unrealistic, closed-form entertainment lane.
-The pair is a cross-World stress test of the Room, not a matched outcome
-leaderboard.
+The private working repository retains the consolidated specification,
+decision crosswalk, appendices, and full ADR history. The curated release keeps
+the deadline pivot in
+[`ADR 0075`](adr/0075-cut-the-experiment-and-package-the-evidence-boundary.md)
+and the Episode 1 decisions linked from the episode packet without making the
+engineering chronology the public entry point.
 
-## Read current material first
+## Run the offline Room rehearsal
 
-1. [Current design](CURRENT_DESIGN.md) defines the Room, the two World
-   contracts, the first DATE episode, and the evaluation boundary.
-2. [Current status](CURRENT_STATUS.md) records the evidence state and the D95
-   authorization boundary as of 2026-08-30.
-3. [Glossary](CONTEXT.md) defines the terms used by the current design.
+From `nuclear_war/`, install the development environment and run the checked-in
+two-cycle fixture through all 114 scripted Room calls:
 
+```bash
+uv sync --extra concordia
+REVISION="$(git rev-parse HEAD)"
+uv run python scripts/run_public_room_rehearsal.py \
+  docs/contest/US_TWO_CYCLE_FIXTURE.development.json \
+  "$REVISION" \
+  /tmp/us-room-rehearsal.json
+```
 
-## Evidence rule
+Dependency installation may require network access the first time. The
+rehearsal command itself performs no provider or network call. It validates selective
+information delivery, attributable portfolio and group products, two Room
+cycles, open-proposal materialization, deterministic World admission, and
+exact replay. Its output is implementation evidence, not model behavior or a
+completed DATE evaluation.
 
-Design documents, no-model traces, scripted adapter rehearsals, provider
-diagnostics, authorization packets, private output directories, and historical
-Nuclear War games each support different claims. None of them, alone or in
-combination, proves a passing live DATE Room, a DATE comparison, or a same-Room
-cross-World demonstration.
+The curated launcher exposes the two model-protocol types required by the
+frozen Room modules without changing their byte-bound imports or adding the
+closed Nuclear War engine to the export.
 
-The current summary was reconciled against tracked commit
-`ee9f0e1750f3f7fbc67479c70c20b49cfafa1331` on
-`glenn/chinatalk-m6-live-smoke-freeze`. This documentation branch does not copy
-that branch's private outputs, candidate machinery, or full specification
-dependency tree. Exact operational action must use the receipt and authority
-artifacts on the implementation branch, not this summary.
+## Materialize the curated public release
 
-That checkpoint contains `D95_SNAPSHOT_13_OFFLINE_REVIEW.md`, whose immutable
-content boundary is bound to reviewed revision
-`a804e18135ac17f879f541deb992bebf002f3bae`. Snapshot 13 is offline-review
-complete but remains uninvoked and not authorized.
+After committing the intended release bytes, materialize only the allowlisted
+files from that exact commit into a new directory outside the checkout:
 
-## Historical Nuclear War packet
+```bash
+REVISION="$(git rev-parse HEAD)"
+uv run python scripts/materialize_public_export.py \
+  --source-root . \
+  --manifest docs/contest/PUBLIC_EXPORT_MANIFEST.json \
+  --destination /tmp/wopr-contest-public \
+  --source-revision "$REVISION"
+```
 
-The following material remains available because it records real design and
-engineering history. It is not the active protocol:
+The exporter reads Git blobs from the named commit, not mutable working-tree
+files. Its receipt binds the commit, tree, manifest, file modes, blob objects,
+and content hashes. The destination must not already exist.
 
-| Material | Meaning now |
-| --- | --- |
-| [Protocol](PROTOCOL.md) and [execution plan](EXECUTION_PLAN.md) | Historical Nuclear War-only packet |
-| [Sounding](SOUNDING.md), [composition smoke](COMPOSITION_SMOKE.md), and M2/M3 records | Historical Instrument and pipeline evidence |
-| ADRs 0001-0008 | Decisions for the superseded single-World packet |
-| `STUDY_MANIFEST*`, `MODEL_MANIFEST*`, and preflight receipts | Frozen or candidate historical identities; never edit in place |
-| `site/` | Private historical microsite, not the current two-World site |
+The checked-in manifest records the owner's MIT-license and source-rights
+decision. Each publication still uses a new exact-commit export, receipt, secret
+scan, link check, and offline rehearsal before the public repository is updated.
 
-The August 18 Sounding in this checkout and the later corrected August 21
-execution are separate historical runs. Neither used the complete U.S. Room
-defined by the current design.
+## Publication boundary
 
-## Material that stays outside this documentation layer
-
-Do not copy credentials, request headers, raw private journals, untracked
-output trees, or source material without confirmed redistribution rights into
-the contest docs. A file or directory name is not a completion receipt.
-
-## Public contest sources
-
-- [Contest brief](https://www.chinatalk.media/p/25k-contest-evals-for-the-situation)
-- [Launch discussion](https://www.chinatalk.media/p/ai-evals-for-the-situation-room-explained)
-- [Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfSVOzLSEN-ke5tf87SE4WPSi0VJSH3aCsW0Np9pFKibCMW9A/viewform)
-- [WOPR environment paper](https://arxiv.org/abs/2608.01868)
-- [Open-ended wargames paper](https://arxiv.org/abs/2509.17192)
+The repository checkout remains a private working repository. The curated
+contest release excludes credentials, `.env` files, private output trees,
+provider stages, raw provider material, and historical rules or source PDFs.
+See
+[`PUBLIC_RELEASE_CHECKLIST.md`](PUBLIC_RELEASE_CHECKLIST.md) and
+[`SOURCE_RIGHTS_INVENTORY.md`](SOURCE_RIGHTS_INVENTORY.md) before publishing.

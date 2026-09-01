@@ -1,0 +1,1332 @@
+{
+  "file_count": 189,
+  "files": [
+    {
+      "bytes": 1074,
+      "git_blob": "4c56cc6597fba8a37ac761a1e01f355dc7ccd413",
+      "git_mode": "100644",
+      "path": "LICENSE",
+      "sha256": "b15d9c8c4fc3d3ac7bba600e62d8c37d9a8a9e770a597f24cff54851595c65d9"
+    },
+    {
+      "bytes": 3290,
+      "git_blob": "450c4a0c8f22518ded646e2e3e1643c31d1ba731",
+      "git_mode": "100644",
+      "path": "README.md",
+      "sha256": "c1ce6462f92b5dc8f4951c850bf63ce4c51e07ded5bcb3b7810a808154998b2e"
+    },
+    {
+      "bytes": 9876,
+      "git_blob": "24ff90bd8b492efda88f6e07ba285c6e2b35d140",
+      "git_mode": "100644",
+      "path": "docs/contest/APPLICATION_DRAFT.md",
+      "sha256": "1fb3de912dc617e3c8783aa41d2719848ac90af723e781c7e124bdb5b879e780"
+    },
+    {
+      "bytes": 13617,
+      "git_blob": "bc49ef46d96ddfd5907c678b5b5dafff9d4bd175",
+      "git_mode": "100644",
+      "path": "docs/contest/CONTEXT.md",
+      "sha256": "6952dd665e66b2b9b0ab316269c1601e9cb19274ab3d969f78b58246e9da63be"
+    },
+    {
+      "bytes": 2270,
+      "git_blob": "732df95fc339d315c3197fd72af6461640f9d830",
+      "git_mode": "100644",
+      "path": "docs/contest/CORRECTED_RUN_RECEIPT.json",
+      "sha256": "af865797df5a8dd8b244ad2e22eb0b60f9150bd6a8493c7aac54ddc8eb8c7a05"
+    },
+    {
+      "bytes": 1505,
+      "git_blob": "e2f3a28f3eac9f06649699eb6e11417e6ca1ab7a",
+      "git_mode": "100644",
+      "path": "docs/contest/COUNTERPART_CHARTER_RATIFICATION.json",
+      "sha256": "4198ebec850c0c9d75ba1f8012e953040bd2fdb4a0dceccdded839b13f7de09b"
+    },
+    {
+      "bytes": 9525,
+      "git_blob": "c1cf608e2b64326766cedc178a9f16707f6f54e6",
+      "git_mode": "100644",
+      "path": "docs/contest/COUNTERPART_CHARTER_REVIEW.candidate.md",
+      "sha256": "efd1f8c49a619cca18357451e60b30ea02a1f978eb2c94e1d07a33bd6a36e8a5"
+    },
+    {
+      "bytes": 2705,
+      "git_blob": "c3ac92affeca8bfd4dd042322777b70ecacbd6da",
+      "git_mode": "100644",
+      "path": "docs/contest/COUNTERPART_ROOM_COMPOSITION_FIXTURE.development.json",
+      "sha256": "98ac04036557aebf9a83d47b75d49509bee3f64d9f95b5dd1ef8b1f1fbd5fd78"
+    },
+    {
+      "bytes": 300487,
+      "git_blob": "c97a89a0eb2ee49ad5985439ad2c09e5253a408d",
+      "git_mode": "100644",
+      "path": "docs/contest/COUNTERPART_ROOM_COMPOSITION_RECEIPT.json",
+      "sha256": "ad9691d90f25512424475f08d7db19338bf6168a36d688fabad12da016f25252"
+    },
+    {
+      "bytes": 8253,
+      "git_blob": "f463141d0218832371569df5f64b31ca51443338",
+      "git_mode": "100644",
+      "path": "docs/contest/DATE_PROFILE.candidate.json",
+      "sha256": "1902e335b6cb9eb2ccdd03b5a786ac2887542fe089c092c67049efe71007da2f"
+    },
+    {
+      "bytes": 5338,
+      "git_blob": "571f3bdecc8cb80865028d4d2d56584945018808",
+      "git_mode": "100644",
+      "path": "docs/contest/DATE_TRACER_RECEIPT.json",
+      "sha256": "e7f1e38cd897d7000208a4e646ed9d929ee63d13a5eebc8bddfe9165116163e6"
+    },
+    {
+      "bytes": 12715,
+      "git_blob": "7bc5ac1b9f7358da101bbe7757a55da8376a9ced",
+      "git_mode": "100644",
+      "path": "docs/contest/EPISODE_1.md",
+      "sha256": "35cdc1f6678830ab0791edc708aad46aba5fd470956fadfdd6a6d1e6eb4e324b"
+    },
+    {
+      "bytes": 6277,
+      "git_blob": "9b3b1be745ad36fa7214219892322a3f278ec8ce",
+      "git_mode": "100644",
+      "path": "docs/contest/EVIDENCE_MATRIX.md",
+      "sha256": "dc24af02c14c42ec68f77dd7b66ae6d638638f86b80d56c8723e57bce5aaa80e"
+    },
+    {
+      "bytes": 7282,
+      "git_blob": "9f83d87fcaecfbc21b7b8fe92d388044d43d7424",
+      "git_mode": "100644",
+      "path": "docs/contest/EXECUTION_PLAN.md",
+      "sha256": "cef469011a9e9225fa03859e2a8587dc264fae656afe9adaf4f207d67e096e77"
+    },
+    {
+      "bytes": 5980,
+      "git_blob": "145b9021b14ef7c4eb9ccc86c2c33bd9582ab04e",
+      "git_mode": "100644",
+      "path": "docs/contest/GAMES_REGISTER.md",
+      "sha256": "a80ca59eab190c72cb48da42551baabfc813928749eac87758c4133ff1381e11"
+    },
+    {
+      "bytes": 42604,
+      "git_blob": "97ac455ec1942797ef524998bd807381f005604c",
+      "git_mode": "100644",
+      "path": "docs/contest/HIMALDESH_CHARTER.candidate.json",
+      "sha256": "3f4b40404ec5081e880364ebf59b01e13f630b339d99dc93a5c062a99dbaa199"
+    },
+    {
+      "bytes": 13005,
+      "git_blob": "c1f0827d23cfd1b3266ec70bc695618898dfe103",
+      "git_mode": "100644",
+      "path": "docs/contest/HIMALDESH_ROOM_FIXTURE.development.json",
+      "sha256": "a6af49cf666389554514c18d56d0084cc5faeea90667a5cbee79cffc6870b566"
+    },
+    {
+      "bytes": 72668,
+      "git_blob": "7c1c2332fdb8a645eb56e6595e9cdab824c0a2f2",
+      "git_mode": "100644",
+      "path": "docs/contest/HIMALDESH_ROOM_RECEIPT.json",
+      "sha256": "098bc449e11a99237cf4f4238d0d8be184d06efe80ca4e5163d48d1c87498536"
+    },
+    {
+      "bytes": 15829,
+      "git_blob": "b5360bd0b4ce1a3c3465e606b159b63816c6e66b",
+      "git_mode": "100644",
+      "path": "docs/contest/HIMALDESH_SOURCE_REGISTER.candidate.json",
+      "sha256": "59be65fc56c548eb68d4b9d9c2f46bfc227ff23e5d7cef938f54debdce3a2cda"
+    },
+    {
+      "bytes": 34493,
+      "git_blob": "4a98d3f56bf12516cffafb3a0e63a06b74dce43c",
+      "git_mode": "100644",
+      "path": "docs/contest/OLVANA_CHARTER.candidate.json",
+      "sha256": "46a7e16658eee132f5fcc871b99c49515e2eeb63d69b107d9825cad0245a0b20"
+    },
+    {
+      "bytes": 9899,
+      "git_blob": "dc39213d95b5335562028c220128c18d46d55383",
+      "git_mode": "100644",
+      "path": "docs/contest/OLVANA_ROOM_FIXTURE.development.json",
+      "sha256": "aa79627479ce6f227848c2f53e610c5a2b951648a0ffaea5ab40e27242de3c77"
+    },
+    {
+      "bytes": 38959,
+      "git_blob": "c7da1244df6d41880a2569446c6be17cc3308eb1",
+      "git_mode": "100644",
+      "path": "docs/contest/OLVANA_ROOM_RECEIPT.json",
+      "sha256": "62b11eb13ee46565ba63f4531bfa958697a4e35886851788f4afd4473e54e255"
+    },
+    {
+      "bytes": 15616,
+      "git_blob": "cc40725abf1f928d1165c9141e4f9bbcee9377aa",
+      "git_mode": "100644",
+      "path": "docs/contest/OLVANA_SOURCE_REGISTER.candidate.json",
+      "sha256": "5449d48d0596d74acf4a8c3de908d5f90924221e129c283c60d46e27392e8f81"
+    },
+    {
+      "bytes": 8421,
+      "git_blob": "93d07bffaebc0971ce3e6fdc7e691583efdcbfbf",
+      "git_mode": "100644",
+      "path": "docs/contest/PROTOCOL.md",
+      "sha256": "df2be01fd476aee332862ddb6e5ce0995b4b5d2c75734dbfb510549a8c8c4fa6"
+    },
+    {
+      "bytes": 5523,
+      "git_blob": "2dad7234bcdacab57c99ab1ee736ce55a7c1837c",
+      "git_mode": "100644",
+      "path": "docs/contest/PUBLIC_EXPORT_MANIFEST.json",
+      "sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0"
+    },
+    {
+      "bytes": 11240,
+      "git_blob": "d8107951519fae3f872dfe7df5d400036782fdc6",
+      "git_mode": "100644",
+      "path": "docs/contest/PUBLIC_RELEASE_CHECKLIST.md",
+      "sha256": "8b36c1a99d10d69ea50c892d66b9fd4da82c53e1b9776debbe6b58dcf1b98e4b"
+    },
+    {
+      "bytes": 3552,
+      "git_blob": "18f11c81906788c4680047aa399d6cfe9b40cb35",
+      "git_mode": "100644",
+      "path": "docs/contest/README.md",
+      "sha256": "439e9803e5ed830f1c78e772fe4fe84a50de739514d8b92cf905144c99981d18"
+    },
+    {
+      "bytes": 8583,
+      "git_blob": "3d8fc06b1b9034b7140f0dca7983c460dd3bf84f",
+      "git_mode": "100644",
+      "path": "docs/contest/SETUP_OPTION_REGISTER.md",
+      "sha256": "9a2684b7c05619a6899b31f3840694c2756ea3471b10182eaf88632f658aef33"
+    },
+    {
+      "bytes": 3239,
+      "git_blob": "c5e5246a08a3a620ce5e8d599705ac8554ff8137",
+      "git_mode": "100644",
+      "path": "docs/contest/SOUNDING.md",
+      "sha256": "76064fbbc436f92244dc4d067ce3b0eaec76dbf1725b81b0c3a7b3a8a6f6127f"
+    },
+    {
+      "bytes": 108612,
+      "git_blob": "deca3988fd95a8a982267191deac3bc56b40a47c",
+      "git_mode": "100644",
+      "path": "docs/contest/SOUNDING_ANALYSIS.corrected.json",
+      "sha256": "6e91fc648bd5edc44185282dd5ba3a24c53bf7e1f1a6b3160d1ea596a7b23e48"
+    },
+    {
+      "bytes": 125292,
+      "git_blob": "51efc9522275df22f118644979b08f72a5e97f16",
+      "git_mode": "100644",
+      "path": "docs/contest/SOUNDING_ANALYSIS.json",
+      "sha256": "00f89e43d3d32d981d5cdf7fe635f350f4c4af54cfbb6bd09a1ed4f20b50afd7"
+    },
+    {
+      "bytes": 2961,
+      "git_blob": "d59eac9297631ad6aeda776302cc79a1899808f4",
+      "git_mode": "100644",
+      "path": "docs/contest/SOURCE_RIGHTS_INVENTORY.md",
+      "sha256": "612bfe902b99b9502303819dde6b3e284a72e8d8cf244379a8316b02d8131de4"
+    },
+    {
+      "bytes": 11465,
+      "git_blob": "ea65e696ed024a6c80ecb56464f04c6800602a38",
+      "git_mode": "100644",
+      "path": "docs/contest/SOURCE_RIGHTS_REGISTER.md",
+      "sha256": "c102f6e98554fcbf49093e939789a2795aef364c367ea21d02b7c3308c7547ed"
+    },
+    {
+      "bytes": 85530,
+      "git_blob": "813e39fffe63a6b71d5d392df6691809b159b671",
+      "git_mode": "100644",
+      "path": "docs/contest/US_CHARTER.candidate.json",
+      "sha256": "f593fc3bde0c2efd1e406b4025a663a8846d13b4ba1c7328ac72f6792e39ad42"
+    },
+    {
+      "bytes": 978,
+      "git_blob": "da01715d71967b9fdc52bfa17da4daf34adfe1bf",
+      "git_mode": "100644",
+      "path": "docs/contest/US_CHARTER_RATIFICATION.json",
+      "sha256": "1fe29572795dfe8d8f96efc587ee38c1a3032e02f221ff0a7ea08bcd23710d70"
+    },
+    {
+      "bytes": 134315,
+      "git_blob": "88b5475b448f1f97d4f7ac8f638b7c337efe791d",
+      "git_mode": "100644",
+      "path": "docs/contest/US_CHARTER_REVIEW.candidate.md",
+      "sha256": "0dab0ee29b0824c15e2cddafe1c537eed09e8d8a70c5cfefac3cc1807cb2771f"
+    },
+    {
+      "bytes": 31987,
+      "git_blob": "8e2b7e50bc2b360c2d7ecb4126586dde1df912b0",
+      "git_mode": "100644",
+      "path": "docs/contest/US_CYCLE1_FIXTURE.development.json",
+      "sha256": "b7ac4ca0fead139bc8600d15baf4dbac9c1852cf135d3f9142c88e93889381e7"
+    },
+    {
+      "bytes": 111194,
+      "git_blob": "c41768c5e13dde092ce82db0e88f7481e9c1c36c",
+      "git_mode": "100644",
+      "path": "docs/contest/US_CYCLE1_RECEIPT.json",
+      "sha256": "6d8a5ed029ee30bdd985116303cc2d238b668710e1c33ca3507b36a0fa0f1ed4"
+    },
+    {
+      "bytes": 28550,
+      "git_blob": "39a555b7846d5253a2d1536c15bedcfe224d6faf",
+      "git_mode": "100644",
+      "path": "docs/contest/US_CYCLE2_FIXTURE.development.json",
+      "sha256": "a194686377aeab782fdacec9d1734e2f8df0071a7467503961bfc8bd09c214d9"
+    },
+    {
+      "bytes": 8400,
+      "git_blob": "8afd0a7e3f2188d6895a6e2817007a4ddf7bae8c",
+      "git_mode": "100644",
+      "path": "docs/contest/US_PROPOSAL_BRIDGE_FIXTURE.development.json",
+      "sha256": "1fd4fc0e93336c024faf81559f38f598865552c5b0d39b7d31c87453dd76991b"
+    },
+    {
+      "bytes": 24716,
+      "git_blob": "acef548111e64a31739825a6d29f96dd69f2f350",
+      "git_mode": "100644",
+      "path": "docs/contest/US_PROPOSAL_BRIDGE_RECEIPT.json",
+      "sha256": "218220f301792b8864b3be99d19a96f0539f4135abe08334df3b6d677a7de4fa"
+    },
+    {
+      "bytes": 81556,
+      "git_blob": "3c6261917f9e3ded7bb6fe265ed281dfe04f4f98",
+      "git_mode": "100644",
+      "path": "docs/contest/US_SCRIPTED_ROOM_REHEARSAL_RECEIPT.json",
+      "sha256": "8c9a72ec976c3434a1c7d532342f58d6e0c89baf695fea74112d76ca7603c6e4"
+    },
+    {
+      "bytes": 39062,
+      "git_blob": "75a788f7f5de8efe832a8ec6e73200a2fd3046e7",
+      "git_mode": "100644",
+      "path": "docs/contest/US_SOURCE_REGISTER.candidate.json",
+      "sha256": "7e9744d13d7c608fe5190ecf3eff7eb4fd5a2b8810c13e06328096fc25141f75"
+    },
+    {
+      "bytes": 4272,
+      "git_blob": "569527728aa7ab8828f79f135fae8865d33e6b04",
+      "git_mode": "100644",
+      "path": "docs/contest/US_TWO_CYCLE_FIXTURE.development.json",
+      "sha256": "13ec6d512e095bea8d6f512630b728061afdaf7cc8b778a246e3817b7bddf4bb"
+    },
+    {
+      "bytes": 270733,
+      "git_blob": "1763491e891b6bae866b05bb72fc09fdcafbd97e",
+      "git_mode": "100644",
+      "path": "docs/contest/US_TWO_CYCLE_RECEIPT.json",
+      "sha256": "cc8feb916770292df9e0dbb201bb1d5e82197bd4b0959925b1b504954329b1a4"
+    },
+    {
+      "bytes": 1255,
+      "git_blob": "8d1d00679b769b1f3bb723f4b9782aedce64b715",
+      "git_mode": "100644",
+      "path": "docs/contest/adr/0013-constrain-policy-interpretation.md",
+      "sha256": "85abf06027106196ddf8735aee0727b2d5c35075b966b512f7d78aafbc64c645"
+    },
+    {
+      "bytes": 3017,
+      "git_blob": "38a7d27cac4fab16122b6507fbafcf9065c4d5a0",
+      "git_mode": "100644",
+      "path": "docs/contest/adr/0033-reuse-one-us-room-across-open-and-closed-worlds.md",
+      "sha256": "307600a8e5e94d6f91178d65a1e85ad784c1f59411a185b2ef2349c707276608"
+    },
+    {
+      "bytes": 2476,
+      "git_blob": "560cbb6d143a6babd3c1c6d48f36785d2d405f0f",
+      "git_mode": "100644",
+      "path": "docs/contest/adr/0034-bound-generative-excon-to-existing-world-state.md",
+      "sha256": "900d4c44f8ace3b7b6196717e2187e00d2e01c17fd8b83f51eb086068d74daa0"
+    },
+    {
+      "bytes": 2837,
+      "git_blob": "a81d917611e6a144e8a98b502ba1769dd84e59ae",
+      "git_mode": "100644",
+      "path": "docs/contest/adr/0038-end-the-first-episode-after-two-us-cycles.md",
+      "sha256": "c2a97af3a568ca457a811bc6369e93fbd6fa4745b6224b19ba1476ebb2e280c1"
+    },
+    {
+      "bytes": 2736,
+      "git_blob": "cd2f2d9fcf323af4ed18c8e005a84cd568c36693",
+      "git_mode": "100644",
+      "path": "docs/contest/adr/0039-combine-matched-and-endogenous-cycle-two-pressure.md",
+      "sha256": "17788eb9edde289455e638344b585aaa15ffd3ce25b156a59b622335da15e1c4"
+    },
+    {
+      "bytes": 2859,
+      "git_blob": "a6c4b6f266845ef29e606a122e077e3adb5aba31",
+      "git_mode": "100644",
+      "path": "docs/contest/adr/0040-use-weather-to-degrade-high-altitude-access.md",
+      "sha256": "da0da01211d2be5ff71335b2bfffdf2210972cc8a24718d803b6771c839038ca"
+    },
+    {
+      "bytes": 2786,
+      "git_blob": "ad70261787d6395b7058c11208a5c1021cf186e0",
+      "git_mode": "100644",
+      "path": "docs/contest/adr/0075-cut-the-experiment-and-package-the-evidence-boundary.md",
+      "sha256": "f3738fd5baaf370cc03d99180eaaa020a79d87057190c31d068e0f2498e01d46"
+    },
+    {
+      "bytes": 5632,
+      "git_blob": "ba10f5952bac24c72b1f3be1d0cf56864070aa79",
+      "git_mode": "100644",
+      "path": "docs/contest/research/2026-08-26-counterpart-charter-source-refresh.md",
+      "sha256": "7789dbedd2d570ec8072d1b0996bd3aab1964adc2235c7b50d8a9b428e59ea26"
+    },
+    {
+      "bytes": 9242,
+      "git_blob": "465b8869ce1379a82cb062258ec6c0ea5ada0959",
+      "git_mode": "100644",
+      "path": "docs/contest/research/2026-08-26-us-charter-official-source-refresh.md",
+      "sha256": "9b8aeb7504ebad83741da35bc395c1648a823fdb0a5b34fecfb259e4325f2bef"
+    },
+    {
+      "bytes": 19835,
+      "git_blob": "f0db993c8a1e37c91fd5b051e13b19c2a49f3a2c",
+      "git_mode": "100644",
+      "path": "docs/contest/site/index.html",
+      "sha256": "54d8be32c2c05589742aa3a04dba66e3afbb9d8d05fae7bffde5bfa19d62c7e2"
+    },
+    {
+      "bytes": 1003,
+      "git_blob": "40996ab4b59de98eca76daa20c31d78cb6a796ff",
+      "git_mode": "100644",
+      "path": "docs/contest/site/og.svg",
+      "sha256": "04bf83ad36cec481f79f3c5f662e9208790f5f9b9d78c87d9bd984a0ed0ec55f"
+    },
+    {
+      "bytes": 10551,
+      "git_blob": "7ea6a86e25d0d702f3e5117ab7882fa70f01a67c",
+      "git_mode": "100644",
+      "path": "docs/contest/site/styles.css",
+      "sha256": "cff3e2922a604f6607be62346a857d9bb76aa4168eeb0b5fc20947294d1caf20"
+    },
+    {
+      "bytes": 16450,
+      "git_blob": "16c13bf6d5eab9b0d43c658f35ca483c06bfd822",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/00-us-first-minimum-design.md",
+      "sha256": "9f9ef63b6b922aaa7ebc50026deb18173433d36d903a74104f542d931fbad8c8"
+    },
+    {
+      "bytes": 22679,
+      "git_blob": "a8efe147f8300e956eb9f30070f23920f36683b0",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/02-world-setups-and-evaluation.md",
+      "sha256": "ab8e9b283051510f64575798f7f676b8cdcc35410e014794792e5a547da875b3"
+    },
+    {
+      "bytes": 15101,
+      "git_blob": "59f5741fe1fc869d602f70df1701636f0d9e7163",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/08-sources-and-evidence.md",
+      "sha256": "01564a6be22920728bedf860977abb5224d1d9e8150b54ba44e1e0cb12fe9f9e"
+    },
+    {
+      "bytes": 11367,
+      "git_blob": "69844097cfcf8d8edf51e2121458be424d00e7de",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/12-one-room-across-open-and-closed-worlds.md",
+      "sha256": "68c1ec863b48a68b0c7556a18dd96881c631de6000497944df0f8084c0ee85c3"
+    },
+    {
+      "bytes": 9833,
+      "git_blob": "6ef0be9823656fd042a11ff5807d2aebd18a506a",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/13-first-episode-default-profile.md",
+      "sha256": "a5881a2a6687a9c9ec845994a21f3c94b5b095e8a1e6b08c6c50a039b5d9dafe"
+    },
+    {
+      "bytes": 9062,
+      "git_blob": "af934665d359a08cd9f09ad194138b56a1402fba",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/14-first-date-machine-contract.md",
+      "sha256": "22daa05956c4cf7dad7797f33869b91fadc84fe8ab9a3640830ec8990cba898b"
+    },
+    {
+      "bytes": 8678,
+      "git_blob": "3f1898598ab97a15b3cd571a80c1fec876ca2050",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/15-us-charter-machine-contract.md",
+      "sha256": "bc5887df0137a483c305ebdcbce44488b157e25942ed406e7ecc828ee0c3909e"
+    },
+    {
+      "bytes": 7195,
+      "git_blob": "dc892b63a0f449887dc69cf62d95bc83efe01236",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/16-us-cycle-one-machine-contract.md",
+      "sha256": "08a87cfa37e3bb5dce5136a5bafbb12ae6d5374239ab35769c3e22684fe1c3f7"
+    },
+    {
+      "bytes": 8134,
+      "git_blob": "013e9e44a6b4a797281796bcf477eb81a3a89fb0",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/17-open-proposal-consequence-bridge.md",
+      "sha256": "37444dcf0a920c7647c722a5e7166140d0496e4880945556ba004c1e0d03aa5b"
+    },
+    {
+      "bytes": 7764,
+      "git_blob": "39f4676537805905c170bc3c581734bba12af278",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/18-two-cycle-us-tracer.md",
+      "sha256": "6e8355301cf836d004920722711dc021ec93d8eb0824f2633636824c0db824ff"
+    },
+    {
+      "bytes": 12258,
+      "git_blob": "9a5ce3d7c9fc5d167d0f614bd89e69fa451ccb5a",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/19-minimum-counterpart-rooms.md",
+      "sha256": "729a1c7f78ec9b083ceabd56c95a8439f740d5944808846999f51d5b06ba858f"
+    },
+    {
+      "bytes": 6038,
+      "git_blob": "74dfc16e7dac4f51ef391b8570bae8e7691b2a40",
+      "git_mode": "100644",
+      "path": "docs/contest/spec/20-model-bound-us-room-rehearsal.md",
+      "sha256": "fb1d707d7da0eea2afde5dc315cf194864b6c720a061476b5d8cce48d3654b41"
+    },
+    {
+      "bytes": 1344,
+      "git_blob": "ec834b94120169a169622d8bee53cb999cb34ebd",
+      "git_mode": "100644",
+      "path": "pyproject.toml",
+      "sha256": "64e2389b0f6d7a094726132a54b11376cd2afd5e85a2727bb1cd3cadf60b3911"
+    },
+    {
+      "bytes": 6064,
+      "git_blob": "34ee2f1597923a7f31bc561c8f77de83e5d07254",
+      "git_mode": "100644",
+      "path": "scripts/materialize_public_export.py",
+      "sha256": "1447ef76fc69ee2d7d4ef0fe3586261d65498b85a87f9ae1e485243a1cc861fd"
+    },
+    {
+      "bytes": 2258,
+      "git_blob": "2a285bde9411fbf25c328a79db167d5e9a2cc549",
+      "git_mode": "100644",
+      "path": "scripts/public_export_git.py",
+      "sha256": "b799462d79ad7c3431ac224e28bc57fa90ed0273683a2f921ba99528c25197c5"
+    },
+    {
+      "bytes": 897,
+      "git_blob": "456f5ff08ec884d8101bc4fd3c99b8492312bf6a",
+      "git_mode": "100644",
+      "path": "scripts/run_public_room_rehearsal.py",
+      "sha256": "a6e8df02ac16f1006a69421fd085edbd5734df0af3a4e1dcd2b6bae738db3bb7"
+    },
+    {
+      "bytes": 2068,
+      "git_blob": "e2ee797c02087f932e2051d847d021a5b1b9ceba",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_agents/llm_completion.py",
+      "sha256": "2416eb5540cee7ac3aee8256e097bf8bf8122986e82120f444bc41105d40b0bd"
+    },
+    {
+      "bytes": 2769,
+      "git_blob": "9f0546434c58106caba46ad02ee64519079147de",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_agents/llm_http_transport.py",
+      "sha256": "f177f7e8f349eba87bcafee2d3eef81084c66d30de3fcabe2db313c299f990ef"
+    },
+    {
+      "bytes": 3637,
+      "git_blob": "01f5fd77a7c0759d85b5f60dd4a6f25ec919a0d4",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_agents/llm_response.py",
+      "sha256": "8d3c0455f53aca13a89622180d73203676daed1327272e50060fa567e6698628"
+    },
+    {
+      "bytes": 3833,
+      "git_blob": "63d9e3785fad076dea4d431be3044c6a1ba0af28",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_agents/llm_types.py",
+      "sha256": "2825133fe4419cad5ae063a91bf316d5ce18fed50cf0ecae66d46957d96fdd81"
+    },
+    {
+      "bytes": 4378,
+      "git_blob": "579c05d789a47c772436e521b56831e3870abe62",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_concordia/native_entity.py",
+      "sha256": "eec8af34d021679b4a4d283e4218ace0296b20dbfe23411a3053f85907ad2741"
+    },
+    {
+      "bytes": 1265,
+      "git_blob": "b718461e11bde22a5d5763d01b4b570ac71b89f2",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_concordia/native_helpers.py",
+      "sha256": "935e870951db01b688d9078a0de71998a562c2b9f972c669bf19d29af35b844d"
+    },
+    {
+      "bytes": 4639,
+      "git_blob": "8a553dc11d5f8a3988d6ca33f8647597955fb9cf",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_concordia/native_http_model.py",
+      "sha256": "4d336f81c7cc5e2fbd20073f4814ce170b9384f0c9fed8c5346e600eae5a7426"
+    },
+    {
+      "bytes": 482,
+      "git_blob": "ac2fccdaf0fda0c4c1b3f5d42b9016df56ccaaf1",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_concordia/native_prompt_guard.py",
+      "sha256": "b3f478245c299a3851786eb20405ebb4fe1a2a190a658567520a349f015e5759"
+    },
+    {
+      "bytes": 680,
+      "git_blob": "fcdfe2621097ddc61e14d79edc0e5907a5b4bd00",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_concordia/provider_metadata.py",
+      "sha256": "b3ccfd9175e6fc2090c31c628d9f34443e5dda33f72e5e95315fd07724157f5c"
+    },
+    {
+      "bytes": 527,
+      "git_blob": "0740f556dc115d705de319e15b2bfd1a8806d85e",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_concordia/response.py",
+      "sha256": "79af78cd31fd1cd4d08074e6551c018fe78438b06a45040d74dd200ed3314c9e"
+    },
+    {
+      "bytes": 1325,
+      "git_blob": "72df7419194e374896a7f0f58e0b7eaf91cb82c0",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_concordia/types.py",
+      "sha256": "94c138ff0ad0bb419c693ebdad31e0261f519d76a04d190c606447589fb0a7f0"
+    },
+    {
+      "bytes": 649,
+      "git_blob": "cca7d51612075c5a89d32fdc988de02940bcfda1",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/__init__.py",
+      "sha256": "5bd1d1187ee5390d7df297dac538c3ff8569e95f853922df00e59ac8a859548c"
+    },
+    {
+      "bytes": 4576,
+      "git_blob": "c69356bfa4fdabc524a81bf6d19e1315212280ad",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/core_validation.py",
+      "sha256": "9e4138dbc67d14a7c1e4c259af65df9cd12da6205aa6be7ab0c4b752e6ee086b"
+    },
+    {
+      "bytes": 1180,
+      "git_blob": "98f272d5206a94176ee593d42a8f41c0b22ecf89",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/identity.py",
+      "sha256": "67d10c3dab55e836dfd462cb6912c98bc53bc4a59fb4728d9f90fb8f42e38c72"
+    },
+    {
+      "bytes": 1763,
+      "git_blob": "acf98e10a97ac2707ad381c8296b755e724a96eb",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/models.py",
+      "sha256": "d7008a0c240574b588b9c2d9580544c171b45f5d524a5e08d25e1b37ff0fce12"
+    },
+    {
+      "bytes": 2603,
+      "git_blob": "212afb1f826343c74b9d61a9c159026e8dd7835d",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/operations.py",
+      "sha256": "2e35486fa81ea29e4b22864e8c910abb3c76265584d411beaf78ae8f7ca9a17d"
+    },
+    {
+      "bytes": 3923,
+      "git_blob": "b330cd4d544e7b3415b1ce6f57e4c4dff8ccd429",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/patch_validation.py",
+      "sha256": "599f44ffbc15dc7a2cc22660d8aff41c4ccb135a745e7045052d27fab523f5cd"
+    },
+    {
+      "bytes": 1139,
+      "git_blob": "4115f4ba80f721873d9f69efab56a6778d7f9ce5",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/patching.py",
+      "sha256": "c0a828de195336d470fa544d8ba2d2ba5b52a321c6737f48b24d0e11ac1aac0a"
+    },
+    {
+      "bytes": 2255,
+      "git_blob": "5977498d44b9abb1490e51572dacc241d66575e2",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/profile.py",
+      "sha256": "11ad3f5d850045e02ed1ed8633ee47ab05574a5ef360c28d4f2f15671f99a2db"
+    },
+    {
+      "bytes": 6080,
+      "git_blob": "bcfd6f44c38d7e82fc136fdf5ccc5776ec8b2baf",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/profile_metadata_validation.py",
+      "sha256": "52a944b9070a29853deea7afbd682f6146d10c647bb0269874731e599a366417"
+    },
+    {
+      "bytes": 2401,
+      "git_blob": "280764c8455416ae64f2da2a5e9723a6ac2af365",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/profile_patch_template_validation.py",
+      "sha256": "c3f54d58fcc15f388a825710f6b67ee5ab7da03b1fee982a70d34d7037268789"
+    },
+    {
+      "bytes": 5670,
+      "git_blob": "d508aeb803fc7e714b7f9f1f02fc3fc461b5ed69",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/profile_template_validation.py",
+      "sha256": "b2dc0c99beaa97275b57a0532ec1c448d8152915cda7587d6cd7305cc312a0f8"
+    },
+    {
+      "bytes": 4401,
+      "git_blob": "f45cb68ec1dbdea4c79da81ec178f576d2271e4a",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/profile_validation.py",
+      "sha256": "30d8076028b37e341238b59f22d270d35a717dd53d3036333d13c3dd806a1386"
+    },
+    {
+      "bytes": 3014,
+      "git_blob": "ab44c3bd845cc212ef32e6237d28febefe3cc3c6",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/projections.py",
+      "sha256": "42b0c6da3c99e1732141c257a555907ae935d888ee06d8e72961c8bc93038613"
+    },
+    {
+      "bytes": 1220,
+      "git_blob": "87ed635e5ca9d24efdfb22db07ccc46059cb7fc5",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/replay.py",
+      "sha256": "e1c3cb582b19d9eb1c3b7ea9a73c58e020fe77655c6e8d641509d929735ec144"
+    },
+    {
+      "bytes": 5165,
+      "git_blob": "0022dbbe821bf30779abcf1bf28992e528dac22e",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/tracer.py",
+      "sha256": "1a665c0247750f3c542ead4c33f0ec55c1a11acf330f1c7270bb473794a95044"
+    },
+    {
+      "bytes": 1995,
+      "git_blob": "870c2ad74b949783458cdea0e80000f45d8e632b",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/tracer_fixtures.py",
+      "sha256": "729b672086db693c73b285460db4977278b6c8ba2cc7bb1e3f96d2d3e62e2d82"
+    },
+    {
+      "bytes": 2972,
+      "git_blob": "bf9a68a450954ee1aa69960fad7dff15c9b48bbf",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/tracer_operation_rejections.py",
+      "sha256": "c1e42dee064d5a322f93eff81b03a086d47af81974f832e458a4c633884b7438"
+    },
+    {
+      "bytes": 3755,
+      "git_blob": "737600be53db9ebb8ca89f6e6e63570fa47bf7fd",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/tracer_rejections.py",
+      "sha256": "389b1202c89f7843a0ee0974a5841ce6d79f5ebbbf7961c822016d1d6414b4b7"
+    },
+    {
+      "bytes": 4259,
+      "git_blob": "e9ad936989f9c43383d903f8ea39a1164a770ecc",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/transition.py",
+      "sha256": "9874fb2078456329a38f2dd0d4a5d5bed1b287d3fd647587ddf6332cec0311c0"
+    },
+    {
+      "bytes": 4293,
+      "git_blob": "fafaf983b8a836e50786c3629f511f2615e33920",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/date_world/transition_validation.py",
+      "sha256": "2b1e9b84d60d1cf40b0aadbf9714d9676532bc0b3b5c17b70ef320c516b94b7b"
+    },
+    {
+      "bytes": 3885,
+      "git_blob": "55e3595ac7fca53106423d921035628c05cb81ac",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/public_scan.py",
+      "sha256": "a7aadad6ccddf80c90966f4853535151ce1e3d0246e3ab184e7560ebeb608572"
+    },
+    {
+      "bytes": 1743,
+      "git_blob": "f73511ca5c6cc5cacdabc3b84754020969ac6bd0",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter.py",
+      "sha256": "63099d839965e93bba9aa73af7124ac677d129dfe761986f2005c977533882d9"
+    },
+    {
+      "bytes": 3114,
+      "git_blob": "b73f933208a95fcb568f50905fbe80b3487d8872",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_consistency_validation.py",
+      "sha256": "caea2462e768c3f8b70bcca9eaa480870872afb29bf83654a788433f1efe11e6"
+    },
+    {
+      "bytes": 675,
+      "git_blob": "638e49cba3f4d9f7078f3f8e6eb19effc96e1ba3",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_dependency_validation.py",
+      "sha256": "dbc35d9f3d137184125819fc22f8ccedff07c7caf1d2e137150b82930957ae63"
+    },
+    {
+      "bytes": 1611,
+      "git_blob": "12a6d40f8f3e613701346b62d75d885ac2fbbc50",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_graph_reference_validation.py",
+      "sha256": "f37f8e6f969d9ece494bd0fc0bdfbadb9a035f7ace2abaf674bd0f8b74ce4f8d"
+    },
+    {
+      "bytes": 4917,
+      "git_blob": "d0e9e01eff2f70676b761a2fa2f0daf9e4a4a59b",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_graph_validation.py",
+      "sha256": "9389362605b4f3756995575a6e9331e3686446c9312e0914cc33089a40656e37"
+    },
+    {
+      "bytes": 4423,
+      "git_blob": "ae0ff689c39eb5cd9736a9d559480088731b67ee",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_reference_validation.py",
+      "sha256": "979de38bbfa73d5ef6b463575784e5142fb5973b1bc8038630529fda43170c89"
+    },
+    {
+      "bytes": 3273,
+      "git_blob": "d12632fdec0067a639d2a92b0030afd306c4909d",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_registry_validation.py",
+      "sha256": "742b69a10dee2b241c6ee5e0d3e384c84dc690c191d8bac20886cd833ae188f6"
+    },
+    {
+      "bytes": 3080,
+      "git_blob": "ba57a86407228e444a374c910a7c38d6dd9e75ce",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_route_reference_validation.py",
+      "sha256": "681c1e37efe4b3429229df5f6921213f560e8d33d6beee9fcbc1b0c031a97f7b"
+    },
+    {
+      "bytes": 5184,
+      "git_blob": "3bded7dfca635a512393702f05dc1e2e4e00ae68",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_route_validation.py",
+      "sha256": "146afede46afb9d8b3e81e7f8f21af4b5c44cb1f207fd1d97a5ba134a5565caa"
+    },
+    {
+      "bytes": 3455,
+      "git_blob": "9fe1922cd405c9d2ef06a0304c1ede676560f0da",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/charter_validation.py",
+      "sha256": "151990160d118534d45a3144d7db44000bef745e6afc1a06fc7cd2ed3366ce8d"
+    },
+    {
+      "bytes": 2249,
+      "git_blob": "10435fb026b490383dcc70f71bf45119259431c4",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/compiled_models.py",
+      "sha256": "840a90429445d917adda07924faefc0e7f310c69214abfb65b28ad1f45c2974c"
+    },
+    {
+      "bytes": 4509,
+      "git_blob": "3e09a8bb0e2db8580402aeaaa1c07c50d125b404",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/compiler.py",
+      "sha256": "d4434e341aed293d0ab6fb20f08571c291a80bfeb2da3320cefed3be9901815a"
+    },
+    {
+      "bytes": 4458,
+      "git_blob": "9624f38930cb2da101dc5c644e787f9b0860a186",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_decision.py",
+      "sha256": "8534bbdc67125fc052631679e694ec28b6c38740f993227aca51d8cc8781bc50"
+    },
+    {
+      "bytes": 4412,
+      "git_blob": "cd064afd444757c09f31925549a7cd08ca2b6c16",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_deliveries.py",
+      "sha256": "2516233c0420abf6a9a24c79222c61d11153af05fbd5ab9a96252568d0d39eea"
+    },
+    {
+      "bytes": 1361,
+      "git_blob": "6d22f98f3fdb73e0aad42efe47c6f6b39e781fb1",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_delivery_records.py",
+      "sha256": "87ea3f7834eb63d7cab495d21c91fde14be8c5295b8aa8ebbba9c47e1b41a64b"
+    },
+    {
+      "bytes": 2891,
+      "git_blob": "df68f98519c09b8f5a088198f6a55559e859b75a",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_execution.py",
+      "sha256": "78872e213087daf77c77a3e7dfd33c183c343942d6b45aa58f568c5505aff010"
+    },
+    {
+      "bytes": 3017,
+      "git_blob": "744bef82c402227162cd6de733069cb853f9cba6",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_fixture.py",
+      "sha256": "4e976c36354bd103104a1b99a429b6d86ae89586803ff55cd3f20a05f997331c"
+    },
+    {
+      "bytes": 4038,
+      "git_blob": "0beda86504ba9f47a7c1d4e3cbf5cc747dab43c0",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_fixture_references.py",
+      "sha256": "284d3cfc9d645b3beb15a328c14f37ede5e48ce07f4834faa719bdf8049e4eab"
+    },
+    {
+      "bytes": 4715,
+      "git_blob": "b60962e1040306193595a7ceccab93330ba4f185",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_fixture_validation.py",
+      "sha256": "e5192f8e2e11d6d626488936ca07d6ef11759f4c9df48347f4caacc953148b55"
+    },
+    {
+      "bytes": 2086,
+      "git_blob": "c6534b9cf63b6e72bbe8dde5c931556876fbc779",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_graph.py",
+      "sha256": "59b4e724f0ca3290423ffef3874a1a672111f09e91841244ab6e57b9818d289d"
+    },
+    {
+      "bytes": 3344,
+      "git_blob": "9f1933a6004f622f1497918d5569057e3775d63a",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_policy.py",
+      "sha256": "d968129a6dc42e9073b1aa054e13c46dba0a4e1a7d076bd8cf70df1fbcaf5860"
+    },
+    {
+      "bytes": 2106,
+      "git_blob": "cf816ec22c7da25b5c376a1925e7f838ad562a73",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_products.py",
+      "sha256": "62b64f5ecce1a8cbe50a4c6082f9afe347ae9c2b3fe3c6dfeb13cbe5782ec6ce"
+    },
+    {
+      "bytes": 497,
+      "git_blob": "f267f5e3ea07b86d8b0e4c6c595b499915335b55",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_replay.py",
+      "sha256": "c59b40e0a100913a18c1da249d674fc87bf18171e549f4deae188ca35a11642f"
+    },
+    {
+      "bytes": 637,
+      "git_blob": "1957c2b65d13255a2f9af1279686ca16038e9184",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_schedule.py",
+      "sha256": "ab438b97fa107391d8ba7fba759addf002fb34636f5707d0a4695fdccd0b7618"
+    },
+    {
+      "bytes": 3584,
+      "git_blob": "7f33ffb0dde5a868c095581ad72e822f06a3f4c7",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/cycle_tracer.py",
+      "sha256": "0ef33dfc1d0a90f3ce457fe158bdc26896e158fdaa1c6dbfac6f7142409fea20"
+    },
+    {
+      "bytes": 1433,
+      "git_blob": "c23f3f6783781cf2cf64e0d5c59ec20a5423a3b5",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_adjudication.py",
+      "sha256": "0a146fdb887a65d103eb7ca300eb3780a9898af5874e12ccd78560bd0d779642"
+    },
+    {
+      "bytes": 1847,
+      "git_blob": "7cf19e885210d8bd425d13fec08153082f15b7c4",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_artifact_validation.py",
+      "sha256": "eba09bdd5e6d11f3d6cebc8661dfecc552b6461b21219cdf39e2dd574c1c9eec"
+    },
+    {
+      "bytes": 427,
+      "git_blob": "0fe532bbff5a17ba4ed8104796223d08e4244ade",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_completion.py",
+      "sha256": "cade8a12595d5b1d09c6a923464d44262ee4e6c461a9175e7ebf156dfa101685"
+    },
+    {
+      "bytes": 4738,
+      "git_blob": "e660d40619cca63abea863b1fbe03d29cd847608",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_execution.py",
+      "sha256": "cbd981b1a564afbd56f7293b553f7d3c3eaa8c0eed0e73dd31d09cdb15ba9aa6"
+    },
+    {
+      "bytes": 4167,
+      "git_blob": "21ef376bfd2b2657fb054ff66cb67a3d33f982e5",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_fixture.py",
+      "sha256": "6768a3f4730d7052ad8954d09245ce05eb8b8b7f0888a437cd9831461e74b7e5"
+    },
+    {
+      "bytes": 5368,
+      "git_blob": "bedb21944247886e588d0aae24eef523e6341694",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_fixture_links.py",
+      "sha256": "10cd6ffe11e87f8e3cd192164f6732bf5a1d4a81bdb7fb906b971a8c326f23d8"
+    },
+    {
+      "bytes": 4122,
+      "git_blob": "3decc037eda300dfdcde078c2f65e4d13031449a",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_fixture_validation.py",
+      "sha256": "c2634572bb06bb103ccfaab7ad7c61f59d850f266964a5af0009c79c58c7578f"
+    },
+    {
+      "bytes": 2170,
+      "git_blob": "8ea139b0ac53b2a7c5363598787c0124c9646e12",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_identity.py",
+      "sha256": "7a974d208494120da946445196601910b80bfe8def6bd735ab0eab918081022a"
+    },
+    {
+      "bytes": 825,
+      "git_blob": "adc4ec42b15968bef1b5792b193efbdcbb6959c1",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_memory.py",
+      "sha256": "fe27b4864ea82e3d77e60db6efd4c2562ab9bba158044be7383119ab72554c39"
+    },
+    {
+      "bytes": 1558,
+      "git_blob": "0c03183000a6548d30a10db94c273dd4f8ad3f8d",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_models.py",
+      "sha256": "d77af16756a07b76713958594d2379b578903f12b8e473de1b4c80f12768e854"
+    },
+    {
+      "bytes": 2688,
+      "git_blob": "964e34fd514233f5dc765972d54ed6100cb4f2d7",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_receipt.py",
+      "sha256": "208ee71495953aca156531b184ffd71c577d7500d5f5a80a49a3ff380db9523f"
+    },
+    {
+      "bytes": 496,
+      "git_blob": "078f5ac3ea0365c05c1a0e8ab136186bc4826b59",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_replay.py",
+      "sha256": "d4f7efaa12894ce53df3c90c430e46854697a6c28b55775b2df9048819e95d6a"
+    },
+    {
+      "bytes": 2847,
+      "git_blob": "68478c15b9ab4ef9b3eb593e05024a2e76ea26a4",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_tracer.py",
+      "sha256": "59b1f6daf13127b4aca018f93bfe07b71c1afaa9eac851a64a9b28dfb478833a"
+    },
+    {
+      "bytes": 2872,
+      "git_blob": "4c84c0cf0c243e14ab07ae5a04f174ffa575ab2f",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_value_validation.py",
+      "sha256": "0171ba84a0f4bd8fd41d510b04624e92030dbb9dc24249532992bedb096f0d71"
+    },
+    {
+      "bytes": 2772,
+      "git_blob": "3956ca276841d26faa2d34997e934152188efc7d",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/episode_world.py",
+      "sha256": "db6eb24fb9036d1c8cd11498eae7e74225da5a3ad1b670e4b4438ead6e5fee8d"
+    },
+    {
+      "bytes": 5307,
+      "git_blob": "a48fbc997141cb0b8da1f5376d5ecd50e855503f",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/free_output_adapter.py",
+      "sha256": "b058b8c564ed8b189f1cc53fefe67ede216192ff9175107d3e31b8435f164fca"
+    },
+    {
+      "bytes": 1877,
+      "git_blob": "0419fcb3ee8aa8b04c4865a3fc55022650db5259",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/free_output_models.py",
+      "sha256": "2091253238ba9ee9384bba9634f878185e523aa8416652e669797ebbe298def2"
+    },
+    {
+      "bytes": 1953,
+      "git_blob": "e13b310a3f41949a579b4dfb937ffe132116e80f",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/free_output_scene.py",
+      "sha256": "aef149d4a5f0076f2a44a7be7135f58d0fea3ec493135452df52a85e2148a4d1"
+    },
+    {
+      "bytes": 2450,
+      "git_blob": "8abdcd4fe45d54dd32fe07d6dcf5f9a3af3d84eb",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/free_output_trace.py",
+      "sha256": "fc49d61356852e4e611269ad11dddcb7f81a9e0b1292ff12dcea5196b5289e23"
+    },
+    {
+      "bytes": 868,
+      "git_blob": "a188764c09afd0df463d5d60a0c2f05606cb2e25",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/free_output_validation.py",
+      "sha256": "9566a83bcd4b63bd2fc794f89785e536d0c375c0751ad7944ff9603445d37ece"
+    },
+    {
+      "bytes": 2588,
+      "git_blob": "1c368fe4569692af60cbaa92dd818996598b2b8b",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_clarification_validation.py",
+      "sha256": "1b4b8ed90ef0fa9198fface8b74650d9f8a51513d10c1013f5f7f4760f26e0ee"
+    },
+    {
+      "bytes": 4525,
+      "git_blob": "b2b715ff7f1a5878ad904be4efccef0f1bb8ca1a",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_consequence.py",
+      "sha256": "c4404e53a597e64f845d5576c73d2791e3e3fe098a1672ca31bf3a91ab39d964"
+    },
+    {
+      "bytes": 2236,
+      "git_blob": "22933628c1fbca7f8782302fbfcd7b3a815be09c",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_consequence_references.py",
+      "sha256": "5e8744e02d909fe873be7b6c9dfe509d1cff5ec913e558cb94943524a6977c07"
+    },
+    {
+      "bytes": 2401,
+      "git_blob": "18e7e7d5198121ce6d17373eb70e3c9f7fcaff46",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_consequence_validation.py",
+      "sha256": "81d6e047208670294a09f758d997b27b9fe7f75dd2d0b651f810d60892b7165f"
+    },
+    {
+      "bytes": 1141,
+      "git_blob": "b7f5451803a5da195b91f6209cb3edd5a9f3ccba",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_effect_results.py",
+      "sha256": "6aaa7793fbab706d7bd27bbb2371d0ee4e1aeec6f695a653c35e2fd185529a06"
+    },
+    {
+      "bytes": 4541,
+      "git_blob": "66267ed619e9288dbb3f85571ce447ea1edecd8f",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_effects.py",
+      "sha256": "b1879b0367fd0a0cc196ecfb18ac719ad8b186920d477b7ddc65a247fdca44e7"
+    },
+    {
+      "bytes": 3089,
+      "git_blob": "3329dd7a6f116230f6c05d0d76a13d259498484b",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_execution.py",
+      "sha256": "cb1de444a7aa46431153dd7121643d0f2280c6063f571f991a2cd7faf933958b"
+    },
+    {
+      "bytes": 2845,
+      "git_blob": "db89e610e975f475cea6fbabca533cbd426353d1",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_fixture.py",
+      "sha256": "5e2bbcd5749bd3d95558511b70afdbb6e3dc94f8a1bcbd532b003481df286b46"
+    },
+    {
+      "bytes": 5655,
+      "git_blob": "5349c890650f54196a5ff50980c8233567ebeed1",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_fixture_references.py",
+      "sha256": "4464cecbebadbd92011cc01b6dd4b16d9db81e217af1afe19ba6afb1d1510c24"
+    },
+    {
+      "bytes": 4717,
+      "git_blob": "e95829ebc7c422481b720f2eb018a24cf8816d5f",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_fixture_shape.py",
+      "sha256": "89534b5652c14c9a0ff21b82979f121ea02307bf9ed6986cbf27d829746e86a1"
+    },
+    {
+      "bytes": 2852,
+      "git_blob": "b84c1c85fe94b2a654982098acb564b54fa9f6bf",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_fixture_validation.py",
+      "sha256": "7fd8708698b1ea634cc51ccfd6eae9fe513a8f307d062cc4fe7b70e90e9907af"
+    },
+    {
+      "bytes": 918,
+      "git_blob": "3a9f80436a0cbe43d027fa6ab0a220b79d437fd5",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_models.py",
+      "sha256": "87b5f01ce32117800820a58bb34865ac3d9c2f659f6966b9942c4f7cf0aaa9b7"
+    },
+    {
+      "bytes": 762,
+      "git_blob": "d54517c023cdd1c70b7ccd239a97820fb333a0a4",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_replay.py",
+      "sha256": "fa42427e5537ebf8c4d64dc424bbc72abb7df7923498563990d6124a9c07ad9f"
+    },
+    {
+      "bytes": 4387,
+      "git_blob": "fc6c909bf6d94664d8ce3d7832adb8f22b996153",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_resolution.py",
+      "sha256": "d2324e0f940b47fe8ef5899c02460bc414edb05d2fe88954f455fac257e7f339"
+    },
+    {
+      "bytes": 2323,
+      "git_blob": "ada6af20fb29ac942216fdbecf306fa7c2d9b8c4",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_schema.py",
+      "sha256": "9dd919edb72c27142a23de3e5f83978792480171564480d388f4be7daa91b736"
+    },
+    {
+      "bytes": 3075,
+      "git_blob": "57e0a8788effeb89abb53154f7d1aaf190f91d42",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_tracer.py",
+      "sha256": "7ac65062246ffde4d6504a61bad1c7796f3b5ac6b85b1b93aacf0a1c03f200da"
+    },
+    {
+      "bytes": 1102,
+      "git_blob": "4d882439685f6da04b33c56b3961be3660de5a0e",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/proposal_bridge_validation_helpers.py",
+      "sha256": "1aec44f95bf8972a90bcf200befa7f13927d34ff0975a53ea43b48f100667102"
+    },
+    {
+      "bytes": 4693,
+      "git_blob": "48d285023dc577e92605b0ce7eedf29ed19f907a",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal.py",
+      "sha256": "bc53aec03daf14845db411440f345c57d26ccb5b851b9afc514f23f72f30fc4f"
+    },
+    {
+      "bytes": 3049,
+      "git_blob": "0629cec0d1d5bfd1e4e99045a3976acb5ebec243",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_calls.py",
+      "sha256": "43082f2788e9503b7500169f9378cc7205cfcc53522b709edca9493c213b65c1"
+    },
+    {
+      "bytes": 3369,
+      "git_blob": "cb613ebc5d66962bffb707acfb30f7d1443c9416",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_confirmations.py",
+      "sha256": "0aa09722f43533f167c830c9cf4b164146f6b63c981cbedccd74d83566e2a826"
+    },
+    {
+      "bytes": 1706,
+      "git_blob": "9a1e2e7b12f7a97a3ea607937ad97173a27d1880",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_context.py",
+      "sha256": "40c236a2758c36b6d9920e0c4e856ba14900d96ec75672713926dd55d7051e8b"
+    },
+    {
+      "bytes": 4855,
+      "git_blob": "35ac70a97711bdb53ba0823bb4c44e34f19071d2",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_cycle.py",
+      "sha256": "2351543a3b769f2745c133de8664f47e2d5bb9ab1a5c0b1bb3f631df901d43b5"
+    },
+    {
+      "bytes": 3777,
+      "git_blob": "2ddefd485012a5374402a11dec1d4d71deb23fc3",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_group.py",
+      "sha256": "0238cfb04c28524cfa9c85b0820b44a31fc0e128ecf1f0783b63d994ca59e682"
+    },
+    {
+      "bytes": 633,
+      "git_blob": "04f7a5d938ea67488999c7b5ddd5fd88c9ce5b78",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_ids.py",
+      "sha256": "29adbf7e0a94bc8405f807c7ff3beab443f1bafcf8f94b4f7a344b8e68a7073c"
+    },
+    {
+      "bytes": 1177,
+      "git_blob": "5c38b0c1824dd9a043171b4c7865f7c61457a5bd",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_inputs.py",
+      "sha256": "b7459cb6428f91fdd57fb8d045d0d1c165bea70155ab26137b981cf6c4dfb9a5"
+    },
+    {
+      "bytes": 1696,
+      "git_blob": "bdd3432988720537667b7ff84fd585930c8bebcc",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_materialization.py",
+      "sha256": "9394bfa7300b99a91e3d898c62f77d636e6819d51e4938fe94b77eb5b5a32c28"
+    },
+    {
+      "bytes": 1129,
+      "git_blob": "ac7055a87bc421db9fe16e6fbb34559d8a4ce56c",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_models.py",
+      "sha256": "ddce82e3a54e1b2db6d3dfe10619206d1c3611ec32df4daceae4aa59f246ac11"
+    },
+    {
+      "bytes": 3045,
+      "git_blob": "c173d752f78d6e7b9139d77878b2b9b305d778db",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_output_schemas.py",
+      "sha256": "7c2b222d37049aaf2bdd2a378186a01e73468fd5481adafc79bb029082d06bd4"
+    },
+    {
+      "bytes": 584,
+      "git_blob": "e4e2ac58ef8fdfcc0574ef43da93105a42e49526",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_replay.py",
+      "sha256": "d4761320186b01a63891c3b7f81c7b585dbb6c11d06b39a9e8287ad2a2cbffff"
+    },
+    {
+      "bytes": 2274,
+      "git_blob": "131c3b09b9efb2c02ba1adcaa7eeb2eae02ccbf8",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_runtime.py",
+      "sha256": "5fb428c8fc024e4fa65b08c96040d5b259cb988b8ff0969622684625bfcb73e4"
+    },
+    {
+      "bytes": 4204,
+      "git_blob": "f0d54c294241cb9b8565bb4db3a1cd21a12343df",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_scripts.py",
+      "sha256": "d1332249071f2312a4a46d5ed3df63e8f025ee7e427996d7eb3bcb5ee54e58a6"
+    },
+    {
+      "bytes": 5059,
+      "git_blob": "345c4e396dfa067e7c325dbd1a2860d5b1173698",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_tracer.py",
+      "sha256": "b4b4ff986adebd36fd15fd9d31280263601db73318dcbd15e8c72660e5f246cd"
+    },
+    {
+      "bytes": 4376,
+      "git_blob": "903cd33867fb0f56e35915c5502d53c14dcac63c",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_validation.py",
+      "sha256": "388bf125df963a5481c914ee4b1e27829c6ae50f7c85abeb52cb8813082559ab"
+    },
+    {
+      "bytes": 1497,
+      "git_blob": "547c47d0bb5c00fe0d62c1f896ba175e3b6c06ab",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/scripted_rehearsal_wave.py",
+      "sha256": "363ed3215a8b998a81991780f61d32b0061629aef195660aa27bd4fa5243c6c8"
+    },
+    {
+      "bytes": 3373,
+      "git_blob": "b4aa179dbdff605dbf1832466d5336ef75288384",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/source_reference_validation.py",
+      "sha256": "b26de7e882760aa81fd4326e55b270f5cccab54b846ef2383b055ae0f3cba501"
+    },
+    {
+      "bytes": 1637,
+      "git_blob": "3f80445f11577c097fa8cc565a742cac49d1295c",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/source_register.py",
+      "sha256": "6bef0ec36bc3546c098dd248164e7ee498a99558b75378e8ba3a0d7b1b8263b5"
+    },
+    {
+      "bytes": 4823,
+      "git_blob": "8de7ff0aadbc1dcefa61ba4f504434fa306cf050",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/source_validation.py",
+      "sha256": "8349b56facd140ac16fc5f1ff7a74757b9c2c614fac34391ea07eae8eae7badc"
+    },
+    {
+      "bytes": 2200,
+      "git_blob": "3c45562d75a3e3091fcb4230269be10bb51dee41",
+      "git_mode": "100644",
+      "path": "src/nuclear_war_contest/situation_room/validation.py",
+      "sha256": "9d18a7df9b573f5f9fd6f16e87ffbecd75293b75c7803e3e282e6fb463ac4611"
+    },
+    {
+      "bytes": 255697,
+      "git_blob": "b5e4194699cb73a5a1abc3c9f76da6da522f1941",
+      "git_mode": "100644",
+      "path": "uv.lock",
+      "sha256": "9632d641cb2ed239458b1b60cfd4cd65b8f034630a28ee3dd51060698d5b73e4"
+    }
+  ],
+  "manifest_sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0",
+  "schema_version": "contest-public-export-receipt.v1",
+  "source_revision": "9274cbcd6881b8ee2c3ceb8adf0e892f39b53a71",
+  "source_tree": "71cfd824ebc527e9ebafc5b3b011fe26d3a9dc60"
+}

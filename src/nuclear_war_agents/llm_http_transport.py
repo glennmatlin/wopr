@@ -7,6 +7,7 @@ import urllib.error
 import urllib.request
 from collections.abc import Callable
 from dataclasses import dataclass
+from typing import Any
 
 
 class LLMHttpError(RuntimeError):
@@ -53,7 +54,7 @@ def send_http(
 ) -> HTTPResponse:
     request = urllib.request.Request(url, data=body, headers=headers, method="POST")
     try:
-        with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
+        with _open_request(request, timeout_seconds) as response:
             return HTTPResponse(
                 int(response.status),
                 response.read().decode("utf-8"),
@@ -66,6 +67,11 @@ def send_http(
         # must take the same recoverable path instead of escaping as a raw
         # traceback through preflight and decision agents.
         raise LLMHttpError(f"LLM HTTP request failed: {exc}") from exc
+
+
+def _open_request(request: urllib.request.Request, timeout_seconds: int) -> Any:
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    return opener.open(request, timeout=timeout_seconds)
 
 
 __all__ = [

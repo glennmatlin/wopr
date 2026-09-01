@@ -27,13 +27,23 @@ NATIVE_CONTEXT_COMPONENTS = (
 )
 
 
-def _entity(identity: Mapping[str, str], model: Any) -> Any:
+def _entity(
+    identity: Mapping[str, str],
+    model: Any,
+    *,
+    observation_history_length: int = _OBSERVATION_HISTORY_LENGTH,
+) -> Any:
     agent_module = importlib.import_module("concordia.agents.entity_agent_with_logging")
     act_module = importlib.import_module(
         "concordia.components.agent.concat_act_component"
     )
     agent_name = identity.get("name", "Concordia agent")
-    context_components = _context_components(agent_name)
+    if observation_history_length == _OBSERVATION_HISTORY_LENGTH:
+        context_components = _context_components(agent_name)
+    else:
+        context_components = _context_components(
+            agent_name, observation_history_length=observation_history_length
+        )
     act_component = act_module.ConcatActComponent(
         model=model,
         component_order=list(context_components.keys()),
@@ -47,7 +57,11 @@ def _entity(identity: Mapping[str, str], model: Any) -> Any:
     )
 
 
-def _context_components(agent_name: str) -> dict[str, Any]:
+def _context_components(
+    agent_name: str,
+    *,
+    observation_history_length: int = _OBSERVATION_HISTORY_LENGTH,
+) -> dict[str, Any]:
     """Concordia 2.4 prefab-style context pipeline for one WOPR seat.
 
     ObservationToMemory writes each observed scene into the memory component
@@ -72,7 +86,7 @@ def _context_components(agent_name: str) -> dict[str, Any]:
         ),
         observation_module.DEFAULT_OBSERVATION_COMPONENT_KEY: (
             observation_module.LastNObservations(
-                history_length=_OBSERVATION_HISTORY_LENGTH
+                history_length=observation_history_length
             )
         ),
         memory_module.DEFAULT_MEMORY_COMPONENT_KEY: memory_module.ListMemory(
@@ -98,3 +112,8 @@ def _no_language_model_module() -> Any:
 def _choice_action_spec(**kwargs: Any) -> Any:
     module = importlib.import_module("concordia.typing.entity")
     return module.choice_action_spec(**kwargs)
+
+
+def _free_action_spec(**kwargs: Any) -> Any:
+    module = importlib.import_module("concordia.typing.entity")
+    return module.free_action_spec(**kwargs)

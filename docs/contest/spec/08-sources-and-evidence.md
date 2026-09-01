@@ -41,7 +41,7 @@ The complete DATE method register also retains:
 
 `SR-EVID-010` DATE supplies exercise vocabulary, PMESII-PT conditions, fictional actor context, forces, relationships, and some published institutional facts. It does not supply a complete Crisis Setup, Road to War, STARTEX, MSEL, dissemination plan, Open Action Proposal schema, creative adjudication contract, consequence engine, or machine-operated Room procedure.
 
-`SR-EVID-011` Before public release, each used DATE source MUST receive a durable source card with URL, title, retrieval date, available version or last-modified metadata, relevant fact excerpts or faithful paraphrases, and permitted quotation, adaptation, and redistribution treatment. That rights review is OPEN.
+`SR-EVID-011` [RESOLVED 2026-09-01] Before public release, each used DATE source MUST receive a durable source card with URL, title, retrieval date, available version or last-modified metadata, relevant fact excerpts or faithful paraphrases, and permitted quotation, adaptation, and redistribution treatment. The three machine source registers provide the cards and claim paraphrases; the [source-rights register](../SOURCE_RIGHTS_REGISTER.md) records the publication treatment for every card and supplemental method source. The owner cleared the WOPR-authored cards and paraphrases, but that clearance does not claim ownership of or official endorsement by the linked institutions.
 
 `SR-EVID-012` Authored Risk Probes are WOPR evaluation inferences. Public sources and frozen Setup facts MAY ground their content, but neither DATE nor another source thereby endorses the selected risk, handling expectation, or machine evaluation rule.
 

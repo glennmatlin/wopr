@@ -15,6 +15,10 @@ _SECRET_PATTERNS = (
         r'\s*["\'][^"\']{16,}["\']'
     ),
 )
+_PRIVATE_PATH_PATTERNS = (
+    re.compile(r"(?<![A-Za-z0-9_])/(?:private/(?:tmp|var)|Users|home)/"),
+    re.compile(r"(?i)\b[A-Z]:\\Users\\"),
+)
 _EXCLUDED_PARTS = frozenset({"private", "licensed_source", "source_material"})
 
 
@@ -45,6 +49,7 @@ def audit_public_packet(root: Path) -> dict[str, object]:
             findings.append(f"excluded path: {relative}")
         text = path.read_text(encoding="utf-8", errors="replace")
         findings.extend(_secret_findings(relative, text))
+        findings.extend(_private_path_findings(relative, text))
         links = _links(path, text)
         links_checked += len(links)
         link_findings, link_warnings = _link_findings(root, path, links)
@@ -71,6 +76,14 @@ def _secret_findings(path: Path, text: str) -> list[str]:
         f"credential-like value: {path}:{line_number}"
         for line_number, line in enumerate(text.splitlines(), 1)
         if any(pattern.search(line) for pattern in _SECRET_PATTERNS)
+    ]
+
+
+def _private_path_findings(path: Path, text: str) -> list[str]:
+    return [
+        f"private absolute path: {path}:{line_number}"
+        for line_number, line in enumerate(text.splitlines(), 1)
+        if any(pattern.search(line) for pattern in _PRIVATE_PATH_PATTERNS)
     ]
 
 

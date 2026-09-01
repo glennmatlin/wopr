@@ -1,152 +1,129 @@
-# WOPR Situation Room Contest Execution Plan
+# WOPR: A U.S. Situation Room for Open-Ended Crisis Decisions
 
-> **HISTORICAL PACKET.** I retain this plan as the execution history for the
-> Nuclear War-only packet. Its milestones and authority sequence are not the
-> current DATE work program. Start at [CURRENT_STATUS.md](CURRENT_STATUS.md).
+_Status: D107 deadline packaging and publication plan, 2026-09-01. The active work is evidence-honest packaging of the U.S.-first DATE design; no experiment is a release prerequisite._
 
-Status: corrected M4 execution complete. M5 packaging and owner decisions are
-active.
+_The current record is a 114-call scripted rehearsal and deterministic traces. Live DATE and same-Room Nuclear War work are deferred future empirical stages._
 
-Deadline: September 1, 2026
+---
 
-## Delivery claim
+## 🎯 Deliverable
 
-I am extending the existing replay-validated WOPR environment into a
-configurable Room Instrument. The Sounding varies Organizational type
-(presidential staff, equal council, chair-weighted council) while holding the
-model, World rules, initial state, engine seed, and full-press setting fixed.
-Overlay stays off except for one Demo trajectory. Completion requires
-inspectable Sounding evidence and an application package, not only a functioning
-harness.
+The deliverable is a submission-ready design package for the proposed U.S.
+Situation Room contract and its implemented offline scaffold in the open-ended
+Himaldesh-Olvana DATE Episode 1. It includes the evidence matrix, authored
+episode, application, static site, protocol, execution plan, retained receipts,
+and explicit limits. It describes the proposed evaluation without presenting
+an unrun experiment as an outcome.
 
-## Milestones
+The U.S. Room remains the focal institution. Nuclear War remains the proposed
+closed second World for later cross-World work, not a current result or a
+condition of publication.
 
-| Milestone | Target | Exit receipt |
+```mermaid
+flowchart LR
+    accTitle: D107 active packaging sequence
+    accDescr: The active sequence preserves the design, builds its evidence matrix, prepares Episode 1 and the application package, runs local release checks, checkpoints the exact files, and hands publication and form actions to the owner.
+
+    preserve[📚 Preserve] --> matrix[🧾 Evidence matrix]
+    matrix --> episode[🌍 Episode 1]
+    episode --> docs[📝 Application, site, and docs]
+    docs --> qa[✅ Local tests, scans, and visual QA]
+    qa --> checkpoint[🔒 Commit and push]
+    checkpoint --> owner[👤 Owner publication and form actions]
+```
+
+## 🧭 Current evidence position
+
+| Area | Status | Bounded claim |
 | --- | --- | --- |
-| M0: freeze execution contract | August 15 | protocol, this plan, authority ledger |
-| M1: compose C2 and full press | August 19 | tests, type checks, replay sweep, bounded smoke |
-| M2: build study pipeline | August 22 | offline 2 x 2 dry run, ledger, measures, analysis |
-| M3: screen and freeze models | August 23 | three-model screen, final-pair preflight, cost estimate, approved manifest |
-| M4: execute pilot | August 27 | validated attempts, admissibility report, paired tables |
-| M5: package submission | August 31 | public-ready repository, microsite build, form checklist |
+| 114-call U.S. Room rehearsal | Executed evidence | Scripted interface, delivery, product, validation, materialization, and replay behavior |
+| Deterministic DATE and Room traces | Executed evidence | Typed World transitions, proposal admission, two-cycle ordering, and replay in no-model fixtures |
+| DATE Episode 1 and open-ended method | Specified but not evaluated | Authored setup, causal contract, measures, and future empirical procedure |
+| Same-Room Nuclear War | Future work | Proposed closed-world reuse with its own future receipt |
+| Application, site, and docs | Implemented package | Local artifacts whose public status still depends on release and owner checks |
 
-The September 1 deadline remains a final submission buffer. Dates are planning
-targets rather than evidence that a milestone is complete.
+## 🧭 Active sequence
 
-## Work sequence
+1. **Preserve.** Keep the U.S.-first design, `ridge_seizure.limited_fait_accompli.episode_01`, default Seed `ridge-default-001`, source registers, Charter, deterministic receipts, scripted rehearsal, and decision history. Keep the authored Himaldesh-Olvana alternatives and evidence boundaries visible.
 
-### M1: composition gate
+2. **Build the evidence matrix.** Classify each artifact as implemented,
+   executed evidence, specified but not evaluated, or future work. Bind each
+   claim to the exact receipt or source file that supports it, and mark the
+   scripted rehearsal and deterministic traces as bounded no-model evidence.
 
-1. Parse and snapshot the authority configuration without resolved credentials.
-2. Build persistent member agents behind the existing `DecisionAgent` seam.
-3. Introduce a seat runtime with one press spokesperson and three memory recipients.
-4. Persist and validate member votes in a dedicated C2 sidecar.
-5. Run full press under presidential staff, equal council, and chair-weighted council.
-6. Pass focused tests, the full suite, type checks, lint, and the replay sweep.
+3. **Prepare Episode 1.** Make [`EPISODE_1.md`](EPISODE_1.md) the reader's
+   concrete entry point: authored crisis, source boundary, U.S. Room roles,
+   two-cycle clock, matched weather barrier, open proposal path, and separate
+   institutional and World outcome measures. State directly that live DATE
+   behavior is not evaluated.
 
-If chair-weighted council fails the provider-backed gate, I will drop that
-Preset and run presidential staff and equal council only. I will not report a
-three-Preset Instrument from mixed harnesses.
+4. **Prepare the application, site, and docs.** Align the application, static
+   site, [`PROTOCOL.md`](PROTOCOL.md), this plan, and the release checklist on
+   the title `WOPR: A U.S. Situation Room for Open-Ended Crisis Decisions` and
+   the four-class evidence boundary. Remove any implication that a successful
+   Room, DATE, M7, or Nuclear War run is needed for this package.
 
-### M2: study pipeline
+5. **Run local tests, scans, and visual QA.** Use only offline gates supported
+   by the repository: focused Markdown/site link checks, applicable unit and
+   integration tests, `git diff --check`, license and source-rights review,
+   secret scans, and mobile, desktop, accessibility, and static-site visual
+   checks. These gates do not authorize credentials, provider calls, or
+   external publication.
 
-The runner must enumerate fixed condition-model-seed cells, resume without
-overwriting attempts, and append every started attempt to a run ledger. Each
-attempt records its source revision, condition manifest hash, prompt hash,
-backend and model manifest hash, seed, request policy, artifact paths, terminal
-state, and admissibility tier.
+6. **Commit and push.** Checkpoint the exact release-preparation diff on the
+   topic branch, preserving receipts and authored history. Record the commit
+   and pushed revision so the owner can review the same bytes that passed the
+   local gates.
 
-Deterministic measures will be derived from validated replay and sidecar data.
-They will separate ordinary agent-shaped escalation from forced final strikes,
-retain seed-level paired values, and exclude Tier C attempts from behavioral
-claims without deleting them.
+7. **Owner publication and form actions.** The owner selects the public
+   license and source-rights disposition, supplies canonical repository and
+   microsite URLs plus identity and biography fields, confirms the final
+   export, publishes the approved artifacts, and performs any irreversible
+   submission action. These actions remain owner-controlled.
 
-### M3: backend and model freeze
+## 🧪 Offline gates for the active package
 
-Direct APIs are the primary backend because exact model identifiers, request
-settings, usage, retries, and provider errors can be recorded. The bounded
-screen of three inexpensive families on seeds 101-103 is complete: six cells
-passed the operational receipt rule and three Qwen3.5 cells were terminal Tier
-C. The deterministic selection retained DeepSeek V4 Flash and GPT-OSS 20B, and
-the pair-specific candidate plus zero-network preflight receipt are checked in.
-The corrected six-cell live preflight passed and was promoted on executor
-`fd48b11e49675c3a8a82319e13f07c7900a5ddba`.
+From `nuclear_war/`, the supported no-model checks are:
 
-A headless code-agent backend is a separately labeled system. It is eligible
-only if the executable version and model selection are pinned, noninteractive
-input and output are stable, hidden retries and fallbacks are disabled or fully
-observable, complete trace retention is permitted, and automated evaluation use
-complies with its terms. It cannot be treated as equivalent to the same model
-through a direct API without a separate parity study.
+```bash
+uv run pytest -q tests/integration/test_date_world_tracer.py tests/integration/test_proposal_bridge_tracer.py tests/unit/test_date_pilot_*.py
+uv run python -m nuclear_war_contest.date_world.tracer docs/contest/DATE_PROFILE.candidate.json 0000000000000000000000000000000000000000
+```
 
-### M4: Sounding execution
+The checked-in receipts and scripted rehearsal remain bounded development
+evidence. A green local gate supports packaging and reproducibility; it does
+not establish live model behavior or a DATE outcome.
 
-The intended Sounding is 3 Organizational Presets x 2 retained models x 3
-matched seeds (51, 52, 53), for 18 games, plus one Overlay Demo. The
-three-model screen and the final pair preflight use separate seeds and do not
-enter Sounding cells. Failed attempts remain in the ledger and cannot be
-silently replaced. Configuration changes create new attempt identities rather
-than overwriting the original record. Historical factorial manifests are not
-executable.
+## 🔭 Deferred future empirical work
 
-Every admitted run must have a valid replay, ordinary decision traces, press
-traces, C2 deliberations, frozen configuration, runtime metadata, and a
-terminal summary. The analysis publishes seed-level Preset values and
-council-minus-staff differences without a single composite score.
+The live DATE stage remains specified but not evaluated. Future work must freeze
+the Setup, Seed, U.S. Charter, model condition, measures, probes, budget, and
+manifest before inspecting outcomes, then run the U.S. Room through Episode 1,
+validate causal consequences, and replay the complete trace. A later
+same-Room Nuclear War stage may reuse the same U.S. Room identity in the
+finite-move World with a separate receipt and claim boundary. M7 and other
+provider-backed experiments remain deferred until a separately authorized
+future phase.
 
-The August 18 execution produced 15 Tier-A cells, but its strict floating-point
-boundary required unanimity in equal council instead of two of three votes.
-ADR 0009 retains those artifacts as operational evidence and requires a clean,
-newly bound executor to rerun all 18 cells plus the Demo. Corrected attempts
-must use a new output directory and cannot overwrite the superseded ledger.
-The corrected runner accepts `--max-workers` through `contest-run-study`.
-Sounding uses two workers inside one coordinator process so attempt directories
-remain disjoint while ledger appends and study-wide spend accounting stay
-locked. The composition smoke is a receipt-bound `room_instrument_smoke`
-manifest: seed 51, two turns, one approved candidate model, and all three
-Presets. Its checked template is
-`STUDY_MANIFEST.room_instrument_smoke.candidate.json`. The Overlay Demo remains
-one approved candidate model, seed 51, and equal council only.
+The D101, Snapshot 12, packet-repair, and retry-limit records remain one brief
+deferred engineering note: they preserve audit history for provider-control
+work and do not belong to the current evidence lead or release gate.
 
-The corrected run completed all 18 terminal attempts: 12 Tier A and 6 Tier C.
-Analysis admits 12 rows and five matched pairs. The Overlay Demo ran but failed
-terminal before an admissible trace, so M5 cannot include a Demo trajectory.
+## ✅ Ready-state definition
 
-### M5: submission package
+Tonight's ready state is an evidence-honest submission package, not an
+evaluated result. It is reached when the selected design and Episode 1 are
+preserved, the evidence matrix classifies every claim, application/site/docs
+agree, local tests/scans/visual QA pass, and the exact package checkpoint is
+committed and pushed. The handoff must list the owner-only license, rights,
+URLs, form fields, publication choice, and irreversible final action. No live
+Room, DATE, M7, or same-Room Nuclear War run is required.
 
-The package contains the frozen protocol and manifests, public-safe code,
-attempt ledger, validated raw artifacts, derived tables, analysis code,
-limitations, and a replay-linked example trajectory. The microsite presents the
-question, design, aggregate evidence, replay, artifacts, limitations, and funded
-extension. The application includes an approximately 150-word abstract plus the
-microsite and repository links.
+## 🔗 Working records
 
-## Authority and cost gates
-
-The active topic branch may receive scoped source, test, documentation, commit,
-and push changes. Local offline runs and temporary artifacts are allowed.
-
-The following remain owner decisions:
-
-- Any billable model call, including the three-model screen and final-pair preflight, requires a
-  recorded maximum spend and approved credentials path.
-- Making the repository public requires a license, source-material, and secret
-  scan plus explicit authorization.
-- Publishing the microsite or submitting the form requires explicit authorization.
-- New scientific factors, different study seeds, or changes to primary measures
-  require a protocol revision before study execution.
-
-Before spend approval, the runner will produce an upper-bound request and token
-estimate from offline fixtures and bounded nonbillable instrumentation. The
-model manifest remains unfrozen until access, version stability, and the budget
-are confirmed.
-
-## Completion receipts
-
-M1 is complete only when composition artifacts validate and engine replay gates
-remain green. M2 is complete only when an offline dry run can resume
-and reproduce its derived tables. M3 is complete only when the exact manifest
-and spend authorization are recorded. M4 is complete only when every attempted
-Sounding and Demo cell is terminal and classified. M5 is complete only when the site build,
-repository package, abstract, and submission checklist are ready for owner
-review.
+- [`PROTOCOL.md`](PROTOCOL.md) for the evidence-honest evaluation method
+- [`EVIDENCE_MATRIX.md`](EVIDENCE_MATRIX.md) for artifact status and claim boundaries
+- [`EPISODE_1.md`](EPISODE_1.md) for the authored DATE episode
+- [`APPLICATION_DRAFT.md`](APPLICATION_DRAFT.md) for the owner-controlled form copy
+- [`PUBLIC_RELEASE_CHECKLIST.md`](PUBLIC_RELEASE_CHECKLIST.md) for release gates
+- [`ADR 0075`](adr/0075-cut-the-experiment-and-package-the-evidence-boundary.md) for the D107 deadline authority
