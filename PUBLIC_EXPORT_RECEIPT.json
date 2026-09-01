@@ -86,11 +86,11 @@
       "sha256": "35cdc1f6678830ab0791edc708aad46aba5fd470956fadfdd6a6d1e6eb4e324b"
     },
     {
-      "bytes": 6277,
-      "git_blob": "9b3b1be745ad36fa7214219892322a3f278ec8ce",
+      "bytes": 7063,
+      "git_blob": "b04a9c14ec78a61e0caf5bd2c0566637a35fa4cb",
       "git_mode": "100644",
       "path": "docs/contest/EVIDENCE_MATRIX.md",
-      "sha256": "dc24af02c14c42ec68f77dd7b66ae6d638638f86b80d56c8723e57bce5aaa80e"
+      "sha256": "4aa0a9581047c328e6421558d895561704924707088e4a9a7dd9a2726cd09221"
     },
     {
       "bytes": 7282,
@@ -1327,6 +1327,6 @@
   ],
   "manifest_sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0",
   "schema_version": "contest-public-export-receipt.v1",
-  "source_revision": "70314878b79d65b7ccc6a1a821be5f92f0c46087",
-  "source_tree": "d26207663a9996bf7ce8c5ff1c86f6028204bef4"
+  "source_revision": "8eff7605cbe6cd23eadf35bc0cbb14e39fdca5ce",
+  "source_tree": "356320559292895f50e230e8867fb19645bb9c7c"
 }

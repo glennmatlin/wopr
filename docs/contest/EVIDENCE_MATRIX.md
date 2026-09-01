@@ -24,6 +24,17 @@ engineering history rather than the curated release.
 | Specified but not evaluated | The design or gate exists, but the required evaluation evidence does not. |
 | Future work | A downstream activity remains outside the retained evidence. |
 
+## 📢 Publication status
+
+These release states describe where the Packet is available. They do not add
+scientific evidence or change any evidence class below.
+
+| Surface | Release state | Public evidence | Boundary |
+| --- | --- | --- | --- |
+| Curated WOPR repository | Published | [Public WOPR repository](https://github.com/glennmatlin/wopr), [export receipt](https://github.com/glennmatlin/wopr/blob/main/PUBLIC_EXPORT_RECEIPT.json), [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md) | The public repository contains a manifest-selected DATE, Room, replay, validation, and Packet release. Publication does not turn offline machinery into live DATE evidence. |
+| Pivoted contest microsite | Prepared; not deployed | [site/index.html](site/index.html), [APPLICATION_DRAFT.md](APPLICATION_DRAFT.md) | The existing public `/wopr/` route still serves the pre-pivot page. The compact U.S.-first candidate in this release has not been deployed. |
+| Contest form | Not submitted | [APPLICATION_DRAFT.md](APPLICATION_DRAFT.md) | Final public copy is prepared. A completed submission requires an owner-controlled form receipt. |
+
 ## ⚙️ Offline machinery
 
 | Area | Status | Repository evidence | Boundary |
@@ -56,4 +67,3 @@ engineering history rather than the curated release.
 | --- | --- | --- | --- |
 | Creative EXCON and matched DATE comparison | Specified but not evaluated | [spec/00](spec/00-us-first-minimum-design.md), [spec/02](spec/02-world-setups-and-evaluation.md), [spec/13](spec/13-first-episode-default-profile.md) | The causal and measurement contracts exist, but no complete live DATE comparison or behavioral result exists. |
 | Model comparisons, repeated trials, and complete live counterpart Rooms | Future work | [PROTOCOL.md](PROTOCOL.md), [EXECUTION_PLAN.md](EXECUTION_PLAN.md), [spec/19](spec/19-minimum-counterpart-rooms.md) | These are extensions after the submitted design; no current result supports comparative or government-behavior claims. |
-| External repository, site publication, and form submission | Future work | [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md), [APPLICATION_DRAFT.md](APPLICATION_DRAFT.md) | The private working repository and local static site are not public URLs. Publication requires the exact curated-export checks and owner-controlled final actions. |
