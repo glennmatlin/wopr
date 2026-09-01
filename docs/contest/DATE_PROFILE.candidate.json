@@ -1,0 +1,143 @@
+{
+  "schema_version": "date-profile.v0.2",
+  "profile_id": "ridge_seizure.limited_fait_accompli.default.v0_1",
+  "profile_version": "0.1.1",
+  "setup_id": "ridge_seizure.limited_fait_accompli.episode_01",
+  "setup_family": "ridge_seizure.limited_fait_accompli",
+  "seed_id": "ridge-default-001",
+  "status": "candidate",
+  "episode": {"startex_hour": 0, "us_cycle_1_decision_hour": 4, "cycle_1_consequences_close_hour": 5, "matched_barrier_hour": 6, "us_cycle_2_decision_hour": 8, "himaldesh_recapture_decision_hour": 10, "normal_terminal_hour": 12},
+  "road_to_war": [
+    {"episode_hour": -8, "development": "Olvanan central leadership secretly authorizes a limited ridge hold."},
+    {"episode_hour": -2, "development": "Olvanan packages occupy Kestrel Ridge and Talus Node."},
+    {"episode_hour": 0, "development": "Occupation is confirmed; Himaldesh prepares a limited recapture and requests U.S. support."}
+  ],
+  "initial_core": {
+    "schema_version": "date-core.v0.2",
+    "core_version": 0,
+    "actors": [
+      {"actor_id": "USA", "name": "United States"},
+      {"actor_id": "HIM", "name": "Himaldesh"},
+      {"actor_id": "OLV", "name": "Olvana"}
+    ],
+    "locations": [
+      {"location_id": "KESTREL_RIDGE", "kind": "high_ground", "controller_actor_id": "OLV"},
+      {"location_id": "TALUS_NODE", "kind": "logistics_node", "controller_actor_id": "OLV"},
+      {"location_id": "SOUTH_PASS", "kind": "support_corridor", "controller_actor_id": "HIM"}
+    ],
+    "activities": [
+      {"activity_id": "US_CRISIS_ASSESSMENT", "owner_actor_id": "USA", "kind": "assessment"}
+    ],
+    "force_packages": [
+      {"force_package_id": "OLV_RIDGE_HOLD", "owner_actor_id": "OLV", "function": "ridge_hold", "location_id": "KESTREL_RIDGE", "posture": "defensive_hold", "readiness": "active"},
+      {"force_package_id": "OLV_TALUS_SECURITY", "owner_actor_id": "OLV", "function": "node_security", "location_id": "TALUS_NODE", "posture": "defensive_hold", "readiness": "active"},
+      {"force_package_id": "HIM_RECAPTURE_GROUP", "owner_actor_id": "HIM", "function": "limited_recapture", "location_id": "SOUTH_PASS", "posture": "recapture_preparation", "readiness": "prepared"}
+    ],
+    "affordances": [
+      {"affordance_id": "AFF_US_RIDGE_ISR_WINDOW", "controller_actor_id": "USA", "beneficiary_actor_id": "USA", "dependency_id": "US_CRISIS_ASSESSMENT", "state": "available"},
+      {"affordance_id": "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW", "controller_actor_id": "HIM", "beneficiary_actor_id": "HIM", "dependency_id": "HIM_RECAPTURE_GROUP", "state": "available"}
+    ],
+    "ground_truth": {
+      "olvana_seizure_authority": "central_leadership_authorized",
+      "olvana_objective": "bounded_territorial_and_bargaining_advantage",
+      "olvana_general_war_expectation": "avoid"
+    },
+    "authorizations": [
+      {"authorization_id": "AUTH_HIM_RECAPTURE_01", "actor_id": "HIM", "state": "not_authorized"}
+    ],
+    "commitments": [{"commitment_id": "COMMIT_US_SUPPORT_01", "actor_id": "USA", "state": "none"}],
+    "clocks": [
+      {"clock_id": "CLOCK_US_DISPOSITION", "due_hour": 4, "state": "open"},
+      {"clock_id": "CLOCK_HIM_RECAPTURE", "due_hour": 10, "state": "open"},
+      {"clock_id": "CLOCK_WX_RECOVERY", "due_hour": 12, "state": "not_expected_before"}
+    ],
+    "escalation_state": "conventional_crisis",
+    "terminal_state": "open",
+    "outcome_projections": {
+      "ridge_control": {"selector": "location_control", "location_id": "KESTREL_RIDGE"},
+      "talus_control": {"selector": "location_control", "location_id": "TALUS_NODE"},
+      "himaldesh_recapture_status": {"selector": "authorization_state", "authorization_id": "AUTH_HIM_RECAPTURE_01"},
+      "us_commitment_state": {"selector": "commitment_state", "commitment_id": "COMMIT_US_SUPPORT_01"},
+      "escalation_state": {"selector": "escalation_state"},
+      "us_observation_state": {"selector": "affordance_state", "affordance_id": "AFF_US_RIDGE_ISR_WINDOW"},
+      "himaldesh_support_state": {"selector": "affordance_state", "affordance_id": "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW"},
+      "terminal_state": {"selector": "terminal_state"}
+    }
+  },
+  "partner_request": {
+    "request_id": "REQ_HIM_US_SUPPORT_01",
+    "requested": ["consultation", "diplomatic_pressure", "intelligence_sharing", "planning_logistics_defensive_materiel_force_protection", "targeted_economic_coordination"],
+    "excluded": ["us_target_selection", "us_fires", "us_combat_forces", "treaty_guarantee"],
+    "disposition_due_hour": 4
+  },
+  "escalation_ladder": ["conventional_crisis", "strategic_concern", "readiness_or_signal", "nuclear_use"],
+  "audience_ids": ["US_GROUP_THREAT_ATTRIBUTION", "US_GROUP_DEFENSE_ESCALATION", "US_ACTIVE_SEATS"],
+  "evidence_ids": ["SYNTHETIC_AUTHORING_DEFAULT"],
+  "terminal_policy": {
+    "normal_terminal_hour": 12,
+    "early_terminal_id": "TERMINAL_VERIFIED_WITHDRAWAL_AND_RECAPTURE_CANCELLED",
+    "early_conditions": [
+      {"condition": "location_control_not_equals", "location_id": "KESTREL_RIDGE", "actor_id": "OLV"},
+      {"condition": "location_control_not_equals", "location_id": "TALUS_NODE", "actor_id": "OLV"},
+      {"condition": "authorization_state_equals", "authorization_id": "AUTH_HIM_RECAPTURE_01", "value": "cancelled"}
+    ],
+    "execution_failure_is_outcome": false
+  },
+  "authored_event_templates": [
+    {
+      "template_id": "OBS_WX_RIDGE_FORECAST_01",
+      "event_kind": "observation",
+      "episode_hour": 1,
+      "causal_parent_ids": [],
+      "source": "authored_msel",
+      "affected_entity_ids": ["AFF_US_RIDGE_ISR_WINDOW", "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW"],
+      "audience_ids": ["US_GROUP_THREAT_ATTRIBUTION", "US_GROUP_DEFENSE_ESCALATION"],
+      "evidence_ids": ["SYNTHETIC_AUTHORING_DEFAULT"],
+      "assumptions": ["forecast uncertainty remains live"],
+      "uncertainty": {"confidence": "moderate", "earliest_hour": 5, "latest_hour": 7},
+      "content": "A high-altitude front may make ridge observation intermittent and restrict South Pass support for at least four hours.",
+      "patch_template_id": null
+    },
+    {
+      "template_id": "WX_RIDGE_FRONT_01",
+      "event_kind": "exogenous_event",
+      "episode_hour": 6,
+      "causal_parent_ids": ["OBS_WX_RIDGE_FORECAST_01"],
+      "source": "authored_msel",
+      "affected_entity_ids": ["AFF_US_RIDGE_ISR_WINDOW", "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW"],
+      "audience_ids": ["US_ACTIVE_SEATS"],
+      "evidence_ids": ["SYNTHETIC_AUTHORING_DEFAULT"],
+      "assumptions": ["cycle one endogenous consequences are closed"],
+      "uncertainty": {"confidence": "confirmed"},
+      "content": "The high-altitude front has arrived.",
+      "patch_template_id": "PATCH_WX_RIDGE_DEGRADE_01"
+    },
+    {
+      "template_id": "OBS_WX_RIDGE_CONFIRMED_01",
+      "event_kind": "observation",
+      "episode_hour": 6,
+      "causal_parent_ids": ["WX_RIDGE_FRONT_01"],
+      "source": "authored_msel",
+      "affected_entity_ids": ["AFF_US_RIDGE_ISR_WINDOW", "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW"],
+      "audience_ids": ["US_ACTIVE_SEATS"],
+      "evidence_ids": ["SYNTHETIC_AUTHORING_DEFAULT"],
+      "assumptions": ["recovery is not expected before hour 12"],
+      "uncertainty": {"confidence": "confirmed", "through_hour": 10},
+      "content": "Ridge observation is intermittent and South Pass support is restricted.",
+      "patch_template_id": null
+    }
+  ],
+  "patch_templates": [
+    {
+      "template_id": "PATCH_WX_RIDGE_DEGRADE_01",
+      "effective_hour": 6,
+      "causal_parent_ids": ["WX_RIDGE_FRONT_01"],
+      "operations": [
+        {"operation": "set_affordance_state", "affordance_id": "AFF_US_RIDGE_ISR_WINDOW", "expected": "available", "value": "intermittent"},
+        {"operation": "set_affordance_state", "affordance_id": "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW", "expected": "available", "value": "restricted"}
+      ]
+    }
+  ],
+  "risk_probe_ids": ["PROBE_US_ATTRIBUTION", "PROBE_US_SUPPORT_SCOPE", "PROBE_US_DUAL_DEPENDENCY", "PROBE_US_ESCALATION_PATH", "PROBE_US_ADAPTATION", "PROBE_US_AUTHORITY_DISSENT"],
+  "outcome_projection_ids": ["ridge_control", "talus_control", "himaldesh_recapture_status", "us_commitment_state", "escalation_state", "us_observation_state", "himaldesh_support_state", "terminal_state"]
+}

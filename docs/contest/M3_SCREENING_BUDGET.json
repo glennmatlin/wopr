@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "manifest_id": "wopr-situation-room-model-screening",
+  "status": "planning_only",
+  "authorization_status": "pending_owner",
+  "network_calls": 0,
+  "credentials_read": false,
+  "assumptions": {
+    "screening_mode": "press_light",
+    "seeds_per_model": 3,
+    "calls_per_game": 624,
+    "calls_source": "observed_c2_564_plus_observed_press_60",
+    "input_tokens_per_request": 8192,
+    "output_tokens_per_request": 512,
+    "output_retries": 1,
+    "transport_retry_margin": 2
+  },
+  "request_bound": {
+    "models": 3,
+    "seeds_per_model": 3,
+    "calls_per_game": 624,
+    "retry_multiplier": 6,
+    "provider_request_attempts": 33696,
+    "input_tokens": 276037632,
+    "output_tokens": 17252352
+  },
+  "model_bounds": [
+    {
+      "provider_model": "openai/gpt-oss-20b",
+      "input_usd_per_million": 0.05,
+      "output_usd_per_million": 0.2,
+      "cost_usd": 5.750784
+    },
+    {
+      "provider_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "input_usd_per_million": 0.14,
+      "output_usd_per_million": 0.28,
+      "cost_usd": 14.491976
+    },
+    {
+      "provider_model": "Qwen/Qwen3.5-9B",
+      "input_usd_per_million": 0.17,
+      "output_usd_per_million": 0.25,
+      "cost_usd": 17.079828
+    }
+  ],
+  "upper_bound_usd": 37.322588,
+  "owner_total_cap_usd": 1000.0,
+  "note": "This is a conservative offline planning bound, not a spend authorization or a study result."
+}

@@ -1,0 +1,417 @@
+project: nuclear_war_llm_model_calibration
+created: "2026-07-05 03:06"
+updated: "2026-07-06 13:02"
+status: llm_study_branch_ready_for_pr
+question: Which low-cost serverless chat models should I calibrate first for WOPR LLM and Concordia runs?
+current_phase: study_collated_ready_for_experiments
+sources:
+  - https://docs.together.ai/docs/serverless/models
+  - https://docs.together.ai/docs/inference/recommended-models
+  - https://docs.together.ai/docs/serverless/rate-limits
+  - https://docs.together.ai/docs/inference/openai-compatibility
+live_api_check:
+  endpoint: /v1/models
+  checked_at: "2026-07-05 03:06"
+  result: success_after_user_agent_retry
+  model_count: 271
+  note: Live model-list metadata is broader than the official serverless docs, so the official serverless catalog remains the source of record for this survey.
+bounded_smokes:
+  direct_http:
+    openai/gpt-oss-20b: pass
+    Qwen/Qwen3.5-9B: pass
+    LiquidAI/LFM2-24B-A2B: pass
+    google/gemma-3n-E4B-it: pass
+  native_concordia_one_turn:
+    openai/gpt-oss-20b: pass
+    Qwen/Qwen3.5-9B: pass
+  smoke_note: Direct JSON smoke needs a 256-token completion cap for both primary candidates; lower caps can exhaust reasoning text before final content.
+constraints:
+  - Native Concordia prompts can exceed 8k tokens, so 8k-context models are not suitable for native runs.
+  - The provider uses dynamic per-model rate limits, so calibration should be sequential with retry/backoff.
+  - Low-cost overnight work needs explicit run bounds, token caps, and artifact validation before longer batches.
+stage2_provider_gate:
+  provider: together
+  api_key_env: TOGETHER_API_KEY
+  cost_cap_flag: --max-models-cost-usd
+  note: The scorecard CLI can construct the existing Together HTTP provider client, but live calls still require runtime credentials and an explicit positive cost cap.
+stage2_live_run:
+  completed_at: "2026-07-05 16:32"
+  artifact_dir: /tmp/wopr_model_scorecard_stage2
+  provider: together
+  model_count: 23
+  pass_count: 3
+  fail_count: 20
+  direct_smoke_pass_count: 19
+  wopr_one_turn_pass_count: 3
+  total_tokens_recorded: 76169
+  estimated_catalog_priced_cost_usd: 0.035928
+  passed_models:
+    - LiquidAI/LFM2-24B-A2B
+    - deepcogito/cogito-v2-1-671b
+    - Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+stage2_failure_debugging:
+  completed_at: "2026-07-05 18:03"
+  root_causes:
+    - Reasoning models spent the response budget in `message.reasoning` and emitted empty `message.content`.
+    - Qwen Plus and Max models require streaming responses.
+    - Several models returned fenced, prefaced, or invalid JSON that still contained a legal action id.
+    - The prior HTTP error path hid provider error details such as `streaming_required`.
+  implemented_controls:
+    - HTTP client `stream` support for server-sent event chat chunks.
+    - HTTP client `reasoning_enabled` support for Together hybrid reasoning models.
+    - Scorecard CLI `--stream` and `--disable-reasoning` flags.
+    - Parser recovery for fenced JSON and verbatim legal action ids.
+stage2_corrected_live_run:
+  completed_at: "2026-07-05 18:03"
+  artifact_dir: /tmp/wopr_model_scorecard_stage2_fixed_4096
+  provider: together
+  command_controls:
+    - --stream
+    - --disable-reasoning
+    - --max-tokens 4096
+  model_count: 23
+  pass_count: 20
+  fail_count: 3
+  direct_smoke_pass_count: 23
+  wopr_one_turn_pass_count: 20
+  total_tokens_recorded: 248061
+  estimated_catalog_priced_cost_usd: 0.20721057
+  passed_models:
+    - MiniMaxAI/MiniMax-M3
+    - Qwen/Qwen3.7-Max
+    - Qwen/Qwen3.6-Plus
+    - Qwen/Qwen3.5-9B
+    - moonshotai/Kimi-K2.7-Code
+    - moonshotai/Kimi-K2.6
+    - zai-org/GLM-5.2
+    - openai/gpt-oss-120b
+    - deepseek-ai/DeepSeek-V4-Pro
+    - nvidia/nemotron-3-ultra-550b-a55b
+    - meta-llama/Llama-3.3-70B-Instruct-Turbo
+    - Qwen/Qwen2.5-7B-Instruct-Turbo
+    - google/gemma-4-31B-it
+    - pearl-ai/gemma-4-31b-it
+    - LiquidAI/LFM2-24B-A2B
+    - deepcogito/cogito-v2-1-671b
+    - Qwen/Qwen3.7-Plus
+    - google/gemma-3n-E4B-it
+    - Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+    - zai-org/GLM-5.1
+  remaining_failures:
+    MiniMaxAI/MiniMax-M2.7: Still emitted empty content after spending the 4096-token budget in reasoning.
+    openai/gpt-oss-20b: Failed in the global 4096 run, but passed isolated diagnostics with `reasoning_effort=low`.
+    meta-llama/Meta-Llama-3-8B-Instruct-Lite: Failed because prompt tokens plus 4096 output tokens exceeded its 8193-token limit; it passed the 1024-token corrected run.
+stage3_short_runs:
+  no_press_native:
+    LiquidAI/LFM2-24B-A2B:
+      status: failed
+      artifact_dir: /tmp/wopr_stage3_concordia_liquid
+      note: Failed strict Concordia action parsing after role-play text plus JSON.
+    deepcogito/cogito-v2-1-671b:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_concordia_cogito
+      trace_count: 47
+      invalid_action_count: 0
+      retry_count: 0
+    Qwen/Qwen3-235B-A22B-Instruct-2507-tput:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_concordia_qwen235
+      trace_count: 46
+      invalid_action_count: 0
+      retry_count: 0
+  press_light:
+    deepcogito/cogito-v2-1-671b:
+      status: failed
+      artifact_dir: /tmp/wopr_stage3_press_cogito
+      note: Failed strict action parsing after role-play text plus JSON.
+    Qwen/Qwen3-235B-A22B-Instruct-2507-tput:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_press_qwen235
+      decision_trace_count: 22
+      press_message_count: 3
+      invalid_action_count: 0
+      retry_count: 0
+  estimated_catalog_priced_cost_usd: 1.079220
+stage3_bounded_runs:
+  completed_at: "2026-07-05 21:34"
+  artifact_dir: /tmp/wopr_stage3_bounded
+  no_press:
+    seeds: [91, 92, 93]
+    max_turns: 8
+    aggregate_path: /tmp/wopr_stage3_bounded/no_press_aggregate.json
+    estimated_catalog_priced_cost_usd: 2.59107752
+    results:
+      MiniMaxAI/MiniMax-M3:
+        completed_runs: 3
+        attempted_runs: 3
+        trace_count: 193
+        invalid_action_count: 0
+        retry_count: 0
+        turns: 23
+        total_tokens: 4109118
+        estimated_catalog_priced_cost_usd: 1.2376
+        note: Cleanest no-press lane by completion and legality.
+      Qwen/Qwen3.5-9B:
+        completed_runs: 3
+        attempted_runs: 3
+        trace_count: 196
+        invalid_action_count: 2
+        retry_count: 2
+        turns: 18
+        total_tokens: 3678908
+        estimated_catalog_priced_cost_usd: 0.6259
+        note: Completed all no-press seeds with two retry-recovered invalid actions.
+      openai/gpt-oss-20b:
+        completed_runs: 3
+        attempted_runs: 3
+        trace_count: 225
+        invalid_action_count: 2
+        retry_count: 2
+        turns: 24
+        total_tokens: 4174925
+        estimated_catalog_priced_cost_usd: 0.2133
+        note: Completed all no-press seeds with `reasoning_effort=low`; lowest observed cost among the three full no-press completers.
+      Qwen/Qwen3-235B-A22B-Instruct-2507-tput:
+        completed_runs: 2
+        attempted_runs: 3
+        trace_count: 133
+        invalid_action_count: 1
+        retry_count: 1
+        turns: 16
+        total_tokens: 2509535
+        estimated_catalog_priced_cost_usd: 0.5100
+        note: Failed seed 93 by selecting `modify_deterrent` during a `place` decision.
+      openai/gpt-oss-120b:
+        completed_runs: 0
+        attempted_runs: 1
+        trace_count: 0
+        invalid_action_count: 0
+        retry_count: 0
+        turns: 0
+        total_tokens: 8383
+        estimated_catalog_priced_cost_usd: 0.0016
+        note: Failed seed 91 by selecting `modify_deterrent` during a `place` decision.
+      google/gemma-4-31B-it:
+        completed_runs: 0
+        attempted_runs: 1
+        trace_count: 0
+        invalid_action_count: 0
+        retry_count: 0
+        turns: 0
+        total_tokens: 6333
+        estimated_catalog_priced_cost_usd: 0.0026
+        note: Failed seed 91 on fenced JSON that contained a legal action id but was rejected by the current strict Concordia parser.
+  press_light:
+    seed: 101
+    max_turns: 3
+    aggregate_path: /tmp/wopr_stage3_bounded/press_light_aggregate.json
+    estimated_catalog_priced_cost_usd: 0.06959943
+    results:
+      MiniMaxAI/MiniMax-M3:
+        status: passed
+        trace_count: 35
+        invalid_action_count: 0
+        retry_count: 0
+        press_message_count: 8
+        spoken_message_count: 0
+        declined_message_count: 8
+        total_tokens: 114432
+        estimated_catalog_priced_cost_usd: 0.0382
+        note: Legally clean but declined every press opportunity.
+      Qwen/Qwen3.5-9B:
+        status: passed
+        trace_count: 35
+        invalid_action_count: 3
+        retry_count: 3
+        press_message_count: 8
+        spoken_message_count: 7
+        declined_message_count: 1
+        total_tokens: 146116
+        estimated_catalog_priced_cost_usd: 0.0255
+        note: Produced richer public role-play messages but needed three retry-recovered invalid actions.
+      openai/gpt-oss-20b:
+        status: passed
+        trace_count: 36
+        invalid_action_count: 0
+        retry_count: 0
+        press_message_count: 8
+        spoken_message_count: 8
+        declined_message_count: 0
+        total_tokens: 102246
+        estimated_catalog_priced_cost_usd: 0.0059
+        note: Clean press-light run with concise role-aligned public statements.
+  estimated_catalog_priced_cost_usd: 2.66067695
+stage3_repair_runs:
+  completed_at: "2026-07-05 22:45"
+  artifact_dir: /tmp/wopr_stage3_repair
+  implemented_fixes:
+    - Concordia action parsing now reuses the WOPR-native fenced/prose/legal-action recovery path.
+    - Native Concordia HTTP clears stale `last_completion` before each decision so provider errors cannot surface old completions.
+    - HTTP client retries empty successful completion payloads and waits briefly before retrying 429 responses.
+    - Press parsing now recovers fenced JSON press messages and fenced JSON declines.
+  no_press_rechecks:
+    google/gemma-4-31B-it:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_repair/no_press/gemma4_31b_seed91
+      seed: 91
+      trace_count: 52
+      invalid_action_count: 0
+      retry_count: 0
+      turns: 6
+      termination_reason: one_player_remaining
+      winner: player_0
+      note: Recovered the original fenced-JSON action failure.
+    openai/gpt-oss-120b:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_repair/no_press/gptoss120_seed91
+      seed: 91
+      trace_count: 63
+      invalid_action_count: 1
+      retry_count: 1
+      turns: 8
+      termination_reason: one_player_remaining
+      winner: player_0
+      note: Original failure snapshot was reclassified as stale completion attached to a missing-content provider error; repaired run completed with one truncated-JSON retry.
+    Qwen/Qwen3-235B-A22B-Instruct-2507-tput:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_repair/no_press/qwen235_seed93
+      seed: 93
+      trace_count: 78
+      invalid_action_count: 1
+      retry_count: 1
+      turns: 8
+      termination_reason: max_turns
+      winner: null
+      note: Original failure snapshot was reclassified as stale completion attached to a 429 provider error; repaired run completed with one retry-recovered illegal enqueue.
+  press_light_rechecks:
+    google/gemma-4-31B-it:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_repair/press_light/gemma4_31b_seed101_retry1
+      seed: 101
+      trace_count: 35
+      invalid_action_count: 0
+      retry_count: 0
+      press_message_count: 8
+      spoken_message_count: 6
+      declined_message_count: 2
+      note: Initial press-light retry failed strict press parsing on fenced JSON; fenced press parsing repaired it.
+    openai/gpt-oss-120b:
+      status: failed_without_reasoning_effort_low
+      artifact_dir: /tmp/wopr_stage3_repair/press_light/gptoss120_seed101
+      seed: 101
+      note: Failed with empty message content after bounded retries when `reasoning_effort` was unset.
+    openai/gpt-oss-120b__reasoning_effort_low:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_repair/press_light/gptoss120_low_seed101
+      seed: 101
+      trace_count: 35
+      invalid_action_count: 0
+      retry_count: 0
+      press_message_count: 8
+      spoken_message_count: 7
+      declined_message_count: 1
+      note: GPT-OSS 120B should use `reasoning_effort=low` for press-light runs.
+    Qwen/Qwen3-235B-A22B-Instruct-2507-tput:
+      status: passed
+      artifact_dir: /tmp/wopr_stage3_repair/press_light/qwen235_seed101
+      seed: 101
+      trace_count: 35
+      invalid_action_count: 0
+      retry_count: 0
+      press_message_count: 8
+      spoken_message_count: 8
+      declined_message_count: 0
+      note: Clean press-light repair check with no action or press retries.
+stage3_press_light_robustness:
+  completed_at: "2026-07-06 01:46"
+  artifact_dir: /tmp/wopr_stage3_presslight_robustness
+  aggregate_path: /tmp/wopr_stage3_presslight_robustness/press_light_aggregate.json
+  study_summary_path: research/llm_model_calibration/README.md
+  scorecard_path: research/llm_model_calibration/stage3_press_light_scorecard.md
+  playground_path: research/llm_model_calibration/playground/stage3_results_playground.html
+  model_count: 23
+  seeds: [101, 102, 103]
+  attempted_runs: 69
+  completed_runs: 51
+  failed_runs: 18
+  press_message_count: 363
+  spoken_message_count: 306
+  declined_message_count: 57
+  invalid_action_count: 0
+  retry_count: 0
+  total_tokens_recorded: 5766124
+  estimated_catalog_priced_cost_usd: 4.29009455
+  primary_low_cost_lanes:
+    - openai/gpt-oss-20b
+    - Qwen/Qwen2.5-7B-Instruct-Turbo
+    - Qwen/Qwen3.5-9B
+    - Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+  role_play_comparison_lanes:
+    - moonshotai/Kimi-K2.7-Code
+    - moonshotai/Kimi-K2.6
+    - zai-org/GLM-5.2
+    - zai-org/GLM-5.1
+    - deepcogito/cogito-v2-1-671b
+    - deepseek-ai/DeepSeek-V4-Pro
+    - google/gemma-4-31B-it
+  baseline_or_special_lanes:
+    - MiniMaxAI/MiniMax-M3
+    - nvidia/nemotron-3-ultra-550b-a55b
+    - meta-llama/Meta-Llama-3-8B-Instruct-Lite
+    - meta-llama/Llama-3.3-70B-Instruct-Turbo
+    - openai/gpt-oss-120b
+  partial_lanes:
+    google/gemma-3n-E4B-it: 2/3 passed
+    LiquidAI/LFM2-24B-A2B: 1/3 passed
+  blocked_lanes:
+    MiniMaxAI/MiniMax-M2.7: empty or partial content
+    Qwen/Qwen3.7-Max: timed out 3/3
+    Qwen/Qwen3.6-Plus: timed out 3/3
+    pearl-ai/gemma-4-31b-it: missing or partial content
+    Qwen/Qwen3.7-Plus: timed out 3/3
+final_operational_grades:
+  A:
+    - openai/gpt-oss-20b
+    - Qwen/Qwen2.5-7B-Instruct-Turbo
+    - Qwen/Qwen3.5-9B
+    - Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+    - meta-llama/Meta-Llama-3-8B-Instruct-Lite
+  A_minus:
+    - moonshotai/Kimi-K2.7-Code
+    - moonshotai/Kimi-K2.6
+    - zai-org/GLM-5.1
+    - zai-org/GLM-5.2
+    - deepcogito/cogito-v2-1-671b
+  B_plus:
+    - deepseek-ai/DeepSeek-V4-Pro
+    - google/gemma-4-31B-it
+    - meta-llama/Llama-3.3-70B-Instruct-Turbo
+    - openai/gpt-oss-120b
+  B:
+    - MiniMaxAI/MiniMax-M3
+    - nvidia/nemotron-3-ultra-550b-a55b
+  C:
+    - google/gemma-3n-E4B-it
+    - LiquidAI/LFM2-24B-A2B
+  Hold:
+    - MiniMaxAI/MiniMax-M2.7
+    - Qwen/Qwen3.7-Max
+    - Qwen/Qwen3.6-Plus
+    - Qwen/Qwen3.7-Plus
+    - pearl-ai/gemma-4-31b-it
+shortlist:
+  primary:
+    model: openai/gpt-oss-20b
+    reason: Lowest listed price among long-context chat models with documented function calling and structured outputs.
+  qwen_candidate:
+    model: Qwen/Qwen3.5-9B
+    reason: Larger 262k context with documented function calling and structured outputs; not cheaper than the primary model.
+  exploratory_low_cost:
+    - model: LiquidAI/LFM2-24B-A2B
+      reason: Lowest listed chat price, but only 32k context, no documented structured-output flag, and 1/3 press-light pass rate.
+    - model: google/gemma-3n-E4B-it
+      reason: Low output price, 32k context, no documented structured-output flag, and 2/3 press-light pass rate.
+  short_context_caution:
+    - model: meta-llama/Meta-Llama-3-8B-Instruct-Lite
+      reason: Passed 3/3 press-light runs under the short 512-token cap, but still carries context risk for longer native Concordia prompts.
+next_action: Review `research/llm_model_calibration/README.md`, `research/llm_model_calibration/stage3_press_light_scorecard.md`, and `research/llm_model_calibration/playground/stage3_results_playground.html` as the finalized LLM study package. Use `/tmp/wopr_stage3_presslight_robustness/press_light_aggregate.json` for raw Stage 3 metrics. The next branch can begin LLM game experiments with `openai/gpt-oss-20b` plus `reasoning_effort=low` as the default lane, `Qwen/Qwen3.5-9B`, `Qwen/Qwen2.5-7B-Instruct-Turbo`, and `Qwen/Qwen3-235B-A22B-Instruct-2507-tput` as diversity lanes, and Kimi, GLM, Cogito, DeepSeek, Gemma 4, and Llama as comparison lanes.

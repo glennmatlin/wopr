@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "producer_command": "contest-dry-run with M3_OFFLINE_SOURCE_MANIFEST.json, max_turns=40, seeds=91,92,93",
+  "source_manifest_path": "M3_OFFLINE_SOURCE_MANIFEST.json",
+  "source_manifest_hash": "06a7063b4ac38fd12aaca8d23e732b36e3d821e5eb990ec539abc5ff786a0a41",
+  "backend": "concordia_first_legal",
+  "conditions": [
+    "no_press_sole_authority",
+    "full_press_sole_authority",
+    "no_press_council",
+    "full_press_council"
+  ],
+  "max_turns": 40,
+  "member_count": 3,
+  "measurements": [
+    {"seed": 91, "turns": 7, "deliberations": 83, "member_calls": 249, "full_press_messages": 20},
+    {"seed": 92, "turns": 20, "deliberations": 188, "member_calls": 564, "full_press_messages": 60},
+    {"seed": 93, "turns": 15, "deliberations": 158, "member_calls": 474, "full_press_messages": 50}
+  ],
+  "observed_max_member_calls": 564,
+  "observed_max_full_press_messages": 60,
+  "status": "offline_planning_input_not_study_result"
+}

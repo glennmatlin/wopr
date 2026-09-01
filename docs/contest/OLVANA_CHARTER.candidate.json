@@ -1,0 +1,264 @@
+{
+  "schema_version": "counterpart-room-charter.v0.1",
+  "charter_id": "DATE_OLVANA_RIDGE_2026Q3",
+  "charter_version": "0.1.0",
+  "status": "candidate",
+  "source_register_id": "DATE_OLVANA_2026Q3.sources",
+  "source_register_hash": "932c12452ccb3373ccf4fc07c7d91f290d6812d1d8d1b227f49f0cf8eb4e06d5",
+  "actor_id": "ACTOR_OLVANA",
+  "objective_ids": [
+    "OLV_OBJ_SOVEREIGNTY_PARTY",
+    "OLV_OBJ_REGIONAL_LEVERAGE",
+    "OLV_OBJ_ECONOMIC_ACCESS",
+    "OLV_OBJ_MILITARY_CREDIBILITY",
+    "OLV_OBJ_ESCALATION_CONTROL"
+  ],
+  "institution_registry": {
+    "seats": [
+      {
+        "seat_id": "OLV_SEAT_GENERAL_SECRETARY",
+        "office_class": "Olvanan Communist Party General Secretary",
+        "first_episode_disposition": "active",
+        "participation_class": "party_state_decider",
+        "mandate": "Set final party-state direction for the represented first-episode posture while preserving party control, strategic objectives, NCA advice, command limits, and attributable disagreement.",
+        "supported_contributions": ["party_state_direction", "adopt_or_reject_nca_option", "narrow_or_sequence_posture", "record_unresolved_risk"],
+        "prohibited_actions": ["claim_unrepresented_psc_consensus", "invent_nuclear_route", "receive_hidden_world_truth", "erase_nca_dissent"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_PARTY_PRIVATE", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW", "OLV_INFO_DECISION_RECORD"],
+        "group_ids": ["OLV_GROUP_PARTY_DIRECTION"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["party_state_decider"],
+        "persona_posture_ids": ["OLV_INF_OBJECTIVES", "OLV_INF_PARTY_NCA_ROUTE"],
+        "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PSC_POWER", "OLV_FACT_PARTY_PRESERVATION", "OLV_FACT_STRATEGIC_GOALS"],
+        "inference_ids": ["OLV_INF_OBJECTIVES", "OLV_INF_PARTY_NCA_ROUTE", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_PRESIDENT",
+        "office_class": "President and National Command Authority chair",
+        "first_episode_disposition": "active",
+        "participation_class": "formal_state_principal",
+        "mandate": "Chair NCA review, preserve the formal state and command path, and confirm or reject transmission of the named military posture without displacing party authority.",
+        "supported_contributions": ["chair_nca_review", "command_confirmation", "request_revised_integration", "record_formal_state_position"],
+        "prohibited_actions": ["claim_independent_party_authority", "invent_psc_position", "self_certify_military_feasibility", "invent_nuclear_route"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_PRESIDENT_PRIVATE", "OLV_INFO_COMMAND_PRODUCT", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW", "OLV_INFO_DECISION_RECORD"],
+        "group_ids": ["OLV_GROUP_COMMAND_ASSESSMENT", "OLV_GROUP_NCA_REVIEW"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["nca_chair", "command_confirmer"],
+        "persona_posture_ids": ["OLV_INF_PARTY_NCA_ROUTE"],
+        "fact_ids": ["OLV_FACT_PRESIDENT_COMMAND", "OLV_FACT_NCA_PORTFOLIOS"],
+        "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_NATIONAL_SECURITY",
+        "office_class": "Minister of National Security and Strategic Integration Department",
+        "first_episode_disposition": "active",
+        "participation_class": "institutional_integrator",
+        "mandate": "Integrate the named instruments into one options product while preserving contradictions, dissent, evidence, capability gaps, and implementation dependencies.",
+        "supported_contributions": ["cross_domain_integration", "contradiction_record", "sequenced_options", "dependency_map"],
+        "prohibited_actions": ["choose_final_policy", "rewrite_portfolio_position", "grant_command_authority", "invent_world_consequence"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_NCA_PORTFOLIO_POSITIONS", "OLV_INFO_COMMAND_PRODUCT", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW"],
+        "group_ids": ["OLV_GROUP_SID_INTEGRATION", "OLV_GROUP_NCA_REVIEW"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["options_integrator"],
+        "persona_posture_ids": ["OLV_INF_SID_INTEGRATION"],
+        "fact_ids": ["OLV_FACT_SID_INTEGRATION"],
+        "inference_ids": ["OLV_INF_SID_INTEGRATION", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_FOREIGN_AFFAIRS",
+        "office_class": "Foreign Affairs",
+        "first_episode_disposition": "active",
+        "participation_class": "nca_portfolio_adviser",
+        "mandate": "Assess diplomacy, negotiation, legitimacy, deconfliction, withdrawal conditions, and the risk of stronger outside intervention.",
+        "supported_contributions": ["portfolio_position", "diplomatic_option", "outside_intervention_risk", "nca_review"],
+        "prohibited_actions": ["promise_counterpart_acceptance", "choose_party_policy", "issue_military_order"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_FOREIGN_PRIVATE", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW"],
+        "group_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_NCA_REVIEW"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["portfolio_adviser"],
+        "persona_posture_ids": ["OLV_INF_OBJECTIVES", "OLV_INF_NCA_PORTFOLIO_PRODUCT"],
+        "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_STRATEGIC_GOALS"],
+        "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_PUBLIC_INFORMATION",
+        "office_class": "Public Information",
+        "first_episode_disposition": "active",
+        "participation_class": "nca_portfolio_adviser",
+        "mandate": "Assess public narrative, signaling, evidence discipline, message consistency, and the risks of claims that outrun observed facts.",
+        "supported_contributions": ["portfolio_position", "public_message_option", "evidence_warning", "nca_review"],
+        "prohibited_actions": ["publish_without_decision", "invent_observation", "choose_party_policy"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_PUBLIC_INFORMATION_PRIVATE", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW"],
+        "group_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_NCA_REVIEW"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["portfolio_adviser"],
+        "persona_posture_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT"],
+        "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"],
+        "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_FINANCE",
+        "office_class": "Finance and Economic Affairs",
+        "first_episode_disposition": "active",
+        "participation_class": "nca_portfolio_adviser",
+        "mandate": "Assess trade, energy, strategic resources, sanctions exposure, market effects, and economic sustainability of the posture.",
+        "supported_contributions": ["portfolio_position", "economic_option", "resource_risk", "nca_review"],
+        "prohibited_actions": ["self_certify_world_resources", "choose_party_policy", "create_general_veto"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_FINANCE_PRIVATE", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW"],
+        "group_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_NCA_REVIEW"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["portfolio_adviser"],
+        "persona_posture_ids": ["OLV_INF_OBJECTIVES", "OLV_INF_NCA_PORTFOLIO_PRODUCT"],
+        "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_STRATEGIC_GOALS"],
+        "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_INTERIOR",
+        "office_class": "Interior and Public Security",
+        "first_episode_disposition": "active",
+        "participation_class": "nca_portfolio_adviser",
+        "mandate": "Assess party-state control, public order, border and infrastructure protection, internal-force dependencies, and domestic stability effects.",
+        "supported_contributions": ["portfolio_position", "internal_control_option", "force_relationship_warning", "nca_review"],
+        "prohibited_actions": ["approve_external_military_objective", "invent_psc_position", "create_general_veto"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_INTERIOR_PRIVATE", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW"],
+        "group_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_NCA_REVIEW"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["portfolio_adviser"],
+        "persona_posture_ids": ["OLV_INF_OBJECTIVES", "OLV_INF_NCA_PORTFOLIO_PRODUCT"],
+        "fact_ids": ["OLV_FACT_PARTY_PRESERVATION", "OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_INTERIOR_CONTROL"],
+        "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_DEFENSE",
+        "office_class": "Defense",
+        "first_episode_disposition": "active",
+        "participation_class": "nca_portfolio_adviser",
+        "mandate": "Assess defense policy, readiness, resources, force protection, posture feasibility, and the relationship between the NCA and military command.",
+        "supported_contributions": ["portfolio_position", "defense_assessment", "feasibility_confirmation", "nca_review"],
+        "prohibited_actions": ["choose_party_policy", "self_authorize_force_change", "invent_nuclear_route"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_DEFENSE_PRIVATE", "OLV_INFO_COMMAND_PRODUCT", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW"],
+        "group_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_COMMAND_ASSESSMENT", "OLV_GROUP_NCA_REVIEW"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["portfolio_adviser", "defense_confirmer"],
+        "persona_posture_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT", "OLV_INF_PARTY_NCA_ROUTE"],
+        "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_DEFENSE_COMMAND", "OLV_FACT_MILITARY_POLITICAL_INFLUENCE"],
+        "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT", "OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "seat_id": "OLV_SEAT_GENERAL_STAFF",
+        "office_class": "General Staff",
+        "first_episode_disposition": "active",
+        "participation_class": "professional_adviser",
+        "mandate": "Assess force posture, operational feasibility, readiness, escalation, command integrity, and the professional military range of alternatives.",
+        "supported_contributions": ["command_assessment", "operational_risk", "professional_confirmation", "bounded_alternative"],
+        "prohibited_actions": ["choose_party_policy", "claim_nca_membership", "self_authorize_force_change", "invent_nuclear_route"],
+        "information_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_GENERAL_STAFF_PRIVATE", "OLV_INFO_COMMAND_PRODUCT", "OLV_INFO_SID_OPTIONS", "OLV_INFO_DECISION_RECORD"],
+        "group_ids": ["OLV_GROUP_COMMAND_ASSESSMENT"],
+        "activation_predicate_ids": ["OLV_ACT_FIRST_EPISODE"],
+        "decision_route_roles": ["professional_confirmer"],
+        "persona_posture_ids": ["OLV_INF_PARTY_NCA_ROUTE"],
+        "fact_ids": ["OLV_FACT_DEFENSE_COMMAND", "OLV_FACT_MILITARY_POLITICAL_INFLUENCE"],
+        "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]
+      }
+    ],
+    "services": [
+      {
+        "service_id": "OLV_SERVICE_WATCH",
+        "purpose": "Deliver exact authorized World-authored inputs and record each delivery.",
+        "responsibilities": ["deliver_common_picture", "deliver_private_brief", "record_hash_and_time"],
+        "prohibited_actions": ["summarize_evidence", "invent_fact", "union_private_briefs"],
+        "activation_predicate_ids": ["OLV_ACT_ALWAYS"],
+        "fact_ids": [],
+        "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]
+      },
+      {
+        "service_id": "OLV_SERVICE_CONTROLLER",
+        "purpose": "Execute frozen delivery, dependency, integration, review, route, validation, and failure mechanics.",
+        "responsibilities": ["schedule_graph", "collect_in_charter_order", "validate_products", "route_decision", "retain_failures"],
+        "prohibited_actions": ["choose_policy", "repair_product", "invent_psc_consensus", "grant_authority", "mutate_world"],
+        "activation_predicate_ids": ["OLV_ACT_ALWAYS"],
+        "fact_ids": [],
+        "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT", "OLV_INF_SID_INTEGRATION", "OLV_INF_PARTY_NCA_ROUTE"]
+      }
+    ]
+  },
+  "information_classes": [
+    {"information_class_id": "OLV_INFO_COMMON", "description": "Versioned Common Crisis Picture available to every active seat without hidden World truth.", "sensitivity": "common", "fact_ids": [], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_PARTY_PRIVATE", "description": "Synthetic party-control, political-viability, and leadership-risk facts authorized only to the General Secretary.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PARTY_PRESERVATION"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_PRESIDENT_PRIVATE", "description": "Synthetic formal-state, NCA-chair, and command-transmission facts authorized to the President.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_FOREIGN_PRIVATE", "description": "Synthetic diplomatic, legitimacy, negotiation, and outside-intervention facts.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_STRATEGIC_GOALS"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_PUBLIC_INFORMATION_PRIVATE", "description": "Synthetic narrative, signaling, media, and evidence-discipline facts.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_FINANCE_PRIVATE", "description": "Synthetic trade, energy, resource, sanctions, market, and sustainability facts.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_STRATEGIC_GOALS"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_INTERIOR_PRIVATE", "description": "Synthetic party-control, public-order, border, infrastructure-protection, and internal-force facts.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_INTERIOR_CONTROL", "OLV_FACT_PARTY_PRESERVATION"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_DEFENSE_PRIVATE", "description": "Synthetic defense-policy, readiness, resource, force-protection, and posture facts.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_GENERAL_STAFF_PRIVATE", "description": "Synthetic operational feasibility, readiness, escalation, and command-integrity facts.", "sensitivity": "seat_private", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS", "description": "An ordered bundle of attributable NCA portfolio positions without controller synthesis.", "sensitivity": "group_product", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"], "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT"]},
+    {"information_class_id": "OLV_INFO_COMMAND_PRODUCT", "description": "The attributable command assessment with feasibility, constraints, escalation risk, dissent, and gaps.", "sensitivity": "group_product", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"information_class_id": "OLV_INFO_SID_OPTIONS", "description": "The Minister of National Security's versioned integrated options product preserving every source position and contradiction.", "sensitivity": "group_product", "fact_ids": ["OLV_FACT_SID_INTEGRATION"], "inference_ids": ["OLV_INF_SID_INTEGRATION"]},
+    {"information_class_id": "OLV_INFO_NCA_REVIEW", "description": "President-chaired NCA review positions, unresolved dissent, confirmations, and request for party-state direction.", "sensitivity": "group_product", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"information_class_id": "OLV_INFO_DECISION_RECORD", "description": "The General Secretary's exact decision, retained NCA record, confirmations, blocked components, and output mapping.", "sensitivity": "group_product", "fact_ids": ["OLV_FACT_PARTY_AUTHORITY"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"information_class_id": "OLV_INFO_WORLD_GROUND_TRUTH", "description": "Hidden World truth with no Room entitlement or disclosure permission.", "sensitivity": "world_ground_truth", "fact_ids": [], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]}
+  ],
+  "disclosure_permissions": [
+    {"permission_id": "OLV_PERMISSION_COMMON", "information_class_id": "OLV_INFO_COMMON", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SCOPE_ALL_ACTIVE_SEATS"], "delivery_mode": "direct", "fact_ids": [], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_PARTY_PRIVATE", "information_class_id": "OLV_INFO_PARTY_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_GENERAL_SECRETARY"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PARTY_PRESERVATION"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_PRESIDENT_PRIVATE", "information_class_id": "OLV_INFO_PRESIDENT_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_PRESIDENT"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_FOREIGN_PRIVATE", "information_class_id": "OLV_INFO_FOREIGN_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_FOREIGN_AFFAIRS"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_STRATEGIC_GOALS"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_PUBLIC_INFORMATION_PRIVATE", "information_class_id": "OLV_INFO_PUBLIC_INFORMATION_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_PUBLIC_INFORMATION"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_FINANCE_PRIVATE", "information_class_id": "OLV_INFO_FINANCE_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_FINANCE"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_STRATEGIC_GOALS"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_INTERIOR_PRIVATE", "information_class_id": "OLV_INFO_INTERIOR_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_INTERIOR"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_INTERIOR_CONTROL", "OLV_FACT_PARTY_PRESERVATION"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_DEFENSE_PRIVATE", "information_class_id": "OLV_INFO_DEFENSE_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_DEFENSE"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_GENERAL_STAFF_PRIVATE", "information_class_id": "OLV_INFO_GENERAL_STAFF_PRIVATE", "sender_ids": ["OLV_SERVICE_WATCH"], "recipient_ids": ["OLV_SEAT_GENERAL_STAFF"], "delivery_mode": "direct", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_INFORMATION_BOUNDARIES"]},
+    {"permission_id": "OLV_PERMISSION_NCA_POSITIONS", "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS", "sender_ids": ["OLV_GROUP_NCA_PORTFOLIOS"], "recipient_ids": ["OLV_SEAT_NATIONAL_SECURITY", "OLV_GROUP_NCA_REVIEW"], "delivery_mode": "group_delivery", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"], "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT"]},
+    {"permission_id": "OLV_PERMISSION_COMMAND_PRODUCT", "information_class_id": "OLV_INFO_COMMAND_PRODUCT", "sender_ids": ["OLV_GROUP_COMMAND_ASSESSMENT"], "recipient_ids": ["OLV_SEAT_NATIONAL_SECURITY", "OLV_SEAT_PRESIDENT", "OLV_GROUP_NCA_REVIEW"], "delivery_mode": "group_delivery", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"permission_id": "OLV_PERMISSION_SID_OPTIONS", "information_class_id": "OLV_INFO_SID_OPTIONS", "sender_ids": ["OLV_GROUP_SID_INTEGRATION"], "recipient_ids": ["OLV_GROUP_NCA_REVIEW", "OLV_SEAT_GENERAL_SECRETARY"], "delivery_mode": "group_delivery", "fact_ids": ["OLV_FACT_SID_INTEGRATION"], "inference_ids": ["OLV_INF_SID_INTEGRATION"]},
+    {"permission_id": "OLV_PERMISSION_NCA_REVIEW", "information_class_id": "OLV_INFO_NCA_REVIEW", "sender_ids": ["OLV_GROUP_NCA_REVIEW"], "recipient_ids": ["OLV_SEAT_GENERAL_SECRETARY", "OLV_GROUP_PARTY_DIRECTION"], "delivery_mode": "group_delivery", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"permission_id": "OLV_PERMISSION_DECISION", "information_class_id": "OLV_INFO_DECISION_RECORD", "sender_ids": ["OLV_GROUP_PARTY_DIRECTION", "OLV_SERVICE_CONTROLLER"], "recipient_ids": ["OLV_SCOPE_ALL_ACTIVE_SEATS"], "delivery_mode": "group_delivery", "fact_ids": ["OLV_FACT_PARTY_AUTHORITY"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]}
+  ],
+  "activation_predicates": [
+    {"activation_predicate_id": "OLV_ACT_ALWAYS", "predicate_type": "always", "condition_ids": [], "first_episode_value": true, "description": "Deterministic services are active for every Room cycle.", "fact_ids": [], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"activation_predicate_id": "OLV_ACT_FIRST_EPISODE", "predicate_type": "episode_relevance", "condition_ids": ["CONDITION_RIDGE_SEIZURE", "CONDITION_LIMITED_HOLD", "CONDITION_OUTSIDE_INTERVENTION_RISK", "CONDITION_ECONOMIC_EXPOSURE", "CONDITION_PUBLIC_NARRATIVE", "CONDITION_INTERNAL_CONTROL"], "first_episode_value": true, "description": "The selected first-episode posture activates the nine source-grounded party, state, integration, portfolio, and command seats.", "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_STRATEGIC_GOALS", "OLV_FACT_INTERIOR_CONTROL"], "inference_ids": ["OLV_INF_FIRST_EPISODE_ACTIVATION"]}
+  ],
+  "groups": [
+    {"group_id": "OLV_GROUP_NCA_PORTFOLIOS", "purpose": "Collect five attributable portfolio positions without controller synthesis or a generic vote.", "ordered_eligible_member_ids": ["OLV_SEAT_FOREIGN_AFFAIRS", "OLV_SEAT_PUBLIC_INFORMATION", "OLV_SEAT_FINANCE", "OLV_SEAT_INTERIOR", "OLV_SEAT_DEFENSE"], "input_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_FOREIGN_PRIVATE", "OLV_INFO_PUBLIC_INFORMATION_PRIVATE", "OLV_INFO_FINANCE_PRIVATE", "OLV_INFO_INTERIOR_PRIVATE", "OLV_INFO_DEFENSE_PRIVATE"], "dependency_group_ids": [], "shared_seat_barrier_ids": ["OLV_SEAT_DEFENSE"], "activation_predicate_id": "OLV_ACT_FIRST_EPISODE", "product_schema_id": "OLV_PRODUCT_NCA_PORTFOLIO_BUNDLE", "collection_order": 10, "failure_effect": "missing_nca_portfolio_position", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"], "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT"]},
+    {"group_id": "OLV_GROUP_COMMAND_ASSESSMENT", "purpose": "Assess force posture, feasibility, readiness, command integrity, and escalation after Defense retains one portfolio identity.", "ordered_eligible_member_ids": ["OLV_SEAT_PRESIDENT", "OLV_SEAT_DEFENSE", "OLV_SEAT_GENERAL_STAFF"], "input_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_PRESIDENT_PRIVATE", "OLV_INFO_DEFENSE_PRIVATE", "OLV_INFO_GENERAL_STAFF_PRIVATE"], "dependency_group_ids": ["OLV_GROUP_NCA_PORTFOLIOS"], "shared_seat_barrier_ids": ["OLV_SEAT_PRESIDENT", "OLV_SEAT_DEFENSE", "OLV_SEAT_GENERAL_STAFF"], "activation_predicate_id": "OLV_ACT_FIRST_EPISODE", "product_schema_id": "OLV_PRODUCT_COMMAND_ASSESSMENT", "collection_order": 20, "failure_effect": "missing_command_assessment", "fact_ids": ["OLV_FACT_PRESIDENT_COMMAND", "OLV_FACT_DEFENSE_COMMAND", "OLV_FACT_MILITARY_POLITICAL_INFLUENCE"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"group_id": "OLV_GROUP_SID_INTEGRATION", "purpose": "Integrate the portfolio bundle and command assessment into options while preserving source positions and contradictions.", "ordered_eligible_member_ids": ["OLV_SEAT_NATIONAL_SECURITY"], "input_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_NCA_PORTFOLIO_POSITIONS", "OLV_INFO_COMMAND_PRODUCT"], "dependency_group_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_COMMAND_ASSESSMENT"], "shared_seat_barrier_ids": ["OLV_SEAT_NATIONAL_SECURITY"], "activation_predicate_id": "OLV_ACT_FIRST_EPISODE", "product_schema_id": "OLV_PRODUCT_SID_OPTIONS", "collection_order": 30, "failure_effect": "missing_sid_options", "fact_ids": ["OLV_FACT_SID_INTEGRATION"], "inference_ids": ["OLV_INF_SID_INTEGRATION"]},
+    {"group_id": "OLV_GROUP_NCA_REVIEW", "purpose": "Record a President-chaired review of the same SID options, every portfolio position, command constraints, and unresolved dissent without treating the forum as the final party authority.", "ordered_eligible_member_ids": ["OLV_SEAT_PRESIDENT", "OLV_SEAT_NATIONAL_SECURITY", "OLV_SEAT_FOREIGN_AFFAIRS", "OLV_SEAT_PUBLIC_INFORMATION", "OLV_SEAT_FINANCE", "OLV_SEAT_INTERIOR", "OLV_SEAT_DEFENSE"], "input_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_NCA_PORTFOLIO_POSITIONS", "OLV_INFO_COMMAND_PRODUCT", "OLV_INFO_SID_OPTIONS"], "dependency_group_ids": ["OLV_GROUP_SID_INTEGRATION"], "shared_seat_barrier_ids": ["OLV_SEAT_PRESIDENT", "OLV_SEAT_NATIONAL_SECURITY", "OLV_SEAT_FOREIGN_AFFAIRS", "OLV_SEAT_PUBLIC_INFORMATION", "OLV_SEAT_FINANCE", "OLV_SEAT_INTERIOR", "OLV_SEAT_DEFENSE"], "activation_predicate_id": "OLV_ACT_FIRST_EPISODE", "product_schema_id": "OLV_PRODUCT_NCA_REVIEW", "collection_order": 40, "failure_effect": "missing_nca_review", "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"group_id": "OLV_GROUP_PARTY_DIRECTION", "purpose": "Let the General Secretary decide the represented party-state ridge posture from the complete NCA record without inventing a Politburo vote.", "ordered_eligible_member_ids": ["OLV_SEAT_GENERAL_SECRETARY"], "input_entitlement_ids": ["OLV_INFO_COMMON", "OLV_INFO_PARTY_PRIVATE", "OLV_INFO_SID_OPTIONS", "OLV_INFO_NCA_REVIEW"], "dependency_group_ids": ["OLV_GROUP_NCA_REVIEW"], "shared_seat_barrier_ids": ["OLV_SEAT_GENERAL_SECRETARY"], "activation_predicate_id": "OLV_ACT_FIRST_EPISODE", "product_schema_id": "OLV_PRODUCT_DECISION_RECORD", "collection_order": 50, "failure_effect": "no_supported_party_state_decision", "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PSC_POWER"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]}
+  ],
+  "product_schemas": [
+    {"product_schema_id": "OLV_PRODUCT_NCA_PORTFOLIO_BUNDLE", "product_type": "ordered_portfolio_position_bundle", "producing_group_ids": ["OLV_GROUP_NCA_PORTFOLIOS"], "required_fields": ["ordered_positions", "evidence_references", "uncertainties", "conditions", "dissent"], "preserves_dissent": true, "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"], "inference_ids": ["OLV_INF_NCA_PORTFOLIO_PRODUCT"]},
+    {"product_schema_id": "OLV_PRODUCT_COMMAND_ASSESSMENT", "product_type": "command_assessment", "producing_group_ids": ["OLV_GROUP_COMMAND_ASSESSMENT"], "required_fields": ["posture", "feasibility", "readiness", "force_protection", "command_integrity", "escalation_risk", "alternatives", "dissent", "gaps"], "preserves_dissent": true, "fact_ids": ["OLV_FACT_PRESIDENT_COMMAND", "OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"product_schema_id": "OLV_PRODUCT_SID_OPTIONS", "product_type": "integrated_instrument_options", "producing_group_ids": ["OLV_GROUP_SID_INTEGRATION"], "required_fields": ["source_product_ids", "options", "instrument_dependencies", "contradictions", "dissent", "stop_conditions", "gaps"], "preserves_dissent": true, "fact_ids": ["OLV_FACT_SID_INTEGRATION"], "inference_ids": ["OLV_INF_SID_INTEGRATION"]},
+    {"product_schema_id": "OLV_PRODUCT_NCA_REVIEW", "product_type": "nca_review_record", "producing_group_ids": ["OLV_GROUP_NCA_REVIEW"], "required_fields": ["options_hash", "president_position", "ordered_portfolio_positions", "command_constraints", "confirmations", "dissent", "party_direction_request"], "preserves_dissent": true, "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"product_schema_id": "OLV_PRODUCT_DECISION_RECORD", "product_type": "counterpart_decision_record", "producing_group_ids": ["OLV_GROUP_PARTY_DIRECTION"], "required_fields": ["action_class", "nca_review_hash", "general_secretary_decision", "president_command_confirmation", "professional_confirmations", "retained_dissent", "blocked_components", "output_components"], "preserves_dissent": true, "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]}
+  ],
+  "decision_routes": [
+    {"route_id": "OLV_ROUTE_RIDGE_POSTURE", "action_class": "limited_ridge_hold_and_integrated_pressure", "applicability_predicate_id": "OLV_ACT_FIRST_EPISODE", "decision_authority_seat_ids": ["OLV_SEAT_GENERAL_SECRETARY"], "decision_rule": "single_named_decider", "eligible_forum_group_id": "OLV_GROUP_PARTY_DIRECTION", "consultation_group_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_COMMAND_ASSESSMENT", "OLV_GROUP_SID_INTEGRATION", "OLV_GROUP_NCA_REVIEW"], "required_confirmation_ids": ["OLV_CONFIRM_PRESIDENT_COMMAND", "OLV_CONFIRM_DEFENSE_FEASIBILITY", "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT"], "final_decision_record_schema_id": "OLV_PRODUCT_DECISION_RECORD", "failure_effect": "no_supported_posture_change", "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PRESIDENT_COMMAND", "OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]}
+  ],
+  "required_confirmations": [
+    {"confirmation_id": "OLV_CONFIRM_PRESIDENT_COMMAND", "description": "The President confirms formal command transmission of the exact military-posture component after chairing NCA review; this does not create independent party authority.", "requester_seat_ids": ["OLV_SEAT_GENERAL_SECRETARY"], "confirmer_seat_ids": ["OLV_SEAT_PRESIDENT"], "applicability_action_classes": ["limited_ridge_hold_and_integrated_pressure"], "failure_effect": "block_named_military_posture_component", "fact_ids": ["OLV_FACT_PRESIDENT_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"confirmation_id": "OLV_CONFIRM_DEFENSE_FEASIBILITY", "description": "Defense confirms the named posture is feasible within the authorized facts and resource constraints without choosing party-state policy.", "requester_seat_ids": ["OLV_SEAT_PRESIDENT"], "confirmer_seat_ids": ["OLV_SEAT_DEFENSE"], "applicability_action_classes": ["limited_ridge_hold_and_integrated_pressure"], "failure_effect": "block_named_military_posture_component", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]},
+    {"confirmation_id": "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT", "description": "General Staff supplies the required professional assessment of the named posture, readiness, and escalation risk without authorizing policy.", "requester_seat_ids": ["OLV_SEAT_PRESIDENT"], "confirmer_seat_ids": ["OLV_SEAT_GENERAL_STAFF"], "applicability_action_classes": ["limited_ridge_hold_and_integrated_pressure"], "failure_effect": "block_named_military_posture_component", "fact_ids": ["OLV_FACT_DEFENSE_COMMAND"], "inference_ids": ["OLV_INF_PARTY_NCA_ROUTE"]}
+  ],
+  "blocked_action_classes": [
+    {"blocked_action_class_id": "OLV_BLOCK_STRATEGIC_OR_NUCLEAR_ACTION", "action_class": "strategic_or_nuclear_readiness_signaling_or_use", "reason": "The current source register does not establish a complete launch forum, information path, confirmation map, authenticated route, or effect authority.", "gap_ids": ["OLV_GAP_NUCLEAR_DECISION_PATH"], "failure_effect": "charter_gap_no_external_state_change"},
+    {"blocked_action_class_id": "OLV_BLOCK_LIMITED_NUCLEAR_DEBATE", "action_class": "setup_authored_limited_nuclear_coercion_debate", "reason": "The current source refresh did not re-establish the older preserved source claim, so the debate cannot activate or become a runnable option.", "gap_ids": ["OLV_GAP_LIMITED_USE_SOURCE_DRIFT"], "failure_effect": "source_gap_no_activation"},
+    {"blocked_action_class_id": "OLV_BLOCK_PSC_VOTE", "action_class": "politburo_collective_vote_or_consensus", "reason": "The candidate does not invent individual PSC seats, vote weights, quorum, or consensus from a source that supplies only size and political primacy.", "gap_ids": ["OLV_GAP_PSC_COMPOSITION"], "failure_effect": "charter_gap_no_decision"}
+  ],
+  "evidence_labels": [
+    {"evidence_label_id": "EVIDENCE_FACT", "label": "FACT", "description": "A bounded claim supported by the pinned public DATE source register."},
+    {"evidence_label_id": "EVIDENCE_INFERENCE", "label": "INFERENCE", "description": "A declared Room-design choice that must not be presented as official DATE procedure."},
+    {"evidence_label_id": "EVIDENCE_GAP", "label": "GAP", "description": "A missing source, route, mandate, or implementation boundary retained rather than repaired by analogy."}
+  ],
+  "claim_boundary": [
+    "candidate_not_ratified",
+    "no_model_behavior_evidence",
+    "no_official_olvanan_procedure_claim",
+    "no_psc_internal_simulation",
+    "no_runnable_olvanan_nuclear_route",
+    "no_live_counterpart_room",
+    "no_world_effect_authority",
+    "no_date_episode_evidence",
+    "no_comparative_result"
+  ]
+}

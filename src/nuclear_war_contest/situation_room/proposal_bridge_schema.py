@@ -1,0 +1,108 @@
+"""Closed envelopes for the no-model proposal bridge fixture."""
+
+TOP_FIELDS = {
+    "schema_version",
+    "fixture_id",
+    "fixture_version",
+    "status",
+    "cycle_receipt_hash",
+    "cycle_run_hash",
+    "date_profile_hash",
+    "proposals",
+    "clarifications",
+    "effect_authority_records",
+    "capability_records",
+    "consequence_proposals",
+}
+PROPOSAL_FIELDS = {
+    "proposal_id",
+    "proposal_version",
+    "actor_id",
+    "original_language",
+    "source_policy_package_id",
+    "source_component_ids",
+    "institutional_decision_record_id",
+    "effects",
+    "open_content",
+}
+EFFECT_FIELDS = {
+    "effect_id",
+    "source_component_ids",
+    "original_language",
+    "intended_effect",
+    "means_or_resources",
+    "object_or_audience",
+    "timing",
+    "conditions",
+    "dependency_effect_ids",
+    "unresolved_field_ids",
+    "authority_record_id",
+    "capability_record_ids",
+    "consequence_proposal_id",
+    "open_content",
+}
+CLARIFICATION_FIELDS = {
+    "clarification_id",
+    "proposal_id",
+    "effect_id",
+    "original_effect_hash",
+    "status",
+    "question",
+    "response",
+    "requested_field_ids",
+    "resolved_fields",
+}
+AUTHORITY_FIELDS = {
+    "authority_record_id",
+    "effect_id",
+    "resolved_effect_hash",
+    "actor_id",
+    "authorizing_seat_id",
+    "decision_record_id",
+    "status",
+    "evidence_status",
+    "basis",
+}
+CAPABILITY_FIELDS = {
+    "capability_record_id",
+    "effect_id",
+    "predicate_type",
+    "entity_id",
+    "actor_id",
+    "expected_value",
+    "evidence_status",
+}
+CONSEQUENCE_FIELDS = {
+    "consequence_proposal_id",
+    "source_proposal_id",
+    "effect_id",
+    "adjudicator_id",
+    "evidence_status",
+    "artifact_parent_ids",
+    "core_read",
+    "world_parent_event_ids",
+    "affected_entity_ids",
+    "episode_hour",
+    "audience_ids",
+    "evidence_ids",
+    "assumptions",
+    "uncertainty",
+    "alternatives",
+    "content",
+    "represented_room_decision_actor_ids",
+    "resulting_injects",
+    "state_patch",
+    "open_content",
+}
+CORE_READ_FIELDS = {"profile_hash", "core_version", "core_hash", "entity_ids"}
+
+__all__ = [
+    "AUTHORITY_FIELDS",
+    "CAPABILITY_FIELDS",
+    "CLARIFICATION_FIELDS",
+    "CONSEQUENCE_FIELDS",
+    "CORE_READ_FIELDS",
+    "EFFECT_FIELDS",
+    "PROPOSAL_FIELDS",
+    "TOP_FIELDS",
+]

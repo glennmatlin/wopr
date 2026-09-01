@@ -1,0 +1,57 @@
+# Bundle file manifest
+
+Generated file list:
+
+- 01_primary_official/official_current_materials.md
+- 02_rules_and_variants/classic_base_rules_sources.md
+- 02_rules_and_variants/official_nuclear_destruction_summary.md
+- 02_rules_and_variants/press_no_press_and_pbm_variants.md
+- 02_rules_and_variants/rules_reconstruction_summary.md
+- 03_card_data/base_game_card_inventory.csv
+- 03_card_data/booster_and_promo_catalog.csv
+- 03_card_data/card_data_readme.md
+- 03_card_data/expansion_card_inventory_summary.csv
+- 04_simulation_model/game_state_model.md
+- 04_simulation_model/rules_engine_spec.md
+- 04_simulation_model/rules_variants.json
+- 04_simulation_model/simulation_cards_schema.json
+- 04_simulation_model/spinner_and_die_tables.json
+- 05_ai_prompts_and_memories/memory_cards.md
+- 05_ai_prompts_and_memories/prompt_for_simulation_rules_engine.md
+- 05_ai_prompts_and_memories/prompt_for_transcribing_physical_copy.md
+- 05_ai_prompts_and_memories/source_priority_and_confidence.md
+- 05_ai_prompts_and_memories/system_prompt_for_nuclear_war_research_assistant.md
+- 06_domain_context_and_references/additional_search_log.md
+- 06_domain_context_and_references/historical_cultural_references.md
+- 07_gaps_and_next_steps/edition_reconciliation_checklist.md
+- 07_gaps_and_next_steps/exact_text_gap_list.md
+- 07_gaps_and_next_steps/how_to_add_exact_card_text.csv
+- 99_sources/download_log.csv
+- 99_sources/download_manifest_urls.txt
+- 99_sources/downloaded_pdfs/NucDesRulesUpdated040226.pdf
+- 99_sources/downloaded_pdfs/NuclearDestructionLog.pdf
+- 99_sources/downloaded_pdfs/NuclearWarENGrules_goblins_mirror.pdf
+- 99_sources/downloaded_pdfs/Nuclear_DestructionAntiMissileChart.pdf
+- 99_sources/downloaded_pdfs/nuclear-war-rules_magisterrex_mirror.pdf
+- 99_sources/extracted_text/NucDesRulesUpdated040226.txt
+- 99_sources/extracted_text/NuclearDestructionLog.txt
+- 99_sources/extracted_text/NuclearWarENGrules_goblins_mirror.txt
+- 99_sources/extracted_text/Nuclear_DestructionAntiMissileChart.txt
+- 99_sources/extracted_text/nuclear-war-rules_magisterrex_mirror.txt
+- 99_sources/pdf_verification_report.json
+- 99_sources/pdf_verification_report.md
+- 99_sources/source_notes/COMM-001_bgg_moreinfo.md
+- 99_sources/source_notes/COMM-002_scribd_card_list.md
+- 99_sources/source_notes/COMM-003_scribd_faq.md
+- 99_sources/source_notes/COMM-007_steam_tts_all_expansions.md
+- 99_sources/source_notes/DOMAIN-003_insidegmt_cold_war_legacy.md
+- 99_sources/source_notes/MIR-002_old_spinner_rule_scan_notes.md
+- 99_sources/source_notes/NEWS-001_latimes_success_article.md
+- 99_sources/source_notes/NEWS-003_icv2_launch.md
+- 99_sources/source_notes/OFF-001_mr_b_games_product_page.md
+- 99_sources/source_notes/UNOFF-001_variablepig_postal_rules.md
+- BUNDLE_FILE_MANIFEST.md
+- README.md
+- full_research_report.md
+- source_index.csv
+- source_index.json

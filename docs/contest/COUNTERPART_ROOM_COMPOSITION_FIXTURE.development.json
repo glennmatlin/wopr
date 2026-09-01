@@ -1,0 +1,63 @@
+{
+  "schema_version": "counterpart-room-composition-fixture.v0.1",
+  "fixture_id": "US_TWO_CYCLE_WITH_COUNTERPART_ROOMS.development.v0_1",
+  "fixture_version": "0.1.0",
+  "status": "development_fixture_non_evidence",
+  "artifact_paths": {
+    "two_cycle_fixture": "US_TWO_CYCLE_FIXTURE.development.json",
+    "two_cycle_receipt": "US_TWO_CYCLE_RECEIPT.json",
+    "himaldesh_room_receipt": "HIMALDESH_ROOM_RECEIPT.json",
+    "olvana_room_receipt": "OLVANA_ROOM_RECEIPT.json"
+  },
+  "artifact_hashes": {
+    "two_cycle_fixture": "2a7d484d4096e598cee64cbf30c60344c3cca57a7f9cf52f384e6b0ce8f94e66",
+    "two_cycle_receipt": "0f2fda7d0cddbde0a04937ced273f1dc02be5d00249993f84928355b9cce1e26",
+    "himaldesh_room_receipt": "e1cafb0ed1c9a1fcc8ea512125096c7016db8ead1ff2e90c92ca1c5c5959ae8f",
+    "olvana_room_receipt": "f74652bb8c5d99c87417f089d6cb9532b256ffe8fd5cbc4233899f2fed00503d"
+  },
+  "upstream_receipt_hashes": {
+    "d70": "7e5dbd8216d9ea9abc55cc457ceae3df44e3ee4192459012a5459944bddfe6ee",
+    "himaldesh": "98a006d17fe23c40d80ec6804da45a192106363d8b03fc7b096ce79d3cbfefc9",
+    "olvana": "5586513c594acd6d4acab97978b2624c2917a6a8d49bb81be55818b3c433d547"
+  },
+  "output_bindings": [
+    {
+      "actor_id": "ACTOR_HIMALDESH",
+      "receipt_key": "himaldesh",
+      "mapping_owner": "room_decision",
+      "mapping_type": "decision_record_output_components",
+      "projection_id": "HD_PROJECTION_SUPPORT_REQUEST_001",
+      "source_decision_record_id": "HD_PRODUCT_DECISION_001",
+      "output_id": "HIM_OUTPUT_SUPPORT_REQUEST_001",
+      "output_hash": "317c977a6656a4125e28e025323363a386dddcb394fe8bcf81e94f2f71d7aea2",
+      "us_cycle1_input_ids": [
+        "USC1_INPUT_COMMON_001",
+        "USC1_INPUT_STATE_PRIVATE_001",
+        "USC1_INPUT_DEFENSE_PRIVATE_001",
+        "USC1_INPUT_JUSTICE_PRIVATE_001",
+        "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+        "USC1_INPUT_CJCS_PRIVATE_001",
+        "USC1_INPUT_THEATER_PRIVATE_001"
+      ]
+    },
+    {
+      "actor_id": "ACTOR_OLVANA",
+      "receipt_key": "olvana",
+      "mapping_owner": "world_authored",
+      "mapping_type": "authored_world_projection",
+      "projection_id": "OLV_PROJECTION_RIDGE_POSTURE_001",
+      "source_decision_record_id": "OLV_PRODUCT_DECISION_001",
+      "output_id": "OLV_OUTPUT_RIDGE_POSTURE_001",
+      "output_hash": "c1362fc0bdab5b9f18dd70f7750911bb31d88004d360a8325115d28c20ff27fe",
+      "us_cycle1_input_ids": [
+        "USC1_INPUT_COMMON_001",
+        "USC1_INPUT_DNI_PRIVATE_001",
+        "USC1_INPUT_CIA_PRIVATE_001",
+        "USC1_INPUT_TREASURY_PRIVATE_001",
+        "USC1_INPUT_ENERGY_PRIVATE_001",
+        "USC1_INPUT_CJCS_PRIVATE_001",
+        "USC1_INPUT_THEATER_PRIVATE_001"
+      ]
+    }
+  ]
+}

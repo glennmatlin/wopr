@@ -1,0 +1,793 @@
+{
+  "schema_version": "us-source-register.v0.1",
+  "register_id": "US_PUBLIC_2026Q3.sources",
+  "register_version": "0.1.0",
+  "status": "candidate",
+  "snapshot_date": "2026-08-26",
+  "sources": [
+    {
+      "source_id": "SRC_NSPM1_2025",
+      "issuing_institution": "The White House",
+      "public_title": "Organization of the National Security Council and Subcommittees",
+      "canonical_url": "https://www.whitehouse.gov/presidential-actions/2025/01/organization-of-the-national-security-council-and-subcommittees/",
+      "publication_date": "2025-01-20",
+      "effective_date": "2025-01-20",
+      "retrieval_date": "2026-08-26",
+      "source_type": "presidential_memorandum",
+      "claim_paraphrase": "NSPM-1 states the public NSC and HSC functions, membership and non-voting attendance classes, staff and Executive Secretary roles, and Principals Committee consensus and referral process.",
+      "applicable_office_ids": [
+        "SEAT_PRESIDENT",
+        "SEAT_VICE_PRESIDENT",
+        "SEAT_STATE",
+        "SEAT_TREASURY",
+        "SEAT_DEFENSE",
+        "SEAT_ENERGY",
+        "SEAT_PANDEMIC_PREPAREDNESS",
+        "SEAT_ATTORNEY_GENERAL",
+        "SEAT_INTERIOR",
+        "SEAT_CHIEF_OF_STAFF",
+        "SEAT_NSA",
+        "SEAT_HOMELAND_SECURITY",
+        "SEAT_HSA",
+        "SEAT_DNI",
+        "SEAT_CJCS",
+        "SEAT_CIA_DIRECTOR",
+        "SEAT_WHITE_HOUSE_COUNSEL",
+        "SEAT_POLICY_ASSISTANT",
+        "SEAT_COUNSELOR"
+      ],
+      "applicable_process_ids": [
+        "SERVICE_EXECUTIVE_SECRETARY",
+        "GROUP_PC",
+        "GROUP_NSC",
+        "GROUP_HSC"
+      ],
+      "evidence_status": "fact",
+      "fact_ids": [
+        "FACT_NSC_HSC_FUNCTION",
+        "FACT_PUBLIC_COUNCIL_MEMBERSHIP",
+        "FACT_PUBLIC_ADVISER_STATUS",
+        "FACT_PUBLIC_EXECUTIVE_SECRETARY",
+        "FACT_PUBLIC_PC_PROCESS"
+      ],
+  "inference_ids": [
+    "INF_US_ACTOR_OBJECTIVES",
+    "INF_FIRST_EPISODE_ACTIVATION",
+    "INF_DETERMINISTIC_WATCH",
+        "INF_DETERMINISTIC_EXECUTIVE_SECRETARY",
+        "INF_PERSISTENT_OFFICE_SEATS",
+        "INF_REPRESENTED_STAFF_ROLES",
+        "INF_SPECIALIST_GROUP_GRAPH",
+        "INF_SYNTHETIC_ENTITLEMENTS",
+    "INF_POLICY_PACKAGE_SCHEMA",
+    "INF_PRESIDENTIAL_ROUTE_SCHEMA",
+    "INF_REQUIRED_CONFIRMATION_SCHEMA",
+    "INF_WEATHER_SPECIALIST_ROUTE"
+  ]
+    },
+    {
+      "source_id": "SRC_USC_50_3021",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "50 U.S.C. 3021 - National Security Council",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A50+section%3A3021+edition%3Aprelim%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute establishes the NSC to advise the President and support integration of domestic, foreign, and military national-security policy, and specifies statutory membership classes.",
+      "applicable_office_ids": [
+        "SEAT_PRESIDENT",
+        "SEAT_VICE_PRESIDENT",
+        "SEAT_STATE",
+        "SEAT_TREASURY",
+        "SEAT_DEFENSE",
+        "SEAT_ENERGY",
+        "SEAT_PANDEMIC_PREPAREDNESS"
+      ],
+      "applicable_process_ids": ["GROUP_NSC"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_NSC_HSC_FUNCTION", "FACT_PUBLIC_COUNCIL_MEMBERSHIP"],
+      "inference_ids": []
+    },
+    {
+      "source_id": "SRC_USC_22_2651A",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "22 U.S.C. 2651a - Organization of Department of State",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A22+section%3A2651a+edition%3Aprelim%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute establishes the Secretary of State as head of the Department and assigns administration and foreign-affairs functions subject to law and Presidential direction.",
+      "applicable_office_ids": ["SEAT_STATE"],
+      "applicable_process_ids": ["GROUP_DIPLOMATIC_ECONOMIC"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_STATE_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_TREASURY_ROLE",
+      "issuing_institution": "U.S. Department of the Treasury",
+      "public_title": "Role of the Treasury",
+      "canonical_url": "https://home.treasury.gov/about/general-information/role-of-the-treasury",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "agency_mission",
+      "claim_paraphrase": "Treasury describes its role in economic and financial policy, financial systems, sanctions, and protection of financial integrity.",
+      "applicable_office_ids": ["SEAT_TREASURY"],
+      "applicable_process_ids": ["GROUP_DIPLOMATIC_ECONOMIC"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_TREASURY_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_31_321",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "31 U.S.C. 321 - General authority of the Secretary",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A31+section%3A321+edition%3Aprelim%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute establishes the Secretary of the Treasury's general duties, authorities, delegation, and administration of the Department.",
+      "applicable_office_ids": ["SEAT_TREASURY"],
+      "applicable_process_ids": ["GROUP_DIPLOMATIC_ECONOMIC"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_TREASURY_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_10_113",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "10 U.S.C. 113 - Secretary of Defense",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A10+section%3A113+edition%3Aprelim%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute identifies the Secretary of Defense as head of the Department of Defense and places the Department under that Secretary's authority, direction, and control.",
+      "applicable_office_ids": ["SEAT_DEFENSE"],
+      "applicable_process_ids": ["GROUP_DEFENSE_ESCALATION", "GROUP_NUCLEAR_RADIOLOGICAL"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_DEFENSE_MANDATE"],
+      "inference_ids": [
+        "INF_SPECIALIST_GROUP_GRAPH",
+        "INF_SYNTHETIC_ENTITLEMENTS",
+        "INF_STABLE_DEFENSE_OFFICE_LABEL"
+      ]
+    },
+    {
+      "source_id": "SRC_ENERGY_MISSION",
+      "issuing_institution": "U.S. Department of Energy",
+      "public_title": "Mission",
+      "canonical_url": "https://www.energy.gov/mission",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "agency_mission",
+      "claim_paraphrase": "Energy describes national-security, energy-security, scientific, and environmental responsibilities that bound the department-level contribution.",
+      "applicable_office_ids": ["SEAT_ENERGY"],
+      "applicable_process_ids": ["GROUP_NUCLEAR_RADIOLOGICAL"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_ENERGY_NUCLEAR_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_NNSA_MISSION",
+      "issuing_institution": "National Nuclear Security Administration",
+      "public_title": "About NNSA",
+      "canonical_url": "https://www.energy.gov/nnsa/about-nnsa",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "agency_mission",
+      "claim_paraphrase": "NNSA describes stockpile stewardship, nonproliferation, and nuclear and radiological emergency-response responsibilities within the Energy Department.",
+      "applicable_office_ids": ["SEAT_ENERGY"],
+      "applicable_process_ids": ["GROUP_NUCLEAR_RADIOLOGICAL"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_ENERGY_NUCLEAR_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_28_503",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "28 U.S.C. 503 - Attorney General",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A503+edition%3Aprelim%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute establishes the Attorney General as head of the Department of Justice.",
+      "applicable_office_ids": ["SEAT_ATTORNEY_GENERAL"],
+      "applicable_process_ids": ["GROUP_LEGAL_AUTHORITY", "GROUP_HOMELAND_CONSEQUENCES"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_JUSTICE_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_DOJ_NSD_MISSION",
+      "issuing_institution": "U.S. Department of Justice",
+      "public_title": "About the National Security Division",
+      "canonical_url": "https://www.justice.gov/nsd/about-national-security-division-nsd",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "agency_mission",
+      "claim_paraphrase": "Justice describes the National Security Division's public counterterrorism, counterintelligence, export-control, sanctions-enforcement, and related legal responsibilities.",
+      "applicable_office_ids": ["SEAT_ATTORNEY_GENERAL"],
+      "applicable_process_ids": ["GROUP_LEGAL_AUTHORITY", "GROUP_HOMELAND_CONSEQUENCES"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_JUSTICE_MANDATE"],
+      "inference_ids": ["INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_INTERIOR_MISSION",
+      "issuing_institution": "U.S. Department of the Interior",
+      "public_title": "About Interior",
+      "canonical_url": "https://www.doi.gov/about",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "agency_mission",
+      "claim_paraphrase": "Interior describes responsibilities for public lands, natural resources, trust responsibilities, and affected communities.",
+      "applicable_office_ids": ["SEAT_INTERIOR"],
+      "applicable_process_ids": ["GROUP_NSC", "GROUP_HSC"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_INTERIOR_MANDATE"],
+      "inference_ids": ["INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_6_112",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "6 U.S.C. 112 - Secretary; functions",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A6+section%3A112+edition%3Aprelim%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute identifies the Secretary of Homeland Security as head of the Department and assigns authority, direction, and control over the Department.",
+      "applicable_office_ids": ["SEAT_HOMELAND_SECURITY"],
+      "applicable_process_ids": ["GROUP_HOMELAND_CONSEQUENCES", "GROUP_HSC"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_DHS_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_42_300HH3",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "42 U.S.C. 300hh-3 - Office of Pandemic Preparedness and Response Policy",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title42-section300hh-3",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute assigns the office and its Director advisory and coordination responsibilities for pandemic and other biological threats.",
+      "applicable_office_ids": ["SEAT_PANDEMIC_PREPAREDNESS"],
+      "applicable_process_ids": ["GROUP_NSC", "GROUP_HSC"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_PANDEMIC_MANDATE"],
+      "inference_ids": ["INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_50_3024",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "50 U.S.C. 3024 - Responsibilities and authorities of the Director of National Intelligence",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?edition=prelim&hl=false&req=granuleid%3AUSC-prelim-title50-section3024",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute assigns the DNI timely, objective, independent all-source intelligence and requires competitive analysis and presentation of intelligence disagreements where appropriate.",
+      "applicable_office_ids": ["SEAT_DNI"],
+      "applicable_process_ids": [
+        "GROUP_THREAT_ATTRIBUTION",
+        "GROUP_DEFENSE_ESCALATION",
+        "GROUP_NUCLEAR_RADIOLOGICAL"
+      ],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_DNI_MANDATE"],
+      "inference_ids": [
+        "INF_SPECIALIST_GROUP_GRAPH",
+        "INF_SYNTHETIC_ENTITLEMENTS",
+        "INF_WEATHER_SPECIALIST_ROUTE"
+      ]
+    },
+    {
+      "source_id": "SRC_USC_50_3036",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "50 U.S.C. 3036 - Central Intelligence Agency",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&jumpTo=true&num=0&req=%28title%3A50+section%3A3036+edition%3Aprelim%29+OR+%28granuleid%3AUSC-prelim-title50-section3036%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute assigns CIA foreign-intelligence collection, evaluation, and dissemination functions and excludes police, subpoena, and domestic law-enforcement powers.",
+      "applicable_office_ids": ["SEAT_CIA_DIRECTOR"],
+      "applicable_process_ids": ["GROUP_THREAT_ATTRIBUTION"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_CIA_MANDATE"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_10_151",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "10 U.S.C. 151 - Joint Chiefs of Staff: composition; functions",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=%28title%3A10+section%3A151+edition%3Aprelim%29",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute identifies the CJCS as principal military adviser, requires consultation with other military advisers, and preserves presentation of a range of military advice.",
+      "applicable_office_ids": ["SEAT_CJCS"],
+      "applicable_process_ids": [
+        "GROUP_THREAT_ATTRIBUTION",
+        "GROUP_DEFENSE_ESCALATION",
+        "GROUP_NUCLEAR_RADIOLOGICAL"
+      ],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_CJCS_ADVICE_NO_COMMAND"],
+      "inference_ids": ["INF_SPECIALIST_GROUP_GRAPH", "INF_SYNTHETIC_ENTITLEMENTS"]
+    },
+    {
+      "source_id": "SRC_USC_10_163",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "10 U.S.C. 163 - Role of Chairman of Joint Chiefs of Staff",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title10-section163",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute places the CJCS in the communications and oversight chain while stating that the CJCS does not exercise military command over the Joint Chiefs or armed forces.",
+      "applicable_office_ids": ["SEAT_CJCS", "SEAT_THEATER_COMMANDER"],
+      "applicable_process_ids": ["GROUP_DEFENSE_ESCALATION"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_CJCS_ADVICE_NO_COMMAND", "FACT_COMBATANT_COMMAND_ROLE"],
+      "inference_ids": ["INF_THEATER_COMMANDER_TRIGGER"]
+    },
+    {
+      "source_id": "SRC_USC_10_164",
+      "issuing_institution": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "public_title": "10 U.S.C. 164 - Commanders of combatant commands: assignment; powers and duties",
+      "canonical_url": "https://uscode.house.gov/view.xhtml?req=title%3A10+section%3A164+edition%3Aprelim",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "statute",
+      "claim_paraphrase": "The statute assigns combatant commanders command and operational responsibilities, which remain distinct from the CJCS advisory function.",
+      "applicable_office_ids": ["SEAT_THEATER_COMMANDER", "SEAT_CJCS"],
+      "applicable_process_ids": ["GROUP_DEFENSE_ESCALATION"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_COMBATANT_COMMAND_ROLE"],
+      "inference_ids": ["INF_THEATER_COMMANDER_TRIGGER"]
+    },
+    {
+      "source_id": "SRC_NDS_2026",
+      "issuing_institution": "U.S. Department of Defense",
+      "public_title": "2026 National Defense Strategy",
+      "canonical_url": "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF",
+      "publication_date": "2026-01-23",
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_strategy",
+      "claim_paraphrase": "The dated public strategy describes homeland defense, Indo-Pacific access and balance, partner contributions, nuclear deterrence, and strategic-stability or deconfliction concerns.",
+      "applicable_office_ids": ["SEAT_DEFENSE", "SEAT_CJCS", "SEAT_NSA", "SEAT_PRESIDENT"],
+      "applicable_process_ids": ["PERSONA_POSTURE", "GROUP_DEFENSE_ESCALATION"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_DATED_PUBLIC_POSTURE"],
+      "inference_ids": [
+        "INF_US_ACTOR_OBJECTIVES",
+        "INF_FIRST_EPISODE_ACTIVATION",
+        "INF_DATED_PERSONA_POSTURE",
+        "INF_STABLE_DEFENSE_OFFICE_LABEL",
+        "INF_THEATER_COMMANDER_TRIGGER"
+      ]
+    },
+    {
+      "source_id": "SRC_NSS_2025",
+      "issuing_institution": "The White House",
+      "public_title": "2025 National Security Strategy",
+      "canonical_url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_strategy",
+      "claim_paraphrase": "The dated public strategy supplies administration-level national-interest, deterrence, regional access, partner, economic, and strategic-stability posture for bounded persona context.",
+      "applicable_office_ids": [
+        "SEAT_PRESIDENT",
+        "SEAT_STATE",
+        "SEAT_TREASURY",
+        "SEAT_DEFENSE",
+        "SEAT_NSA"
+      ],
+      "applicable_process_ids": ["PERSONA_POSTURE"],
+      "evidence_status": "fact",
+      "fact_ids": ["FACT_DATED_PUBLIC_POSTURE"],
+      "inference_ids": [
+        "INF_US_ACTOR_OBJECTIVES",
+        "INF_FIRST_EPISODE_ACTIVATION",
+        "INF_DATED_PERSONA_POSTURE"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "FACT_NSC_HSC_FUNCTION",
+      "statement": "Public law and NSPM-1 describe the NSC as advising the President on integrated domestic, foreign, and military national-security policy, while the HSC advises on homeland-security matters.",
+      "source_ids": ["SRC_NSPM1_2025", "SRC_USC_50_3021"],
+      "office_ids": ["SEAT_PRESIDENT", "SEAT_NSA", "SEAT_HSA"],
+      "process_ids": ["GROUP_NSC", "GROUP_HSC"]
+    },
+    {
+      "fact_id": "FACT_PUBLIC_COUNCIL_MEMBERSHIP",
+      "statement": "NSPM-1 publicly enumerates statutory and presidentially designated NSC member classes and adds Homeland Security and the Homeland Security Advisor when the NSC convenes as the HSC.",
+      "source_ids": ["SRC_NSPM1_2025", "SRC_USC_50_3021"],
+      "office_ids": [
+        "SEAT_PRESIDENT",
+        "SEAT_VICE_PRESIDENT",
+        "SEAT_STATE",
+        "SEAT_TREASURY",
+        "SEAT_DEFENSE",
+        "SEAT_ENERGY",
+        "SEAT_PANDEMIC_PREPAREDNESS",
+        "SEAT_ATTORNEY_GENERAL",
+        "SEAT_INTERIOR",
+        "SEAT_CHIEF_OF_STAFF",
+        "SEAT_NSA",
+        "SEAT_HOMELAND_SECURITY",
+        "SEAT_HSA"
+      ],
+      "process_ids": ["GROUP_NSC", "GROUP_HSC"]
+    },
+    {
+      "fact_id": "FACT_PUBLIC_ADVISER_STATUS",
+      "statement": "NSPM-1 publicly distinguishes regular non-voting DNI, CJCS, and CIA attendance from regular non-voting invitees and issue-relevant attendance discretion.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "office_ids": [
+        "SEAT_DNI",
+        "SEAT_CJCS",
+        "SEAT_CIA_DIRECTOR",
+        "SEAT_WHITE_HOUSE_COUNSEL",
+        "SEAT_POLICY_ASSISTANT",
+        "SEAT_COUNSELOR"
+      ],
+      "process_ids": ["GROUP_PC", "GROUP_NSC", "GROUP_HSC"]
+    },
+    {
+      "fact_id": "FACT_PUBLIC_EXECUTIVE_SECRETARY",
+      "statement": "NSPM-1 describes one NSC staff serving NSC and HSC, headed by an Executive Secretary who prepares, records, and communicates committee materials, conclusions, decisions, omissions, and taskings.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "office_ids": [],
+      "process_ids": ["SERVICE_EXECUTIVE_SECRETARY", "GROUP_PC"]
+    },
+    {
+      "fact_id": "FACT_PUBLIC_PC_PROCESS",
+      "statement": "NSPM-1 describes the PC as the senior Cabinet-level interagency forum, requires full consensus among present voting attendees for PC action, separately polls presidential attention, and routes specified disagreement or presidential matters to the NSC.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "office_ids": ["SEAT_NSA", "SEAT_HSA", "SEAT_PRESIDENT"],
+      "process_ids": ["GROUP_PC", "GROUP_NSC", "GROUP_HSC"]
+    },
+    {
+      "fact_id": "FACT_STATE_MANDATE",
+      "statement": "Public law places the Department of State under the Secretary of State and supplies the stable office boundary for foreign-affairs and diplomatic contributions.",
+      "source_ids": ["SRC_USC_22_2651A"],
+      "office_ids": ["SEAT_STATE"],
+      "process_ids": ["GROUP_DIPLOMATIC_ECONOMIC"]
+    },
+    {
+      "fact_id": "FACT_TREASURY_MANDATE",
+      "statement": "Public law establishes the Secretary's general authority and Treasury's public mission includes economic and financial policy, financial systems, sanctions, and financial integrity.",
+      "source_ids": ["SRC_TREASURY_ROLE", "SRC_USC_31_321"],
+      "office_ids": ["SEAT_TREASURY"],
+      "process_ids": ["GROUP_DIPLOMATIC_ECONOMIC"]
+    },
+    {
+      "fact_id": "FACT_DEFENSE_MANDATE",
+      "statement": "Public law identifies the Secretary of Defense as head of the Department of Defense and places the Department under that Secretary's authority, direction, and control.",
+      "source_ids": ["SRC_USC_10_113"],
+      "office_ids": ["SEAT_DEFENSE"],
+      "process_ids": ["GROUP_DEFENSE_ESCALATION", "GROUP_NUCLEAR_RADIOLOGICAL"]
+    },
+    {
+      "fact_id": "FACT_ENERGY_NUCLEAR_MANDATE",
+      "statement": "Public Energy and NNSA mission statements cover energy security, nuclear-security and stockpile responsibilities, nonproliferation, and nuclear or radiological emergency response.",
+      "source_ids": ["SRC_ENERGY_MISSION", "SRC_NNSA_MISSION"],
+      "office_ids": ["SEAT_ENERGY"],
+      "process_ids": ["GROUP_NUCLEAR_RADIOLOGICAL"]
+    },
+    {
+      "fact_id": "FACT_JUSTICE_MANDATE",
+      "statement": "Public law makes the Attorney General head of Justice, and Justice's public national-security mission covers relevant legal, counterintelligence, sanctions-enforcement, and law-enforcement functions.",
+      "source_ids": ["SRC_USC_28_503", "SRC_DOJ_NSD_MISSION"],
+      "office_ids": ["SEAT_ATTORNEY_GENERAL"],
+      "process_ids": ["GROUP_LEGAL_AUTHORITY", "GROUP_HOMELAND_CONSEQUENCES"]
+    },
+    {
+      "fact_id": "FACT_INTERIOR_MANDATE",
+      "statement": "Interior's public mission covers public lands, natural resources, trust responsibilities, and affected communities.",
+      "source_ids": ["SRC_INTERIOR_MISSION"],
+      "office_ids": ["SEAT_INTERIOR"],
+      "process_ids": ["GROUP_NSC", "GROUP_HSC"]
+    },
+    {
+      "fact_id": "FACT_DHS_MANDATE",
+      "statement": "Public law identifies the Secretary of Homeland Security as head of DHS with authority, direction, and control over the Department.",
+      "source_ids": ["SRC_USC_6_112"],
+      "office_ids": ["SEAT_HOMELAND_SECURITY"],
+      "process_ids": ["GROUP_HOMELAND_CONSEQUENCES", "GROUP_HSC"]
+    },
+    {
+      "fact_id": "FACT_PANDEMIC_MANDATE",
+      "statement": "Public law assigns the pandemic-preparedness office advisory and coordination duties for pandemic and other biological threats.",
+      "source_ids": ["SRC_USC_42_300HH3"],
+      "office_ids": ["SEAT_PANDEMIC_PREPAREDNESS"],
+      "process_ids": ["GROUP_NSC", "GROUP_HSC"]
+    },
+    {
+      "fact_id": "FACT_DNI_MANDATE",
+      "statement": "Public law assigns the DNI timely, objective, independent all-source intelligence and requires competitive analysis and appropriate presentation of disagreements.",
+      "source_ids": ["SRC_USC_50_3024"],
+      "office_ids": ["SEAT_DNI"],
+      "process_ids": [
+        "GROUP_THREAT_ATTRIBUTION",
+        "GROUP_DEFENSE_ESCALATION",
+        "GROUP_NUCLEAR_RADIOLOGICAL"
+      ]
+    },
+    {
+      "fact_id": "FACT_CIA_MANDATE",
+      "statement": "Public law assigns CIA foreign-intelligence collection, evaluation, and dissemination functions while withholding domestic police and law-enforcement powers.",
+      "source_ids": ["SRC_USC_50_3036"],
+      "office_ids": ["SEAT_CIA_DIRECTOR"],
+      "process_ids": ["GROUP_THREAT_ATTRIBUTION"]
+    },
+    {
+      "fact_id": "FACT_CJCS_ADVICE_NO_COMMAND",
+      "statement": "Public law makes the CJCS the principal military adviser, preserves a range of military advice, and states that the CJCS does not exercise military command.",
+      "source_ids": ["SRC_USC_10_151", "SRC_USC_10_163"],
+      "office_ids": ["SEAT_CJCS"],
+      "process_ids": [
+        "GROUP_THREAT_ATTRIBUTION",
+        "GROUP_DEFENSE_ESCALATION",
+        "GROUP_NUCLEAR_RADIOLOGICAL"
+      ]
+    },
+    {
+      "fact_id": "FACT_COMBATANT_COMMAND_ROLE",
+      "statement": "Public law assigns operational command responsibilities to combatant commanders and keeps that role distinct from the CJCS advisory function.",
+      "source_ids": ["SRC_USC_10_163", "SRC_USC_10_164"],
+      "office_ids": ["SEAT_THEATER_COMMANDER", "SEAT_CJCS"],
+      "process_ids": ["GROUP_DEFENSE_ESCALATION"]
+    },
+    {
+      "fact_id": "FACT_DATED_PUBLIC_POSTURE",
+      "statement": "The dated public national-security and defense strategies describe homeland protection, deterrence, Indo-Pacific access and balance, economic interests, partner contributions, nuclear deterrence, and strategic-stability concerns.",
+      "source_ids": ["SRC_NDS_2026", "SRC_NSS_2025"],
+      "office_ids": [
+        "SEAT_PRESIDENT",
+        "SEAT_STATE",
+        "SEAT_TREASURY",
+        "SEAT_DEFENSE",
+        "SEAT_NSA",
+        "SEAT_CJCS"
+      ],
+      "process_ids": ["PERSONA_POSTURE"]
+    }
+  ],
+  "inferences": [
+    {
+      "inference_id": "INF_US_ACTOR_OBJECTIVES",
+      "statement": "The five unweighted U.S. actor objectives are an exercise abstraction synthesized from the public institutional mission and dated posture, not an official priority ordering.",
+      "source_ids": ["SRC_NSPM1_2025", "SRC_NDS_2026", "SRC_NSS_2025"],
+      "fact_ids": ["FACT_NSC_HSC_FUNCTION", "FACT_DATED_PUBLIC_POSTURE"],
+      "scope_ids": [
+        "US_PUBLIC_2026Q3",
+        "OBJ_US_PROTECT",
+        "OBJ_US_DETER",
+        "OBJ_US_SUPPORT_HIMALDESH",
+        "OBJ_US_PRESERVE_ACCESS",
+        "OBJ_US_STRATEGIC_STABILITY"
+      ]
+    },
+    {
+      "inference_id": "INF_FIRST_EPISODE_ACTIVATION",
+      "statement": "The ridge episode's active, triggered, and unavailable seat dispositions are exercise-specific relevance judgments over the public roster, not public facts about an actual meeting.",
+      "source_ids": ["SRC_NSPM1_2025", "SRC_NDS_2026", "SRC_NSS_2025"],
+      "fact_ids": [
+        "FACT_PUBLIC_COUNCIL_MEMBERSHIP",
+        "FACT_PUBLIC_ADVISER_STATUS",
+        "FACT_DATED_PUBLIC_POSTURE"
+      ],
+      "scope_ids": ["US_PUBLIC_2026Q3", "ridge_seizure.limited_fait_accompli.episode_01"]
+    },
+    {
+      "inference_id": "INF_PERSISTENT_OFFICE_SEATS",
+      "statement": "One persistent model-mediated identity per declared office, reused across groups, is a simulation design that preserves office boundaries without claiming official staffing fidelity.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "fact_ids": ["FACT_PUBLIC_COUNCIL_MEMBERSHIP", "FACT_PUBLIC_ADVISER_STATUS"],
+      "scope_ids": ["US_PUBLIC_2026Q3", "institution_registry"]
+    },
+    {
+      "inference_id": "INF_DETERMINISTIC_WATCH",
+      "statement": "A non-judgmental deterministic Watch is the selected simulation transport for authorized World injects; it is not asserted to reproduce an official watch-floor procedure.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "fact_ids": ["FACT_NSC_HSC_FUNCTION"],
+      "scope_ids": ["SERVICE_WATCH"]
+    },
+    {
+      "inference_id": "INF_DETERMINISTIC_EXECUTIVE_SECRETARY",
+      "statement": "The public Executive Secretary record function is implemented as a deterministic service so recording cannot add policy judgment.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "fact_ids": ["FACT_PUBLIC_EXECUTIVE_SECRETARY"],
+      "scope_ids": ["SERVICE_EXECUTIVE_SECRETARY"]
+    },
+    {
+      "inference_id": "INF_REPRESENTED_STAFF_ROLES",
+      "statement": "Deputy and staff roles named by NSPM-1 remain represented inside the corresponding principal office product in the first slice rather than becoming additional model seats.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "fact_ids": ["FACT_PUBLIC_ADVISER_STATUS", "FACT_PUBLIC_EXECUTIVE_SECRETARY"],
+      "scope_ids": ["institution_registry"]
+    },
+    {
+      "inference_id": "INF_SPECIALIST_GROUP_GRAPH",
+      "statement": "The seven specialist and synthesis groups are an episode-bounded decomposition of public office mandates and the public requirement for integrated, balanced interagency analysis.",
+      "source_ids": [
+        "SRC_NSPM1_2025",
+        "SRC_USC_22_2651A",
+        "SRC_TREASURY_ROLE",
+        "SRC_USC_31_321",
+        "SRC_USC_10_113",
+        "SRC_ENERGY_MISSION",
+        "SRC_NNSA_MISSION",
+        "SRC_USC_28_503",
+        "SRC_USC_6_112",
+        "SRC_USC_50_3024",
+        "SRC_USC_50_3036",
+        "SRC_USC_10_151"
+      ],
+      "fact_ids": [
+        "FACT_NSC_HSC_FUNCTION",
+        "FACT_STATE_MANDATE",
+        "FACT_TREASURY_MANDATE",
+        "FACT_DEFENSE_MANDATE",
+        "FACT_ENERGY_NUCLEAR_MANDATE",
+        "FACT_JUSTICE_MANDATE",
+        "FACT_DHS_MANDATE",
+        "FACT_DNI_MANDATE",
+        "FACT_CIA_MANDATE",
+        "FACT_CJCS_ADVICE_NO_COMMAND"
+      ],
+      "scope_ids": ["groups"]
+    },
+    {
+      "inference_id": "INF_SYNTHETIC_ENTITLEMENTS",
+      "statement": "Every information entitlement and disclosure permission is a synthetic least-access design for this evaluation and is not an assertion about classified or actual distribution.",
+      "source_ids": [
+        "SRC_NSPM1_2025",
+        "SRC_USC_22_2651A",
+        "SRC_TREASURY_ROLE",
+        "SRC_USC_31_321",
+        "SRC_USC_10_113",
+        "SRC_ENERGY_MISSION",
+        "SRC_NNSA_MISSION",
+        "SRC_USC_28_503",
+        "SRC_DOJ_NSD_MISSION",
+        "SRC_INTERIOR_MISSION",
+        "SRC_USC_6_112",
+        "SRC_USC_42_300HH3",
+        "SRC_USC_50_3024",
+        "SRC_USC_50_3036",
+        "SRC_USC_10_151"
+      ],
+      "fact_ids": [
+        "FACT_STATE_MANDATE",
+        "FACT_TREASURY_MANDATE",
+        "FACT_DEFENSE_MANDATE",
+        "FACT_ENERGY_NUCLEAR_MANDATE",
+        "FACT_JUSTICE_MANDATE",
+        "FACT_INTERIOR_MANDATE",
+        "FACT_DHS_MANDATE",
+        "FACT_PANDEMIC_MANDATE",
+        "FACT_DNI_MANDATE",
+        "FACT_CIA_MANDATE",
+        "FACT_CJCS_ADVICE_NO_COMMAND"
+      ],
+      "scope_ids": ["information_classes", "disclosure_permissions"]
+    },
+    {
+      "inference_id": "INF_WEATHER_SPECIALIST_ROUTE",
+      "statement": "The first episode routes the unchanged forecast through Threat and Attribution before Defense and Escalation, then passes attributable products rather than the raw report into senior synthesis.",
+      "source_ids": ["SRC_NSPM1_2025", "SRC_USC_50_3024"],
+      "fact_ids": ["FACT_NSC_HSC_FUNCTION", "FACT_DNI_MANDATE"],
+      "scope_ids": [
+        "GROUP_THREAT_ATTRIBUTION",
+        "GROUP_DEFENSE_ESCALATION",
+        "GROUP_PRESIDENTIAL_SYNTHESIS"
+      ]
+    },
+    {
+      "inference_id": "INF_THEATER_COMMANDER_TRIGGER",
+      "statement": "A functional synthetic U.S. Theater Commander activates for the ridge episode's access, logistics, readiness, and force-protection questions without binding the fictional arena to a real command or granting combat authority.",
+      "source_ids": ["SRC_USC_10_163", "SRC_USC_10_164", "SRC_NDS_2026"],
+      "fact_ids": [
+        "FACT_CJCS_ADVICE_NO_COMMAND",
+        "FACT_COMBATANT_COMMAND_ROLE",
+        "FACT_DATED_PUBLIC_POSTURE"
+      ],
+      "scope_ids": ["SEAT_THEATER_COMMANDER", "GROUP_DEFENSE_ESCALATION"]
+    },
+    {
+      "inference_id": "INF_POLICY_PACKAGE_SCHEMA",
+      "statement": "The integrated conditional Policy Package and its mandatory domain dispositions are evaluation artifacts for preserving contributions, dissent, authority questions, sequencing, and reassessment.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "fact_ids": ["FACT_PUBLIC_PC_PROCESS", "FACT_PUBLIC_EXECUTIVE_SECRETARY"],
+      "scope_ids": ["PRODUCT_POLICY_PACKAGE", "GROUP_PC"]
+    },
+    {
+      "inference_id": "INF_PRESIDENTIAL_ROUTE_SCHEMA",
+      "statement": "The candidate encodes only presidential policy-direction routes; it encodes no crisis-specific PC or departmental delegation that the public snapshot does not establish.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "fact_ids": ["FACT_NSC_HSC_FUNCTION", "FACT_PUBLIC_PC_PROCESS"],
+      "scope_ids": ["ROUTE_PRESIDENTIAL_POLICY", "ROUTE_PRESIDENTIAL_HOMELAND_POLICY"]
+    },
+    {
+      "inference_id": "INF_REQUIRED_CONFIRMATION_SCHEMA",
+      "statement": "Required Confirmations verify that the presidential decision and legal-authority record exist; they do not give advisers a policy vote or claim an official confirmation protocol.",
+      "source_ids": ["SRC_NSPM1_2025"],
+      "fact_ids": ["FACT_PUBLIC_EXECUTIVE_SECRETARY", "FACT_PUBLIC_PC_PROCESS"],
+      "scope_ids": ["required_confirmations"]
+    },
+    {
+      "inference_id": "INF_DATED_PERSONA_POSTURE",
+      "statement": "Persona posture may use bounded themes from the dated public strategies but cannot convert rhetoric into authority, hidden intent, or a fixed decision preference.",
+      "source_ids": ["SRC_NDS_2026", "SRC_NSS_2025"],
+      "fact_ids": ["FACT_DATED_PUBLIC_POSTURE"],
+      "scope_ids": ["PERSONA_POSTURE"]
+    },
+    {
+      "inference_id": "INF_STABLE_DEFENSE_OFFICE_LABEL",
+      "statement": "The Charter retains the stable statutory Secretary of Defense office class even where dated strategy copy uses a different administration-specific department label.",
+      "source_ids": ["SRC_USC_10_113", "SRC_NDS_2026"],
+      "fact_ids": ["FACT_DEFENSE_MANDATE", "FACT_DATED_PUBLIC_POSTURE"],
+      "scope_ids": ["SEAT_DEFENSE"]
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "GAP_PC_DELEGATION_INSTRUMENT",
+      "statement": "The public snapshot does not establish a crisis-specific delegation that would let this PC or a department issue a final state-changing policy action; the candidate therefore encodes no such route.",
+      "affected_ids": ["GROUP_PC", "effect_level_action_routes"],
+      "blocks_activation": true
+    },
+    {
+      "gap_id": "GAP_EFFECT_AUTHORITY_CONFIRMATION_MAP",
+      "statement": "Component-level authority, consultation, capability, and confirmation rules for future Open Action Proposals remain outside Milestone 1 and must be source-bound before any World effect path activates.",
+      "affected_ids": ["decision_routes", "required_confirmations", "MILESTONE_2"],
+      "blocks_activation": true
+    },
+    {
+      "gap_id": "GAP_ADDITIONAL_INVITEE_MANDATES",
+      "statement": "No additional public portfolio mandate was selected for the Policy Assistant or Counselor, so those public invitee classes remain unavailable rather than receiving invented cross-cutting mandates.",
+      "affected_ids": ["SEAT_POLICY_ASSISTANT", "SEAT_COUNSELOR"],
+      "blocks_activation": true
+    },
+    {
+      "gap_id": "GAP_CLASSIFIED_PROCESS_FIDELITY",
+      "statement": "Public sources cannot establish classified information flows, deliberation practices, or crisis procedures; the Charter claims only a dated public-source abstraction.",
+      "affected_ids": ["US_PUBLIC_2026Q3"],
+      "blocks_activation": false
+    },
+    {
+      "gap_id": "GAP_REAL_COMMAND_MAPPING",
+      "statement": "The fictional arena is intentionally not mapped to a real combatant command; the Theater Commander remains a functional synthetic role with bounded information and no invented policy authority.",
+      "affected_ids": ["SEAT_THEATER_COMMANDER"],
+      "blocks_activation": false
+    },
+    {
+      "gap_id": "GAP_DEFENSE_LABEL_DIVERGENCE",
+      "statement": "Dated public strategy copy and current statutory naming diverge; the candidate uses the statutory Secretary of Defense office class and records the dated wording only as posture context.",
+      "affected_ids": ["SEAT_DEFENSE", "INF_DATED_PERSONA_POSTURE"],
+      "blocks_activation": false
+    }
+  ]
+}

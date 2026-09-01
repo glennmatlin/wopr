@@ -1,0 +1,142 @@
+{
+  "branches": {
+    "delayed": {
+      "core_hash": "55d8c267c928837da7c9f4f14bf40b34dec99dda7854fe00fece4890834f6a92",
+      "core_version": 2,
+      "ledger_hash": "4c7e5bc180858025f71d37608650dc18c06eed242e29ff7ec6c97f8304c0d221",
+      "ledger_template_ids": [
+        "OBS_WX_RIDGE_FORECAST_01",
+        "FIXTURE_HIM_READINESS_DELAYED",
+        "WX_RIDGE_FRONT_01",
+        "OBS_WX_RIDGE_CONFIRMED_01"
+      ],
+      "outcomes": {
+        "escalation_state": "conventional_crisis",
+        "himaldesh_recapture_status": "not_authorized",
+        "himaldesh_support_state": "restricted",
+        "ridge_control": "OLV",
+        "talus_control": "OLV",
+        "terminal_state": "open",
+        "us_commitment_state": "none",
+        "us_observation_state": "intermittent"
+      },
+      "readiness": "delayed",
+      "replay_matched": true,
+      "weather_patch_instance_id": "b926597a4c0f613acc9c22dbcd959206de3ca93d57dcf989406fb684c30d9a94",
+      "weather_template_hash": "a0e67568cf7fc355ff5126e77fc7be925e7d272b0521d3f82bac13e2cc0a0e6c"
+    },
+    "ready": {
+      "core_hash": "950bfba73078d34efdca20e2e42153a1d6c79b0f9d6603d833eed62b0487ecca",
+      "core_version": 2,
+      "ledger_hash": "4aabf99281115c64ccc0f387a79f0884fe59f9a2df3c780838ce791075155524",
+      "ledger_template_ids": [
+        "OBS_WX_RIDGE_FORECAST_01",
+        "FIXTURE_HIM_READINESS_READY",
+        "WX_RIDGE_FRONT_01",
+        "OBS_WX_RIDGE_CONFIRMED_01"
+      ],
+      "outcomes": {
+        "escalation_state": "conventional_crisis",
+        "himaldesh_recapture_status": "not_authorized",
+        "himaldesh_support_state": "restricted",
+        "ridge_control": "OLV",
+        "talus_control": "OLV",
+        "terminal_state": "open",
+        "us_commitment_state": "none",
+        "us_observation_state": "intermittent"
+      },
+      "readiness": "ready",
+      "replay_matched": true,
+      "weather_patch_instance_id": "47b6ecf856c346be26ad37d54701d14489c910ef98aa2159db39db1a08298957",
+      "weather_template_hash": "a0e67568cf7fc355ff5126e77fc7be925e7d272b0521d3f82bac13e2cc0a0e6c"
+    }
+  },
+  "executor_revision": "c7d57167bb1ab219b8e3e3a128866b71699e9977",
+  "forecast_core_unchanged": true,
+  "profile_hash": "64f4009b91381b27f43e76f61cd929f989b7ca866bdab7e8eb28326403e0c477",
+  "profile_id": "ridge_seizure.limited_fait_accompli.default.v0_1",
+  "profile_version": "0.1.1",
+  "receipt_hash": "4a582d72b6d8ff753c3e06adea4d36aef3c3b39b5284e4050ce9ed35e39815e3",
+  "rejections": [
+    {
+      "case_id": "INVALID_ENVELOPE",
+      "reason_code": "invalid_envelope",
+      "receipt_id": "5a7fbb4a2d7b88ddfcf7e4fee5296d3ec78ff7f7263234db7b337413d44f7d27"
+    },
+    {
+      "case_id": "DUPLICATE_ID",
+      "reason_code": "duplicate_id",
+      "receipt_id": "c2d18dc3fb89e32a6e70993dd53e997c749abe379a312c638dbc15aa0a65f843"
+    },
+    {
+      "case_id": "UNKNOWN_ACTOR",
+      "reason_code": "unknown_reference",
+      "receipt_id": "fd57910c8dc1d42d5b099d49a97247409ff2b100ec84102e30d57a5a5937753e"
+    },
+    {
+      "case_id": "CAUSAL_MISMATCH",
+      "reason_code": "causal_mismatch",
+      "receipt_id": "f602669d61b8b62fa0207e68089788e223137cf4e7b18130cd468b893da9ca12"
+    },
+    {
+      "case_id": "RETROACTIVE_TIME",
+      "reason_code": "retroactive_time",
+      "receipt_id": "0382fa60dd0139c1eded044fcd77988fe3fd2d0003daf29c9707760fb4385640"
+    },
+    {
+      "case_id": "TERMINAL_WORLD",
+      "reason_code": "terminal_world",
+      "receipt_id": "490a0d629a9a5cc636812cc9955cdcbdf3abe7f27b0e5f6d68be2dee13c3aa9b"
+    },
+    {
+      "case_id": "TEMPLATE_MISMATCH",
+      "reason_code": "template_mismatch",
+      "receipt_id": "fef8913da80a16ebed994e1687a06873ef4c7a86f515359fd36a0ba1571b867c"
+    },
+    {
+      "case_id": "STALE_CORE",
+      "reason_code": "stale_core",
+      "receipt_id": "e4551bf0294f3a05bafebf1902e869c776cebc4494715dff7e9954a18e1f5b75"
+    },
+    {
+      "case_id": "PARTIAL_PATCH",
+      "reason_code": "partial_patch",
+      "receipt_id": "69543690da4d88f90b833238dd8806bdd97c88b8ebfd6eb9074d5c540e507aa4"
+    },
+    {
+      "case_id": "FAILED_AFFORDANCE_PRECONDITION",
+      "reason_code": "failed_precondition",
+      "receipt_id": "f87cd7de4c867abfee5ec72def0675da35a67097d838580a7479bf027cd69bcc"
+    },
+    {
+      "case_id": "UNKNOWN_PACKAGE",
+      "reason_code": "unknown_reference",
+      "receipt_id": "89cb0b66210f7d828f028ebeaee82eb5bd9460e3e3c9c8469beb00106f8642b5"
+    },
+    {
+      "case_id": "UNKNOWN_AFFORDANCE",
+      "reason_code": "unknown_reference",
+      "receipt_id": "bec8da75b53ddb339d5f998b26a22ce3cb965e4e8d1411b82c951f9fe8ec30e5"
+    },
+    {
+      "case_id": "UNEARNED_CAPABILITY",
+      "reason_code": "undeclared_operation",
+      "receipt_id": "627de1d10e59d5f90317a1ffed9b556215ce1c94d9efb036af51b02c79e8f2e0"
+    },
+    {
+      "case_id": "ARBITRARY_PATH",
+      "reason_code": "forbidden_write",
+      "receipt_id": "05e0e247f87c0625036e4b27d9859067a1e200bb94a34f1f5d31a0f36580a36b"
+    },
+    {
+      "case_id": "INVALID_VALUE",
+      "reason_code": "invalid_value",
+      "receipt_id": "e77b9970c36ad4547dc09eb56df33e4a7858d6225641ce755398808bd89611d1"
+    }
+  ],
+  "schema_version": "date-tracer-receipt.v0.1",
+  "status": "passed",
+  "tracer_id": "d62-date-world-transition-v1",
+  "weather_instance_ids_distinct": true,
+  "weather_template_hash_equal": true
+}

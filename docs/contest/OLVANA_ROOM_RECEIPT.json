@@ -1,0 +1,916 @@
+{
+  "actor_id": "ACTOR_OLVANA",
+  "charter_hash": "0aa48c3cb8e2980324b3db6d4c5426fb5ff67f746775728a0b00f38897fe389a",
+  "charter_id": "DATE_OLVANA_RIDGE_2026Q3",
+  "charter_version": "0.1.0",
+  "claim_boundary": [
+    "no_model_behavior_evidence",
+    "no_live_counterpart_room_evidence",
+    "no_world_effect_admission",
+    "no_date_episode_evidence",
+    "no_comparative_result"
+  ],
+  "evidence_status": "development_fixture_non_evidence",
+  "executor_revision": "b165acc206b374d87fcd0e3b9e1ba32c6b375d39",
+  "fixture_hash": "a922444f415f0b592e5a657f2940524b6f01276c85a3280cb60782f5e8fc1a4b",
+  "fixture_id": "OLVANA_ROOM_CYCLE1.development.v0_1",
+  "ratification_hash": "bbab62ea681f2e513407b926de5adfbfaeb8e73baf5fb86ea34808b9fa524384",
+  "ratification_id": "COUNTERPART_MINIMUM_M5.ratification.D72",
+  "receipt_hash": "5586513c594acd6d4acab97978b2624c2917a6a8d49bb81be55818b3c433d547",
+  "replay_matched": true,
+  "run": {
+    "action_class": "limited_ridge_hold_and_integrated_pressure",
+    "active_seat_ids": [
+      "OLV_SEAT_GENERAL_SECRETARY",
+      "OLV_SEAT_PRESIDENT",
+      "OLV_SEAT_NATIONAL_SECURITY",
+      "OLV_SEAT_FOREIGN_AFFAIRS",
+      "OLV_SEAT_PUBLIC_INFORMATION",
+      "OLV_SEAT_FINANCE",
+      "OLV_SEAT_INTERIOR",
+      "OLV_SEAT_DEFENSE",
+      "OLV_SEAT_GENERAL_STAFF"
+    ],
+    "actor_id": "ACTOR_OLVANA",
+    "charter_hash": "0aa48c3cb8e2980324b3db6d4c5426fb5ff67f746775728a0b00f38897fe389a",
+    "confirmations": [
+      {
+        "confirmation_id": "OLV_CONFIRM_PRESIDENT_COMMAND",
+        "confirmed_record_id": "OLV_PRODUCT_DECISION_001",
+        "confirmer_seat_ids": [
+          "OLV_SEAT_PRESIDENT"
+        ],
+        "status": "confirmed"
+      },
+      {
+        "confirmation_id": "OLV_CONFIRM_DEFENSE_FEASIBILITY",
+        "confirmed_record_id": "OLV_PRODUCT_DECISION_001",
+        "confirmer_seat_ids": [
+          "OLV_SEAT_DEFENSE"
+        ],
+        "status": "confirmed"
+      },
+      {
+        "confirmation_id": "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT",
+        "confirmed_record_id": "OLV_PRODUCT_DECISION_001",
+        "confirmer_seat_ids": [
+          "OLV_SEAT_GENERAL_STAFF"
+        ],
+        "status": "confirmed"
+      }
+    ],
+    "decision_record": {
+      "attempt_id": "ATTEMPT::OLV_GROUP_PARTY_DIRECTION",
+      "authorized_input_ids": [
+        "OLV_INPUT_COMMON_001",
+        "OLV_INPUT_PARTY_001",
+        "OLV_PRODUCT_SID_OPTIONS_001",
+        "OLV_PRODUCT_NCA_REVIEW_001"
+      ],
+      "content": {
+        "action_class": "limited_ridge_hold_and_integrated_pressure",
+        "blocked_components": [
+          "further advance",
+          "strategic or nuclear action",
+          "Politburo vote"
+        ],
+        "general_secretary_decision": {
+          "decision": "approve_bounded_posture",
+          "seat_id": "OLV_SEAT_GENERAL_SECRETARY"
+        },
+        "nca_review_hash": "fixture-reference::OLV_PRODUCT_NCA_REVIEW_001",
+        "output_components": {
+          "field_preparation": "defensive",
+          "hold": "limited ridge objective",
+          "no_further_advance": true,
+          "public_posture": "locally defensive",
+          "withdrawal_conditions": [
+            "reciprocal disengagement",
+            "restoration talks"
+          ]
+        },
+        "president_command_confirmation": "OLV_CONFIRM_PRESIDENT_COMMAND",
+        "professional_confirmations": [
+          "OLV_CONFIRM_DEFENSE_FEASIBILITY",
+          "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+        ],
+        "retained_dissent": [
+          {
+            "position": "publish withdrawal conditions earlier",
+            "seat_id": "OLV_SEAT_FOREIGN_AFFAIRS"
+          }
+        ]
+      },
+      "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+      "group_id": "OLV_GROUP_PARTY_DIRECTION",
+      "member_seat_ids": [
+        "OLV_SEAT_GENERAL_SECRETARY"
+      ],
+      "product_id": "OLV_PRODUCT_DECISION_001",
+      "product_schema_id": "OLV_PRODUCT_DECISION_RECORD",
+      "status": "accepted"
+    },
+    "decision_route": {
+      "action_class": "limited_ridge_hold_and_integrated_pressure",
+      "consultation_group_ids": [
+        "OLV_GROUP_NCA_PORTFOLIOS",
+        "OLV_GROUP_COMMAND_ASSESSMENT",
+        "OLV_GROUP_SID_INTEGRATION",
+        "OLV_GROUP_NCA_REVIEW"
+      ],
+      "decision_authority_seat_ids": [
+        "OLV_SEAT_GENERAL_SECRETARY"
+      ],
+      "decision_rule": "single_named_decider",
+      "eligible_forum_group_id": "OLV_GROUP_PARTY_DIRECTION",
+      "failure_effect": "no_supported_posture_change",
+      "final_decision_record_schema_id": "OLV_PRODUCT_DECISION_RECORD",
+      "required_confirmation_ids": [
+        "OLV_CONFIRM_PRESIDENT_COMMAND",
+        "OLV_CONFIRM_DEFENSE_FEASIBILITY",
+        "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+      ],
+      "route_id": "OLV_ROUTE_RIDGE_POSTURE"
+    },
+    "decision_supported": true,
+    "deliveries": [
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_GENERAL_SECRETARY",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_SECRETARY",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_PRESIDENT",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_PRESIDENT",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_NATIONAL_SECURITY",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_NATIONAL_SECURITY",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_FOREIGN_AFFAIRS",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_FOREIGN_AFFAIRS",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_PUBLIC_INFORMATION",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_PUBLIC_INFORMATION",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_FINANCE",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_FINANCE",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_INTERIOR",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_INTERIOR",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_DEFENSE",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_DEFENSE",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "c2753183586a4d2212cdef28b541a118695f79a140bc430b5ef60fd1b7fd3946",
+        "delivery_id": "DELIVERY::OLV_INPUT_COMMON_001::OLV_SEAT_GENERAL_STAFF",
+        "information_class_id": "OLV_INFO_COMMON",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_STAFF",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_PARTY_001",
+        "artifact_type": "watch_input",
+        "content_hash": "ecfa04799bea04f6a89bd94542a278f8c35d059db5e3609a442c8f7060c143fe",
+        "delivery_id": "DELIVERY::OLV_INPUT_PARTY_001::OLV_SEAT_GENERAL_SECRETARY",
+        "information_class_id": "OLV_INFO_PARTY_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_SECRETARY",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_PRESIDENT_001",
+        "artifact_type": "watch_input",
+        "content_hash": "d521b1a4ee58d5d1b7fbe1a900d82d1d5054777791ad2e23f5d337b7f798a3c3",
+        "delivery_id": "DELIVERY::OLV_INPUT_PRESIDENT_001::OLV_SEAT_PRESIDENT",
+        "information_class_id": "OLV_INFO_PRESIDENT_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_PRESIDENT",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_FOREIGN_001",
+        "artifact_type": "watch_input",
+        "content_hash": "b6e8d57339321f67ed9df7427f9fbb4bb1bfe83ec60db91ad8928250fa51eef8",
+        "delivery_id": "DELIVERY::OLV_INPUT_FOREIGN_001::OLV_SEAT_FOREIGN_AFFAIRS",
+        "information_class_id": "OLV_INFO_FOREIGN_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_FOREIGN_AFFAIRS",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_PUBLIC_001",
+        "artifact_type": "watch_input",
+        "content_hash": "bdbd7c5be1407a9cbe02aa599e79fa0c9d266d6785f5ece125bfbfe58a2853c5",
+        "delivery_id": "DELIVERY::OLV_INPUT_PUBLIC_001::OLV_SEAT_PUBLIC_INFORMATION",
+        "information_class_id": "OLV_INFO_PUBLIC_INFORMATION_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_PUBLIC_INFORMATION",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_FINANCE_001",
+        "artifact_type": "watch_input",
+        "content_hash": "41a0cff7a2e6ba51ff51b57227fa6a91352ade0db3412f1a3f53dc98d1542c80",
+        "delivery_id": "DELIVERY::OLV_INPUT_FINANCE_001::OLV_SEAT_FINANCE",
+        "information_class_id": "OLV_INFO_FINANCE_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_FINANCE",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_INTERIOR_001",
+        "artifact_type": "watch_input",
+        "content_hash": "70acfbe138e5061bc71b8af46280f26c6115716ab037be119dc91bc6c8a27c9c",
+        "delivery_id": "DELIVERY::OLV_INPUT_INTERIOR_001::OLV_SEAT_INTERIOR",
+        "information_class_id": "OLV_INFO_INTERIOR_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_INTERIOR",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_DEFENSE_001",
+        "artifact_type": "watch_input",
+        "content_hash": "f1aadebd66d5d60b56c5bb3b10b2d60decc51daa95e2bd4d67601ad5f8edf018",
+        "delivery_id": "DELIVERY::OLV_INPUT_DEFENSE_001::OLV_SEAT_DEFENSE",
+        "information_class_id": "OLV_INFO_DEFENSE_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_DEFENSE",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_INPUT_GENERAL_STAFF_001",
+        "artifact_type": "watch_input",
+        "content_hash": "985ec7825d02a91fb5fcf4ad3658b6c8b0a5b3a3041f9b9e37bb778740eff42a",
+        "delivery_id": "DELIVERY::OLV_INPUT_GENERAL_STAFF_001::OLV_SEAT_GENERAL_STAFF",
+        "information_class_id": "OLV_INFO_GENERAL_STAFF_PRIVATE",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_STAFF",
+        "sender_id": "OLV_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_POSITIONS_001::OLV_SEAT_PRESIDENT",
+        "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS",
+        "recipient_seat_id": "OLV_SEAT_PRESIDENT",
+        "sender_id": "OLV_GROUP_NCA_PORTFOLIOS"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_POSITIONS_001::OLV_SEAT_NATIONAL_SECURITY",
+        "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS",
+        "recipient_seat_id": "OLV_SEAT_NATIONAL_SECURITY",
+        "sender_id": "OLV_GROUP_NCA_PORTFOLIOS"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_POSITIONS_001::OLV_SEAT_FOREIGN_AFFAIRS",
+        "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS",
+        "recipient_seat_id": "OLV_SEAT_FOREIGN_AFFAIRS",
+        "sender_id": "OLV_GROUP_NCA_PORTFOLIOS"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_POSITIONS_001::OLV_SEAT_PUBLIC_INFORMATION",
+        "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS",
+        "recipient_seat_id": "OLV_SEAT_PUBLIC_INFORMATION",
+        "sender_id": "OLV_GROUP_NCA_PORTFOLIOS"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_POSITIONS_001::OLV_SEAT_FINANCE",
+        "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS",
+        "recipient_seat_id": "OLV_SEAT_FINANCE",
+        "sender_id": "OLV_GROUP_NCA_PORTFOLIOS"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_POSITIONS_001::OLV_SEAT_INTERIOR",
+        "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS",
+        "recipient_seat_id": "OLV_SEAT_INTERIOR",
+        "sender_id": "OLV_GROUP_NCA_PORTFOLIOS"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_POSITIONS_001::OLV_SEAT_DEFENSE",
+        "information_class_id": "OLV_INFO_NCA_PORTFOLIO_POSITIONS",
+        "recipient_seat_id": "OLV_SEAT_DEFENSE",
+        "sender_id": "OLV_GROUP_NCA_PORTFOLIOS"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_COMMAND_001::OLV_SEAT_PRESIDENT",
+        "information_class_id": "OLV_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "OLV_SEAT_PRESIDENT",
+        "sender_id": "OLV_GROUP_COMMAND_ASSESSMENT"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_COMMAND_001::OLV_SEAT_NATIONAL_SECURITY",
+        "information_class_id": "OLV_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "OLV_SEAT_NATIONAL_SECURITY",
+        "sender_id": "OLV_GROUP_COMMAND_ASSESSMENT"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_COMMAND_001::OLV_SEAT_FOREIGN_AFFAIRS",
+        "information_class_id": "OLV_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "OLV_SEAT_FOREIGN_AFFAIRS",
+        "sender_id": "OLV_GROUP_COMMAND_ASSESSMENT"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_COMMAND_001::OLV_SEAT_PUBLIC_INFORMATION",
+        "information_class_id": "OLV_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "OLV_SEAT_PUBLIC_INFORMATION",
+        "sender_id": "OLV_GROUP_COMMAND_ASSESSMENT"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_COMMAND_001::OLV_SEAT_FINANCE",
+        "information_class_id": "OLV_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "OLV_SEAT_FINANCE",
+        "sender_id": "OLV_GROUP_COMMAND_ASSESSMENT"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_COMMAND_001::OLV_SEAT_INTERIOR",
+        "information_class_id": "OLV_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "OLV_SEAT_INTERIOR",
+        "sender_id": "OLV_GROUP_COMMAND_ASSESSMENT"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_COMMAND_001::OLV_SEAT_DEFENSE",
+        "information_class_id": "OLV_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "OLV_SEAT_DEFENSE",
+        "sender_id": "OLV_GROUP_COMMAND_ASSESSMENT"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_GENERAL_SECRETARY",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_SECRETARY",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_PRESIDENT",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_PRESIDENT",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_NATIONAL_SECURITY",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_NATIONAL_SECURITY",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_FOREIGN_AFFAIRS",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_FOREIGN_AFFAIRS",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_PUBLIC_INFORMATION",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_PUBLIC_INFORMATION",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_FINANCE",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_FINANCE",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_INTERIOR",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_INTERIOR",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "artifact_type": "group_product",
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_SID_OPTIONS_001::OLV_SEAT_DEFENSE",
+        "information_class_id": "OLV_INFO_SID_OPTIONS",
+        "recipient_seat_id": "OLV_SEAT_DEFENSE",
+        "sender_id": "OLV_GROUP_SID_INTEGRATION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_NCA_REVIEW_001",
+        "artifact_type": "group_product",
+        "content_hash": "b725f956bb7ec1540f1c6d2038a98a7b75ff952456b7a2148528812f7f32ed4b",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_NCA_REVIEW_001::OLV_SEAT_GENERAL_SECRETARY",
+        "information_class_id": "OLV_INFO_NCA_REVIEW",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_SECRETARY",
+        "sender_id": "OLV_GROUP_NCA_REVIEW"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_GENERAL_SECRETARY",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_SECRETARY",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_PRESIDENT",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_PRESIDENT",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_NATIONAL_SECURITY",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_NATIONAL_SECURITY",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_FOREIGN_AFFAIRS",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_FOREIGN_AFFAIRS",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_PUBLIC_INFORMATION",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_PUBLIC_INFORMATION",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_FINANCE",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_FINANCE",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_INTERIOR",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_INTERIOR",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_DEFENSE",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_DEFENSE",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      },
+      {
+        "artifact_id": "OLV_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "delivery_id": "DELIVERY::OLV_PRODUCT_DECISION_001::OLV_SEAT_GENERAL_STAFF",
+        "information_class_id": "OLV_INFO_DECISION_RECORD",
+        "recipient_seat_id": "OLV_SEAT_GENERAL_STAFF",
+        "sender_id": "OLV_GROUP_PARTY_DIRECTION"
+      }
+    ],
+    "evidence_status": "development_fixture_non_evidence",
+    "failures": [],
+    "fixture_hash": "a922444f415f0b592e5a657f2940524b6f01276c85a3280cb60782f5e8fc1a4b",
+    "fixture_id": "OLVANA_ROOM_CYCLE1.development.v0_1",
+    "group_attempts": [
+      {
+        "attempt_id": "ATTEMPT::OLV_GROUP_NCA_PORTFOLIOS",
+        "authorized_input_ids": [
+          "OLV_INPUT_COMMON_001",
+          "OLV_INPUT_FOREIGN_001",
+          "OLV_INPUT_PUBLIC_001",
+          "OLV_INPUT_FINANCE_001",
+          "OLV_INPUT_INTERIOR_001",
+          "OLV_INPUT_DEFENSE_001"
+        ],
+        "content": {
+          "conditions": [
+            "no further advance",
+            "retain a withdrawal off-ramp"
+          ],
+          "dissent": [
+            {
+              "position": "publish withdrawal conditions earlier than Defense prefers",
+              "seat_id": "OLV_SEAT_FOREIGN_AFFAIRS"
+            }
+          ],
+          "evidence_references": [
+            "OLV_INPUT_COMMON_001",
+            "OLV_INPUT_FOREIGN_001",
+            "OLV_INPUT_PUBLIC_001",
+            "OLV_INPUT_FINANCE_001",
+            "OLV_INPUT_INTERIOR_001",
+            "OLV_INPUT_DEFENSE_001"
+          ],
+          "ordered_positions": [
+            {
+              "position": "retain a bounded hold while preserving withdrawal conditions",
+              "seat_id": "OLV_SEAT_FOREIGN_AFFAIRS"
+            },
+            {
+              "position": "describe the move as locally defensive",
+              "seat_id": "OLV_SEAT_PUBLIC_INFORMATION"
+            },
+            {
+              "position": "avoid steps likely to trigger broad external measures",
+              "seat_id": "OLV_SEAT_FINANCE"
+            },
+            {
+              "position": "retain internal control and avoid wider mobilization",
+              "seat_id": "OLV_SEAT_INTERIOR"
+            },
+            {
+              "position": "strengthen defensive field works without further advance",
+              "seat_id": "OLV_SEAT_DEFENSE"
+            }
+          ],
+          "uncertainties": [
+            "outside intervention",
+            "intended duration"
+          ]
+        },
+        "content_hash": "334ceaab2424c5604c6253ddd87ad05adcc66842cfd0f082f6bd189462533ca8",
+        "group_id": "OLV_GROUP_NCA_PORTFOLIOS",
+        "member_seat_ids": [
+          "OLV_SEAT_FOREIGN_AFFAIRS",
+          "OLV_SEAT_PUBLIC_INFORMATION",
+          "OLV_SEAT_FINANCE",
+          "OLV_SEAT_INTERIOR",
+          "OLV_SEAT_DEFENSE"
+        ],
+        "product_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "product_schema_id": "OLV_PRODUCT_NCA_PORTFOLIO_BUNDLE",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::OLV_GROUP_COMMAND_ASSESSMENT",
+        "authorized_input_ids": [
+          "OLV_INPUT_COMMON_001",
+          "OLV_INPUT_PRESIDENT_001",
+          "OLV_INPUT_DEFENSE_001",
+          "OLV_INPUT_GENERAL_STAFF_001"
+        ],
+        "content": {
+          "alternatives": [
+            "freeze preparation",
+            "condition partial withdrawal on reciprocal steps"
+          ],
+          "command_integrity": "President confirmation remains required for the exact posture component",
+          "dissent": [
+            "General Staff assigns more weight than Defense to the risk of a prolonged hold"
+          ],
+          "escalation_risk": [
+            "outside intervention",
+            "misreading consolidation as a broader advance"
+          ],
+          "feasibility": "feasible under current force and access conditions",
+          "force_protection": [
+            "strengthen field works",
+            "maintain air-defense coverage"
+          ],
+          "gaps": [
+            "OLV_GAP_NUCLEAR_DECISION_PATH",
+            "OLV_GAP_LIMITED_USE_SOURCE_DRIFT"
+          ],
+          "posture": "limited ridge hold with defensive preparation and no further advance",
+          "readiness": "conventional defensive readiness only"
+        },
+        "content_hash": "41acb95f5562bc08d936ffb8126e14358fbab4b6f4338345c797a951dff6eafc",
+        "group_id": "OLV_GROUP_COMMAND_ASSESSMENT",
+        "member_seat_ids": [
+          "OLV_SEAT_PRESIDENT",
+          "OLV_SEAT_DEFENSE",
+          "OLV_SEAT_GENERAL_STAFF"
+        ],
+        "product_id": "OLV_PRODUCT_COMMAND_001",
+        "product_schema_id": "OLV_PRODUCT_COMMAND_ASSESSMENT",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::OLV_GROUP_SID_INTEGRATION",
+        "authorized_input_ids": [
+          "OLV_INPUT_COMMON_001",
+          "OLV_PRODUCT_NCA_POSITIONS_001",
+          "OLV_PRODUCT_COMMAND_001"
+        ],
+        "content": {
+          "contradictions": [
+            "earlier public off-ramp versus retaining private ambiguity"
+          ],
+          "dissent": [
+            {
+              "position": "earlier withdrawal language",
+              "seat_id": "OLV_SEAT_FOREIGN_AFFAIRS"
+            }
+          ],
+          "gaps": [
+            "no complete strategic or nuclear decision path",
+            "no source-bound PSC vote"
+          ],
+          "instrument_dependencies": [
+            "party direction",
+            "President command confirmation",
+            "Defense feasibility",
+            "General Staff assessment"
+          ],
+          "options": [
+            "limited hold with defensive preparation",
+            "hold with published withdrawal conditions",
+            "freeze preparation pending talks"
+          ],
+          "source_product_ids": [
+            "OLV_PRODUCT_NCA_POSITIONS_001",
+            "OLV_PRODUCT_COMMAND_001"
+          ],
+          "stop_conditions": [
+            "further advance",
+            "loss of bounded command control",
+            "unresolved posture confirmation"
+          ]
+        },
+        "content_hash": "0e9169af75561d127fbd9912a7ca0a977e0206bb1ff784fa61513bf66bf30c83",
+        "group_id": "OLV_GROUP_SID_INTEGRATION",
+        "member_seat_ids": [
+          "OLV_SEAT_NATIONAL_SECURITY"
+        ],
+        "product_id": "OLV_PRODUCT_SID_OPTIONS_001",
+        "product_schema_id": "OLV_PRODUCT_SID_OPTIONS",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::OLV_GROUP_NCA_REVIEW",
+        "authorized_input_ids": [
+          "OLV_INPUT_COMMON_001",
+          "OLV_PRODUCT_NCA_POSITIONS_001",
+          "OLV_PRODUCT_COMMAND_001",
+          "OLV_PRODUCT_SID_OPTIONS_001"
+        ],
+        "content": {
+          "command_constraints": [
+            "defensive posture only",
+            "no strategic or nuclear component"
+          ],
+          "confirmations": [
+            "OLV_CONFIRM_PRESIDENT_COMMAND",
+            "OLV_CONFIRM_DEFENSE_FEASIBILITY",
+            "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+          ],
+          "dissent": [
+            {
+              "position": "publish withdrawal conditions earlier",
+              "seat_id": "OLV_SEAT_FOREIGN_AFFAIRS"
+            }
+          ],
+          "options_hash": "fixture-reference::OLV_PRODUCT_SID_OPTIONS_001",
+          "ordered_portfolio_positions": "OLV_PRODUCT_NCA_POSITIONS_001",
+          "party_direction_request": "Decide whether to retain the limited hold and integrated pressure package.",
+          "president_position": {
+            "position": "support a limited hold with no further advance",
+            "seat_id": "OLV_SEAT_PRESIDENT"
+          }
+        },
+        "content_hash": "b725f956bb7ec1540f1c6d2038a98a7b75ff952456b7a2148528812f7f32ed4b",
+        "group_id": "OLV_GROUP_NCA_REVIEW",
+        "member_seat_ids": [
+          "OLV_SEAT_PRESIDENT",
+          "OLV_SEAT_NATIONAL_SECURITY",
+          "OLV_SEAT_FOREIGN_AFFAIRS",
+          "OLV_SEAT_PUBLIC_INFORMATION",
+          "OLV_SEAT_FINANCE",
+          "OLV_SEAT_INTERIOR",
+          "OLV_SEAT_DEFENSE"
+        ],
+        "product_id": "OLV_PRODUCT_NCA_REVIEW_001",
+        "product_schema_id": "OLV_PRODUCT_NCA_REVIEW",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::OLV_GROUP_PARTY_DIRECTION",
+        "authorized_input_ids": [
+          "OLV_INPUT_COMMON_001",
+          "OLV_INPUT_PARTY_001",
+          "OLV_PRODUCT_SID_OPTIONS_001",
+          "OLV_PRODUCT_NCA_REVIEW_001"
+        ],
+        "content": {
+          "action_class": "limited_ridge_hold_and_integrated_pressure",
+          "blocked_components": [
+            "further advance",
+            "strategic or nuclear action",
+            "Politburo vote"
+          ],
+          "general_secretary_decision": {
+            "decision": "approve_bounded_posture",
+            "seat_id": "OLV_SEAT_GENERAL_SECRETARY"
+          },
+          "nca_review_hash": "fixture-reference::OLV_PRODUCT_NCA_REVIEW_001",
+          "output_components": {
+            "field_preparation": "defensive",
+            "hold": "limited ridge objective",
+            "no_further_advance": true,
+            "public_posture": "locally defensive",
+            "withdrawal_conditions": [
+              "reciprocal disengagement",
+              "restoration talks"
+            ]
+          },
+          "president_command_confirmation": "OLV_CONFIRM_PRESIDENT_COMMAND",
+          "professional_confirmations": [
+            "OLV_CONFIRM_DEFENSE_FEASIBILITY",
+            "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+          ],
+          "retained_dissent": [
+            {
+              "position": "publish withdrawal conditions earlier",
+              "seat_id": "OLV_SEAT_FOREIGN_AFFAIRS"
+            }
+          ]
+        },
+        "content_hash": "cfa29850795c4dffc30843f16917e93feb025a7d7e871e4a3f0a79cfdca243df",
+        "group_id": "OLV_GROUP_PARTY_DIRECTION",
+        "member_seat_ids": [
+          "OLV_SEAT_GENERAL_SECRETARY"
+        ],
+        "product_id": "OLV_PRODUCT_DECISION_001",
+        "product_schema_id": "OLV_PRODUCT_DECISION_RECORD",
+        "status": "accepted"
+      }
+    ],
+    "output": {
+      "content": {
+        "observed_activity": [
+          "Olvanan forces hold the limited ridge objective",
+          "field works and air-defense coverage are being strengthened",
+          "public messaging describes the move as locally defensive"
+        ],
+        "occupation_status": "confirmed",
+        "unresolved": [
+          "central authorization chain",
+          "intended duration",
+          "conditions for withdrawal",
+          "relationship between theater signaling and strategic-force messaging"
+        ]
+      },
+      "output_id": "OLV_OUTPUT_RIDGE_POSTURE_001"
+    },
+    "output_projection": {
+      "mapping_type": "authored_world_projection",
+      "output": {
+        "content": {
+          "observed_activity": [
+            "Olvanan forces hold the limited ridge objective",
+            "field works and air-defense coverage are being strengthened",
+            "public messaging describes the move as locally defensive"
+          ],
+          "occupation_status": "confirmed",
+          "unresolved": [
+            "central authorization chain",
+            "intended duration",
+            "conditions for withdrawal",
+            "relationship between theater signaling and strategic-force messaging"
+          ]
+        },
+        "output_id": "OLV_OUTPUT_RIDGE_POSTURE_001"
+      },
+      "projection_id": "OLV_PROJECTION_RIDGE_POSTURE_001",
+      "projection_owner": "world_authored",
+      "source_decision_record_id": "OLV_PRODUCT_DECISION_001"
+    },
+    "ratification_hash": "bbab62ea681f2e513407b926de5adfbfaeb8e73baf5fb86ea34808b9fa524384",
+    "schedule": [
+      [
+        "OLV_GROUP_NCA_PORTFOLIOS"
+      ],
+      [
+        "OLV_GROUP_COMMAND_ASSESSMENT"
+      ],
+      [
+        "OLV_GROUP_SID_INTEGRATION"
+      ],
+      [
+        "OLV_GROUP_NCA_REVIEW"
+      ],
+      [
+        "OLV_GROUP_PARTY_DIRECTION"
+      ]
+    ],
+    "schema_version": "counterpart-room-run.v0.1",
+    "source_register_hash": "932c12452ccb3373ccf4fc07c7d91f290d6812d1d8d1b227f49f0cf8eb4e06d5",
+    "status": "passed",
+    "world_effects_admitted": false
+  },
+  "run_hash": "c6d212f7ed80ab77c2241920ec574d8577d7746a8e68f8ccef852bd3ad392a3a",
+  "schema_version": "counterpart-room-tracer-receipt.v0.1",
+  "source_register_hash": "932c12452ccb3373ccf4fc07c7d91f290d6812d1d8d1b227f49f0cf8eb4e06d5",
+  "source_register_id": "DATE_OLVANA_2026Q3.sources",
+  "status": "passed",
+  "tracer_id": "m5-olvana-room-no-model-v1"
+}

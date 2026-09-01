@@ -1,0 +1,42 @@
+{
+  "source": "https://docs.together.ai/docs/serverless/models",
+  "accessed_at": "2026-08-16",
+  "pricing_units": {
+    "chat": "USD per 1M tokens"
+  },
+  "chat": [
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "GPT-OSS 20B",
+      "context": 128000,
+      "input": 0.05,
+      "cached_input": null,
+      "output": 0.2,
+      "quantization": "MXFP4",
+      "function_calling": "yes",
+      "structured_outputs": "yes"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "context": 1000000,
+      "input": 0.14,
+      "cached_input": 0.03,
+      "output": 0.28,
+      "quantization": "FP4",
+      "function_calling": "yes",
+      "structured_outputs": "yes"
+    },
+    {
+      "id": "Qwen/Qwen3.5-9B",
+      "name": "Qwen3.5 9B",
+      "context": 262144,
+      "input": 0.17,
+      "cached_input": null,
+      "output": 0.25,
+      "quantization": "FP8",
+      "function_calling": "yes",
+      "structured_outputs": "yes"
+    }
+  ]
+}

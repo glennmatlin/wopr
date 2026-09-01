@@ -1,0 +1,64 @@
+{
+  "metrics": {
+    "guardrail_main_max_ms": 0.22545806132256985,
+    "guardrail_main_min_ms": 0.07729197386652231,
+    "guardrail_main_ms": 0.11814997997134924,
+    "phase0_main_max_ms": 0.22545806132256985,
+    "phase0_main_min_ms": 0.07729197386652231,
+    "phase0_main_ms": 0.11814997997134924,
+    "postal_simulation_max_ms": 1.0696249082684517,
+    "postal_simulation_min_ms": 0.8225840283557773,
+    "postal_simulation_ms": 0.9527639873946706,
+    "table_simulation_max_ms": 0.7027499377727509,
+    "table_simulation_min_ms": 0.4477500915527344,
+    "table_simulation_ms": 0.5630140270416936
+  },
+  "pie": {
+    "directory_setup_ms": 0.09451998397707939,
+    "marker_write_ms": 0.023629995994269848,
+    "postal_simulation_ms": 0.9527639873946706,
+    "table_simulation_ms": 0.5630140270416936
+  },
+  "timeline": [
+    {
+      "elapsed_ms": 0.2044999273493886,
+      "iteration": 1
+    },
+    {
+      "elapsed_ms": 0.09945803321897984,
+      "iteration": 2
+    },
+    {
+      "elapsed_ms": 0.08229189552366734,
+      "iteration": 3
+    },
+    {
+      "elapsed_ms": 0.22545806132256985,
+      "iteration": 4
+    },
+    {
+      "elapsed_ms": 0.14820799697190523,
+      "iteration": 5
+    },
+    {
+      "elapsed_ms": 0.09624997619539499,
+      "iteration": 6
+    },
+    {
+      "elapsed_ms": 0.08829100988805294,
+      "iteration": 7
+    },
+    {
+      "elapsed_ms": 0.07745891343802214,
+      "iteration": 8
+    },
+    {
+      "elapsed_ms": 0.08229201193898916,
+      "iteration": 9
+    },
+    {
+      "elapsed_ms": 0.07729197386652231,
+      "iteration": 10
+    }
+  ]
+}

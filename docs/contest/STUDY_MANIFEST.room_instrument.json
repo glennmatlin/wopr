@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "study_id": "wopr-situation-room-instrument",
+  "protocol_revision": "draft-0.2",
+  "source_revision": "contest-model-pair-lock-2026-08-16",
+  "players": 4,
+  "max_turns": 40,
+  "seeds": [
+    51,
+    52,
+    53
+  ],
+  "study_variant": "room_instrument",
+  "conditions": [
+    {
+      "condition_id": "full_press_presidential_staff",
+      "communication": "full_press",
+      "authority": "sole_authority",
+      "authority_parameters": {
+        "deference": 0.0
+      },
+      "press_passes": 1
+    },
+    {
+      "condition_id": "full_press_equal_council",
+      "communication": "full_press",
+      "authority": "council",
+      "authority_parameters": {
+        "threshold": 0.6666666667,
+        "weights": {
+          "executive": 1.0,
+          "strategic_advisor": 1.0,
+          "risk_advisor": 1.0
+        }
+      },
+      "press_passes": 1
+    },
+    {
+      "condition_id": "full_press_chair_weighted_council",
+      "communication": "full_press",
+      "authority": "council",
+      "authority_parameters": {
+        "threshold": 0.6666666667,
+        "weights": {
+          "executive": 2.0,
+          "strategic_advisor": 1.0,
+          "risk_advisor": 1.0
+        }
+      },
+      "press_passes": 1
+    }
+  ],
+  "models": [
+    {
+      "model_id": "deepseek_v4_flash_0731",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.0,
+        "max_tokens": 512,
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    },
+    {
+      "model_id": "gpt_oss_20b",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "openai/gpt-oss-20b",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.0,
+        "max_tokens": 512,
+        "reasoning_effort": "low",
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    }
+  ],
+  "request_budget": {
+    "max_c2_calls_per_game": 2048,
+    "max_press_calls_per_game": 160,
+    "input_tokens_bound": 8192,
+    "max_output_tokens": 512,
+    "max_cost_usd": 500.0,
+    "max_cost_per_request_usd": 0.00129024,
+    "transport_retry_margin": 2
+  },
+  "preflight_receipt_hash": "7dd927a53d97ffcce85d3562ef35446003f7f8f9beefe13f559a84ab948552a6",
+  "preflight_approval_status": "approved",
+  "preflight_receipt_path": "docs/contest/MODEL_PREFLIGHT_RECEIPT.live.json",
+  "preflight_candidate_manifest_path": "docs/contest/MODEL_MANIFEST.json",
+  "preflight_candidate_manifest_hash": "cc69c025b61160c3722320640de38aa8028126e08c7d591834efe8723ecd8349",
+  "preflight_executor_revision": "09421afee7a0c763127d0ec5e460f7d94a596bdc"
+}

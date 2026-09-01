@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "study_id": "wopr-situation-room-authority-no-press",
+  "protocol_revision": "draft-0.1",
+  "source_revision": "calibration-scorecard-2026-07-05",
+  "players": 4,
+  "max_turns": 40,
+  "seeds": [51, 52, 53, 54, 55],
+  "study_variant": "authority_no_press",
+  "conditions": [
+    {
+      "condition_id": "no_press_sole_authority",
+      "communication": "no_press",
+      "authority": "sole_authority",
+      "authority_parameters": {"deference": 0.0},
+      "press_passes": 1
+    },
+    {
+      "condition_id": "no_press_council",
+      "communication": "no_press",
+      "authority": "council",
+      "authority_parameters": {
+        "threshold": 0.6666666667,
+        "weights": {
+          "executive": 1.0,
+          "strategic_advisor": 1.0,
+          "risk_advisor": 1.0
+        }
+      },
+      "press_passes": 1
+    }
+  ],
+  "models": [
+    {
+      "model_id": "gpt_oss_120b",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "openai/gpt-oss-120b",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.0,
+        "max_tokens": 512,
+        "reasoning_effort": "low",
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    },
+    {
+      "model_id": "qwen3_235b_instruct_2507",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.0,
+        "max_tokens": 512,
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    }
+  ],
+  "request_budget": {
+    "max_c2_calls_per_game": 2048,
+    "max_press_calls_per_game": 160,
+    "input_tokens_bound": 8192,
+    "max_output_tokens": 512,
+    "max_cost_usd": 5000.0,
+    "max_cost_per_request_usd": 0.0019456,
+    "transport_retry_margin": 2
+  },
+  "preflight_receipt_hash": "95c1e9f9964689fa8b361a4f7f1980d1aba4eada3138d12d39d21a6f5e386485",
+  "preflight_approval_status": "pending_owner",
+  "preflight_receipt_path": "docs/contest/MODEL_PREFLIGHT_RECEIPT.json",
+  "preflight_candidate_manifest_path": "docs/contest/MODEL_MANIFEST.candidate.json",
+  "preflight_candidate_manifest_hash": "2598d3cb324e021bdabfde32181783654e85528264f8cd3717a2191f0aa97f74"
+}

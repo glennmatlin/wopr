@@ -1,0 +1,564 @@
+{
+  "metadata": {
+    "title": "Nuclear War (Base) — Full Card List with Consolidated Text",
+    "generated_utc": "2025-09-23T00:23:52Z",
+    "edition_scope": "Base 1965 set only (no expansions). Uses publisher cardlist for names/counts; card texts consolidated from community sources.",
+    "is_official_compilation": false,
+    "sources_index": [
+      {
+        "key": "publisher_cardlist",
+        "title": "Nuclear War Card List (publisher list mirror)",
+        "url": "https://www.scribd.com/document/401221633/Nuclear-War-Card-List-pdf",
+        "notes": "Names & counts for base deck; lists the 10 base Secrets & 5 Top Secrets by name."
+      },
+      {
+        "key": "rulesheet_pdf",
+        "title": "Official rulesheet (concise PDF) — propaganda behavior & turn structure",
+        "url": "https://www.goblins.net/files/downloads/NuclearWarENGrules.pdf",
+        "notes": "Peace vs war behavior for Propaganda; general timing."
+      },
+      {
+        "key": "combined_rules",
+        "title": "Nuclear War Combined Rules v1.50 (With All the Trimmings)",
+        "url": "https://www.scribd.com/document/910500996/Nuclear-War-Combined-Rules-1-50-Flat",
+        "notes": "Community consolidation; NOT official. Anti‑missile summary, attack tables, and many card texts across sets."
+      },
+      {
+        "key": "bgg_card_by_card",
+        "title": "BoardGameGeek — Nuclear War card‑by‑card thread",
+        "url": "https://boardgamegeek.com/thread/278941/nuclear-war-card-by-card",
+        "notes": "Community post with card-by-card quotes/explanations for many base Secrets/Top Secrets."
+      },
+      {
+        "key": "latimes_1986",
+        "title": "LA Times (1986): In 'Nuclear War', the end of the world is in the cards",
+        "url": "https://www.latimes.com/archives/la-xpm-1986-04-18-vw-442-story.html",
+        "notes": "Quotes Summit Talk (lose a turn) and a 2M defection Secret in play."
+      },
+      {
+        "key": "bgg_component_list",
+        "title": "BoardGameGeek — Component list (deck composition and population deck)",
+        "url": "https://boardgamegeek.com/thread/415824/component-list",
+        "notes": "Population deck composition commonly used in later printings."
+      },
+      {
+        "key": "tvtropes_sup",
+        "title": "TVTropes — 'Nuclear War' page (community note)",
+        "url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/NuclearWar",
+        "notes": "Not authoritative; used only to fill a gap for Supergerm magnitude (marked low confidence)."
+      }
+    ]
+  },
+  "cards": [
+    {
+      "id": "nw_base_f135174f",
+      "set": "Nuclear War (Base)",
+      "name": "Warhead 10 Mt",
+      "type": "warhead",
+      "count_in_deck": 19,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "yield_megatons": 10,
+      "rules_text": "Attach to a compatible delivery system; on attack, apply Nuclear War attack tables. Missile discarded after use; bomber persists up to payload.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_63d00850",
+      "set": "Nuclear War (Base)",
+      "name": "Warhead 20 Mt",
+      "type": "warhead",
+      "count_in_deck": 10,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "yield_megatons": 20,
+      "rules_text": "Attach to a compatible delivery system; on attack, apply Nuclear War attack tables. Missile discarded after use; bomber persists up to payload.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_5baf79b7",
+      "set": "Nuclear War (Base)",
+      "name": "Warhead 50 Mt",
+      "type": "warhead",
+      "count_in_deck": 4,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "yield_megatons": 50,
+      "rules_text": "Attach to a compatible delivery system; on attack, apply Nuclear War attack tables. Missile discarded after use; bomber persists up to payload.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_a2109e47",
+      "set": "Nuclear War (Base)",
+      "name": "Warhead 100 Mt",
+      "type": "warhead",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "yield_megatons": 100,
+      "rules_text": "Attach to a compatible delivery system; on attack, apply Nuclear War attack tables. Missile discarded after use; bomber persists up to payload.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_b3a2b1d5",
+      "set": "Nuclear War (Base)",
+      "name": "Propaganda 5M",
+      "type": "propaganda",
+      "count_in_deck": 12,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "value_millions": 5,
+      "rules_text": "In peace: steal this many millions from one opponent. During war: no effect (discard).",
+      "sources": [
+        "rulesheet_pdf",
+        "publisher_cardlist"
+      ]
+    },
+    {
+      "id": "nw_base_ce2c2080",
+      "set": "Nuclear War (Base)",
+      "name": "Propaganda 10M",
+      "type": "propaganda",
+      "count_in_deck": 6,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "value_millions": 10,
+      "rules_text": "In peace: steal this many millions from one opponent. During war: no effect (discard).",
+      "sources": [
+        "rulesheet_pdf",
+        "publisher_cardlist"
+      ]
+    },
+    {
+      "id": "nw_base_e81625f2",
+      "set": "Nuclear War (Base)",
+      "name": "Propaganda 25M",
+      "type": "propaganda",
+      "count_in_deck": 2,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "value_millions": 25,
+      "rules_text": "In peace: steal this many millions from one opponent. During war: no effect (discard).",
+      "sources": [
+        "rulesheet_pdf",
+        "publisher_cardlist"
+      ]
+    },
+    {
+      "id": "nw_base_817ae772",
+      "set": "Nuclear War (Base)",
+      "name": "Polaris Missile",
+      "type": "carrier",
+      "count_in_deck": 9,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "max_yield_megatons": 10,
+      "intercept_by": [
+        "P",
+        "A",
+        "S",
+        "B"
+      ],
+      "rules_text": "Place face‑up; if followed by a compatible warhead next turn, you must attack. Bombers can drop multiple warheads up to payload; missiles are discarded after an attack.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_782a2d4e",
+      "set": "Nuclear War (Base)",
+      "name": "Atlas Missile",
+      "type": "carrier",
+      "count_in_deck": 9,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "max_yield_megatons": 20,
+      "intercept_by": [
+        "A",
+        "S",
+        "B"
+      ],
+      "rules_text": "Place face‑up; if followed by a compatible warhead next turn, you must attack. Bombers can drop multiple warheads up to payload; missiles are discarded after an attack.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_17d18cbc",
+      "set": "Nuclear War (Base)",
+      "name": "B-70 Bomber",
+      "type": "carrier",
+      "count_in_deck": 6,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "max_yield_megatons": 50,
+      "intercept_by": [
+        "S",
+        "B"
+      ],
+      "rules_text": "Place face‑up; if followed by a compatible warhead next turn, you must attack. Bombers can drop multiple warheads up to payload; missiles are discarded after an attack.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_524da209",
+      "set": "Nuclear War (Base)",
+      "name": "Saturn Missile",
+      "type": "carrier",
+      "count_in_deck": 3,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "max_yield_megatons": 100,
+      "intercept_by": [
+        "S"
+      ],
+      "rules_text": "Place face‑up; if followed by a compatible warhead next turn, you must attack. Bombers can drop multiple warheads up to payload; missiles are discarded after an attack.",
+      "sources": [
+        "publisher_cardlist",
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_68e841fd",
+      "set": "Nuclear War (Base)",
+      "name": "Anti-Missile (P)",
+      "type": "anti_missile",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "label": "P",
+      "rules_text": "Play when targeted to intercept eligible delivery systems per Anti‑Missile Summary.",
+      "sources": [
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_635d7044",
+      "set": "Nuclear War (Base)",
+      "name": "Anti-Missile (A)",
+      "type": "anti_missile",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "label": "A",
+      "rules_text": "Play when targeted to intercept eligible delivery systems per Anti‑Missile Summary.",
+      "sources": [
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_b0c93572",
+      "set": "Nuclear War (Base)",
+      "name": "Anti-Missile (S)",
+      "type": "anti_missile",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "label": "S",
+      "rules_text": "Play when targeted to intercept eligible delivery systems per Anti‑Missile Summary.",
+      "sources": [
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_00bc504e",
+      "set": "Nuclear War (Base)",
+      "name": "Anti-Missile (B)",
+      "type": "anti_missile",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "label": "B",
+      "rules_text": "Play when targeted to intercept eligible delivery systems per Anti‑Missile Summary.",
+      "sources": [
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_b6794c74",
+      "set": "Nuclear War (Base)",
+      "name": "Test Ban",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "TEST BAN! Your President declares a test ban on nuclear weapons. The targeted country forfeits its next turn.",
+      "effect": {
+        "target_loses_turns": 1
+      },
+      "confidence": "high",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_25ca25d8",
+      "set": "Nuclear War (Base)",
+      "name": "Summit Talk",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "You have tricked the enemy into an ineffective but time‑consuming summit talk. The targeted country loses one full turn.",
+      "effect": {
+        "target_loses_turns": 1
+      },
+      "confidence": "high",
+      "notes": null,
+      "sources": [
+        "latimes_1986"
+      ]
+    },
+    {
+      "id": "nw_base_a82055e8",
+      "set": "Nuclear War (Base)",
+      "name": "Stock Market Super Boom",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "STOCK MARKET SUPER BOOM! 2 million of the enemy’s population immigrate to your country.",
+      "effect": {
+        "steal_population_millions": 2
+      },
+      "confidence": "high",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_9c4a685d",
+      "set": "Nuclear War (Base)",
+      "name": "Peace Corps",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "PEACE CORPS REDUCES COLD WAR TENSIONS! 2 million of the enemy’s people leave their homeland to join your form of superior government.",
+      "effect": {
+        "steal_population_millions": 2
+      },
+      "confidence": "high",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_5df64089",
+      "set": "Nuclear War (Base)",
+      "name": "First on Moon",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "YOUR COLD WAR PRESTIGE SOARS DUE TO BEING FIRST ON THE MOON! 5 million of the enemy defect to seek aerospace jobs in your country.",
+      "effect": {
+        "steal_population_millions": 5
+      },
+      "confidence": "high",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_4f7e97eb",
+      "set": "Nuclear War (Base)",
+      "name": "Beatnik Pacifists",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "BEATNIK PACIFISTS! 2 million of the enemy’s population defect to your country.",
+      "effect": {
+        "steal_population_millions": 2
+      },
+      "confidence": "medium",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card",
+        "latimes_1986"
+      ]
+    },
+    {
+      "id": "nw_base_1a3dc61e",
+      "set": "Nuclear War (Base)",
+      "name": "Population Explosion",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "POPULATION EXPLOSION! Your country experiences a baby boom — gain 5 million population from the bank.",
+      "effect": {
+        "gain_from_bank_millions": 5
+      },
+      "confidence": "low",
+      "notes": "Magnitude inferred; mark for verification against card scan.",
+      "sources": [
+        "combined_rules"
+      ]
+    },
+    {
+      "id": "nw_base_88397cd6",
+      "set": "Nuclear War (Base)",
+      "name": "Little Old Ladies",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "2 million of your highly moral little old ladies rebel against your country’s military policies and defect to the player who played this card.",
+      "effect": {
+        "steal_population_millions": 2
+      },
+      "confidence": "medium",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_73c4d9d1",
+      "set": "Nuclear War (Base)",
+      "name": "Raises Taxes",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "YOUR ENEMY RAISES TAXES 100% THIS YEAR! 5 million of his people emigrate to your country.",
+      "effect": {
+        "steal_population_millions": 5
+      },
+      "confidence": "medium",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_1e921213",
+      "set": "Nuclear War (Base)",
+      "name": "Ambassador Gets Drunk",
+      "type": "secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "ENEMY AMBASSADOR GETS DRUNK AT UN PARTY! His country loses one turn to restore diplomatic relations.",
+      "effect": {
+        "target_loses_turns": 1
+      },
+      "confidence": "high",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_9c57e2d6",
+      "set": "Nuclear War (Base)",
+      "name": "Disastrous Earthquake",
+      "type": "top_secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "DISASTROUS EARTHQUAKE! 10 million of the targeted country’s population are killed.",
+      "effect": {
+        "damage_population_millions": 10
+      },
+      "confidence": "medium",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_59743030",
+      "set": "Nuclear War (Base)",
+      "name": "10 Million Leave for a Neutral Country",
+      "type": "top_secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "10 MILLION LEAVE FOR A NEUTRAL COUNTRY. Remove 10 million from the targeted country and return them to the bank.",
+      "effect": {
+        "remove_to_bank_millions": 10
+      },
+      "confidence": "medium",
+      "notes": null,
+      "sources": [
+        "publisher_cardlist"
+      ]
+    },
+    {
+      "id": "nw_base_bdab30a4",
+      "set": "Nuclear War (Base)",
+      "name": "Supergerm",
+      "type": "top_secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "SUPERGERM! A virulent plague strikes. 25 million are lost from the targeted country.",
+      "effect": {
+        "damage_population_millions": 25
+      },
+      "confidence": "low",
+      "notes": "Community summary; verify exact magnitude against card scan or official listing.",
+      "sources": [
+        "tvtropes_sup"
+      ]
+    },
+    {
+      "id": "nw_base_f22d41be",
+      "set": "Nuclear War (Base)",
+      "name": "Mysteriously Vaporized",
+      "type": "top_secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "25 million of the enemy’s population are mysteriously vaporized.",
+      "effect": {
+        "damage_population_millions": 25
+      },
+      "confidence": "high",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    },
+    {
+      "id": "nw_base_cef59053",
+      "set": "Nuclear War (Base)",
+      "name": "Violent Tornado",
+      "type": "top_secret",
+      "count_in_deck": 1,
+      "is_official_text": false,
+      "generated_utc": "2025-09-23T00:23:52Z",
+      "unofficial_text": "A VIOLENT TORNADO results in a loss of 10 million to the targeted country’s population.",
+      "effect": {
+        "damage_population_millions": 10
+      },
+      "confidence": "medium",
+      "notes": null,
+      "sources": [
+        "bgg_card_by_card"
+      ]
+    }
+  ]
+}

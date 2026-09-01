@@ -1,0 +1,106 @@
+{
+  "artifact_hashes": {
+    "bridge_fixture": "4b47bc86dad3226692146cc92b21f7b3da61a5919b87ce26924514d7f44ce465",
+    "bridge_receipt": "9e07ef3e7edbda2a3baace24a4ed8c278da4c64f7e68c254650909530bab9a8e",
+    "charter": "fe3837ad22a898218c3c298d1facf91e1ddd09b1a2d58dfc9a48b9d3c4bf83d2",
+    "cycle1_fixture": "ea7333ec4e7423ad628455d18638c6e0eefd9fdca3b0bd17f85d35fb2d2ac9fc",
+    "cycle1_receipt": "3d9363891fe709cd349207e84018df6852ffcd976ba611024d1d0c759d44e8c5",
+    "cycle2_fixture": "dc99ac7a92e2402451973041325f670c0bb626058068a221f695ee4cd0d9119f",
+    "date_profile": "64f4009b91381b27f43e76f61cd929f989b7ca866bdab7e8eb28326403e0c477",
+    "date_tracer_receipt": "3f1b27f3f9dfd16972e8f0a082d033c82a8ee4848902aac64ea1cf7374d62024",
+    "ratification": "0b831d55ba60dd458e44b0e63d714a82eaf05b508a32694f96181caba0b5ad13",
+    "source_register": "73dbda61ad01472abeadb5bd8aae2aead8a84b5596bbd00c5afbccba21d5051f"
+  },
+  "artifact_paths": {
+    "bridge_fixture": "US_PROPOSAL_BRIDGE_FIXTURE.development.json",
+    "bridge_receipt": "US_PROPOSAL_BRIDGE_RECEIPT.json",
+    "charter": "US_CHARTER.candidate.json",
+    "cycle1_fixture": "US_CYCLE1_FIXTURE.development.json",
+    "cycle1_receipt": "US_CYCLE1_RECEIPT.json",
+    "cycle2_fixture": "US_CYCLE2_FIXTURE.development.json",
+    "date_profile": "DATE_PROFILE.candidate.json",
+    "date_tracer_receipt": "DATE_TRACER_RECEIPT.json",
+    "ratification": "US_CHARTER_RATIFICATION.json",
+    "source_register": "US_SOURCE_REGISTER.candidate.json"
+  },
+  "cycle2_external_parent_ids": [
+    "EXCON_CONSEQUENCE_PREPARATION_001",
+    "WX_RIDGE_FRONT_01",
+    "OBS_WX_RIDGE_CONFIRMED_01"
+  ],
+  "cycle2_reassessment": {
+    "changed_evidence_ids": [
+      "EXCON_CONSEQUENCE_PREPARATION_001",
+      "WX_RIDGE_FRONT_01",
+      "OBS_WX_RIDGE_CONFIRMED_01"
+    ],
+    "core_hash": "771e6113ee4905bdc4a82be031a007c2e27421bc105c5135ffa6da884464072b",
+    "core_version": 1,
+    "disposition": "condition",
+    "prior_decision_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+    "prior_decision_id": "USC1_PRODUCT_NSC_DECISION_001"
+  },
+  "final_adjudication": {
+    "actor_id": "USA",
+    "adjudication_id": "USC2_NON_ACTION_TRANSMISSION_001",
+    "adjudicator_id": "EXCON_DEVELOPMENT_FIXTURE",
+    "cycle_id": "CYCLE_2",
+    "decision_record_id": "USC2_PRODUCT_NSC_DECISION_001",
+    "evidence_status": "development_fixture_non_evidence",
+    "original_language": "Do not transmit until a compliant channel is confirmed.",
+    "reason_codes": [
+      "recipient_channel_unresolved",
+      "access_degraded"
+    ],
+    "represented_room_decision_actor_ids": [],
+    "source_component_ids": [
+      "COMP_INTELLIGENCE_SHARING"
+    ],
+    "status": "recorded_non_action",
+    "world_event": {
+      "affected_entity_ids": [
+        "US_CRISIS_ASSESSMENT"
+      ],
+      "assumptions": [
+        "non-action does not imply future refusal"
+      ],
+      "audience_ids": [
+        "US_ACTIVE_SEATS"
+      ],
+      "causal_parent_ids": [
+        "EXCON_CONSEQUENCE_PREPARATION_001",
+        "OBS_WX_RIDGE_CONFIRMED_01"
+      ],
+      "content": "The prepared package remains withheld pending a valid channel.",
+      "episode_hour": 7,
+      "event_kind": "excon_consequence",
+      "evidence_ids": [
+        "SYNTHETIC_AUTHORING_DEFAULT"
+      ],
+      "patch_template_id": null,
+      "source": "excon_consequence",
+      "template_id": "EXCON_CONSEQUENCE_NON_ACTION_002",
+      "uncertainty": {
+        "confidence": "authored_fixture"
+      }
+    }
+  },
+  "fixture_id": "US_TWO_CYCLE_EPISODE.development.v0_1",
+  "fixture_version": "0.1.0",
+  "forecast_binding": {
+    "cycle1_input_id": "USC1_INPUT_RAW_WEATHER_001",
+    "relationship": "authored_summary_of",
+    "shared_entity_ids": [
+      "AFF_US_RIDGE_ISR_WINDOW",
+      "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW"
+    ],
+    "world_event_id": "OBS_WX_RIDGE_FORECAST_01"
+  },
+  "schema_version": "us-two-cycle-fixture.v0.1",
+  "status": "development_fixture_non_evidence",
+  "upstream_receipt_hashes": {
+    "bridge": "cf78c92190e8b2739923c0977a0af316b332643b563d0ad4818b13048c726ec4",
+    "cycle1": "7487b1604dd8426c74631b21590326190d95a476e90220924397f08fec93a186",
+    "date": "4a582d72b6d8ff753c3e06adea4d36aef3c3b39b5284e4050ce9ed35e39815e3"
+  }
+}

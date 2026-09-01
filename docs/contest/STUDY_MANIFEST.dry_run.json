@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "study_id": "wopr-situation-room-dry-run",
+  "protocol_revision": "draft-0.1",
+  "source_revision": "offline-fixture",
+  "players": 4,
+  "max_turns": 2,
+  "seeds": [51, 52],
+  "conditions": [
+    {
+      "condition_id": "no_press_sole_authority",
+      "communication": "no_press",
+      "authority": "sole_authority",
+      "authority_parameters": {"deference": 0.0},
+      "press_passes": 1
+    },
+    {
+      "condition_id": "full_press_sole_authority",
+      "communication": "full_press",
+      "authority": "sole_authority",
+      "authority_parameters": {"deference": 0.0},
+      "press_passes": 1
+    },
+    {
+      "condition_id": "no_press_council",
+      "communication": "no_press",
+      "authority": "council",
+      "authority_parameters": {
+        "threshold": 0.6666666667,
+        "weights": {
+          "executive": 1.0,
+          "strategic_advisor": 1.0,
+          "risk_advisor": 1.0
+        }
+      },
+      "press_passes": 1
+    },
+    {
+      "condition_id": "full_press_council",
+      "communication": "full_press",
+      "authority": "council",
+      "authority_parameters": {
+        "threshold": 0.6666666667,
+        "weights": {
+          "executive": 1.0,
+          "strategic_advisor": 1.0,
+          "risk_advisor": 1.0
+        }
+      },
+      "press_passes": 1
+    }
+  ],
+  "models": [
+    {
+      "model_id": "offline_first_legal",
+      "backend": "concordia_first_legal",
+      "provider": "offline",
+      "client": {},
+      "max_retries": 0,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    }
+  ]
+}

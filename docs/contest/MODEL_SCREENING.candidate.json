@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "manifest_id": "wopr-situation-room-model-screening",
+  "selection_status": "screening_only",
+  "full_design_model_selection": "deferred_after_screen",
+  "source_revision": "contest-model-screen-2026-08-16",
+  "catalog_path": "../../research/llm_model_calibration/data/contest_screening_catalog_2026-08-16.json",
+  "catalog_sha256": "1bba59c3f20df3ed41d82f042f228457148e412ce2cd51b4453fca4fa5b24856",
+  "budget_path": "M3_SCREENING_BUDGET.json",
+  "budget_sha256": "99058cfef2f47a2878c8e3cf13ee633664bcdc32f20313d3e505529263dc449d",
+  "final_candidate_path": "MODEL_MANIFEST.candidate.json",
+  "final_candidate_sha256": "5bf960368ad93ccedff46aa422cde5c2ad4b36cb74a71767f7d66b75614a4bb9",
+  "screening_seeds": [101, 102, 103],
+  "study_seeds": [51, 52, 53, 54, 55],
+  "screening": {
+    "mode": "press_light",
+    "players": 4,
+    "max_turns": 3,
+    "temperature": 0.7,
+    "max_tokens": 512,
+    "reasoning_enabled": false,
+    "stream": true,
+    "output_retries": 1,
+    "transport_retry_margin": 2
+  },
+  "provider": {
+    "name": "together",
+    "base_url": "https://api.together.ai/v1",
+    "api_key_env": "TOGETHER_API_KEY"
+  },
+  "owner_total_cap_usd": 1000.0,
+  "approval_status": "pending_owner",
+  "network_calls": 0,
+  "credentials_read": false,
+  "models": [
+    {
+      "model_id": "gpt_oss_20b",
+      "model_family": "GPT-OSS",
+      "provider_model": "openai/gpt-oss-20b",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "openai/gpt-oss-20b",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "reasoning_effort": "low",
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "input_usd_per_million": 0.05,
+      "output_usd_per_million": 0.2,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    },
+    {
+      "model_id": "deepseek_v4_flash_0731",
+      "model_family": "DeepSeek",
+      "provider_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "input_usd_per_million": 0.14,
+      "output_usd_per_million": 0.28,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    },
+    {
+      "model_id": "qwen3_5_9b",
+      "model_family": "Qwen3.5",
+      "provider_model": "Qwen/Qwen3.5-9B",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "Qwen/Qwen3.5-9B",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "input_usd_per_million": 0.17,
+      "output_usd_per_million": 0.25,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      }
+    }
+  ]
+}

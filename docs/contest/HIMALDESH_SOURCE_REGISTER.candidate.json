@@ -1,0 +1,295 @@
+{
+  "schema_version": "actor-source-register.v0.1",
+  "register_id": "DATE_HIMALDESH_2026Q3.sources",
+  "register_version": "0.1.0",
+  "status": "candidate",
+  "actor_id": "ACTOR_HIMALDESH",
+  "snapshot_date": "2026-08-26",
+  "sources": [
+    {
+      "source_id": "SRC_DATE_HD_POLITICAL",
+      "issuing_institution": "U.S. Army ODIN DATE",
+      "public_title": "Political: Himaldesh",
+      "canonical_url": "https://odin.t2com.army.mil/DATE/7fd47dccb6adaefd2bca2af23b7dce4b",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "DATE describes a federal multiparty parliamentary republic with a Prime Minister-led government and Cabinet.",
+      "applicable_office_ids": ["HD_SEAT_PRIME_MINISTER"],
+      "applicable_process_ids": ["HD_GROUP_CABINET_DRAFT", "HD_GROUP_JOINT_EXECUTIVE"],
+      "evidence_status": "fact",
+      "fact_ids": ["HD_FACT_POLITICAL_SYSTEM"],
+      "inference_ids": [
+        "HD_INF_OBJECTIVES",
+        "HD_INF_TWO_LANE_GRAPH",
+        "HD_INF_SIX_PORTFOLIOS",
+        "HD_INF_CABINET_PROCESS",
+        "HD_INF_INFORMATION_BOUNDARIES",
+        "HD_INF_DEVELOPMENT_OUTPUT"
+      ]
+    },
+    {
+      "source_id": "SRC_DATE_HD_MILITARY",
+      "issuing_institution": "U.S. Army ODIN DATE",
+      "public_title": "Military: Himaldesh",
+      "canonical_url": "https://odin.t2com.army.mil/DATE/2522b29e0fefb26f4164330c2311eb46",
+      "publication_date": "2024-03-28",
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "DATE assigns overall national-security responsibility to the Prime Minister, supreme command to the President, armed-force coordination to Defense and General Staff, strategic launch authority through Defense and Strategic Command, and Interior force administration with conditional Defense operational control.",
+      "applicable_office_ids": [
+        "HD_SEAT_PRIME_MINISTER",
+        "HD_SEAT_PRESIDENT",
+        "HD_SEAT_DEFENSE",
+        "HD_SEAT_GENERAL_STAFF",
+        "HD_SEAT_STRATEGIC_COMMAND",
+        "HD_SEAT_INTERIOR"
+      ],
+      "applicable_process_ids": [
+        "HD_GROUP_COMMAND_CELL",
+        "HD_GROUP_JOINT_EXECUTIVE",
+        "HD_ROUTE_COMBINED_SUPPORT_PACKAGE",
+        "HD_ROUTE_INTERIOR_FORCE_TRANSFER",
+        "HD_ROUTE_STRATEGIC_ACTION"
+      ],
+      "evidence_status": "fact",
+      "fact_ids": [
+        "HD_FACT_POLITICAL_SYSTEM",
+        "HD_FACT_EXECUTIVE_DYAD",
+        "HD_FACT_DEFENSE_COMMAND",
+        "HD_FACT_STRATEGIC_AUTHORITY",
+        "HD_FACT_INTERIOR_HANDOFF",
+        "HD_FACT_SECURITY_GOALS"
+      ],
+      "inference_ids": [
+        "HD_INF_OBJECTIVES",
+        "HD_INF_SPLIT_EXECUTIVE_ROUTE",
+        "HD_INF_TWO_LANE_GRAPH",
+        "HD_INF_SIX_PORTFOLIOS",
+        "HD_INF_CABINET_PROCESS",
+        "HD_INF_INFORMATION_BOUNDARIES",
+        "HD_INF_INTERIOR_CONFIRMATION",
+        "HD_INF_FIRST_EPISODE_ACTIVATION",
+        "HD_INF_DEVELOPMENT_OUTPUT"
+      ]
+    },
+    {
+      "source_id": "SRC_DATE_HD_ECONOMIC",
+      "issuing_institution": "U.S. Army ODIN DATE",
+      "public_title": "Economic: Himaldesh",
+      "canonical_url": "https://odin.t2com.army.mil/DATE/87722b707cc72e4fe5cbc007e0c6e3e6",
+      "publication_date": "2024-03-28",
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "DATE assigns national treasury, budget, taxation, financial-system, and investment functions to Finance and describes substantial trade dependence on Olvana.",
+      "applicable_office_ids": ["HD_SEAT_FINANCE"],
+      "applicable_process_ids": ["HD_GROUP_PORTFOLIO_FINANCE", "HD_GROUP_CABINET_REVIEW"],
+      "evidence_status": "fact",
+      "fact_ids": ["HD_FACT_FINANCE_FUNCTION", "HD_FACT_ECONOMIC_EXPOSURE"],
+      "inference_ids": ["HD_INF_OBJECTIVES", "HD_INF_SIX_PORTFOLIOS", "HD_INF_FIRST_EPISODE_ACTIVATION"]
+    },
+    {
+      "source_id": "SRC_DATE_HD_INFORMATION",
+      "issuing_institution": "U.S. Army ODIN DATE",
+      "public_title": "Information: Himaldesh",
+      "canonical_url": "https://odin.t2com.army.mil/DATE/33cfd982e59b2474287b621103d25fee",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "DATE describes government information, telecommunications, data-policy, cybersecurity, and censorship functions relevant to crisis communication.",
+      "applicable_office_ids": ["HD_SEAT_INFORMATION"],
+      "applicable_process_ids": ["HD_GROUP_PORTFOLIO_INFORMATION", "HD_GROUP_CABINET_REVIEW"],
+      "evidence_status": "fact",
+      "fact_ids": ["HD_FACT_INFORMATION_FUNCTION"],
+      "inference_ids": ["HD_INF_SIX_PORTFOLIOS", "HD_INF_FIRST_EPISODE_ACTIVATION"]
+    },
+    {
+      "source_id": "SRC_DATE_HD_INFRASTRUCTURE",
+      "issuing_institution": "U.S. Army ODIN DATE",
+      "public_title": "Infrastructure: Himaldesh",
+      "canonical_url": "https://odin.t2com.army.mil/DATE/b05e38c401b7f643651825768d85f983",
+      "publication_date": "2024-03-28",
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "DATE describes uneven transport, energy, water, sanitation, logistics, and northern-access systems whose continuity can diverge from immediate civilian protection needs.",
+      "applicable_office_ids": ["HD_SEAT_INFRASTRUCTURE", "HD_SEAT_HUMANITARIAN"],
+      "applicable_process_ids": [
+        "HD_GROUP_PORTFOLIO_INFRASTRUCTURE",
+        "HD_GROUP_PORTFOLIO_HUMANITARIAN",
+        "HD_GROUP_CABINET_REVIEW"
+      ],
+      "evidence_status": "fact",
+      "fact_ids": ["HD_FACT_INFRASTRUCTURE_EXPOSURE", "HD_FACT_CIVILIAN_EXPOSURE"],
+      "inference_ids": ["HD_INF_SIX_PORTFOLIOS", "HD_INF_FIRST_EPISODE_ACTIVATION"]
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "HD_FACT_POLITICAL_SYSTEM",
+      "statement": "DATE describes Himaldesh as a federal multiparty parliamentary republic with a Prime Minister-led government and Cabinet.",
+      "source_ids": ["SRC_DATE_HD_POLITICAL", "SRC_DATE_HD_MILITARY"],
+      "office_ids": ["HD_SEAT_PRIME_MINISTER"],
+      "process_ids": ["HD_GROUP_CABINET_DRAFT"]
+    },
+    {
+      "fact_id": "HD_FACT_EXECUTIVE_DYAD",
+      "statement": "DATE assigns overall national-security responsibility to the Prime Minister and supreme command of the armed forces to the President.",
+      "source_ids": ["SRC_DATE_HD_MILITARY"],
+      "office_ids": ["HD_SEAT_PRIME_MINISTER", "HD_SEAT_PRESIDENT"],
+      "process_ids": ["HD_GROUP_JOINT_EXECUTIVE"]
+    },
+    {
+      "fact_id": "HD_FACT_DEFENSE_COMMAND",
+      "statement": "DATE assigns armed-force management and coordination to Defense and describes Defense and General Staff within the Supreme High Command.",
+      "source_ids": ["SRC_DATE_HD_MILITARY"],
+      "office_ids": ["HD_SEAT_DEFENSE", "HD_SEAT_GENERAL_STAFF"],
+      "process_ids": ["HD_GROUP_COMMAND_CELL"]
+    },
+    {
+      "fact_id": "HD_FACT_STRATEGIC_AUTHORITY",
+      "statement": "DATE describes a declared no-first-use posture and places strategic launch authority with the President through Defense and Strategic Command.",
+      "source_ids": ["SRC_DATE_HD_MILITARY"],
+      "office_ids": ["HD_SEAT_PRESIDENT", "HD_SEAT_DEFENSE", "HD_SEAT_STRATEGIC_COMMAND"],
+      "process_ids": ["HD_ROUTE_STRATEGIC_ACTION"]
+    },
+    {
+      "fact_id": "HD_FACT_INTERIOR_HANDOFF",
+      "statement": "DATE describes paramilitary, border, and police forces as administered by Interior and available for Defense operational control when necessary.",
+      "source_ids": ["SRC_DATE_HD_MILITARY"],
+      "office_ids": ["HD_SEAT_INTERIOR", "HD_SEAT_DEFENSE"],
+      "process_ids": ["HD_ROUTE_INTERIOR_FORCE_TRANSFER"]
+    },
+    {
+      "fact_id": "HD_FACT_SECURITY_GOALS",
+      "statement": "DATE emphasizes citizen security and prosperity, sovereignty and border security, regional engagement, internal cohesion, and military modernization.",
+      "source_ids": ["SRC_DATE_HD_MILITARY"],
+      "office_ids": ["HD_SEAT_PRIME_MINISTER", "HD_SEAT_PRESIDENT"],
+      "process_ids": []
+    },
+    {
+      "fact_id": "HD_FACT_FINANCE_FUNCTION",
+      "statement": "DATE assigns treasury, budget, taxation, financial-system, and investment functions to Finance.",
+      "source_ids": ["SRC_DATE_HD_ECONOMIC"],
+      "office_ids": ["HD_SEAT_FINANCE"],
+      "process_ids": ["HD_GROUP_PORTFOLIO_FINANCE"]
+    },
+    {
+      "fact_id": "HD_FACT_ECONOMIC_EXPOSURE",
+      "statement": "DATE describes substantial Himaldeshi dependence on Olvanan imports and strategic concern about that exposure.",
+      "source_ids": ["SRC_DATE_HD_ECONOMIC"],
+      "office_ids": ["HD_SEAT_FINANCE", "HD_SEAT_EXTERNAL_AFFAIRS"],
+      "process_ids": ["HD_GROUP_CABINET_REVIEW"]
+    },
+    {
+      "fact_id": "HD_FACT_INFORMATION_FUNCTION",
+      "statement": "DATE describes government information, communications, data-policy, cybersecurity, and censorship functions.",
+      "source_ids": ["SRC_DATE_HD_INFORMATION"],
+      "office_ids": ["HD_SEAT_INFORMATION"],
+      "process_ids": ["HD_GROUP_PORTFOLIO_INFORMATION"]
+    },
+    {
+      "fact_id": "HD_FACT_INFRASTRUCTURE_EXPOSURE",
+      "statement": "DATE describes uneven transport, energy, water, sanitation, and northern-access systems that constrain crisis logistics and continuity.",
+      "source_ids": ["SRC_DATE_HD_INFRASTRUCTURE"],
+      "office_ids": ["HD_SEAT_INFRASTRUCTURE"],
+      "process_ids": ["HD_GROUP_PORTFOLIO_INFRASTRUCTURE"]
+    },
+    {
+      "fact_id": "HD_FACT_CIVILIAN_EXPOSURE",
+      "statement": "DATE describes uneven access to essential services and isolated populations whose protection and distributional effects are distinct from physical-system continuity.",
+      "source_ids": ["SRC_DATE_HD_INFRASTRUCTURE"],
+      "office_ids": ["HD_SEAT_HUMANITARIAN"],
+      "process_ids": ["HD_GROUP_PORTFOLIO_HUMANITARIAN"]
+    }
+  ],
+  "inferences": [
+    {
+      "inference_id": "HD_INF_OBJECTIVES",
+      "statement": "The unweighted actor vector preserves sovereignty, population protection, declared deterrence posture, economic resilience, and diplomatic flexibility.",
+      "source_ids": ["SRC_DATE_HD_POLITICAL", "SRC_DATE_HD_MILITARY", "SRC_DATE_HD_ECONOMIC"],
+      "fact_ids": ["HD_FACT_POLITICAL_SYSTEM", "HD_FACT_SECURITY_GOALS", "HD_FACT_ECONOMIC_EXPOSURE"],
+      "scope_ids": ["HD_OBJ_SOVEREIGNTY", "HD_OBJ_POPULATION", "HD_OBJ_DETERRENCE", "HD_OBJ_RESILIENCE", "HD_OBJ_DIPLOMATIC_FLEXIBILITY"]
+    },
+    {
+      "inference_id": "HD_INF_SPLIT_EXECUTIVE_ROUTE",
+      "statement": "The machine route keeps the Prime Minister and President separate and requires both for conventional military or combined packages.",
+      "source_ids": ["SRC_DATE_HD_MILITARY"],
+      "fact_ids": ["HD_FACT_EXECUTIVE_DYAD", "HD_FACT_DEFENSE_COMMAND"],
+      "scope_ids": ["HD_ROUTE_COMBINED_SUPPORT_PACKAGE", "HD_GROUP_JOINT_EXECUTIVE"]
+    },
+    {
+      "inference_id": "HD_INF_TWO_LANE_GRAPH",
+      "statement": "Cabinet Policy and Command develop separate products before a typed cross-lane decision path.",
+      "source_ids": ["SRC_DATE_HD_POLITICAL", "SRC_DATE_HD_MILITARY"],
+      "fact_ids": ["HD_FACT_POLITICAL_SYSTEM", "HD_FACT_EXECUTIVE_DYAD", "HD_FACT_DEFENSE_COMMAND"],
+      "scope_ids": ["HD_GROUP_CABINET_DRAFT", "HD_GROUP_COMMAND_CELL", "HD_GROUP_JOINT_EXECUTIVE"]
+    },
+    {
+      "inference_id": "HD_INF_SIX_PORTFOLIOS",
+      "statement": "Six triggered Cabinet portfolios separate external, interior, finance, information, infrastructure, and humanitarian judgment without claiming an official DATE ministry roster.",
+      "source_ids": ["SRC_DATE_HD_POLITICAL", "SRC_DATE_HD_MILITARY", "SRC_DATE_HD_ECONOMIC", "SRC_DATE_HD_INFORMATION", "SRC_DATE_HD_INFRASTRUCTURE"],
+      "fact_ids": ["HD_FACT_POLITICAL_SYSTEM", "HD_FACT_INTERIOR_HANDOFF", "HD_FACT_FINANCE_FUNCTION", "HD_FACT_INFORMATION_FUNCTION", "HD_FACT_INFRASTRUCTURE_EXPOSURE", "HD_FACT_CIVILIAN_EXPOSURE"],
+      "scope_ids": ["HD_SEAT_EXTERNAL_AFFAIRS", "HD_SEAT_INTERIOR", "HD_SEAT_FINANCE", "HD_SEAT_INFORMATION", "HD_SEAT_INFRASTRUCTURE", "HD_SEAT_HUMANITARIAN"]
+    },
+    {
+      "inference_id": "HD_INF_CABINET_PROCESS",
+      "statement": "Portfolio products feed a Prime Minister draft, deterministic targeted review, visible dissent disposition, and only source-backed confirmations.",
+      "source_ids": ["SRC_DATE_HD_POLITICAL", "SRC_DATE_HD_MILITARY"],
+      "fact_ids": ["HD_FACT_POLITICAL_SYSTEM", "HD_FACT_EXECUTIVE_DYAD"],
+      "scope_ids": ["HD_GROUP_CABINET_DRAFT", "HD_GROUP_CABINET_REVIEW"]
+    },
+    {
+      "inference_id": "HD_INF_INFORMATION_BOUNDARIES",
+      "statement": "Every active seat receives a common picture plus only its own private brief, products, or logged disclosures.",
+      "source_ids": ["SRC_DATE_HD_POLITICAL", "SRC_DATE_HD_MILITARY"],
+      "fact_ids": ["HD_FACT_POLITICAL_SYSTEM", "HD_FACT_DEFENSE_COMMAND"],
+      "scope_ids": ["HD_INFO_COMMON", "HD_INFO_PORTFOLIO_PRIVATE", "HD_INFO_COMMAND_PRIVATE"]
+    },
+    {
+      "inference_id": "HD_INF_INTERIOR_CONFIRMATION",
+      "statement": "Only a typed transfer of an Interior-administered force to Defense control triggers the initial Cabinet confirmation.",
+      "source_ids": ["SRC_DATE_HD_MILITARY"],
+      "fact_ids": ["HD_FACT_INTERIOR_HANDOFF"],
+      "scope_ids": ["HD_CONFIRM_INTERIOR_HANDOFF", "HD_ROUTE_INTERIOR_FORCE_TRANSFER"]
+    },
+    {
+      "inference_id": "HD_INF_FIRST_EPISODE_ACTIVATION",
+      "statement": "The ridge seizure, recapture clock, support request, economic exposure, infrastructure risk, civilian risk, information contest, and reachable nuclear escalation activate the eleven-seat first-episode subset.",
+      "source_ids": ["SRC_DATE_HD_MILITARY", "SRC_DATE_HD_ECONOMIC", "SRC_DATE_HD_INFORMATION", "SRC_DATE_HD_INFRASTRUCTURE"],
+      "fact_ids": ["HD_FACT_SECURITY_GOALS", "HD_FACT_ECONOMIC_EXPOSURE", "HD_FACT_INFORMATION_FUNCTION", "HD_FACT_INFRASTRUCTURE_EXPOSURE", "HD_FACT_CIVILIAN_EXPOSURE", "HD_FACT_STRATEGIC_AUTHORITY"],
+      "scope_ids": ["HD_ACT_FIRST_EPISODE"]
+    },
+    {
+      "inference_id": "HD_INF_DEVELOPMENT_OUTPUT",
+      "statement": "The no-model trace authors the already selected bounded U.S. support request as a development artifact, not observed Himaldeshi behavior.",
+      "source_ids": ["SRC_DATE_HD_POLITICAL", "SRC_DATE_HD_MILITARY"],
+      "fact_ids": ["HD_FACT_POLITICAL_SYSTEM", "HD_FACT_EXECUTIVE_DYAD"],
+      "scope_ids": ["HIM_OUTPUT_SUPPORT_REQUEST_001"]
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "HD_GAP_OFFICIAL_MACHINE_PROCEDURE",
+      "statement": "DATE does not publish the selected two-lane, product, review, dissent, or confirmation procedure; every such field remains a labeled design inference.",
+      "affected_ids": ["HD_GROUP_CABINET_DRAFT", "HD_GROUP_CABINET_REVIEW", "HD_GROUP_COMMAND_CELL", "HD_GROUP_JOINT_EXECUTIVE"],
+      "blocks_activation": false
+    },
+    {
+      "gap_id": "HD_GAP_EFFECT_LEVEL_AUTHORITY",
+      "statement": "This candidate routes Room decisions but does not establish effect-level implementation authority or World capability for every open proposal.",
+      "affected_ids": ["HD_ROUTE_COMBINED_SUPPORT_PACKAGE", "HD_ROUTE_INTERIOR_FORCE_TRANSFER", "HD_ROUTE_STRATEGIC_ACTION"],
+      "blocks_activation": false
+    },
+    {
+      "gap_id": "HD_GAP_OPERATIONAL_COMMANDER",
+      "statement": "No episode-specific operational commander seat is activated until a source-bound mandate and Setup trigger are frozen; General Staff advice cannot impersonate that commander.",
+      "affected_ids": ["HD_GROUP_COMMAND_CELL"],
+      "blocks_activation": false
+    }
+  ]
+}

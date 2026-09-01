@@ -1,0 +1,667 @@
+{
+  "claim_boundary": [
+    "no_model_proposal_evidence",
+    "no_creative_excon_evidence",
+    "no_official_effect_authority_evidence",
+    "no_counterpart_room_evidence",
+    "no_date_episode_evidence",
+    "no_comparative_result"
+  ],
+  "cycle_receipt_hash": "7487b1604dd8426c74631b21590326190d95a476e90220924397f08fec93a186",
+  "date_profile_hash": "64f4009b91381b27f43e76f61cd929f989b7ca866bdab7e8eb28326403e0c477",
+  "evidence_status": "development_fixture_non_evidence",
+  "executor_revision": "1b912ff693a84c5e1081fc76d1ed1f71e4f810aa",
+  "fixture_hash": "4b47bc86dad3226692146cc92b21f7b3da61a5919b87ce26924514d7f44ce465",
+  "fixture_id": "US_PROPOSAL_BRIDGE.development.v0_1",
+  "receipt_hash": "cf78c92190e8b2739923c0977a0af316b332643b563d0ad4818b13048c726ec4",
+  "replay_matched": true,
+  "run": {
+    "claim_boundary": [
+      "no_model_proposal_evidence",
+      "no_creative_excon_evidence",
+      "no_official_effect_authority_evidence",
+      "no_counterpart_room_evidence",
+      "no_date_episode_evidence",
+      "no_comparative_result"
+    ],
+    "clarifications": [
+      {
+        "clarification_id": "CLARIFY_TIMING_001",
+        "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+        "original_effect_hash": "d4e2668e0f892cd268f74041b927039067dc6949db61e54360ea0899d23e00ff",
+        "proposal_id": "US_PROPOSAL_COMPOUND_001",
+        "question": "When should preparation begin?",
+        "requested_field_ids": [
+          "timing"
+        ],
+        "resolved_fields": {
+          "timing": "before the hour-four disposition clock"
+        },
+        "response": "Begin before the hour-four disposition clock.",
+        "status": "resolved"
+      },
+      {
+        "clarification_id": "CLARIFY_RECIPIENT_001",
+        "effect_id": "EFFECT_TRANSMIT_INTELLIGENCE_001",
+        "original_effect_hash": "4610e3d3c9b839bb679774b74f73f940755383c0069777035941fc869849ba10",
+        "proposal_id": "US_PROPOSAL_COMPOUND_001",
+        "question": "Which recipient channel satisfies the restrictions?",
+        "requested_field_ids": [
+          "object_or_audience"
+        ],
+        "resolved_fields": {},
+        "response": "No recipient channel is yet confirmed.",
+        "status": "unresolved"
+      }
+    ],
+    "cycle_receipt_hash": "7487b1604dd8426c74631b21590326190d95a476e90220924397f08fec93a186",
+    "cycle_run_hash": "08d605c0bfb61bc5e97ee41c75033f6615721a6533dfb780f1cfb9f6a7e802e6",
+    "date_profile_hash": "64f4009b91381b27f43e76f61cd929f989b7ca866bdab7e8eb28326403e0c477",
+    "decision_record": {
+      "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+      "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb"
+    },
+    "effect_results": [
+      {
+        "authority_result": {
+          "record": {
+            "actor_id": "USA",
+            "authority_record_id": "AUTH_EFFECT_PREPARE_001",
+            "authorizing_seat_id": "SEAT_PRESIDENT",
+            "basis": "Authored fixture authority for mechanics only.",
+            "decision_record_id": "USC1_PRODUCT_NSC_DECISION_001",
+            "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+            "evidence_status": "development_fixture_non_evidence",
+            "resolved_effect_hash": "2647cfb1e46692d7d4b3079a51174d509819cbce2cf1978741195a2b8b0b15f0",
+            "status": "authorized"
+          },
+          "valid": true
+        },
+        "capability_results": [
+          {
+            "record": {
+              "actor_id": "USA",
+              "capability_record_id": "CAP_ACTIVITY_US_001",
+              "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+              "entity_id": "US_CRISIS_ASSESSMENT",
+              "evidence_status": "development_fixture_non_evidence",
+              "expected_value": null,
+              "predicate_type": "activity_owned_by"
+            },
+            "satisfied": true
+          }
+        ],
+        "clarification": {
+          "clarification_id": "CLARIFY_TIMING_001",
+          "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+          "original_effect_hash": "d4e2668e0f892cd268f74041b927039067dc6949db61e54360ea0899d23e00ff",
+          "proposal_id": "US_PROPOSAL_COMPOUND_001",
+          "question": "When should preparation begin?",
+          "requested_field_ids": [
+            "timing"
+          ],
+          "resolved_fields": {
+            "timing": "before the hour-four disposition clock"
+          },
+          "response": "Begin before the hour-four disposition clock.",
+          "status": "resolved"
+        },
+        "consequence_proposal": {
+          "adjudicator_id": "EXCON_DEVELOPMENT_FIXTURE",
+          "affected_entity_ids": [
+            "US_CRISIS_ASSESSMENT"
+          ],
+          "alternatives": [
+            "delay preparation pending further review"
+          ],
+          "artifact_parent_ids": [
+            "USC1_PRODUCT_NSC_DECISION_001",
+            "US_PROPOSAL_COMPOUND_001",
+            "EFFECT_PREPARE_INTELLIGENCE_001"
+          ],
+          "assumptions": [
+            "preparation does not imply transmission"
+          ],
+          "audience_ids": [
+            "US_ACTIVE_SEATS"
+          ],
+          "consequence_proposal_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+          "content": "Assessment staff begin preparing the defensive package.",
+          "core_read": {
+            "core_hash": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+            "core_version": 0,
+            "entity_ids": [
+              "US_CRISIS_ASSESSMENT"
+            ],
+            "profile_hash": "64f4009b91381b27f43e76f61cd929f989b7ca866bdab7e8eb28326403e0c477"
+          },
+          "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+          "episode_hour": 2,
+          "evidence_ids": [
+            "SYNTHETIC_AUTHORING_DEFAULT"
+          ],
+          "evidence_status": "development_fixture_non_evidence",
+          "open_content": {
+            "unexpected_consequence_detail": "retained"
+          },
+          "represented_room_decision_actor_ids": [],
+          "resulting_injects": [],
+          "source_proposal_id": "US_PROPOSAL_COMPOUND_001",
+          "state_patch": null,
+          "uncertainty": {
+            "confidence": "authored_fixture"
+          },
+          "world_parent_event_ids": []
+        },
+        "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+        "original_effect": {
+          "authority_record_id": "AUTH_EFFECT_PREPARE_001",
+          "capability_record_ids": [
+            "CAP_ACTIVITY_US_001"
+          ],
+          "conditions": [
+            "recipient restrictions remain satisfied"
+          ],
+          "consequence_proposal_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+          "dependency_effect_ids": [],
+          "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+          "intended_effect": "Prepare defensive intelligence for possible release.",
+          "means_or_resources": [
+            "US_CRISIS_ASSESSMENT"
+          ],
+          "object_or_audience": [
+            "Himaldesh liaison channel"
+          ],
+          "open_content": {
+            "novel_detail": "No action-family label is required."
+          },
+          "original_language": "Prepare a releasable defensive intelligence package for Himaldesh.",
+          "source_component_ids": [
+            "COMP_INTELLIGENCE_SHARING"
+          ],
+          "timing": null,
+          "unresolved_field_ids": [
+            "timing"
+          ]
+        },
+        "proposal_id": "US_PROPOSAL_COMPOUND_001",
+        "reason_codes": [],
+        "resolved_effect": {
+          "authority_record_id": "AUTH_EFFECT_PREPARE_001",
+          "capability_record_ids": [
+            "CAP_ACTIVITY_US_001"
+          ],
+          "conditions": [
+            "recipient restrictions remain satisfied"
+          ],
+          "consequence_proposal_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+          "dependency_effect_ids": [],
+          "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+          "intended_effect": "Prepare defensive intelligence for possible release.",
+          "means_or_resources": [
+            "US_CRISIS_ASSESSMENT"
+          ],
+          "object_or_audience": [
+            "Himaldesh liaison channel"
+          ],
+          "open_content": {
+            "novel_detail": "No action-family label is required."
+          },
+          "original_language": "Prepare a releasable defensive intelligence package for Himaldesh.",
+          "source_component_ids": [
+            "COMP_INTELLIGENCE_SHARING"
+          ],
+          "timing": "before the hour-four disposition clock",
+          "unresolved_field_ids": []
+        },
+        "source_component_ids": [
+          "COMP_INTELLIGENCE_SHARING"
+        ],
+        "state_patch": null,
+        "status": "admitted",
+        "world_event": {
+          "affected_entity_ids": [
+            "US_CRISIS_ASSESSMENT"
+          ],
+          "assumptions": [
+            "preparation does not imply transmission"
+          ],
+          "audience_ids": [
+            "US_ACTIVE_SEATS"
+          ],
+          "causal_parent_ids": [],
+          "content": "Assessment staff begin preparing the defensive package.",
+          "episode_hour": 2,
+          "event_kind": "excon_consequence",
+          "evidence_ids": [
+            "SYNTHETIC_AUTHORING_DEFAULT"
+          ],
+          "patch_template_id": null,
+          "source": "excon_consequence",
+          "template_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+          "uncertainty": {
+            "confidence": "authored_fixture"
+          }
+        },
+        "world_receipt": {
+          "accepted": true,
+          "core_hash_after": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+          "core_hash_before": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+          "core_version_after": 0,
+          "core_version_before": 0,
+          "event_template_hash": "98abc8f3ff67be0529a4fbb47e4117894c54aebc32b048b9503c1c1abd494ddf",
+          "event_template_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+          "patch_instance_id": null,
+          "reason_codes": [],
+          "receipt_id": "d44c4f96e84b82cdb7b6b5885f1d4179d73ada9ddee1b3f52a10c85fd7074bf9",
+          "run_id": "proposal-bridge::US_PROPOSAL_BRIDGE.development.v0_1"
+        }
+      },
+      {
+        "authority_result": null,
+        "capability_results": [],
+        "clarification": {
+          "clarification_id": "CLARIFY_RECIPIENT_001",
+          "effect_id": "EFFECT_TRANSMIT_INTELLIGENCE_001",
+          "original_effect_hash": "4610e3d3c9b839bb679774b74f73f940755383c0069777035941fc869849ba10",
+          "proposal_id": "US_PROPOSAL_COMPOUND_001",
+          "question": "Which recipient channel satisfies the restrictions?",
+          "requested_field_ids": [
+            "object_or_audience"
+          ],
+          "resolved_fields": {},
+          "response": "No recipient channel is yet confirmed.",
+          "status": "unresolved"
+        },
+        "consequence_proposal": {
+          "adjudicator_id": "EXCON_DEVELOPMENT_FIXTURE",
+          "affected_entity_ids": [
+            "US_CRISIS_ASSESSMENT"
+          ],
+          "alternatives": [
+            "delay preparation pending further review"
+          ],
+          "artifact_parent_ids": [
+            "USC1_PRODUCT_NSC_DECISION_001",
+            "US_PROPOSAL_COMPOUND_001",
+            "EFFECT_TRANSMIT_INTELLIGENCE_001"
+          ],
+          "assumptions": [
+            "preparation does not imply transmission"
+          ],
+          "audience_ids": [
+            "US_ACTIVE_SEATS"
+          ],
+          "consequence_proposal_id": "EXCON_CONSEQUENCE_TRANSMISSION_001",
+          "content": "If the recipient gate is satisfied, transmit the prepared package through the confirmed liaison channel.",
+          "core_read": {
+            "core_hash": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+            "core_version": 0,
+            "entity_ids": [
+              "US_CRISIS_ASSESSMENT"
+            ],
+            "profile_hash": "64f4009b91381b27f43e76f61cd929f989b7ca866bdab7e8eb28326403e0c477"
+          },
+          "effect_id": "EFFECT_TRANSMIT_INTELLIGENCE_001",
+          "episode_hour": 2,
+          "evidence_ids": [
+            "SYNTHETIC_AUTHORING_DEFAULT"
+          ],
+          "evidence_status": "development_fixture_non_evidence",
+          "open_content": {
+            "unexpected_consequence_detail": "retained"
+          },
+          "represented_room_decision_actor_ids": [],
+          "resulting_injects": [],
+          "source_proposal_id": "US_PROPOSAL_COMPOUND_001",
+          "state_patch": null,
+          "uncertainty": {
+            "confidence": "authored_fixture"
+          },
+          "world_parent_event_ids": []
+        },
+        "effect_id": "EFFECT_TRANSMIT_INTELLIGENCE_001",
+        "original_effect": {
+          "authority_record_id": null,
+          "capability_record_ids": [],
+          "conditions": [
+            "recipient restrictions remain satisfied"
+          ],
+          "consequence_proposal_id": "EXCON_CONSEQUENCE_TRANSMISSION_001",
+          "dependency_effect_ids": [
+            "EFFECT_PREPARE_INTELLIGENCE_001"
+          ],
+          "effect_id": "EFFECT_TRANSMIT_INTELLIGENCE_001",
+          "intended_effect": "Prepare defensive intelligence for possible release.",
+          "means_or_resources": [
+            "US_CRISIS_ASSESSMENT"
+          ],
+          "object_or_audience": null,
+          "open_content": {
+            "novel_detail": "No action-family label is required."
+          },
+          "original_language": "Transmit only after the recipient restriction is identified.",
+          "source_component_ids": [
+            "COMP_INTELLIGENCE_SHARING"
+          ],
+          "timing": "before the hour-four disposition clock",
+          "unresolved_field_ids": [
+            "object_or_audience"
+          ]
+        },
+        "proposal_id": "US_PROPOSAL_COMPOUND_001",
+        "reason_codes": [
+          "unresolved_clarification"
+        ],
+        "resolved_effect": null,
+        "source_component_ids": [
+          "COMP_INTELLIGENCE_SHARING"
+        ],
+        "state_patch": null,
+        "status": "blocked",
+        "world_event": null,
+        "world_receipt": null
+      }
+    ],
+    "effect_summary": {
+      "admitted": 1,
+      "attempted": 2,
+      "blocked": 1
+    },
+    "evidence_status": "development_fixture_non_evidence",
+    "fixture_hash": "4b47bc86dad3226692146cc92b21f7b3da61a5919b87ce26924514d7f44ce465",
+    "fixture_id": "US_PROPOSAL_BRIDGE.development.v0_1",
+    "policy_package": {
+      "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+      "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1"
+    },
+    "proposals": [
+      {
+        "actor_id": "USA",
+        "effects": [
+          {
+            "authority_record_id": "AUTH_EFFECT_PREPARE_001",
+            "capability_record_ids": [
+              "CAP_ACTIVITY_US_001"
+            ],
+            "conditions": [
+              "recipient restrictions remain satisfied"
+            ],
+            "consequence_proposal_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+            "dependency_effect_ids": [],
+            "effect_id": "EFFECT_PREPARE_INTELLIGENCE_001",
+            "intended_effect": "Prepare defensive intelligence for possible release.",
+            "means_or_resources": [
+              "US_CRISIS_ASSESSMENT"
+            ],
+            "object_or_audience": [
+              "Himaldesh liaison channel"
+            ],
+            "open_content": {
+              "novel_detail": "No action-family label is required."
+            },
+            "original_language": "Prepare a releasable defensive intelligence package for Himaldesh.",
+            "source_component_ids": [
+              "COMP_INTELLIGENCE_SHARING"
+            ],
+            "timing": null,
+            "unresolved_field_ids": [
+              "timing"
+            ]
+          },
+          {
+            "authority_record_id": null,
+            "capability_record_ids": [],
+            "conditions": [
+              "recipient restrictions remain satisfied"
+            ],
+            "consequence_proposal_id": "EXCON_CONSEQUENCE_TRANSMISSION_001",
+            "dependency_effect_ids": [
+              "EFFECT_PREPARE_INTELLIGENCE_001"
+            ],
+            "effect_id": "EFFECT_TRANSMIT_INTELLIGENCE_001",
+            "intended_effect": "Prepare defensive intelligence for possible release.",
+            "means_or_resources": [
+              "US_CRISIS_ASSESSMENT"
+            ],
+            "object_or_audience": null,
+            "open_content": {
+              "novel_detail": "No action-family label is required."
+            },
+            "original_language": "Transmit only after the recipient restriction is identified.",
+            "source_component_ids": [
+              "COMP_INTELLIGENCE_SHARING"
+            ],
+            "timing": "before the hour-four disposition clock",
+            "unresolved_field_ids": [
+              "object_or_audience"
+            ]
+          }
+        ],
+        "institutional_decision_record_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "open_content": {
+          "format": "open natural-language policy"
+        },
+        "original_language": "Prepare a defensive intelligence package for potential release, and transmit it only after recipient restrictions are identified.",
+        "proposal_id": "US_PROPOSAL_COMPOUND_001",
+        "proposal_version": "0.1.0",
+        "source_component_ids": [
+          "COMP_INTELLIGENCE_SHARING"
+        ],
+        "source_policy_package_id": "USC1_PRODUCT_POLICY_PACKAGE_001"
+      }
+    ],
+    "schema_version": "proposal-bridge-run.v0.1",
+    "status": "passed",
+    "world": {
+      "core_unchanged": true,
+      "final_core": {
+        "activities": [
+          {
+            "activity_id": "US_CRISIS_ASSESSMENT",
+            "kind": "assessment",
+            "owner_actor_id": "USA"
+          }
+        ],
+        "actors": [
+          {
+            "actor_id": "USA",
+            "name": "United States"
+          },
+          {
+            "actor_id": "HIM",
+            "name": "Himaldesh"
+          },
+          {
+            "actor_id": "OLV",
+            "name": "Olvana"
+          }
+        ],
+        "affordances": [
+          {
+            "affordance_id": "AFF_US_RIDGE_ISR_WINDOW",
+            "beneficiary_actor_id": "USA",
+            "controller_actor_id": "USA",
+            "dependency_id": "US_CRISIS_ASSESSMENT",
+            "state": "available"
+          },
+          {
+            "affordance_id": "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW",
+            "beneficiary_actor_id": "HIM",
+            "controller_actor_id": "HIM",
+            "dependency_id": "HIM_RECAPTURE_GROUP",
+            "state": "available"
+          }
+        ],
+        "authorizations": [
+          {
+            "actor_id": "HIM",
+            "authorization_id": "AUTH_HIM_RECAPTURE_01",
+            "state": "not_authorized"
+          }
+        ],
+        "clocks": [
+          {
+            "clock_id": "CLOCK_US_DISPOSITION",
+            "due_hour": 4,
+            "state": "open"
+          },
+          {
+            "clock_id": "CLOCK_HIM_RECAPTURE",
+            "due_hour": 10,
+            "state": "open"
+          },
+          {
+            "clock_id": "CLOCK_WX_RECOVERY",
+            "due_hour": 12,
+            "state": "not_expected_before"
+          }
+        ],
+        "commitments": [
+          {
+            "actor_id": "USA",
+            "commitment_id": "COMMIT_US_SUPPORT_01",
+            "state": "none"
+          }
+        ],
+        "core_version": 0,
+        "escalation_state": "conventional_crisis",
+        "force_packages": [
+          {
+            "force_package_id": "OLV_RIDGE_HOLD",
+            "function": "ridge_hold",
+            "location_id": "KESTREL_RIDGE",
+            "owner_actor_id": "OLV",
+            "posture": "defensive_hold",
+            "readiness": "active"
+          },
+          {
+            "force_package_id": "OLV_TALUS_SECURITY",
+            "function": "node_security",
+            "location_id": "TALUS_NODE",
+            "owner_actor_id": "OLV",
+            "posture": "defensive_hold",
+            "readiness": "active"
+          },
+          {
+            "force_package_id": "HIM_RECAPTURE_GROUP",
+            "function": "limited_recapture",
+            "location_id": "SOUTH_PASS",
+            "owner_actor_id": "HIM",
+            "posture": "recapture_preparation",
+            "readiness": "prepared"
+          }
+        ],
+        "ground_truth": {
+          "olvana_general_war_expectation": "avoid",
+          "olvana_objective": "bounded_territorial_and_bargaining_advantage",
+          "olvana_seizure_authority": "central_leadership_authorized"
+        },
+        "locations": [
+          {
+            "controller_actor_id": "OLV",
+            "kind": "high_ground",
+            "location_id": "KESTREL_RIDGE"
+          },
+          {
+            "controller_actor_id": "OLV",
+            "kind": "logistics_node",
+            "location_id": "TALUS_NODE"
+          },
+          {
+            "controller_actor_id": "HIM",
+            "kind": "support_corridor",
+            "location_id": "SOUTH_PASS"
+          }
+        ],
+        "outcome_projections": {
+          "escalation_state": {
+            "selector": "escalation_state"
+          },
+          "himaldesh_recapture_status": {
+            "authorization_id": "AUTH_HIM_RECAPTURE_01",
+            "selector": "authorization_state"
+          },
+          "himaldesh_support_state": {
+            "affordance_id": "AFF_HIM_SOUTH_PASS_SUPPORT_WINDOW",
+            "selector": "affordance_state"
+          },
+          "ridge_control": {
+            "location_id": "KESTREL_RIDGE",
+            "selector": "location_control"
+          },
+          "talus_control": {
+            "location_id": "TALUS_NODE",
+            "selector": "location_control"
+          },
+          "terminal_state": {
+            "selector": "terminal_state"
+          },
+          "us_commitment_state": {
+            "commitment_id": "COMMIT_US_SUPPORT_01",
+            "selector": "commitment_state"
+          },
+          "us_observation_state": {
+            "affordance_id": "AFF_US_RIDGE_ISR_WINDOW",
+            "selector": "affordance_state"
+          }
+        },
+        "schema_version": "date-core.v0.2",
+        "terminal_state": "open"
+      },
+      "final_core_hash": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+      "initial_core_hash": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+      "ledger": [
+        {
+          "affected_entity_ids": [
+            "US_CRISIS_ASSESSMENT"
+          ],
+          "assumptions": [
+            "preparation does not imply transmission"
+          ],
+          "audience_ids": [
+            "US_ACTIVE_SEATS"
+          ],
+          "causal_parent_ids": [],
+          "content": "Assessment staff begin preparing the defensive package.",
+          "core_version_after": 0,
+          "core_version_before": 0,
+          "entry_index": 0,
+          "episode_hour": 2,
+          "event_kind": "excon_consequence",
+          "evidence_ids": [
+            "SYNTHETIC_AUTHORING_DEFAULT"
+          ],
+          "patch_template_id": null,
+          "run_id": "proposal-bridge::US_PROPOSAL_BRIDGE.development.v0_1",
+          "source": "excon_consequence",
+          "template_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+          "uncertainty": {
+            "confidence": "authored_fixture"
+          },
+          "validator_receipt_id": "d44c4f96e84b82cdb7b6b5885f1d4179d73ada9ddee1b3f52a10c85fd7074bf9"
+        }
+      ],
+      "run_id": "proposal-bridge::US_PROPOSAL_BRIDGE.development.v0_1",
+      "validation_receipts": [
+        {
+          "accepted": true,
+          "core_hash_after": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+          "core_hash_before": "65bc8ed5bc3e4e0766bfbe2a2a58d48fdbb21cfc236aa1cae219cfdda413267d",
+          "core_version_after": 0,
+          "core_version_before": 0,
+          "event_template_hash": "98abc8f3ff67be0529a4fbb47e4117894c54aebc32b048b9503c1c1abd494ddf",
+          "event_template_id": "EXCON_CONSEQUENCE_PREPARATION_001",
+          "patch_instance_id": null,
+          "reason_codes": [],
+          "receipt_id": "d44c4f96e84b82cdb7b6b5885f1d4179d73ada9ddee1b3f52a10c85fd7074bf9",
+          "run_id": "proposal-bridge::US_PROPOSAL_BRIDGE.development.v0_1"
+        }
+      ]
+    }
+  },
+  "run_hash": "d43ad8544af90f8e44736133c11b6e8443275c901049ffb0800efd2e0978b996",
+  "schema_version": "proposal-bridge-tracer-receipt.v0.1",
+  "status": "passed",
+  "tracer_id": "m3-open-proposal-consequence-no-model-v1"
+}

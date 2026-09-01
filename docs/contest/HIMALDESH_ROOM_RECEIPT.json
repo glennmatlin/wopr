@@ -1,0 +1,1646 @@
+{
+  "actor_id": "ACTOR_HIMALDESH",
+  "charter_hash": "c7184d1866913782fce5afea3edf1cc3a26942699973eb232e3bbee1782cb822",
+  "charter_id": "DATE_HIMALDESH_RIDGE_2026Q3",
+  "charter_version": "0.1.0",
+  "claim_boundary": [
+    "no_model_behavior_evidence",
+    "no_live_counterpart_room_evidence",
+    "no_world_effect_admission",
+    "no_date_episode_evidence",
+    "no_comparative_result"
+  ],
+  "evidence_status": "development_fixture_non_evidence",
+  "executor_revision": "b165acc206b374d87fcd0e3b9e1ba32c6b375d39",
+  "fixture_hash": "d6f9eb6a546cdf5d6d512511eef8c46c4da0d2c9175e28c7c080ce5d385b406c",
+  "fixture_id": "HIMALDESH_ROOM_CYCLE1.development.v0_1",
+  "ratification_hash": "bbab62ea681f2e513407b926de5adfbfaeb8e73baf5fb86ea34808b9fa524384",
+  "ratification_id": "COUNTERPART_MINIMUM_M5.ratification.D72",
+  "receipt_hash": "98a006d17fe23c40d80ec6804da45a192106363d8b03fc7b096ce79d3cbfefc9",
+  "replay_matched": true,
+  "run": {
+    "action_class": "partner_support_request_and_recapture_planning",
+    "active_seat_ids": [
+      "HD_SEAT_PRIME_MINISTER",
+      "HD_SEAT_PRESIDENT",
+      "HD_SEAT_DEFENSE",
+      "HD_SEAT_GENERAL_STAFF",
+      "HD_SEAT_STRATEGIC_COMMAND",
+      "HD_SEAT_EXTERNAL_AFFAIRS",
+      "HD_SEAT_INTERIOR",
+      "HD_SEAT_FINANCE",
+      "HD_SEAT_INFORMATION",
+      "HD_SEAT_INFRASTRUCTURE",
+      "HD_SEAT_HUMANITARIAN"
+    ],
+    "actor_id": "ACTOR_HIMALDESH",
+    "charter_hash": "c7184d1866913782fce5afea3edf1cc3a26942699973eb232e3bbee1782cb822",
+    "confirmations": [
+      {
+        "confirmation_id": "HD_CONFIRM_DEFENSE_FEASIBILITY",
+        "confirmed_record_id": "HD_PRODUCT_DECISION_001",
+        "confirmer_seat_ids": [
+          "HD_SEAT_DEFENSE"
+        ],
+        "status": "confirmed"
+      },
+      {
+        "confirmation_id": "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT",
+        "confirmed_record_id": "HD_PRODUCT_DECISION_001",
+        "confirmer_seat_ids": [
+          "HD_SEAT_GENERAL_STAFF"
+        ],
+        "status": "confirmed"
+      }
+    ],
+    "decision_record": {
+      "attempt_id": "ATTEMPT::HD_GROUP_JOINT_EXECUTIVE",
+      "authorized_input_ids": [
+        "HD_INPUT_COMMON_001",
+        "HD_PRODUCT_COMMAND_001",
+        "HD_PRODUCT_CABINET_DRAFT_001",
+        "HD_PRODUCT_REVIEW_BUNDLE_001"
+      ],
+      "content": {
+        "action_class": "partner_support_request_and_recapture_planning",
+        "blocked_components": [
+          "direct conventional force employment without a represented operational commander",
+          "strategic readiness, signaling, or use"
+        ],
+        "decision": "approve_bounded_support_request",
+        "dissent": [
+          {
+            "disposition": "retained_condition",
+            "dissent_id": "HD_DISSENT_INTERIOR_TRANSFER_001"
+          }
+        ],
+        "output_components": {
+          "decision_clock_hours": 18,
+          "excluded": [
+            "U.S. target nomination or target selection",
+            "U.S. fires",
+            "U.S. combat forces",
+            "a treaty guarantee"
+          ],
+          "request_version": "HIM_REQUEST_001.v1",
+          "requested": [
+            "urgent consultation",
+            "private and public pressure for Olvanan withdrawal",
+            "time-sensitive intelligence sharing",
+            "planning, logistics, defensive materiel, and force-protection support for a Himaldeshi limited recapture",
+            "coordination on targeted economic pressure if Olvana does not withdraw"
+          ]
+        },
+        "portfolio_reviews": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "president_position": {
+          "position": "concur",
+          "seat_id": "HD_SEAT_PRESIDENT"
+        },
+        "prime_minister_position": {
+          "position": "concur",
+          "seat_id": "HD_SEAT_PRIME_MINISTER"
+        },
+        "professional_confirmations": [
+          "HD_CONFIRM_DEFENSE_FEASIBILITY",
+          "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+        ]
+      },
+      "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+      "group_id": "HD_GROUP_JOINT_EXECUTIVE",
+      "member_seat_ids": [
+        "HD_SEAT_PRIME_MINISTER",
+        "HD_SEAT_PRESIDENT",
+        "HD_SEAT_DEFENSE",
+        "HD_SEAT_GENERAL_STAFF",
+        "HD_SEAT_STRATEGIC_COMMAND",
+        "HD_SEAT_EXTERNAL_AFFAIRS",
+        "HD_SEAT_INTERIOR",
+        "HD_SEAT_FINANCE",
+        "HD_SEAT_INFORMATION",
+        "HD_SEAT_INFRASTRUCTURE",
+        "HD_SEAT_HUMANITARIAN"
+      ],
+      "product_id": "HD_PRODUCT_DECISION_001",
+      "product_schema_id": "HD_PRODUCT_DECISION_RECORD",
+      "status": "accepted"
+    },
+    "decision_route": {
+      "action_class": "partner_support_request_and_recapture_planning",
+      "consultation_group_ids": [
+        "HD_GROUP_CABINET_REVIEW",
+        "HD_GROUP_COMMAND_CELL"
+      ],
+      "decision_authority_seat_ids": [
+        "HD_SEAT_PRIME_MINISTER",
+        "HD_SEAT_PRESIDENT"
+      ],
+      "decision_rule": "all_named_deciders_concur",
+      "eligible_forum_group_id": "HD_GROUP_JOINT_EXECUTIVE",
+      "failure_effect": "no_external_state_change",
+      "final_decision_record_schema_id": "HD_PRODUCT_DECISION_RECORD",
+      "required_confirmation_ids": [
+        "HD_CONFIRM_DEFENSE_FEASIBILITY",
+        "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+      ],
+      "route_id": "HD_ROUTE_COMBINED_SUPPORT_PACKAGE"
+    },
+    "decision_supported": true,
+    "deliveries": [
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_DEFENSE",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_DEFENSE",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_GENERAL_STAFF",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_GENERAL_STAFF",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_STRATEGIC_COMMAND",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_STRATEGIC_COMMAND",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "content_hash": "eb7dcc766aeb9fdf2688def1f8f93ce2291345765e0b43645f5c452a77994a41",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMON_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_COMMON",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_PM_001",
+        "artifact_type": "watch_input",
+        "content_hash": "068e208b22d38ef4dde0100c73f33f9bf880bd9b02d1fb9572d5f8c937d11259",
+        "delivery_id": "DELIVERY::HD_INPUT_PM_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PM_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_PRESIDENT_001",
+        "artifact_type": "watch_input",
+        "content_hash": "9f61bca54ed764a5e9265b2603e7a0673256c3bc88bf427607d9553dd10d5bf0",
+        "delivery_id": "DELIVERY::HD_INPUT_PRESIDENT_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_PRESIDENT_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMAND_001",
+        "artifact_type": "watch_input",
+        "content_hash": "057dc1e72fd896ba250b7d6eb69de27fdcb6a2db73f7847c6ce339b56c8f09e7",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMAND_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_COMMAND_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMAND_001",
+        "artifact_type": "watch_input",
+        "content_hash": "057dc1e72fd896ba250b7d6eb69de27fdcb6a2db73f7847c6ce339b56c8f09e7",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMAND_001::HD_SEAT_DEFENSE",
+        "information_class_id": "HD_INFO_COMMAND_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_DEFENSE",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_COMMAND_001",
+        "artifact_type": "watch_input",
+        "content_hash": "057dc1e72fd896ba250b7d6eb69de27fdcb6a2db73f7847c6ce339b56c8f09e7",
+        "delivery_id": "DELIVERY::HD_INPUT_COMMAND_001::HD_SEAT_GENERAL_STAFF",
+        "information_class_id": "HD_INFO_COMMAND_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_GENERAL_STAFF",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_STRATEGIC_001",
+        "artifact_type": "watch_input",
+        "content_hash": "408d6488cc9b0294b750ae7a4d7702cc6a2ee4f3e299b24b234d42724557d790",
+        "delivery_id": "DELIVERY::HD_INPUT_STRATEGIC_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_STRATEGIC_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_STRATEGIC_001",
+        "artifact_type": "watch_input",
+        "content_hash": "408d6488cc9b0294b750ae7a4d7702cc6a2ee4f3e299b24b234d42724557d790",
+        "delivery_id": "DELIVERY::HD_INPUT_STRATEGIC_001::HD_SEAT_DEFENSE",
+        "information_class_id": "HD_INFO_STRATEGIC_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_DEFENSE",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_STRATEGIC_001",
+        "artifact_type": "watch_input",
+        "content_hash": "408d6488cc9b0294b750ae7a4d7702cc6a2ee4f3e299b24b234d42724557d790",
+        "delivery_id": "DELIVERY::HD_INPUT_STRATEGIC_001::HD_SEAT_STRATEGIC_COMMAND",
+        "information_class_id": "HD_INFO_STRATEGIC_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_STRATEGIC_COMMAND",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_EXTERNAL_001",
+        "artifact_type": "watch_input",
+        "content_hash": "e959763e9a99754c025e404b03bfb495ebef4ded98942d33ed948fb003428870",
+        "delivery_id": "DELIVERY::HD_INPUT_EXTERNAL_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_EXTERNAL_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_INTERIOR_001",
+        "artifact_type": "watch_input",
+        "content_hash": "97af71c14f09d4c5a77900ae2306ded6ae18bddf69fbf84d7af7f1a01a4a0e43",
+        "delivery_id": "DELIVERY::HD_INPUT_INTERIOR_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_INTERIOR_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_FINANCE_001",
+        "artifact_type": "watch_input",
+        "content_hash": "8a41c3c0313a9a6acef7d524c375e1edc4b53447b90092cea83564cf0337f244",
+        "delivery_id": "DELIVERY::HD_INPUT_FINANCE_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_FINANCE_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_INFORMATION_001",
+        "artifact_type": "watch_input",
+        "content_hash": "255276393630d9c58d8b5eeb59e288876490cb7a9e06c528468c0e33792b815b",
+        "delivery_id": "DELIVERY::HD_INPUT_INFORMATION_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_INFORMATION_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_INFRASTRUCTURE_001",
+        "artifact_type": "watch_input",
+        "content_hash": "71bba250316d0c5e777a1b5ed2f0eb8de9b453a564a3b580d2ba463f0856938c",
+        "delivery_id": "DELIVERY::HD_INPUT_INFRASTRUCTURE_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_INFRASTRUCTURE_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_INPUT_HUMANITARIAN_001",
+        "artifact_type": "watch_input",
+        "content_hash": "e0f05c22a1cb9643b8c457be6f194ff3cbb3c55f93ccfe9b011f9ba919304fab",
+        "delivery_id": "DELIVERY::HD_INPUT_HUMANITARIAN_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_HUMANITARIAN_PRIVATE",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_EXTERNAL_001",
+        "artifact_type": "group_product",
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "delivery_id": "DELIVERY::HD_PRODUCT_EXTERNAL_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_PORTFOLIO_EXTERNAL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_EXTERNAL_001",
+        "artifact_type": "group_product",
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "delivery_id": "DELIVERY::HD_PRODUCT_EXTERNAL_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_PORTFOLIO_EXTERNAL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_EXTERNAL_001",
+        "artifact_type": "group_product",
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "delivery_id": "DELIVERY::HD_PRODUCT_EXTERNAL_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_PORTFOLIO_EXTERNAL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_EXTERNAL_001",
+        "artifact_type": "group_product",
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "delivery_id": "DELIVERY::HD_PRODUCT_EXTERNAL_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_PORTFOLIO_EXTERNAL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_EXTERNAL_001",
+        "artifact_type": "group_product",
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "delivery_id": "DELIVERY::HD_PRODUCT_EXTERNAL_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_PORTFOLIO_EXTERNAL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_EXTERNAL_001",
+        "artifact_type": "group_product",
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "delivery_id": "DELIVERY::HD_PRODUCT_EXTERNAL_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_PORTFOLIO_EXTERNAL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_EXTERNAL_001",
+        "artifact_type": "group_product",
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "delivery_id": "DELIVERY::HD_PRODUCT_EXTERNAL_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_PORTFOLIO_EXTERNAL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INTERIOR_001",
+        "artifact_type": "group_product",
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INTERIOR_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_PORTFOLIO_INTERIOR"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INTERIOR_001",
+        "artifact_type": "group_product",
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INTERIOR_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_PORTFOLIO_INTERIOR"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INTERIOR_001",
+        "artifact_type": "group_product",
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INTERIOR_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_PORTFOLIO_INTERIOR"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INTERIOR_001",
+        "artifact_type": "group_product",
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INTERIOR_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_PORTFOLIO_INTERIOR"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INTERIOR_001",
+        "artifact_type": "group_product",
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INTERIOR_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_PORTFOLIO_INTERIOR"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INTERIOR_001",
+        "artifact_type": "group_product",
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INTERIOR_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_PORTFOLIO_INTERIOR"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INTERIOR_001",
+        "artifact_type": "group_product",
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INTERIOR_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_PORTFOLIO_INTERIOR"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_FINANCE_001",
+        "artifact_type": "group_product",
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "delivery_id": "DELIVERY::HD_PRODUCT_FINANCE_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_PORTFOLIO_FINANCE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_FINANCE_001",
+        "artifact_type": "group_product",
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "delivery_id": "DELIVERY::HD_PRODUCT_FINANCE_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_PORTFOLIO_FINANCE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_FINANCE_001",
+        "artifact_type": "group_product",
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "delivery_id": "DELIVERY::HD_PRODUCT_FINANCE_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_PORTFOLIO_FINANCE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_FINANCE_001",
+        "artifact_type": "group_product",
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "delivery_id": "DELIVERY::HD_PRODUCT_FINANCE_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_PORTFOLIO_FINANCE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_FINANCE_001",
+        "artifact_type": "group_product",
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "delivery_id": "DELIVERY::HD_PRODUCT_FINANCE_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_PORTFOLIO_FINANCE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_FINANCE_001",
+        "artifact_type": "group_product",
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "delivery_id": "DELIVERY::HD_PRODUCT_FINANCE_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_PORTFOLIO_FINANCE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_FINANCE_001",
+        "artifact_type": "group_product",
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "delivery_id": "DELIVERY::HD_PRODUCT_FINANCE_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_PORTFOLIO_FINANCE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFORMATION_001",
+        "artifact_type": "group_product",
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFORMATION_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFORMATION"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFORMATION_001",
+        "artifact_type": "group_product",
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFORMATION_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFORMATION"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFORMATION_001",
+        "artifact_type": "group_product",
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFORMATION_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFORMATION"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFORMATION_001",
+        "artifact_type": "group_product",
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFORMATION_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFORMATION"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFORMATION_001",
+        "artifact_type": "group_product",
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFORMATION_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFORMATION"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFORMATION_001",
+        "artifact_type": "group_product",
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFORMATION_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFORMATION"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFORMATION_001",
+        "artifact_type": "group_product",
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFORMATION_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFORMATION"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "artifact_type": "group_product",
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFRASTRUCTURE_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "artifact_type": "group_product",
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFRASTRUCTURE_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "artifact_type": "group_product",
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFRASTRUCTURE_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "artifact_type": "group_product",
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFRASTRUCTURE_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "artifact_type": "group_product",
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFRASTRUCTURE_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "artifact_type": "group_product",
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFRASTRUCTURE_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "artifact_type": "group_product",
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "delivery_id": "DELIVERY::HD_PRODUCT_INFRASTRUCTURE_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "artifact_type": "group_product",
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "delivery_id": "DELIVERY::HD_PRODUCT_HUMANITARIAN_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "artifact_type": "group_product",
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "delivery_id": "DELIVERY::HD_PRODUCT_HUMANITARIAN_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "artifact_type": "group_product",
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "delivery_id": "DELIVERY::HD_PRODUCT_HUMANITARIAN_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "artifact_type": "group_product",
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "delivery_id": "DELIVERY::HD_PRODUCT_HUMANITARIAN_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "artifact_type": "group_product",
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "delivery_id": "DELIVERY::HD_PRODUCT_HUMANITARIAN_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "artifact_type": "group_product",
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "delivery_id": "DELIVERY::HD_PRODUCT_HUMANITARIAN_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "artifact_type": "group_product",
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "delivery_id": "DELIVERY::HD_PRODUCT_HUMANITARIAN_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_PORTFOLIO_PRODUCTS",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_DEFENSE",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_DEFENSE",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_GENERAL_STAFF",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_GENERAL_STAFF",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_STRATEGIC_COMMAND",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_STRATEGIC_COMMAND",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_COMMAND_001",
+        "artifact_type": "group_product",
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "delivery_id": "DELIVERY::HD_PRODUCT_COMMAND_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_COMMAND_PRODUCT",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_COMMAND_CELL"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_DEFENSE",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_DEFENSE",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_GENERAL_STAFF",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_GENERAL_STAFF",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_STRATEGIC_COMMAND",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_STRATEGIC_COMMAND",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "artifact_type": "group_product",
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "delivery_id": "DELIVERY::HD_PRODUCT_CABINET_DRAFT_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_CABINET_DRAFT",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_CABINET_DRAFT"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_DEFENSE",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_DEFENSE",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_GENERAL_STAFF",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_GENERAL_STAFF",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_STRATEGIC_COMMAND",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_STRATEGIC_COMMAND",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "artifact_type": "group_product",
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "delivery_id": "DELIVERY::HD_PRODUCT_REVIEW_BUNDLE_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_PORTFOLIO_REVIEWS",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_CABINET_REVIEW"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_PRIME_MINISTER",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_PRIME_MINISTER",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_PRESIDENT",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_PRESIDENT",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_DEFENSE",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_DEFENSE",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_GENERAL_STAFF",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_GENERAL_STAFF",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_STRATEGIC_COMMAND",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_STRATEGIC_COMMAND",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_EXTERNAL_AFFAIRS",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_EXTERNAL_AFFAIRS",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_INTERIOR",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_INTERIOR",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_FINANCE",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_FINANCE",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_INFORMATION",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_INFORMATION",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_INFRASTRUCTURE",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_INFRASTRUCTURE",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      },
+      {
+        "artifact_id": "HD_PRODUCT_DECISION_001",
+        "artifact_type": "group_product",
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "delivery_id": "DELIVERY::HD_PRODUCT_DECISION_001::HD_SEAT_HUMANITARIAN",
+        "information_class_id": "HD_INFO_DECISION_RECORD",
+        "recipient_seat_id": "HD_SEAT_HUMANITARIAN",
+        "sender_id": "HD_GROUP_JOINT_EXECUTIVE"
+      }
+    ],
+    "evidence_status": "development_fixture_non_evidence",
+    "failures": [],
+    "fixture_hash": "d6f9eb6a546cdf5d6d512511eef8c46c4da0d2c9175e28c7c080ce5d385b406c",
+    "fixture_id": "HIMALDESH_ROOM_CYCLE1.development.v0_1",
+    "group_attempts": [
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_PORTFOLIO_EXTERNAL",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_EXTERNAL_001"
+        ],
+        "content": {
+          "basis": [
+            "HD_INPUT_COMMON_001",
+            "HD_INPUT_EXTERNAL_001"
+          ],
+          "conditions_and_blockers": [
+            "no treaty guarantee",
+            "retain a withdrawal channel"
+          ],
+          "coordination_record": {
+            "position_status": "authored",
+            "seat_id": "HD_SEAT_EXTERNAL_AFFAIRS"
+          },
+          "position": "Request urgent partner consultation and coordinated pressure for withdrawal.",
+          "uncertainty": [
+            "Olvanan withdrawal threshold"
+          ]
+        },
+        "content_hash": "01e422f3e98b096fcb0173affd9c7afd9be1160a9baf8eccb2ed2506219b44f4",
+        "group_id": "HD_GROUP_PORTFOLIO_EXTERNAL",
+        "member_seat_ids": [
+          "HD_SEAT_EXTERNAL_AFFAIRS"
+        ],
+        "product_id": "HD_PRODUCT_EXTERNAL_001",
+        "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_PORTFOLIO_INTERIOR",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_INTERIOR_001"
+        ],
+        "content": {
+          "basis": [
+            "HD_INPUT_COMMON_001",
+            "HD_INPUT_INTERIOR_001"
+          ],
+          "conditions_and_blockers": [
+            "a named transfer requires HD_CONFIRM_INTERIOR_HANDOFF"
+          ],
+          "coordination_record": {
+            "position_status": "authored",
+            "seat_id": "HD_SEAT_INTERIOR"
+          },
+          "position": "Support bounded planning without transferring an Interior-administered force.",
+          "uncertainty": [
+            "future domestic coverage requirements"
+          ]
+        },
+        "content_hash": "87702967b39d34525ef08f6e43aff3f6c7be6ca9c10e476724fc2a4161ade188",
+        "group_id": "HD_GROUP_PORTFOLIO_INTERIOR",
+        "member_seat_ids": [
+          "HD_SEAT_INTERIOR"
+        ],
+        "product_id": "HD_PRODUCT_INTERIOR_001",
+        "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_PORTFOLIO_FINANCE",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_FINANCE_001"
+        ],
+        "content": {
+          "basis": [
+            "HD_INPUT_COMMON_001",
+            "HD_INPUT_FINANCE_001"
+          ],
+          "conditions_and_blockers": [
+            "avoid broad civilian spillover"
+          ],
+          "coordination_record": {
+            "position_status": "authored",
+            "seat_id": "HD_SEAT_FINANCE"
+          },
+          "position": "Prepare reversible targeted measures but condition activation on refusal to withdraw.",
+          "uncertainty": [
+            "financial intermediary exposure"
+          ]
+        },
+        "content_hash": "6bfad98a70b077a05cf66e9349a6e8bc8e2f6eca9c5abf4abdbfae939494a095",
+        "group_id": "HD_GROUP_PORTFOLIO_FINANCE",
+        "member_seat_ids": [
+          "HD_SEAT_FINANCE"
+        ],
+        "product_id": "HD_PRODUCT_FINANCE_001",
+        "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_PORTFOLIO_INFORMATION",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_INFORMATION_001"
+        ],
+        "content": {
+          "basis": [
+            "HD_INPUT_COMMON_001",
+            "HD_INPUT_INFORMATION_001"
+          ],
+          "conditions_and_blockers": [
+            "do not imply automatic escalation"
+          ],
+          "coordination_record": {
+            "position_status": "authored",
+            "seat_id": "HD_SEAT_INFORMATION"
+          },
+          "position": "Use bounded defensive public language coordinated with private diplomacy.",
+          "uncertainty": [
+            "Olvanan public response"
+          ]
+        },
+        "content_hash": "813628d32fb8f3b5cf80e2b5f563e1888f75ca0de437ec9db39ba4db48318846",
+        "group_id": "HD_GROUP_PORTFOLIO_INFORMATION",
+        "member_seat_ids": [
+          "HD_SEAT_INFORMATION"
+        ],
+        "product_id": "HD_PRODUCT_INFORMATION_001",
+        "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_PORTFOLIO_INFRASTRUCTURE",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_INFRASTRUCTURE_001"
+        ],
+        "content": {
+          "basis": [
+            "HD_INPUT_COMMON_001",
+            "HD_INPUT_INFRASTRUCTURE_001"
+          ],
+          "conditions_and_blockers": [
+            "partner-controlled logistics remain available"
+          ],
+          "coordination_record": {
+            "position_status": "authored",
+            "seat_id": "HD_SEAT_INFRASTRUCTURE"
+          },
+          "position": "Prepare logistics support with an explicit weather reassessment point.",
+          "uncertainty": [
+            "duration of the observation and access window"
+          ]
+        },
+        "content_hash": "8edf4666daab8429482fdbbe4f8e9aa221dc2eadb63d2d828b25355233f73c3a",
+        "group_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE",
+        "member_seat_ids": [
+          "HD_SEAT_INFRASTRUCTURE"
+        ],
+        "product_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+        "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_PORTFOLIO_HUMANITARIAN",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_HUMANITARIAN_001"
+        ],
+        "content": {
+          "basis": [
+            "HD_INPUT_COMMON_001",
+            "HD_INPUT_HUMANITARIAN_001"
+          ],
+          "conditions_and_blockers": [
+            "retain humanitarian access"
+          ],
+          "coordination_record": {
+            "position_status": "authored",
+            "seat_id": "HD_SEAT_HUMANITARIAN"
+          },
+          "position": "Condition support on civilian protection and continuity of essential flows.",
+          "uncertainty": [
+            "civilian displacement near the ridge"
+          ]
+        },
+        "content_hash": "1291fb148afa41ecbeb40d5c6bc9a908082fab17adcf58d82a10ddd39739f08c",
+        "group_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN",
+        "member_seat_ids": [
+          "HD_SEAT_HUMANITARIAN"
+        ],
+        "product_id": "HD_PRODUCT_HUMANITARIAN_001",
+        "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_COMMAND_CELL",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_PRESIDENT_001",
+          "HD_INPUT_COMMAND_001",
+          "HD_INPUT_STRATEGIC_001"
+        ],
+        "content": {
+          "civilian_end_state_reference": "Restore the prior position without widening the conflict.",
+          "confirmations": [
+            "HD_CONFIRM_DEFENSE_FEASIBILITY",
+            "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+          ],
+          "constraints": [
+            "no target selection",
+            "no U.S. fires",
+            "no U.S. combat forces"
+          ],
+          "escalation_risk": [
+            "misread direct-intervention preparations",
+            "ambiguous strategic messaging"
+          ],
+          "gaps": [
+            "HD_GAP_OPERATIONAL_COMMANDER"
+          ],
+          "options": [
+            "limited recapture planning support",
+            "force protection",
+            "time-sensitive defensive information"
+          ],
+          "readiness": "No strategic action; preserve defensive warning and command integrity.",
+          "warning": "The support window narrows with weather and consolidation."
+        },
+        "content_hash": "5a8938b549a30bbdc77387946dd55ac333a0d43e228bd470cf92f21e415faea3",
+        "group_id": "HD_GROUP_COMMAND_CELL",
+        "member_seat_ids": [
+          "HD_SEAT_PRESIDENT",
+          "HD_SEAT_DEFENSE",
+          "HD_SEAT_GENERAL_STAFF",
+          "HD_SEAT_STRATEGIC_COMMAND"
+        ],
+        "product_id": "HD_PRODUCT_COMMAND_001",
+        "product_schema_id": "HD_PRODUCT_COMMAND",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_CABINET_DRAFT",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_INPUT_PM_001",
+          "HD_PRODUCT_EXTERNAL_001",
+          "HD_PRODUCT_INTERIOR_001",
+          "HD_PRODUCT_FINANCE_001",
+          "HD_PRODUCT_INFORMATION_001",
+          "HD_PRODUCT_INFRASTRUCTURE_001",
+          "HD_PRODUCT_HUMANITARIAN_001"
+        ],
+        "content": {
+          "action_components": [
+            "urgent consultation",
+            "coordinated withdrawal pressure",
+            "bounded planning and defensive support",
+            "conditional targeted economic preparation"
+          ],
+          "dissent_and_safeguards": [
+            "Interior transfer excluded",
+            "no targeting, fires, combat forces, or treaty guarantee"
+          ],
+          "evidence_and_uncertainty": [
+            "occupation confirmed",
+            "central authorization unresolved",
+            "withdrawal threshold unresolved"
+          ],
+          "policy_intent": "Seek withdrawal and preserve a bounded Himaldeshi recapture option.",
+          "resources_and_dependencies": [
+            "partner information release",
+            "Himaldeshi logistics",
+            "weather-sensitive timing"
+          ]
+        },
+        "content_hash": "09c8dc9e40860deb338558c3f1f4c677f3255240de28ebc1348c1d4784c54152",
+        "group_id": "HD_GROUP_CABINET_DRAFT",
+        "member_seat_ids": [
+          "HD_SEAT_PRIME_MINISTER"
+        ],
+        "product_id": "HD_PRODUCT_CABINET_DRAFT_001",
+        "product_schema_id": "HD_PRODUCT_CABINET_DRAFT",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_CABINET_REVIEW",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_PRODUCT_CABINET_DRAFT_001"
+        ],
+        "content": {
+          "dissent_dispositions": [
+            {
+              "disposition": "exclude the force-transfer component",
+              "dissent_id": "HD_DISSENT_INTERIOR_TRANSFER_001",
+              "status": "retained_condition"
+            }
+          ],
+          "draft_hash": "fixture-reference::HD_PRODUCT_CABINET_DRAFT_001",
+          "ordered_reviews": [
+            {
+              "position": "concur_with_withdrawal_channel",
+              "seat_id": "HD_SEAT_EXTERNAL_AFFAIRS"
+            },
+            {
+              "position": "concur_only_without_force_transfer",
+              "seat_id": "HD_SEAT_INTERIOR"
+            },
+            {
+              "position": "concur_with_conditional_activation",
+              "seat_id": "HD_SEAT_FINANCE"
+            },
+            {
+              "position": "concur_with_bounded_language",
+              "seat_id": "HD_SEAT_INFORMATION"
+            },
+            {
+              "position": "concur_with_weather_reassessment",
+              "seat_id": "HD_SEAT_INFRASTRUCTURE"
+            },
+            {
+              "position": "concur_with_civilian_safeguards",
+              "seat_id": "HD_SEAT_HUMANITARIAN"
+            }
+          ],
+          "unresolved_dependencies": [
+            "operational command for direct force employment remains absent"
+          ]
+        },
+        "content_hash": "c8b523ab5cfe9d2399f63eedc477c3122427b0f82da1d8e9de901f33c490206f",
+        "group_id": "HD_GROUP_CABINET_REVIEW",
+        "member_seat_ids": [
+          "HD_SEAT_EXTERNAL_AFFAIRS",
+          "HD_SEAT_INTERIOR",
+          "HD_SEAT_FINANCE",
+          "HD_SEAT_INFORMATION",
+          "HD_SEAT_INFRASTRUCTURE",
+          "HD_SEAT_HUMANITARIAN"
+        ],
+        "product_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "product_schema_id": "HD_PRODUCT_REVIEW_BUNDLE",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::HD_GROUP_JOINT_EXECUTIVE",
+        "authorized_input_ids": [
+          "HD_INPUT_COMMON_001",
+          "HD_PRODUCT_COMMAND_001",
+          "HD_PRODUCT_CABINET_DRAFT_001",
+          "HD_PRODUCT_REVIEW_BUNDLE_001"
+        ],
+        "content": {
+          "action_class": "partner_support_request_and_recapture_planning",
+          "blocked_components": [
+            "direct conventional force employment without a represented operational commander",
+            "strategic readiness, signaling, or use"
+          ],
+          "decision": "approve_bounded_support_request",
+          "dissent": [
+            {
+              "disposition": "retained_condition",
+              "dissent_id": "HD_DISSENT_INTERIOR_TRANSFER_001"
+            }
+          ],
+          "output_components": {
+            "decision_clock_hours": 18,
+            "excluded": [
+              "U.S. target nomination or target selection",
+              "U.S. fires",
+              "U.S. combat forces",
+              "a treaty guarantee"
+            ],
+            "request_version": "HIM_REQUEST_001.v1",
+            "requested": [
+              "urgent consultation",
+              "private and public pressure for Olvanan withdrawal",
+              "time-sensitive intelligence sharing",
+              "planning, logistics, defensive materiel, and force-protection support for a Himaldeshi limited recapture",
+              "coordination on targeted economic pressure if Olvana does not withdraw"
+            ]
+          },
+          "portfolio_reviews": "HD_PRODUCT_REVIEW_BUNDLE_001",
+          "president_position": {
+            "position": "concur",
+            "seat_id": "HD_SEAT_PRESIDENT"
+          },
+          "prime_minister_position": {
+            "position": "concur",
+            "seat_id": "HD_SEAT_PRIME_MINISTER"
+          },
+          "professional_confirmations": [
+            "HD_CONFIRM_DEFENSE_FEASIBILITY",
+            "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT"
+          ]
+        },
+        "content_hash": "ea67073a0dc0e1bde2d3e8d5b2c24b57bbd4557d7200626cf587615ac58ac027",
+        "group_id": "HD_GROUP_JOINT_EXECUTIVE",
+        "member_seat_ids": [
+          "HD_SEAT_PRIME_MINISTER",
+          "HD_SEAT_PRESIDENT",
+          "HD_SEAT_DEFENSE",
+          "HD_SEAT_GENERAL_STAFF",
+          "HD_SEAT_STRATEGIC_COMMAND",
+          "HD_SEAT_EXTERNAL_AFFAIRS",
+          "HD_SEAT_INTERIOR",
+          "HD_SEAT_FINANCE",
+          "HD_SEAT_INFORMATION",
+          "HD_SEAT_INFRASTRUCTURE",
+          "HD_SEAT_HUMANITARIAN"
+        ],
+        "product_id": "HD_PRODUCT_DECISION_001",
+        "product_schema_id": "HD_PRODUCT_DECISION_RECORD",
+        "status": "accepted"
+      }
+    ],
+    "output": {
+      "content": {
+        "decision_clock_hours": 18,
+        "excluded": [
+          "U.S. target nomination or target selection",
+          "U.S. fires",
+          "U.S. combat forces",
+          "a treaty guarantee"
+        ],
+        "request_version": "HIM_REQUEST_001.v1",
+        "requested": [
+          "urgent consultation",
+          "private and public pressure for Olvanan withdrawal",
+          "time-sensitive intelligence sharing",
+          "planning, logistics, defensive materiel, and force-protection support for a Himaldeshi limited recapture",
+          "coordination on targeted economic pressure if Olvana does not withdraw"
+        ]
+      },
+      "output_id": "HIM_OUTPUT_SUPPORT_REQUEST_001"
+    },
+    "output_projection": {
+      "mapping_type": "decision_record_output_components",
+      "output": {
+        "content": {
+          "decision_clock_hours": 18,
+          "excluded": [
+            "U.S. target nomination or target selection",
+            "U.S. fires",
+            "U.S. combat forces",
+            "a treaty guarantee"
+          ],
+          "request_version": "HIM_REQUEST_001.v1",
+          "requested": [
+            "urgent consultation",
+            "private and public pressure for Olvanan withdrawal",
+            "time-sensitive intelligence sharing",
+            "planning, logistics, defensive materiel, and force-protection support for a Himaldeshi limited recapture",
+            "coordination on targeted economic pressure if Olvana does not withdraw"
+          ]
+        },
+        "output_id": "HIM_OUTPUT_SUPPORT_REQUEST_001"
+      },
+      "projection_id": "HD_PROJECTION_SUPPORT_REQUEST_001",
+      "projection_owner": "room_decision",
+      "source_decision_record_id": "HD_PRODUCT_DECISION_001"
+    },
+    "ratification_hash": "bbab62ea681f2e513407b926de5adfbfaeb8e73baf5fb86ea34808b9fa524384",
+    "schedule": [
+      [
+        "HD_GROUP_PORTFOLIO_EXTERNAL",
+        "HD_GROUP_PORTFOLIO_INTERIOR",
+        "HD_GROUP_PORTFOLIO_FINANCE",
+        "HD_GROUP_PORTFOLIO_INFORMATION",
+        "HD_GROUP_PORTFOLIO_INFRASTRUCTURE",
+        "HD_GROUP_PORTFOLIO_HUMANITARIAN",
+        "HD_GROUP_COMMAND_CELL"
+      ],
+      [
+        "HD_GROUP_CABINET_DRAFT"
+      ],
+      [
+        "HD_GROUP_CABINET_REVIEW"
+      ],
+      [
+        "HD_GROUP_JOINT_EXECUTIVE"
+      ]
+    ],
+    "schema_version": "counterpart-room-run.v0.1",
+    "source_register_hash": "6a2ad9ea06a462c3283ecdc8a14dccee0ffe9830f20bf961deddb830ed308f25",
+    "status": "passed",
+    "world_effects_admitted": false
+  },
+  "run_hash": "4a1c917aa4e45bbd009bb1fe008ceb932997716c60b759b5160944327714a38b",
+  "schema_version": "counterpart-room-tracer-receipt.v0.1",
+  "source_register_hash": "6a2ad9ea06a462c3283ecdc8a14dccee0ffe9830f20bf961deddb830ed308f25",
+  "source_register_id": "DATE_HIMALDESH_2026Q3.sources",
+  "status": "passed",
+  "tracer_id": "m5-himaldesh-room-no-model-v1"
+}

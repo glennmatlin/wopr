@@ -1,0 +1,32 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.13"
+          enable-cache: true
+
+      # The dev extra pulls in gdm-concordia, so this covers the native
+      # Concordia path. WOPR_REQUIRE_CONCORDIA turns a missing or broken
+      # install into a hard failure instead of module-level skips, so native
+      # coverage cannot silently disappear.
+      - name: Test
+        env:
+          WOPR_REQUIRE_CONCORDIA: "1"
+        run: uv run --extra dev python -m pytest -o addopts="" -q
+
+      - name: Lint
+        run: uv run --extra dev ruff check src tests
+
+      - name: Rules engine agrees with its source ledger
+        run: uv run nuclear-war validate-rules

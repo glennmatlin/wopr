@@ -1,0 +1,39 @@
+{
+  "schema_version": "counterpart-charter-ratification.v0.1",
+  "ratification_id": "COUNTERPART_MINIMUM_M5.ratification.D72",
+  "status": "ratified",
+  "ratified_on": "2026-08-26",
+  "decision_id": "D72",
+  "candidate_commit": "8d65a6e05ed264193ddda3fbd5daea7bc1c88dee",
+  "actor_bundles": [
+    {
+      "actor_id": "ACTOR_HIMALDESH",
+      "source_register_id": "DATE_HIMALDESH_2026Q3.sources",
+      "source_register_hash": "6a2ad9ea06a462c3283ecdc8a14dccee0ffe9830f20bf961deddb830ed308f25",
+      "charter_id": "DATE_HIMALDESH_RIDGE_2026Q3",
+      "charter_hash": "c7184d1866913782fce5afea3edf1cc3a26942699973eb232e3bbee1782cb822"
+    },
+    {
+      "actor_id": "ACTOR_OLVANA",
+      "source_register_id": "DATE_OLVANA_2026Q3.sources",
+      "source_register_hash": "932c12452ccb3373ccf4fc07c7d91f290d6812d1d8d1b227f49f0cf8eb4e06d5",
+      "charter_id": "DATE_OLVANA_RIDGE_2026Q3",
+      "charter_hash": "0aa48c3cb8e2980324b3db6d4c5426fb5ff67f746775728a0b00f38897fe389a"
+    }
+  ],
+  "review_artifact": "docs/contest/COUNTERPART_CHARTER_REVIEW.candidate.md",
+  "scope": {
+    "milestone": "M5",
+    "contract": "source-bound minimum first-episode Counterpart Room Charters",
+    "focal_room": "ACTOR_UNITED_STATES"
+  },
+  "claim_boundary": [
+    "no_counterpart_room_execution",
+    "no_model_behavior_evidence",
+    "no_official_actor_procedure_claim",
+    "no_effect_level_action_authority",
+    "no_creative_excon_evidence",
+    "no_date_episode_evidence",
+    "no_nuclear_behavior_evidence"
+  ]
+}

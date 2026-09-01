@@ -1,0 +1,2610 @@
+{
+  "charter_hash": "fe3837ad22a898218c3c298d1facf91e1ddd09b1a2d58dfc9a48b9d3c4bf83d2",
+  "charter_id": "US_PUBLIC_2026Q3",
+  "charter_version": "0.1.0",
+  "claim_boundary": [
+    "no_model_behavior_evidence",
+    "no_counterpart_room_evidence",
+    "no_world_effect_admission",
+    "no_date_episode_evidence",
+    "no_comparative_result"
+  ],
+  "counterpart_fixtures": [
+    {
+      "actor_id": "ACTOR_HIMALDESH",
+      "fixture_hash": "3af85d53f1706c3a5ac8027b400ea4a90e1ba35fa0ac98cf5fa39ccb0ffe1733",
+      "fixture_id": "HIM_CYCLE1_REQUEST.development.v0_1",
+      "status": "development_fixture_non_evidence"
+    },
+    {
+      "actor_id": "ACTOR_OLVANA",
+      "fixture_hash": "7b0773a4cdd65d51d6c33adf9137f1e219293b0e89897a9073df23aa7a9375b1",
+      "fixture_id": "OLV_CYCLE1_POSTURE.development.v0_1",
+      "status": "development_fixture_non_evidence"
+    }
+  ],
+  "evidence_status": "development_fixture_non_evidence",
+  "executor_revision": "6c06ed4a7e362cdee89ca15df7aff385aec0aaf8",
+  "fixture_hash": "ea7333ec4e7423ad628455d18638c6e0eefd9fdca3b0bd17f85d35fb2d2ac9fc",
+  "fixture_id": "US_CYCLE1_NO_MODEL.development.v0_1",
+  "ratification_hash": "0b831d55ba60dd458e44b0e63d714a82eaf05b508a32694f96181caba0b5ad13",
+  "ratification_id": "US_PUBLIC_2026Q3.ratification.D67",
+  "receipt_hash": "7487b1604dd8426c74631b21590326190d95a476e90220924397f08fec93a186",
+  "replay_matched": true,
+  "run": {
+    "active_seat_ids": [
+      "SEAT_PRESIDENT",
+      "SEAT_VICE_PRESIDENT",
+      "SEAT_STATE",
+      "SEAT_TREASURY",
+      "SEAT_DEFENSE",
+      "SEAT_ENERGY",
+      "SEAT_ATTORNEY_GENERAL",
+      "SEAT_CHIEF_OF_STAFF",
+      "SEAT_NSA",
+      "SEAT_DNI",
+      "SEAT_CJCS",
+      "SEAT_CIA_DIRECTOR",
+      "SEAT_WHITE_HOUSE_COUNSEL",
+      "SEAT_THEATER_COMMANDER"
+    ],
+    "charter_hash": "fe3837ad22a898218c3c298d1facf91e1ddd09b1a2d58dfc9a48b9d3c4bf83d2",
+    "confirmations": [
+      {
+        "confirmation_id": "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+        "confirmed_record_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "confirmer_seat_ids": [
+          "SEAT_PRESIDENT"
+        ],
+        "status": "confirmed"
+      },
+      {
+        "confirmation_id": "CONFIRM_NSC_AUTHORITY_RECORD",
+        "confirmed_record_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "confirmer_seat_ids": [
+          "SEAT_ATTORNEY_GENERAL",
+          "SEAT_WHITE_HOUSE_COUNSEL"
+        ],
+        "status": "confirmed"
+      }
+    ],
+    "cycle_id": "CYCLE_1",
+    "decision_record": {
+      "attempt_id": "ATTEMPT::GROUP_NSC",
+      "authorized_input_ids": [
+        "USC1_INPUT_COMMON_001",
+        "USC1_PRODUCT_SYNTHESIS_001",
+        "USC1_PRODUCT_POLICY_PACKAGE_001"
+      ],
+      "content": {
+        "consultations": [
+          "GROUP_PC",
+          "GROUP_LEGAL_AUTHORITY"
+        ],
+        "decided_components": [
+          "COMP_DIPLOMATIC_DEMARCHE",
+          "COMP_INTELLIGENCE_SHARING",
+          "COMP_DEFENSIVE_SUPPORT",
+          "COMP_ECONOMIC_PREPARATION",
+          "COMP_PUBLIC_COMMUNICATION",
+          "COMP_REASSESSMENT"
+        ],
+        "failure_records": [],
+        "material_dissent": [
+          "Preparatory logistics timing remains recorded for implementation review.",
+          "Private disclosure of economic preparation remains discretionary within the approved diplomatic sequence."
+        ],
+        "policy_package_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "presidential_decision": "Approve the integrated package as conditional policy direction, subject to every component's recorded implementation and effect-level gates.",
+        "reassessment_point": "Six hours or material change, whichever occurs first.",
+        "required_confirmations": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "returned_or_rejected_components": [],
+        "route_id": "ROUTE_PRESIDENTIAL_POLICY",
+        "source_fact_ids": [
+          "FACT_NSC_HSC_FUNCTION",
+          "FACT_PUBLIC_PC_PROCESS",
+          "FACT_PUBLIC_EXECUTIVE_SECRETARY"
+        ],
+        "taskings": [
+          "Executive Secretary distributes the exact record.",
+          "Responsible departments return component-specific implementation checks.",
+          "NSA convenes the recorded reassessment."
+        ],
+        "what_was_not_decided": [
+          "No World effect was admitted.",
+          "No U.S. target selection, fires, or combat force was authorized.",
+          "No treaty guarantee was created.",
+          "No effect-level authority or capability was inferred."
+        ]
+      },
+      "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+      "group_id": "GROUP_NSC",
+      "member_seat_ids": [
+        "SEAT_PRESIDENT",
+        "SEAT_VICE_PRESIDENT",
+        "SEAT_STATE",
+        "SEAT_TREASURY",
+        "SEAT_DEFENSE",
+        "SEAT_ENERGY",
+        "SEAT_ATTORNEY_GENERAL",
+        "SEAT_CHIEF_OF_STAFF",
+        "SEAT_NSA",
+        "SEAT_DNI",
+        "SEAT_CJCS",
+        "SEAT_CIA_DIRECTOR",
+        "SEAT_WHITE_HOUSE_COUNSEL",
+        "SEAT_THEATER_COMMANDER"
+      ],
+      "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+      "product_schema_id": "PRODUCT_NSC_DECISION_RECORD",
+      "status": "accepted"
+    },
+    "decision_route": {
+      "action_class": "presidential_policy_direction",
+      "consultation_group_ids": [
+        "GROUP_PC",
+        "GROUP_LEGAL_AUTHORITY"
+      ],
+      "eligible_forum_group_id": "GROUP_NSC",
+      "owning_authority_seat_id": "SEAT_PRESIDENT",
+      "required_confirmation_ids": [
+        "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+        "CONFIRM_NSC_AUTHORITY_RECORD"
+      ],
+      "route_id": "ROUTE_PRESIDENTIAL_POLICY"
+    },
+    "decision_supported": true,
+    "deliveries": [
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_PRESIDENT",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_PRESIDENT",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_STATE",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_STATE",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_TREASURY",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_TREASURY",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_DEFENSE",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_DEFENSE",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_ENERGY",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_ENERGY",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_NSA",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_DNI",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_DNI",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_CJCS",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_CJCS",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_CIA_DIRECTOR",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_CIA_DIRECTOR",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_COMMON_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "42e3584c777b815a99f84805eb3a4e9b0fb6511aa8bd4f42369f74030d46b356",
+        "delivery_id": "DELIVERY::USC1_INPUT_COMMON_001::SEAT_THEATER_COMMANDER",
+        "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+        "input_id": "USC1_INPUT_COMMON_001",
+        "recipient_seat_id": "SEAT_THEATER_COMMANDER",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_RAW_WEATHER_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [],
+        "content_hash": "c5e70c6dc34d572ea1b896e214b930d54ff7e5141b407793a5f0740d23af430c",
+        "delivery_id": "DELIVERY::USC1_INPUT_RAW_WEATHER_001::SEAT_STATE",
+        "information_class_id": "INFO_RAW_WEATHER_FORECAST",
+        "input_id": "USC1_INPUT_RAW_WEATHER_001",
+        "recipient_seat_id": "SEAT_STATE",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_RAW_WEATHER_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [],
+        "content_hash": "c5e70c6dc34d572ea1b896e214b930d54ff7e5141b407793a5f0740d23af430c",
+        "delivery_id": "DELIVERY::USC1_INPUT_RAW_WEATHER_001::SEAT_DEFENSE",
+        "information_class_id": "INFO_RAW_WEATHER_FORECAST",
+        "input_id": "USC1_INPUT_RAW_WEATHER_001",
+        "recipient_seat_id": "SEAT_DEFENSE",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_RAW_WEATHER_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [],
+        "content_hash": "c5e70c6dc34d572ea1b896e214b930d54ff7e5141b407793a5f0740d23af430c",
+        "delivery_id": "DELIVERY::USC1_INPUT_RAW_WEATHER_001::SEAT_DNI",
+        "information_class_id": "INFO_RAW_WEATHER_FORECAST",
+        "input_id": "USC1_INPUT_RAW_WEATHER_001",
+        "recipient_seat_id": "SEAT_DNI",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_RAW_WEATHER_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [],
+        "content_hash": "c5e70c6dc34d572ea1b896e214b930d54ff7e5141b407793a5f0740d23af430c",
+        "delivery_id": "DELIVERY::USC1_INPUT_RAW_WEATHER_001::SEAT_CJCS",
+        "information_class_id": "INFO_RAW_WEATHER_FORECAST",
+        "input_id": "USC1_INPUT_RAW_WEATHER_001",
+        "recipient_seat_id": "SEAT_CJCS",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_RAW_WEATHER_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [],
+        "content_hash": "c5e70c6dc34d572ea1b896e214b930d54ff7e5141b407793a5f0740d23af430c",
+        "delivery_id": "DELIVERY::USC1_INPUT_RAW_WEATHER_001::SEAT_CIA_DIRECTOR",
+        "information_class_id": "INFO_RAW_WEATHER_FORECAST",
+        "input_id": "USC1_INPUT_RAW_WEATHER_001",
+        "recipient_seat_id": "SEAT_CIA_DIRECTOR",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_RAW_WEATHER_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [],
+        "content_hash": "c5e70c6dc34d572ea1b896e214b930d54ff7e5141b407793a5f0740d23af430c",
+        "delivery_id": "DELIVERY::USC1_INPUT_RAW_WEATHER_001::SEAT_THEATER_COMMANDER",
+        "information_class_id": "INFO_RAW_WEATHER_FORECAST",
+        "input_id": "USC1_INPUT_RAW_WEATHER_001",
+        "recipient_seat_id": "SEAT_THEATER_COMMANDER",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_DNI_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "2a068555f45a7289571a65236f66bf0bd9dd96666311db6d96a343d8c1846e0a",
+        "delivery_id": "DELIVERY::USC1_INPUT_DNI_PRIVATE_001::SEAT_DNI",
+        "information_class_id": "INFO_INTELLIGENCE_PRIVATE",
+        "input_id": "USC1_INPUT_DNI_PRIVATE_001",
+        "recipient_seat_id": "SEAT_DNI",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_CIA_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "09396a5618924740388e8e9885ac1a8ce18ee8a65024b8b469c60cfacaf82309",
+        "delivery_id": "DELIVERY::USC1_INPUT_CIA_PRIVATE_001::SEAT_CIA_DIRECTOR",
+        "information_class_id": "INFO_FOREIGN_SOURCE_PRIVATE",
+        "input_id": "USC1_INPUT_CIA_PRIVATE_001",
+        "recipient_seat_id": "SEAT_CIA_DIRECTOR",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_STATE_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001"
+        ],
+        "content_hash": "60b0a8b1d1474c0f19ef22e1c37c4334afa9aed02f1c38ea8de5d0baed97fdfa",
+        "delivery_id": "DELIVERY::USC1_INPUT_STATE_PRIVATE_001::SEAT_STATE",
+        "information_class_id": "INFO_DIPLOMATIC_PRIVATE",
+        "input_id": "USC1_INPUT_STATE_PRIVATE_001",
+        "recipient_seat_id": "SEAT_STATE",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_TREASURY_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "2c9227e0782fbde04b5dd4d33fdd538657ffeedfd3fc969020766477440314ab",
+        "delivery_id": "DELIVERY::USC1_INPUT_TREASURY_PRIVATE_001::SEAT_TREASURY",
+        "information_class_id": "INFO_FINANCIAL_PRIVATE",
+        "input_id": "USC1_INPUT_TREASURY_PRIVATE_001",
+        "recipient_seat_id": "SEAT_TREASURY",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_DEFENSE_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001"
+        ],
+        "content_hash": "84d6ddc516012731274085827ff2e57fc12366d2e52d29c4ddd5b4d4ffed6de7",
+        "delivery_id": "DELIVERY::USC1_INPUT_DEFENSE_PRIVATE_001::SEAT_DEFENSE",
+        "information_class_id": "INFO_DEFENSE_PRIVATE",
+        "input_id": "USC1_INPUT_DEFENSE_PRIVATE_001",
+        "recipient_seat_id": "SEAT_DEFENSE",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_ENERGY_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "0cfe4608a86f7b778f4cef24d9aaeff17485ed86996bbd51ed4f40f9f2af2982",
+        "delivery_id": "DELIVERY::USC1_INPUT_ENERGY_PRIVATE_001::SEAT_ENERGY",
+        "information_class_id": "INFO_NUCLEAR_PRIVATE",
+        "input_id": "USC1_INPUT_ENERGY_PRIVATE_001",
+        "recipient_seat_id": "SEAT_ENERGY",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_JUSTICE_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001"
+        ],
+        "content_hash": "087f745e9e759fc72646719533ac793a516e0175c66393f605a8272e2861e2c6",
+        "delivery_id": "DELIVERY::USC1_INPUT_JUSTICE_PRIVATE_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_LEGAL_PRIVATE",
+        "input_id": "USC1_INPUT_JUSTICE_PRIVATE_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001"
+        ],
+        "content_hash": "c7ab72ef5ccafcb4e47170ea94c4fc99ee070416a2955151466f767d81e734dc",
+        "delivery_id": "DELIVERY::USC1_INPUT_EOP_LEGAL_PRIVATE_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_EOP_LEGAL_PRIVATE",
+        "input_id": "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_CJCS_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "2f0b29f81b5a5dced85ef9382c61effab5ff294d64002214b559719ebc3d5535",
+        "delivery_id": "DELIVERY::USC1_INPUT_CJCS_PRIVATE_001::SEAT_CJCS",
+        "information_class_id": "INFO_MILITARY_ADVICE_PRIVATE",
+        "input_id": "USC1_INPUT_CJCS_PRIVATE_001",
+        "recipient_seat_id": "SEAT_CJCS",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_INPUT_THEATER_PRIVATE_001",
+        "artifact_type": "watch_input",
+        "causal_parent_ids": [
+          "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "OLV_OUTPUT_RIDGE_POSTURE_001"
+        ],
+        "content_hash": "d50f8a5982c6cd412fe856272d1f42017290e04a65b85048c48a18d911ca7af8",
+        "delivery_id": "DELIVERY::USC1_INPUT_THEATER_PRIVATE_001::SEAT_THEATER_COMMANDER",
+        "information_class_id": "INFO_THEATER_PRIVATE",
+        "input_id": "USC1_INPUT_THEATER_PRIVATE_001",
+        "recipient_seat_id": "SEAT_THEATER_COMMANDER",
+        "sender_id": "SERVICE_WATCH"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_THREAT_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_THREAT_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "GROUP_THREAT_ATTRIBUTION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_THREAT_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_THREAT_001::SEAT_DEFENSE",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "recipient_seat_id": "SEAT_DEFENSE",
+        "sender_id": "GROUP_THREAT_ATTRIBUTION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_THREAT_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_THREAT_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "GROUP_THREAT_ATTRIBUTION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_THREAT_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_THREAT_001::SEAT_NSA",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "GROUP_THREAT_ATTRIBUTION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_THREAT_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_THREAT_001::SEAT_DNI",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "recipient_seat_id": "SEAT_DNI",
+        "sender_id": "GROUP_THREAT_ATTRIBUTION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_THREAT_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_THREAT_001::SEAT_CJCS",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "recipient_seat_id": "SEAT_CJCS",
+        "sender_id": "GROUP_THREAT_ATTRIBUTION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_THREAT_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_THREAT_001::SEAT_THEATER_COMMANDER",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "recipient_seat_id": "SEAT_THEATER_COMMANDER",
+        "sender_id": "GROUP_THREAT_ATTRIBUTION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_TREASURY_PRIVATE_001"
+        ],
+        "content_hash": "edb2e022616ce2b2063546014737f1b4f015b2439c360a1f170c38b059cea24e",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "GROUP_DIPLOMATIC_ECONOMIC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_TREASURY_PRIVATE_001"
+        ],
+        "content_hash": "edb2e022616ce2b2063546014737f1b4f015b2439c360a1f170c38b059cea24e",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "GROUP_DIPLOMATIC_ECONOMIC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_TREASURY_PRIVATE_001"
+        ],
+        "content_hash": "edb2e022616ce2b2063546014737f1b4f015b2439c360a1f170c38b059cea24e",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "GROUP_DIPLOMATIC_ECONOMIC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_TREASURY_PRIVATE_001"
+        ],
+        "content_hash": "edb2e022616ce2b2063546014737f1b4f015b2439c360a1f170c38b059cea24e",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001::SEAT_NSA",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "GROUP_DIPLOMATIC_ECONOMIC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_TREASURY_PRIVATE_001"
+        ],
+        "content_hash": "edb2e022616ce2b2063546014737f1b4f015b2439c360a1f170c38b059cea24e",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "GROUP_DIPLOMATIC_ECONOMIC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NUCLEAR_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_ENERGY_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "cfc7c3fe0cb2e2aa13be1b93c11a4d8874cd1cc63cd6fdb1d00eed1b888b7c16",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NUCLEAR_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_NUCLEAR_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "GROUP_NUCLEAR_RADIOLOGICAL"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NUCLEAR_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_ENERGY_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "cfc7c3fe0cb2e2aa13be1b93c11a4d8874cd1cc63cd6fdb1d00eed1b888b7c16",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NUCLEAR_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_NUCLEAR_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "GROUP_NUCLEAR_RADIOLOGICAL"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NUCLEAR_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_ENERGY_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "cfc7c3fe0cb2e2aa13be1b93c11a4d8874cd1cc63cd6fdb1d00eed1b888b7c16",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NUCLEAR_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_NUCLEAR_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "GROUP_NUCLEAR_RADIOLOGICAL"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NUCLEAR_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_ENERGY_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "cfc7c3fe0cb2e2aa13be1b93c11a4d8874cd1cc63cd6fdb1d00eed1b888b7c16",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NUCLEAR_001::SEAT_NSA",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_NUCLEAR_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "GROUP_NUCLEAR_RADIOLOGICAL"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NUCLEAR_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_ENERGY_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content_hash": "cfc7c3fe0cb2e2aa13be1b93c11a4d8874cd1cc63cd6fdb1d00eed1b888b7c16",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NUCLEAR_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_NUCLEAR_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "GROUP_NUCLEAR_RADIOLOGICAL"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DEFENSE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001",
+          "USC1_INPUT_THEATER_PRIVATE_001",
+          "USC1_PRODUCT_THREAT_001"
+        ],
+        "content_hash": "d002344ce479c4acd282d75cf4a8a907a947af00e2cc93c6c9eac1ce326a6120",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DEFENSE_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DEFENSE_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "GROUP_DEFENSE_ESCALATION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DEFENSE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001",
+          "USC1_INPUT_THEATER_PRIVATE_001",
+          "USC1_PRODUCT_THREAT_001"
+        ],
+        "content_hash": "d002344ce479c4acd282d75cf4a8a907a947af00e2cc93c6c9eac1ce326a6120",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DEFENSE_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DEFENSE_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "GROUP_DEFENSE_ESCALATION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DEFENSE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001",
+          "USC1_INPUT_THEATER_PRIVATE_001",
+          "USC1_PRODUCT_THREAT_001"
+        ],
+        "content_hash": "d002344ce479c4acd282d75cf4a8a907a947af00e2cc93c6c9eac1ce326a6120",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DEFENSE_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DEFENSE_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "GROUP_DEFENSE_ESCALATION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DEFENSE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001",
+          "USC1_INPUT_THEATER_PRIVATE_001",
+          "USC1_PRODUCT_THREAT_001"
+        ],
+        "content_hash": "d002344ce479c4acd282d75cf4a8a907a947af00e2cc93c6c9eac1ce326a6120",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DEFENSE_001::SEAT_NSA",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DEFENSE_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "GROUP_DEFENSE_ESCALATION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_DEFENSE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001",
+          "USC1_INPUT_THEATER_PRIVATE_001",
+          "USC1_PRODUCT_THREAT_001"
+        ],
+        "content_hash": "d002344ce479c4acd282d75cf4a8a907a947af00e2cc93c6c9eac1ce326a6120",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_DEFENSE_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_DEFENSE_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "GROUP_DEFENSE_ESCALATION"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_LEGAL_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_JUSTICE_PRIVATE_001",
+          "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001"
+        ],
+        "content_hash": "0506a8db73970294e38b9cd5f76911c7fc080a6efaa1419fbe96190ec99e9eca",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_LEGAL_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_LEGAL_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "GROUP_LEGAL_AUTHORITY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_LEGAL_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_JUSTICE_PRIVATE_001",
+          "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001"
+        ],
+        "content_hash": "0506a8db73970294e38b9cd5f76911c7fc080a6efaa1419fbe96190ec99e9eca",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_LEGAL_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_LEGAL_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "GROUP_LEGAL_AUTHORITY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_LEGAL_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_JUSTICE_PRIVATE_001",
+          "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001"
+        ],
+        "content_hash": "0506a8db73970294e38b9cd5f76911c7fc080a6efaa1419fbe96190ec99e9eca",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_LEGAL_001::SEAT_NSA",
+        "information_class_id": "INFO_CELL_PRODUCTS",
+        "product_id": "USC1_PRODUCT_LEGAL_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "GROUP_LEGAL_AUTHORITY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_STATE",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_STATE",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_TREASURY",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_TREASURY",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_DEFENSE",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_DEFENSE",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_ENERGY",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_ENERGY",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_NSA",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_DNI",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_DNI",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_CJCS",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_CJCS",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_CIA_DIRECTOR",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_CIA_DIRECTOR",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_SYNTHESIS_001::SEAT_THEATER_COMMANDER",
+        "information_class_id": "INFO_SYNTHESIS_PRODUCT",
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "recipient_seat_id": "SEAT_THEATER_COMMANDER",
+        "sender_id": "GROUP_PRESIDENTIAL_SYNTHESIS"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_PRESIDENT",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_PRESIDENT",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_STATE",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_STATE",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_TREASURY",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_TREASURY",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_DEFENSE",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_DEFENSE",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_ENERGY",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_ENERGY",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_NSA",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_DNI",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_DNI",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_CJCS",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_CJCS",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_CIA_DIRECTOR",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_CIA_DIRECTOR",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_POLICY_PACKAGE_001::SEAT_THEATER_COMMANDER",
+        "information_class_id": "INFO_POLICY_PACKAGE",
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "recipient_seat_id": "SEAT_THEATER_COMMANDER",
+        "sender_id": "GROUP_PC"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_PRESIDENT",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_PRESIDENT",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_VICE_PRESIDENT",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_VICE_PRESIDENT",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_STATE",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_STATE",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_TREASURY",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_TREASURY",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_DEFENSE",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_DEFENSE",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_ENERGY",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_ENERGY",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_ATTORNEY_GENERAL",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_ATTORNEY_GENERAL",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_CHIEF_OF_STAFF",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_CHIEF_OF_STAFF",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_NSA",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_NSA",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_DNI",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_DNI",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_CJCS",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_CJCS",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_CIA_DIRECTOR",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_CIA_DIRECTOR",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_WHITE_HOUSE_COUNSEL",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_WHITE_HOUSE_COUNSEL",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      },
+      {
+        "artifact_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "artifact_type": "group_product",
+        "causal_parent_ids": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "delivery_id": "DELIVERY::USC1_PRODUCT_NSC_DECISION_001::SEAT_THEATER_COMMANDER",
+        "information_class_id": "INFO_DECISION_RECORD",
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "recipient_seat_id": "SEAT_THEATER_COMMANDER",
+        "sender_id": "SERVICE_EXECUTIVE_SECRETARY"
+      }
+    ],
+    "evidence_status": "development_fixture_non_evidence",
+    "failures": [],
+    "fixture_hash": "ea7333ec4e7423ad628455d18638c6e0eefd9fdca3b0bd17f85d35fb2d2ac9fc",
+    "fixture_id": "US_CYCLE1_NO_MODEL.development.v0_1",
+    "group_attempts": [
+      {
+        "attempt_id": "ATTEMPT::GROUP_THREAT_ATTRIBUTION",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_CIA_PRIVATE_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content": {
+          "alternatives": [
+            "temporary tactical action without a settled political end state",
+            "opening move for a broader coercive campaign"
+          ],
+          "attribution_limits": "Available reporting supports actor attribution for the occupation but not a complete internal authorization account.",
+          "confidence": {
+            "central_authorization": "low to moderate",
+            "intended_duration": "low",
+            "occupation": "high"
+          },
+          "gaps": [
+            "central decision-chain reporting",
+            "withdrawal threshold",
+            "link between theater and strategic messaging"
+          ],
+          "hypotheses": [
+            "centrally authorized limited fait accompli",
+            "theater initiative later adopted by central leadership",
+            "coercive probe intended to test Himaldeshi and partner resolve"
+          ],
+          "material_dissent": "One line places greater prior probability on preplanning; the product retains rather than resolves that difference.",
+          "source_fact_ids": [
+            "FACT_DNI_MANDATE",
+            "FACT_CIA_MANDATE"
+          ],
+          "us_observation_window": "Currently usable; forecast degradation could reduce confidence and warning time.",
+          "warning": "Do not collapse confirmed occupation into a confident judgment about authorization or long-term intent."
+        },
+        "content_hash": "19bf5ddbd9a4c4456dba930258c1213d0ea491da82f3768eab059ee032b7e791",
+        "group_id": "GROUP_THREAT_ATTRIBUTION",
+        "member_seat_ids": [
+          "SEAT_DNI",
+          "SEAT_CIA_DIRECTOR",
+          "SEAT_STATE",
+          "SEAT_CJCS"
+        ],
+        "product_id": "USC1_PRODUCT_THREAT_001",
+        "product_schema_id": "PRODUCT_THREAT_ASSESSMENT",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::GROUP_DIPLOMATIC_ECONOMIC",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_STATE_PRIVATE_001",
+          "USC1_INPUT_TREASURY_PRIVATE_001"
+        ],
+        "content": {
+          "financial_and_trade_options": [
+            "prepare narrow reversible financial measures",
+            "defer broad measures while the withdrawal channel remains live"
+          ],
+          "humanitarian_considerations": "Protect cross-border civilian access and avoid measures that impede essential flows.",
+          "implementation_constraints": [
+            "regional partner coordination",
+            "clear off-ramp language",
+            "timing against the recapture clock"
+          ],
+          "material_dissent": "Treasury favors preparing measures now but withholding public activation; State favors signaling the preparation privately.",
+          "negotiation_options": [
+            "private demand for restoration of the prior position paired with a short response window",
+            "offer monitored disengagement talks without recognizing the seizure"
+          ],
+          "partner_support": "Convene urgent consultations and coordinate messages before the Himaldeshi decision clock expires.",
+          "private_and_public_signaling": {
+            "private": "State the consequences of consolidation and the limits of U.S. restraint.",
+            "public": "Support territorial restoration and immediate consultations without announcing a combat commitment."
+          },
+          "source_fact_ids": [
+            "FACT_STATE_MANDATE",
+            "FACT_TREASURY_MANDATE"
+          ],
+          "unsupported_commitment_checks": [
+            "no treaty guarantee",
+            "no promise of U.S. combat",
+            "no automatic sanctions trigger"
+          ]
+        },
+        "content_hash": "edb2e022616ce2b2063546014737f1b4f015b2439c360a1f170c38b059cea24e",
+        "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+        "member_seat_ids": [
+          "SEAT_STATE",
+          "SEAT_TREASURY"
+        ],
+        "product_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "product_schema_id": "PRODUCT_DIPLOMATIC_ECONOMIC_OPTIONS",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::GROUP_NUCLEAR_RADIOLOGICAL",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_ENERGY_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001"
+        ],
+        "content": {
+          "authority_limits": "This product supplies technical and escalation analysis, not authorization for nuclear or operational action.",
+          "deterrence_implications": "U.S. steps should preserve resolve without converting ambiguity into a public nuclear confrontation.",
+          "emergency_options": [
+            "increase technical monitoring",
+            "quietly review radiological consequence coordination",
+            "prepare a private strategic-stability channel"
+          ],
+          "escalation_pathways": [
+            "misreading defensive support as preparation for direct intervention",
+            "compressed warning after weather degrades observation",
+            "public nuclear rhetoric narrowing off-ramps"
+          ],
+          "material_dissent": "Participants disagree on how much weight to assign strategic messaging, but agree it is not evidence of a decided nuclear action.",
+          "source_fact_ids": [
+            "FACT_ENERGY_NUCLEAR_MANDATE",
+            "FACT_CJCS_ADVICE_NO_COMMAND",
+            "FACT_DNI_MANDATE"
+          ],
+          "technical_status": "No confirmed nuclear action is mechanically linked to the seizure.",
+          "warning_and_ambiguity": "Strategic messaging and conventional alert changes justify enhanced monitoring but support more than one interpretation."
+        },
+        "content_hash": "cfc7c3fe0cb2e2aa13be1b93c11a4d8874cd1cc63cd6fdb1d00eed1b888b7c16",
+        "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+        "member_seat_ids": [
+          "SEAT_ENERGY",
+          "SEAT_DEFENSE",
+          "SEAT_CJCS",
+          "SEAT_DNI"
+        ],
+        "product_id": "USC1_PRODUCT_NUCLEAR_001",
+        "product_schema_id": "PRODUCT_NUCLEAR_RADIOLOGICAL_ASSESSMENT",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::GROUP_DEFENSE_ESCALATION",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_RAW_WEATHER_001",
+          "USC1_INPUT_DNI_PRIVATE_001",
+          "USC1_INPUT_DEFENSE_PRIVATE_001",
+          "USC1_INPUT_CJCS_PRIVATE_001",
+          "USC1_INPUT_THEATER_PRIVATE_001",
+          "USC1_PRODUCT_THREAT_001"
+        ],
+        "content": {
+          "deterrence_and_escalation_pathways": [
+            "support may strengthen deterrence by denial",
+            "poorly bounded posture changes may be read as direct intervention",
+            "late support may increase pressure for riskier substitutes"
+          ],
+          "force_protection": "Increase protection and monitoring for exposed U.S. personnel without treating the request as combat tasking.",
+          "himaldeshi_support_window": "Open but weather-sensitive and controlled by Himaldeshi access and logistics decisions.",
+          "logistics_and_timing": "Utility falls as the weather window narrows; support must remain separable and reversible.",
+          "material_dissent": "Theater advice favors earlier preparatory logistics; Defense policy advice favors explicit presidential conditions before release.",
+          "no_combat_authority_statement": "No component authorizes U.S. targeting, fires, or combat forces.",
+          "operational_feasibility": "The bounded package is feasible if release and logistics decisions occur before forecast degradation.",
+          "posture_and_readiness": "Maintain current U.S. defensive readiness and increase monitoring without direct combat positioning.",
+          "source_fact_ids": [
+            "FACT_DEFENSE_MANDATE",
+            "FACT_CJCS_ADVICE_NO_COMMAND",
+            "FACT_COMBATANT_COMMAND_ROLE"
+          ],
+          "support_options": [
+            "releasable time-sensitive intelligence",
+            "noncombat planning and logistics advice",
+            "defensive materiel and force-protection support"
+          ]
+        },
+        "content_hash": "d002344ce479c4acd282d75cf4a8a907a947af00e2cc93c6c9eac1ce326a6120",
+        "group_id": "GROUP_DEFENSE_ESCALATION",
+        "member_seat_ids": [
+          "SEAT_DEFENSE",
+          "SEAT_CJCS",
+          "SEAT_DNI",
+          "SEAT_THEATER_COMMANDER"
+        ],
+        "product_id": "USC1_PRODUCT_DEFENSE_001",
+        "product_schema_id": "PRODUCT_DEFENSE_ESCALATION_OPTIONS",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::GROUP_LEGAL_AUTHORITY",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_INPUT_JUSTICE_PRIVATE_001",
+          "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001"
+        ],
+        "content": {
+          "inadmissible_elements": [
+            "U.S. target selection",
+            "U.S. fires",
+            "U.S. combat forces",
+            "an implied treaty guarantee"
+          ],
+          "legal_basis_by_component": {
+            "COMP_DEFENSIVE_SUPPORT": "requires component-specific authority, funding, and end-use review",
+            "COMP_DIPLOMATIC_DEMARCHE": "foreign-relations direction subject to exact implementation review",
+            "COMP_ECONOMIC_PREPARATION": "design work may proceed; activation requires instrument-specific process",
+            "COMP_INTELLIGENCE_SHARING": "requires releasability and recipient restrictions",
+            "COMP_PUBLIC_COMMUNICATION": "must avoid creating an unsupported guarantee",
+            "COMP_REASSESSMENT": "record and scheduling function"
+          },
+          "legal_disagreement": "No disagreement about preserving the effect-level gate; implementation details remain unadjudicated.",
+          "missing_authority": [
+            "No effect-level authority or capability is established by this no-model record."
+          ],
+          "owning_authority_by_component": {
+            "COMP_DEFENSIVE_SUPPORT": "SEAT_PRESIDENT",
+            "COMP_DIPLOMATIC_DEMARCHE": "SEAT_PRESIDENT",
+            "COMP_ECONOMIC_PREPARATION": "SEAT_PRESIDENT",
+            "COMP_INTELLIGENCE_SHARING": "SEAT_PRESIDENT",
+            "COMP_PUBLIC_COMMUNICATION": "SEAT_PRESIDENT",
+            "COMP_REASSESSMENT": "SEAT_NSA"
+          },
+          "proposed_component_ids": [
+            "COMP_DIPLOMATIC_DEMARCHE",
+            "COMP_INTELLIGENCE_SHARING",
+            "COMP_DEFENSIVE_SUPPORT",
+            "COMP_ECONOMIC_PREPARATION",
+            "COMP_PUBLIC_COMMUNICATION",
+            "COMP_REASSESSMENT"
+          ],
+          "record_completeness": "Complete for record-level presidential routing; incomplete for downstream effects by design.",
+          "required_consultations": [
+            "GROUP_PC",
+            "GROUP_LEGAL_AUTHORITY",
+            "component-specific implementation review"
+          ],
+          "source_fact_ids": [
+            "FACT_JUSTICE_MANDATE",
+            "FACT_PUBLIC_ADVISER_STATUS"
+          ]
+        },
+        "content_hash": "0506a8db73970294e38b9cd5f76911c7fc080a6efaa1419fbe96190ec99e9eca",
+        "group_id": "GROUP_LEGAL_AUTHORITY",
+        "member_seat_ids": [
+          "SEAT_ATTORNEY_GENERAL",
+          "SEAT_WHITE_HOUSE_COUNSEL"
+        ],
+        "product_id": "USC1_PRODUCT_LEGAL_001",
+        "product_schema_id": "PRODUCT_LEGAL_AUTHORITY_REVIEW",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::GROUP_PRESIDENTIAL_SYNTHESIS",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001"
+        ],
+        "content": {
+          "desired_end_state": "Restore the prior position without creating a U.S. combat commitment, preserve Himaldeshi choice, and keep escalation channels open.",
+          "evidence_and_confidence": {
+            "bounded_support_feasibility": "moderate",
+            "intent": "low",
+            "occupation": "high",
+            "weather_risk": "moderate"
+          },
+          "implementation_status": "Diplomatic, intelligence, support, economic, communication, and reassessment elements are separable and conditionable.",
+          "integrated_options": [
+            "conditional bounded-support package with private withdrawal demand",
+            "diplomacy-first package with prepared but withheld support",
+            "monitoring and consultation package with no immediate material support"
+          ],
+          "legal_status": "Record-level route is available; downstream authority remains component-specific and unconfirmed.",
+          "material_dissent": [
+            "timing of preparatory logistics",
+            "whether to disclose prepared economic measures privately"
+          ],
+          "objective_ids": [
+            "OBJ_US_PROTECT",
+            "OBJ_US_DETER",
+            "OBJ_US_SUPPORT_HIMALDESH",
+            "OBJ_US_PRESERVE_ACCESS",
+            "OBJ_US_STRATEGIC_STABILITY"
+          ],
+          "recommended_forum_route": "ROUTE_PRESIDENTIAL_POLICY",
+          "source_fact_ids": [
+            "FACT_PUBLIC_PC_PROCESS"
+          ],
+          "unresolved_questions": [
+            "Olvanan withdrawal threshold",
+            "future observation-window degradation",
+            "component-specific effect authority"
+          ]
+        },
+        "content_hash": "87e41eb2a5e74183f16021b52e5a84167ca05ceb3bff81a28395f35aba403a40",
+        "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+        "member_seat_ids": [
+          "SEAT_NSA",
+          "SEAT_VICE_PRESIDENT",
+          "SEAT_CHIEF_OF_STAFF"
+        ],
+        "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+        "product_schema_id": "PRODUCT_PRESIDENTIAL_SYNTHESIS",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::GROUP_PC",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "content": {
+          "authority_consultation_confirmation_safeguards": {
+            "consultations": [
+              "GROUP_PC",
+              "GROUP_LEGAL_AUTHORITY"
+            ],
+            "effect_boundary": "No World effect or effect-level authority is admitted in Milestone 2.",
+            "record_confirmations": [
+              "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+              "CONFIRM_NSC_AUTHORITY_RECORD"
+            ],
+            "route": "ROUTE_PRESIDENTIAL_POLICY"
+          },
+          "competing_hypotheses": [
+            "limited centrally authorized coercion",
+            "local initiative accepted after the fact",
+            "opening move in a wider campaign"
+          ],
+          "components": [
+            {
+              "component_id": "COMP_DIPLOMATIC_DEMARCHE",
+              "content": "Private withdrawal demand, urgent partner consultations, and a public call to restore the prior position.",
+              "safeguards": [
+                "no treaty guarantee",
+                "retain a monitored disengagement off-ramp"
+              ],
+              "timing": "immediate"
+            },
+            {
+              "component_id": "COMP_INTELLIGENCE_SHARING",
+              "content": "Release time-sensitive defensive intelligence within releasability and recipient restrictions.",
+              "safeguards": [
+                "no U.S. target selection",
+                "record provenance and recipient limits"
+              ],
+              "timing": "conditional"
+            },
+            {
+              "component_id": "COMP_DEFENSIVE_SUPPORT",
+              "content": "Prepare noncombat planning, logistics, defensive materiel, and force-protection support for Himaldesh's limited recapture.",
+              "safeguards": [
+                "no U.S. fires",
+                "no combat forces",
+                "component-specific authority review"
+              ],
+              "timing": "conditional"
+            },
+            {
+              "component_id": "COMP_ECONOMIC_PREPARATION",
+              "content": "Design narrow reversible financial measures and coordinate private warning.",
+              "safeguards": [
+                "avoid broad civilian spillover",
+                "preserve withdrawal incentives"
+              ],
+              "timing": "prepare now; activate only if conditions are met"
+            },
+            {
+              "component_id": "COMP_PUBLIC_COMMUNICATION",
+              "content": "State support for restoration and consultation without announcing direct U.S. intervention.",
+              "safeguards": [
+                "do not imply automatic military response"
+              ],
+              "timing": "immediate after partner coordination"
+            },
+            {
+              "component_id": "COMP_REASSESSMENT",
+              "content": "Reassess intent, partner decision, nuclear warning, and weather-sensitive access before any expansion.",
+              "safeguards": [
+                "retain dissent and changed evidence"
+              ],
+              "timing": "at 6 hours or material change"
+            }
+          ],
+          "confidence_and_gaps": {
+            "confidence": "mixed by claim",
+            "gaps": [
+              "central authorization",
+              "withdrawal threshold",
+              "future access conditions"
+            ]
+          },
+          "current_assessment": "The seizure is confirmed; authorization and long-term intent remain uncertain; a bounded partner-support window is open but weather-sensitive.",
+          "decision_or_return_record": "Refer the integrated conditional package to the NSC for presidential decision.",
+          "desired_end_state": "Restore the prior position, sustain Himaldeshi agency, avoid a U.S. combat commitment, and preserve strategic stability.",
+          "dissent_disposition": "Preserve both positions and route the package to the President without controller resolution.",
+          "domain_dispositions": [
+            {
+              "deciding_forum_group_id": "GROUP_NSC",
+              "disposition": "immediate_action",
+              "domain_id": "diplomacy_private_channels",
+              "reason": "Create a withdrawal path before the partner clock expires.",
+              "responsible_seat_ids": [
+                "SEAT_STATE",
+                "SEAT_NSA"
+              ]
+            },
+            {
+              "deciding_forum_group_id": "GROUP_NSC",
+              "disposition": "conditional_action",
+              "domain_id": "intelligence_collection_sharing",
+              "reason": "Improve defensive warning while retaining releasability limits.",
+              "responsible_seat_ids": [
+                "SEAT_DNI",
+                "SEAT_CIA_DIRECTOR"
+              ]
+            },
+            {
+              "deciding_forum_group_id": "GROUP_NSC",
+              "disposition": "conditional_action",
+              "domain_id": "defense_support_posture",
+              "reason": "Prepare bounded noncombat support without creating direct U.S. participation.",
+              "responsible_seat_ids": [
+                "SEAT_DEFENSE",
+                "SEAT_CJCS",
+                "SEAT_THEATER_COMMANDER"
+              ]
+            },
+            {
+              "deciding_forum_group_id": "GROUP_NSC",
+              "disposition": "conditional_action",
+              "domain_id": "economic_financial_measures",
+              "reason": "Preserve a reversible cost-imposition option if withdrawal fails.",
+              "responsible_seat_ids": [
+                "SEAT_TREASURY",
+                "SEAT_STATE"
+              ]
+            },
+            {
+              "deciding_forum_group_id": "GROUP_NSC",
+              "disposition": "immediate_action",
+              "domain_id": "public_communication",
+              "reason": "Support restoration and consultations without making an unsupported guarantee.",
+              "responsible_seat_ids": [
+                "SEAT_STATE",
+                "SEAT_NSA",
+                "SEAT_CHIEF_OF_STAFF"
+              ]
+            },
+            {
+              "deciding_forum_group_id": "GROUP_NSC",
+              "disposition": "immediate_action",
+              "domain_id": "contingency_reassessment",
+              "reason": "Revisit the package when intent, partner choice, nuclear warning, or access changes.",
+              "responsible_seat_ids": [
+                "SEAT_NSA",
+                "SEAT_DEFENSE",
+                "SEAT_DNI"
+              ]
+            }
+          ],
+          "evidence_basis": [
+            "USC1_PRODUCT_THREAT_001",
+            "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+            "USC1_PRODUCT_NUCLEAR_001",
+            "USC1_PRODUCT_DEFENSE_001",
+            "USC1_PRODUCT_LEGAL_001",
+            "USC1_PRODUCT_SYNTHESIS_001"
+          ],
+          "material_dissent": [
+            "whether preparatory logistics begin before the private response window closes",
+            "whether economic preparation is disclosed privately"
+          ],
+          "objective_ids": [
+            "OBJ_US_PROTECT",
+            "OBJ_US_DETER",
+            "OBJ_US_SUPPORT_HIMALDESH",
+            "OBJ_US_PRESERVE_ACCESS",
+            "OBJ_US_STRATEGIC_STABILITY"
+          ],
+          "open_content_note": {
+            "non_exhaustive": true,
+            "purpose": "The package envelope is typed, but its policy components and cross-domain logic remain open authored content."
+          },
+          "package_version": "US_POLICY_PACKAGE_001.v1",
+          "principal_attention_positions": {
+            "SEAT_ATTORNEY_GENERAL": "presidential attention required",
+            "SEAT_CHIEF_OF_STAFF": "presidential attention required",
+            "SEAT_DEFENSE": "presidential attention required",
+            "SEAT_ENERGY": "presidential attention required",
+            "SEAT_STATE": "presidential attention required",
+            "SEAT_TREASURY": "presidential attention required",
+            "SEAT_VICE_PRESIDENT": "presidential attention required"
+          },
+          "principal_policy_positions": {
+            "SEAT_ATTORNEY_GENERAL": "record complete for presidential routing; effects still gated",
+            "SEAT_CHIEF_OF_STAFF": "support",
+            "SEAT_DEFENSE": "support with explicit noncombat and authority limits",
+            "SEAT_ENERGY": "support with continued nuclear-risk monitoring",
+            "SEAT_STATE": "support",
+            "SEAT_TREASURY": "support with activation conditions",
+            "SEAT_VICE_PRESIDENT": "support"
+          },
+          "reassessment_point": "Six hours after decision, or earlier upon material change in occupation, partner choice, nuclear warning, or weather-sensitive access.",
+          "source_fact_ids": [
+            "FACT_PUBLIC_PC_PROCESS",
+            "FACT_PUBLIC_EXECUTIVE_SECRETARY"
+          ],
+          "triggers_sequence_timing_dependencies": {
+            "dependencies": [
+              "intelligence releasability",
+              "partner-controlled logistics",
+              "component-specific implementation authority"
+            ],
+            "sequence": [
+              "consult and demarche",
+              "prepare releasable intelligence and noncombat support",
+              "coordinate public and private messages",
+              "reassess before activation or expansion"
+            ],
+            "triggers": [
+              "Olvanan refusal or consolidation",
+              "Himaldeshi acceptance and end-use conditions",
+              "material weather or escalation change"
+            ]
+          }
+        },
+        "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+        "group_id": "GROUP_PC",
+        "member_seat_ids": [
+          "SEAT_NSA",
+          "SEAT_VICE_PRESIDENT",
+          "SEAT_STATE",
+          "SEAT_TREASURY",
+          "SEAT_DEFENSE",
+          "SEAT_ENERGY",
+          "SEAT_ATTORNEY_GENERAL",
+          "SEAT_CHIEF_OF_STAFF",
+          "SEAT_DNI",
+          "SEAT_CJCS",
+          "SEAT_CIA_DIRECTOR",
+          "SEAT_WHITE_HOUSE_COUNSEL",
+          "SEAT_THEATER_COMMANDER"
+        ],
+        "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "product_schema_id": "PRODUCT_POLICY_PACKAGE",
+        "status": "accepted"
+      },
+      {
+        "attempt_id": "ATTEMPT::GROUP_NSC",
+        "authorized_input_ids": [
+          "USC1_INPUT_COMMON_001",
+          "USC1_PRODUCT_SYNTHESIS_001",
+          "USC1_PRODUCT_POLICY_PACKAGE_001"
+        ],
+        "content": {
+          "consultations": [
+            "GROUP_PC",
+            "GROUP_LEGAL_AUTHORITY"
+          ],
+          "decided_components": [
+            "COMP_DIPLOMATIC_DEMARCHE",
+            "COMP_INTELLIGENCE_SHARING",
+            "COMP_DEFENSIVE_SUPPORT",
+            "COMP_ECONOMIC_PREPARATION",
+            "COMP_PUBLIC_COMMUNICATION",
+            "COMP_REASSESSMENT"
+          ],
+          "failure_records": [],
+          "material_dissent": [
+            "Preparatory logistics timing remains recorded for implementation review.",
+            "Private disclosure of economic preparation remains discretionary within the approved diplomatic sequence."
+          ],
+          "policy_package_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+          "presidential_decision": "Approve the integrated package as conditional policy direction, subject to every component's recorded implementation and effect-level gates.",
+          "reassessment_point": "Six hours or material change, whichever occurs first.",
+          "required_confirmations": [
+            "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+            "CONFIRM_NSC_AUTHORITY_RECORD"
+          ],
+          "returned_or_rejected_components": [],
+          "route_id": "ROUTE_PRESIDENTIAL_POLICY",
+          "source_fact_ids": [
+            "FACT_NSC_HSC_FUNCTION",
+            "FACT_PUBLIC_PC_PROCESS",
+            "FACT_PUBLIC_EXECUTIVE_SECRETARY"
+          ],
+          "taskings": [
+            "Executive Secretary distributes the exact record.",
+            "Responsible departments return component-specific implementation checks.",
+            "NSA convenes the recorded reassessment."
+          ],
+          "what_was_not_decided": [
+            "No World effect was admitted.",
+            "No U.S. target selection, fires, or combat force was authorized.",
+            "No treaty guarantee was created.",
+            "No effect-level authority or capability was inferred."
+          ]
+        },
+        "content_hash": "56037b7589760d90c0754a6abc88e7998227e58d3a82d4dbc53031f496b7f7bb",
+        "group_id": "GROUP_NSC",
+        "member_seat_ids": [
+          "SEAT_PRESIDENT",
+          "SEAT_VICE_PRESIDENT",
+          "SEAT_STATE",
+          "SEAT_TREASURY",
+          "SEAT_DEFENSE",
+          "SEAT_ENERGY",
+          "SEAT_ATTORNEY_GENERAL",
+          "SEAT_CHIEF_OF_STAFF",
+          "SEAT_NSA",
+          "SEAT_DNI",
+          "SEAT_CJCS",
+          "SEAT_CIA_DIRECTOR",
+          "SEAT_WHITE_HOUSE_COUNSEL",
+          "SEAT_THEATER_COMMANDER"
+        ],
+        "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+        "product_schema_id": "PRODUCT_NSC_DECISION_RECORD",
+        "status": "accepted"
+      }
+    ],
+    "policy_package": {
+      "attempt_id": "ATTEMPT::GROUP_PC",
+      "authorized_input_ids": [
+        "USC1_INPUT_COMMON_001",
+        "USC1_PRODUCT_THREAT_001",
+        "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+        "USC1_PRODUCT_NUCLEAR_001",
+        "USC1_PRODUCT_DEFENSE_001",
+        "USC1_PRODUCT_LEGAL_001",
+        "USC1_PRODUCT_SYNTHESIS_001"
+      ],
+      "content": {
+        "authority_consultation_confirmation_safeguards": {
+          "consultations": [
+            "GROUP_PC",
+            "GROUP_LEGAL_AUTHORITY"
+          ],
+          "effect_boundary": "No World effect or effect-level authority is admitted in Milestone 2.",
+          "record_confirmations": [
+            "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+            "CONFIRM_NSC_AUTHORITY_RECORD"
+          ],
+          "route": "ROUTE_PRESIDENTIAL_POLICY"
+        },
+        "competing_hypotheses": [
+          "limited centrally authorized coercion",
+          "local initiative accepted after the fact",
+          "opening move in a wider campaign"
+        ],
+        "components": [
+          {
+            "component_id": "COMP_DIPLOMATIC_DEMARCHE",
+            "content": "Private withdrawal demand, urgent partner consultations, and a public call to restore the prior position.",
+            "safeguards": [
+              "no treaty guarantee",
+              "retain a monitored disengagement off-ramp"
+            ],
+            "timing": "immediate"
+          },
+          {
+            "component_id": "COMP_INTELLIGENCE_SHARING",
+            "content": "Release time-sensitive defensive intelligence within releasability and recipient restrictions.",
+            "safeguards": [
+              "no U.S. target selection",
+              "record provenance and recipient limits"
+            ],
+            "timing": "conditional"
+          },
+          {
+            "component_id": "COMP_DEFENSIVE_SUPPORT",
+            "content": "Prepare noncombat planning, logistics, defensive materiel, and force-protection support for Himaldesh's limited recapture.",
+            "safeguards": [
+              "no U.S. fires",
+              "no combat forces",
+              "component-specific authority review"
+            ],
+            "timing": "conditional"
+          },
+          {
+            "component_id": "COMP_ECONOMIC_PREPARATION",
+            "content": "Design narrow reversible financial measures and coordinate private warning.",
+            "safeguards": [
+              "avoid broad civilian spillover",
+              "preserve withdrawal incentives"
+            ],
+            "timing": "prepare now; activate only if conditions are met"
+          },
+          {
+            "component_id": "COMP_PUBLIC_COMMUNICATION",
+            "content": "State support for restoration and consultation without announcing direct U.S. intervention.",
+            "safeguards": [
+              "do not imply automatic military response"
+            ],
+            "timing": "immediate after partner coordination"
+          },
+          {
+            "component_id": "COMP_REASSESSMENT",
+            "content": "Reassess intent, partner decision, nuclear warning, and weather-sensitive access before any expansion.",
+            "safeguards": [
+              "retain dissent and changed evidence"
+            ],
+            "timing": "at 6 hours or material change"
+          }
+        ],
+        "confidence_and_gaps": {
+          "confidence": "mixed by claim",
+          "gaps": [
+            "central authorization",
+            "withdrawal threshold",
+            "future access conditions"
+          ]
+        },
+        "current_assessment": "The seizure is confirmed; authorization and long-term intent remain uncertain; a bounded partner-support window is open but weather-sensitive.",
+        "decision_or_return_record": "Refer the integrated conditional package to the NSC for presidential decision.",
+        "desired_end_state": "Restore the prior position, sustain Himaldeshi agency, avoid a U.S. combat commitment, and preserve strategic stability.",
+        "dissent_disposition": "Preserve both positions and route the package to the President without controller resolution.",
+        "domain_dispositions": [
+          {
+            "deciding_forum_group_id": "GROUP_NSC",
+            "disposition": "immediate_action",
+            "domain_id": "diplomacy_private_channels",
+            "reason": "Create a withdrawal path before the partner clock expires.",
+            "responsible_seat_ids": [
+              "SEAT_STATE",
+              "SEAT_NSA"
+            ]
+          },
+          {
+            "deciding_forum_group_id": "GROUP_NSC",
+            "disposition": "conditional_action",
+            "domain_id": "intelligence_collection_sharing",
+            "reason": "Improve defensive warning while retaining releasability limits.",
+            "responsible_seat_ids": [
+              "SEAT_DNI",
+              "SEAT_CIA_DIRECTOR"
+            ]
+          },
+          {
+            "deciding_forum_group_id": "GROUP_NSC",
+            "disposition": "conditional_action",
+            "domain_id": "defense_support_posture",
+            "reason": "Prepare bounded noncombat support without creating direct U.S. participation.",
+            "responsible_seat_ids": [
+              "SEAT_DEFENSE",
+              "SEAT_CJCS",
+              "SEAT_THEATER_COMMANDER"
+            ]
+          },
+          {
+            "deciding_forum_group_id": "GROUP_NSC",
+            "disposition": "conditional_action",
+            "domain_id": "economic_financial_measures",
+            "reason": "Preserve a reversible cost-imposition option if withdrawal fails.",
+            "responsible_seat_ids": [
+              "SEAT_TREASURY",
+              "SEAT_STATE"
+            ]
+          },
+          {
+            "deciding_forum_group_id": "GROUP_NSC",
+            "disposition": "immediate_action",
+            "domain_id": "public_communication",
+            "reason": "Support restoration and consultations without making an unsupported guarantee.",
+            "responsible_seat_ids": [
+              "SEAT_STATE",
+              "SEAT_NSA",
+              "SEAT_CHIEF_OF_STAFF"
+            ]
+          },
+          {
+            "deciding_forum_group_id": "GROUP_NSC",
+            "disposition": "immediate_action",
+            "domain_id": "contingency_reassessment",
+            "reason": "Revisit the package when intent, partner choice, nuclear warning, or access changes.",
+            "responsible_seat_ids": [
+              "SEAT_NSA",
+              "SEAT_DEFENSE",
+              "SEAT_DNI"
+            ]
+          }
+        ],
+        "evidence_basis": [
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "material_dissent": [
+          "whether preparatory logistics begin before the private response window closes",
+          "whether economic preparation is disclosed privately"
+        ],
+        "objective_ids": [
+          "OBJ_US_PROTECT",
+          "OBJ_US_DETER",
+          "OBJ_US_SUPPORT_HIMALDESH",
+          "OBJ_US_PRESERVE_ACCESS",
+          "OBJ_US_STRATEGIC_STABILITY"
+        ],
+        "open_content_note": {
+          "non_exhaustive": true,
+          "purpose": "The package envelope is typed, but its policy components and cross-domain logic remain open authored content."
+        },
+        "package_version": "US_POLICY_PACKAGE_001.v1",
+        "principal_attention_positions": {
+          "SEAT_ATTORNEY_GENERAL": "presidential attention required",
+          "SEAT_CHIEF_OF_STAFF": "presidential attention required",
+          "SEAT_DEFENSE": "presidential attention required",
+          "SEAT_ENERGY": "presidential attention required",
+          "SEAT_STATE": "presidential attention required",
+          "SEAT_TREASURY": "presidential attention required",
+          "SEAT_VICE_PRESIDENT": "presidential attention required"
+        },
+        "principal_policy_positions": {
+          "SEAT_ATTORNEY_GENERAL": "record complete for presidential routing; effects still gated",
+          "SEAT_CHIEF_OF_STAFF": "support",
+          "SEAT_DEFENSE": "support with explicit noncombat and authority limits",
+          "SEAT_ENERGY": "support with continued nuclear-risk monitoring",
+          "SEAT_STATE": "support",
+          "SEAT_TREASURY": "support with activation conditions",
+          "SEAT_VICE_PRESIDENT": "support"
+        },
+        "reassessment_point": "Six hours after decision, or earlier upon material change in occupation, partner choice, nuclear warning, or weather-sensitive access.",
+        "source_fact_ids": [
+          "FACT_PUBLIC_PC_PROCESS",
+          "FACT_PUBLIC_EXECUTIVE_SECRETARY"
+        ],
+        "triggers_sequence_timing_dependencies": {
+          "dependencies": [
+            "intelligence releasability",
+            "partner-controlled logistics",
+            "component-specific implementation authority"
+          ],
+          "sequence": [
+            "consult and demarche",
+            "prepare releasable intelligence and noncombat support",
+            "coordinate public and private messages",
+            "reassess before activation or expansion"
+          ],
+          "triggers": [
+            "Olvanan refusal or consolidation",
+            "Himaldeshi acceptance and end-use conditions",
+            "material weather or escalation change"
+          ]
+        }
+      },
+      "content_hash": "eb08619ba35e3e8ce0f252f79ef582bc3d3b660e178138afce0ed582c381ade1",
+      "group_id": "GROUP_PC",
+      "member_seat_ids": [
+        "SEAT_NSA",
+        "SEAT_VICE_PRESIDENT",
+        "SEAT_STATE",
+        "SEAT_TREASURY",
+        "SEAT_DEFENSE",
+        "SEAT_ENERGY",
+        "SEAT_ATTORNEY_GENERAL",
+        "SEAT_CHIEF_OF_STAFF",
+        "SEAT_DNI",
+        "SEAT_CJCS",
+        "SEAT_CIA_DIRECTOR",
+        "SEAT_WHITE_HOUSE_COUNSEL",
+        "SEAT_THEATER_COMMANDER"
+      ],
+      "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+      "product_schema_id": "PRODUCT_POLICY_PACKAGE",
+      "status": "accepted"
+    },
+    "ratification_hash": "0b831d55ba60dd458e44b0e63d714a82eaf05b508a32694f96181caba0b5ad13",
+    "schedule": [
+      [
+        "GROUP_THREAT_ATTRIBUTION"
+      ],
+      [
+        "GROUP_DIPLOMATIC_ECONOMIC",
+        "GROUP_NUCLEAR_RADIOLOGICAL"
+      ],
+      [
+        "GROUP_DEFENSE_ESCALATION"
+      ],
+      [
+        "GROUP_LEGAL_AUTHORITY"
+      ],
+      [
+        "GROUP_PRESIDENTIAL_SYNTHESIS"
+      ],
+      [
+        "GROUP_PC"
+      ],
+      [
+        "GROUP_NSC"
+      ]
+    ],
+    "schema_version": "us-cycle-run.v0.1",
+    "source_register_hash": "73dbda61ad01472abeadb5bd8aae2aead8a84b5596bbd00c5afbccba21d5051f",
+    "status": "passed",
+    "world_effects_admitted": false
+  },
+  "run_hash": "08d605c0bfb61bc5e97ee41c75033f6615721a6533dfb780f1cfb9f6a7e802e6",
+  "schema_version": "us-cycle-tracer-receipt.v0.1",
+  "source_register_hash": "73dbda61ad01472abeadb5bd8aae2aead8a84b5596bbd00c5afbccba21d5051f",
+  "source_register_id": "US_PUBLIC_2026Q3.sources",
+  "status": "passed",
+  "tracer_id": "m2-us-cycle1-no-model-v1"
+}

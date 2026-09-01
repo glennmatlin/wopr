@@ -1,0 +1,194 @@
+{
+  "schema_version": "counterpart-room-fixture.v0.1",
+  "fixture_id": "HIMALDESH_ROOM_CYCLE1.development.v0_1",
+  "fixture_version": "0.1.0",
+  "status": "development_fixture_non_evidence",
+  "actor_id": "ACTOR_HIMALDESH",
+  "ratification_id": "COUNTERPART_MINIMUM_M5.ratification.D72",
+  "ratification_hash": "bbab62ea681f2e513407b926de5adfbfaeb8e73baf5fb86ea34808b9fa524384",
+  "source_register_hash": "6a2ad9ea06a462c3283ecdc8a14dccee0ffe9830f20bf961deddb830ed308f25",
+  "charter_hash": "c7184d1866913782fce5afea3edf1cc3a26942699973eb232e3bbee1782cb822",
+  "action_class": "partner_support_request_and_recapture_planning",
+  "watch_inputs": [
+    {
+      "input_id": "HD_INPUT_COMMON_001",
+      "information_class_id": "HD_INFO_COMMON",
+      "sender_id": "HD_SERVICE_WATCH",
+      "content": {
+        "as_of": "STARTEX plus 4 hours",
+        "confirmed": ["Olvanan forces hold the disputed ridge objective"],
+        "uncertain": ["central authorization", "withdrawal threshold"],
+        "constraints": ["an 18-hour limited-recapture decision clock", "nuclear escalation is reachable but not scripted"]
+      }
+    },
+    {"input_id": "HD_INPUT_PM_001", "information_class_id": "HD_INFO_PM_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "Cabinet support exists for a bounded request if civilian purpose and exclusions remain explicit."}},
+    {"input_id": "HD_INPUT_PRESIDENT_001", "information_class_id": "HD_INFO_PRESIDENT_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "Military feasibility depends on partner support arriving before the recapture window narrows."}},
+    {"input_id": "HD_INPUT_COMMAND_001", "information_class_id": "HD_INFO_COMMAND_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "A limited recapture remains assessable; direct force employment lacks a represented operational commander."}},
+    {"input_id": "HD_INPUT_STRATEGIC_001", "information_class_id": "HD_INFO_STRATEGIC_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "No strategic action is proposed; preserve readiness, signaling, use, authentication, and no-first-use distinctions."}},
+    {"input_id": "HD_INPUT_EXTERNAL_001", "information_class_id": "HD_INFO_EXTERNAL_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "Urgent consultations and a withdrawal channel are available without implying a treaty guarantee."}},
+    {"input_id": "HD_INPUT_INTERIOR_001", "information_class_id": "HD_INFO_INTERIOR_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "No Interior-administered force transfer is included; any later transfer requires a separate local handoff confirmation."}},
+    {"input_id": "HD_INPUT_FINANCE_001", "information_class_id": "HD_INFO_FINANCE_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "Targeted economic pressure can be prepared while broad civilian spillover remains excluded."}},
+    {"input_id": "HD_INPUT_INFORMATION_001", "information_class_id": "HD_INFO_INFORMATION_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "Public language can describe a defensive restoration request without announcing escalation."}},
+    {"input_id": "HD_INPUT_INFRASTRUCTURE_001", "information_class_id": "HD_INFO_INFRASTRUCTURE_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "Observation and logistics access are weather-sensitive and require a reassessment trigger."}},
+    {"input_id": "HD_INPUT_HUMANITARIAN_001", "information_class_id": "HD_INFO_HUMANITARIAN_PRIVATE", "sender_id": "HD_SERVICE_WATCH", "content": {"brief": "Civilian protection and essential cross-border flows constrain recapture planning and economic measures."}}
+  ],
+  "group_products": [
+    {
+      "product_id": "HD_PRODUCT_EXTERNAL_001",
+      "group_id": "HD_GROUP_PORTFOLIO_EXTERNAL",
+      "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+      "content": {
+        "position": "Request urgent partner consultation and coordinated pressure for withdrawal.",
+        "basis": ["HD_INPUT_COMMON_001", "HD_INPUT_EXTERNAL_001"],
+        "uncertainty": ["Olvanan withdrawal threshold"],
+        "conditions_and_blockers": ["no treaty guarantee", "retain a withdrawal channel"],
+        "coordination_record": {"seat_id": "HD_SEAT_EXTERNAL_AFFAIRS", "position_status": "authored"}
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_INTERIOR_001",
+      "group_id": "HD_GROUP_PORTFOLIO_INTERIOR",
+      "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+      "content": {
+        "position": "Support bounded planning without transferring an Interior-administered force.",
+        "basis": ["HD_INPUT_COMMON_001", "HD_INPUT_INTERIOR_001"],
+        "uncertainty": ["future domestic coverage requirements"],
+        "conditions_and_blockers": ["a named transfer requires HD_CONFIRM_INTERIOR_HANDOFF"],
+        "coordination_record": {"seat_id": "HD_SEAT_INTERIOR", "position_status": "authored"}
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_FINANCE_001",
+      "group_id": "HD_GROUP_PORTFOLIO_FINANCE",
+      "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+      "content": {
+        "position": "Prepare reversible targeted measures but condition activation on refusal to withdraw.",
+        "basis": ["HD_INPUT_COMMON_001", "HD_INPUT_FINANCE_001"],
+        "uncertainty": ["financial intermediary exposure"],
+        "conditions_and_blockers": ["avoid broad civilian spillover"],
+        "coordination_record": {"seat_id": "HD_SEAT_FINANCE", "position_status": "authored"}
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_INFORMATION_001",
+      "group_id": "HD_GROUP_PORTFOLIO_INFORMATION",
+      "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+      "content": {
+        "position": "Use bounded defensive public language coordinated with private diplomacy.",
+        "basis": ["HD_INPUT_COMMON_001", "HD_INPUT_INFORMATION_001"],
+        "uncertainty": ["Olvanan public response"],
+        "conditions_and_blockers": ["do not imply automatic escalation"],
+        "coordination_record": {"seat_id": "HD_SEAT_INFORMATION", "position_status": "authored"}
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_INFRASTRUCTURE_001",
+      "group_id": "HD_GROUP_PORTFOLIO_INFRASTRUCTURE",
+      "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+      "content": {
+        "position": "Prepare logistics support with an explicit weather reassessment point.",
+        "basis": ["HD_INPUT_COMMON_001", "HD_INPUT_INFRASTRUCTURE_001"],
+        "uncertainty": ["duration of the observation and access window"],
+        "conditions_and_blockers": ["partner-controlled logistics remain available"],
+        "coordination_record": {"seat_id": "HD_SEAT_INFRASTRUCTURE", "position_status": "authored"}
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_HUMANITARIAN_001",
+      "group_id": "HD_GROUP_PORTFOLIO_HUMANITARIAN",
+      "product_schema_id": "HD_PRODUCT_PORTFOLIO",
+      "content": {
+        "position": "Condition support on civilian protection and continuity of essential flows.",
+        "basis": ["HD_INPUT_COMMON_001", "HD_INPUT_HUMANITARIAN_001"],
+        "uncertainty": ["civilian displacement near the ridge"],
+        "conditions_and_blockers": ["retain humanitarian access"],
+        "coordination_record": {"seat_id": "HD_SEAT_HUMANITARIAN", "position_status": "authored"}
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_COMMAND_001",
+      "group_id": "HD_GROUP_COMMAND_CELL",
+      "product_schema_id": "HD_PRODUCT_COMMAND",
+      "content": {
+        "civilian_end_state_reference": "Restore the prior position without widening the conflict.",
+        "warning": "The support window narrows with weather and consolidation.",
+        "readiness": "No strategic action; preserve defensive warning and command integrity.",
+        "options": ["limited recapture planning support", "force protection", "time-sensitive defensive information"],
+        "constraints": ["no target selection", "no U.S. fires", "no U.S. combat forces"],
+        "escalation_risk": ["misread direct-intervention preparations", "ambiguous strategic messaging"],
+        "confirmations": ["HD_CONFIRM_DEFENSE_FEASIBILITY", "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT"],
+        "gaps": ["HD_GAP_OPERATIONAL_COMMANDER"]
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_CABINET_DRAFT_001",
+      "group_id": "HD_GROUP_CABINET_DRAFT",
+      "product_schema_id": "HD_PRODUCT_CABINET_DRAFT",
+      "content": {
+        "policy_intent": "Seek withdrawal and preserve a bounded Himaldeshi recapture option.",
+        "action_components": ["urgent consultation", "coordinated withdrawal pressure", "bounded planning and defensive support", "conditional targeted economic preparation"],
+        "resources_and_dependencies": ["partner information release", "Himaldeshi logistics", "weather-sensitive timing"],
+        "evidence_and_uncertainty": ["occupation confirmed", "central authorization unresolved", "withdrawal threshold unresolved"],
+        "dissent_and_safeguards": ["Interior transfer excluded", "no targeting, fires, combat forces, or treaty guarantee"]
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_REVIEW_BUNDLE_001",
+      "group_id": "HD_GROUP_CABINET_REVIEW",
+      "product_schema_id": "HD_PRODUCT_REVIEW_BUNDLE",
+      "content": {
+        "draft_hash": "fixture-reference::HD_PRODUCT_CABINET_DRAFT_001",
+        "ordered_reviews": [
+          {"seat_id": "HD_SEAT_EXTERNAL_AFFAIRS", "position": "concur_with_withdrawal_channel"},
+          {"seat_id": "HD_SEAT_INTERIOR", "position": "concur_only_without_force_transfer"},
+          {"seat_id": "HD_SEAT_FINANCE", "position": "concur_with_conditional_activation"},
+          {"seat_id": "HD_SEAT_INFORMATION", "position": "concur_with_bounded_language"},
+          {"seat_id": "HD_SEAT_INFRASTRUCTURE", "position": "concur_with_weather_reassessment"},
+          {"seat_id": "HD_SEAT_HUMANITARIAN", "position": "concur_with_civilian_safeguards"}
+        ],
+        "dissent_dispositions": [{"dissent_id": "HD_DISSENT_INTERIOR_TRANSFER_001", "status": "retained_condition", "disposition": "exclude the force-transfer component"}],
+        "unresolved_dependencies": ["operational command for direct force employment remains absent"]
+      }
+    },
+    {
+      "product_id": "HD_PRODUCT_DECISION_001",
+      "group_id": "HD_GROUP_JOINT_EXECUTIVE",
+      "product_schema_id": "HD_PRODUCT_DECISION_RECORD",
+      "content": {
+        "action_class": "partner_support_request_and_recapture_planning",
+        "prime_minister_position": {"seat_id": "HD_SEAT_PRIME_MINISTER", "position": "concur"},
+        "president_position": {"seat_id": "HD_SEAT_PRESIDENT", "position": "concur"},
+        "professional_confirmations": ["HD_CONFIRM_DEFENSE_FEASIBILITY", "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT"],
+        "portfolio_reviews": "HD_PRODUCT_REVIEW_BUNDLE_001",
+        "dissent": [{"dissent_id": "HD_DISSENT_INTERIOR_TRANSFER_001", "disposition": "retained_condition"}],
+        "decision": "approve_bounded_support_request",
+        "output_components": {
+          "request_version": "HIM_REQUEST_001.v1",
+          "decision_clock_hours": 18,
+          "requested": ["urgent consultation", "private and public pressure for Olvanan withdrawal", "time-sensitive intelligence sharing", "planning, logistics, defensive materiel, and force-protection support for a Himaldeshi limited recapture", "coordination on targeted economic pressure if Olvana does not withdraw"],
+          "excluded": ["U.S. target nomination or target selection", "U.S. fires", "U.S. combat forces", "a treaty guarantee"]
+        },
+        "blocked_components": ["direct conventional force employment without a represented operational commander", "strategic readiness, signaling, or use"]
+      }
+    }
+  ],
+  "confirmations": [
+    {"confirmation_id": "HD_CONFIRM_DEFENSE_FEASIBILITY", "confirmer_seat_ids": ["HD_SEAT_DEFENSE"], "confirmed_record_id": "HD_PRODUCT_DECISION_001", "status": "confirmed"},
+    {"confirmation_id": "HD_CONFIRM_GENERAL_STAFF_ASSESSMENT", "confirmer_seat_ids": ["HD_SEAT_GENERAL_STAFF"], "confirmed_record_id": "HD_PRODUCT_DECISION_001", "status": "confirmed"}
+  ],
+  "output_projection": {
+    "projection_id": "HD_PROJECTION_SUPPORT_REQUEST_001",
+    "projection_owner": "room_decision",
+    "mapping_type": "decision_record_output_components",
+    "source_decision_record_id": "HD_PRODUCT_DECISION_001",
+    "output": {
+      "output_id": "HIM_OUTPUT_SUPPORT_REQUEST_001",
+      "content": {
+        "request_version": "HIM_REQUEST_001.v1",
+        "decision_clock_hours": 18,
+        "requested": ["urgent consultation", "private and public pressure for Olvanan withdrawal", "time-sensitive intelligence sharing", "planning, logistics, defensive materiel, and force-protection support for a Himaldeshi limited recapture", "coordination on targeted economic pressure if Olvana does not withdraw"],
+        "excluded": ["U.S. target nomination or target selection", "U.S. fires", "U.S. combat forces", "a treaty guarantee"]
+      }
+    }
+  }
+}

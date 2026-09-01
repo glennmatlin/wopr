@@ -1,0 +1,289 @@
+{
+  "schema_version": "actor-source-register.v0.1",
+  "register_id": "DATE_OLVANA_2026Q3.sources",
+  "register_version": "0.1.0",
+  "status": "candidate",
+  "actor_id": "ACTOR_OLVANA",
+  "snapshot_date": "2026-08-26",
+  "sources": [
+    {
+      "source_id": "SRC_DATE_OLV_POLITICAL",
+      "issuing_institution": "U.S. Army ODIN DATE",
+      "public_title": "Political: Olvana",
+      "canonical_url": "https://odin.t2com.army.mil/DATE/00e3553e63ca9e3ca7cd562f9364f9d2",
+      "publication_date": "2024-09-11",
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "DATE describes a de facto one-party state in which the party General Secretary holds true executive authority, the Politburo Standing Committee is the most powerful government element, the military retains political influence, and the President and Prime Minister are subordinate to party authority.",
+      "applicable_office_ids": [
+        "OLV_SEAT_GENERAL_SECRETARY",
+        "OLV_SEAT_PRESIDENT",
+        "OLV_SEAT_DEFENSE",
+        "OLV_SEAT_GENERAL_STAFF",
+        "OLV_SEAT_INTERIOR"
+      ],
+      "applicable_process_ids": ["OLV_GROUP_NCA_REVIEW", "OLV_GROUP_PARTY_DIRECTION"],
+      "evidence_status": "fact",
+      "fact_ids": [
+        "OLV_FACT_PARTY_AUTHORITY",
+        "OLV_FACT_PSC_POWER",
+        "OLV_FACT_PRESIDENT_COMMAND",
+        "OLV_FACT_MILITARY_POLITICAL_INFLUENCE",
+        "OLV_FACT_PARTY_PRESERVATION"
+      ],
+      "inference_ids": [
+        "OLV_INF_OBJECTIVES",
+        "OLV_INF_PARTY_NCA_ROUTE",
+        "OLV_INF_INFORMATION_BOUNDARIES",
+        "OLV_INF_FIRST_EPISODE_ACTIVATION",
+        "OLV_INF_DEVELOPMENT_OUTPUT"
+      ]
+    },
+    {
+      "source_id": "SRC_DATE_OLV_MILITARY",
+      "issuing_institution": "U.S. Army ODIN DATE",
+      "public_title": "Military: Olvana",
+      "canonical_url": "https://odin.t2com.army.mil/DATE/5b0c52ae77b5b8b0e1750dc286a4be93",
+      "publication_date": "2026-01-13",
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "DATE describes the President-chaired National Command Authority, its five named portfolios, a Minister of National Security-led Strategic Integration Department, Defense and General Staff command functions, Interior control relationships, strategic goals, and a conditional nuclear posture.",
+      "applicable_office_ids": [
+        "OLV_SEAT_PRESIDENT",
+        "OLV_SEAT_NATIONAL_SECURITY",
+        "OLV_SEAT_FOREIGN_AFFAIRS",
+        "OLV_SEAT_PUBLIC_INFORMATION",
+        "OLV_SEAT_FINANCE",
+        "OLV_SEAT_INTERIOR",
+        "OLV_SEAT_DEFENSE",
+        "OLV_SEAT_GENERAL_STAFF"
+      ],
+      "applicable_process_ids": [
+        "OLV_GROUP_NCA_PORTFOLIOS",
+        "OLV_GROUP_COMMAND_ASSESSMENT",
+        "OLV_GROUP_SID_INTEGRATION",
+        "OLV_GROUP_NCA_REVIEW",
+        "OLV_ROUTE_RIDGE_POSTURE"
+      ],
+      "evidence_status": "fact",
+      "fact_ids": [
+        "OLV_FACT_PRESIDENT_COMMAND",
+        "OLV_FACT_NCA_PORTFOLIOS",
+        "OLV_FACT_SID_INTEGRATION",
+        "OLV_FACT_DEFENSE_COMMAND",
+        "OLV_FACT_INTERIOR_CONTROL",
+        "OLV_FACT_STRATEGIC_GOALS",
+        "OLV_FACT_NUCLEAR_POSTURE"
+      ],
+      "inference_ids": [
+        "OLV_INF_OBJECTIVES",
+        "OLV_INF_NCA_PORTFOLIO_PRODUCT",
+        "OLV_INF_SID_INTEGRATION",
+        "OLV_INF_PARTY_NCA_ROUTE",
+        "OLV_INF_INFORMATION_BOUNDARIES",
+        "OLV_INF_FIRST_EPISODE_ACTIVATION",
+        "OLV_INF_DEVELOPMENT_OUTPUT"
+      ]
+    },
+    {
+      "source_id": "SRC_ODIN_DATE_HOME",
+      "issuing_institution": "U.S. Army ODIN",
+      "public_title": "Decisive Action Training Environment",
+      "canonical_url": "https://odin.t2com.army.mil/DATE",
+      "publication_date": null,
+      "effective_date": null,
+      "retrieval_date": "2026-08-26",
+      "source_type": "official_description",
+      "claim_paraphrase": "ODIN describes DATE as a living training product and a foundation that scenario authors may adapt, so source dates and design-inference labels are part of the fidelity boundary.",
+      "applicable_office_ids": [],
+      "applicable_process_ids": [],
+      "evidence_status": "context_only",
+      "fact_ids": ["OLV_FACT_DATE_LIVING_PRODUCT"],
+      "inference_ids": ["OLV_INF_SOURCE_PINNING"]
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "OLV_FACT_PARTY_AUTHORITY",
+      "statement": "DATE describes Olvana as a de facto one-party state and places true executive authority with the party General Secretary.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL"],
+      "office_ids": ["OLV_SEAT_GENERAL_SECRETARY"],
+      "process_ids": ["OLV_GROUP_PARTY_DIRECTION"]
+    },
+    {
+      "fact_id": "OLV_FACT_PSC_POWER",
+      "statement": "DATE describes a five-to-nine-member Politburo Standing Committee as the most powerful government element while leaving its exact crisis membership and machine procedure unspecified.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL"],
+      "office_ids": ["OLV_SEAT_GENERAL_SECRETARY"],
+      "process_ids": ["OLV_GROUP_PARTY_DIRECTION"]
+    },
+    {
+      "fact_id": "OLV_FACT_PRESIDENT_COMMAND",
+      "statement": "DATE describes the President as subordinate to party authority while retaining command authority over the armed forces and chairing the National Command Authority.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL", "SRC_DATE_OLV_MILITARY"],
+      "office_ids": ["OLV_SEAT_PRESIDENT"],
+      "process_ids": ["OLV_GROUP_NCA_REVIEW", "OLV_ROUTE_RIDGE_POSTURE"]
+    },
+    {
+      "fact_id": "OLV_FACT_MILITARY_POLITICAL_INFLUENCE",
+      "statement": "DATE describes the armed forces as politically influential and linked directly to party leadership rather than merely a State Council bureaucracy.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL"],
+      "office_ids": ["OLV_SEAT_DEFENSE", "OLV_SEAT_GENERAL_STAFF"],
+      "process_ids": ["OLV_GROUP_COMMAND_ASSESSMENT"]
+    },
+    {
+      "fact_id": "OLV_FACT_PARTY_PRESERVATION",
+      "statement": "DATE identifies preservation of the party and one-party system as a strategic political goal.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL"],
+      "office_ids": ["OLV_SEAT_GENERAL_SECRETARY", "OLV_SEAT_INTERIOR"],
+      "process_ids": ["OLV_GROUP_PARTY_DIRECTION"]
+    },
+    {
+      "fact_id": "OLV_FACT_NCA_PORTFOLIOS",
+      "statement": "DATE describes a President-chaired National Command Authority covering Foreign Affairs, Public Information, Finance and Economic Affairs, Interior, and Defense.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "office_ids": ["OLV_SEAT_PRESIDENT", "OLV_SEAT_FOREIGN_AFFAIRS", "OLV_SEAT_PUBLIC_INFORMATION", "OLV_SEAT_FINANCE", "OLV_SEAT_INTERIOR", "OLV_SEAT_DEFENSE"],
+      "process_ids": ["OLV_GROUP_NCA_PORTFOLIOS", "OLV_GROUP_NCA_REVIEW"]
+    },
+    {
+      "fact_id": "OLV_FACT_SID_INTEGRATION",
+      "statement": "DATE assigns the Minister of National Security and Strategic Integration Department a cross-ministry instrument-integration function.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "office_ids": ["OLV_SEAT_NATIONAL_SECURITY"],
+      "process_ids": ["OLV_GROUP_SID_INTEGRATION"]
+    },
+    {
+      "fact_id": "OLV_FACT_DEFENSE_COMMAND",
+      "statement": "DATE describes distinct Defense and General Staff functions within the national military-command structure.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "office_ids": ["OLV_SEAT_DEFENSE", "OLV_SEAT_GENERAL_STAFF"],
+      "process_ids": ["OLV_GROUP_COMMAND_ASSESSMENT"]
+    },
+    {
+      "fact_id": "OLV_FACT_INTERIOR_CONTROL",
+      "statement": "DATE describes the 84th Internal Security Force as assigned to Supreme Command while actually operating under Interior, and assigns internal political-control and infrastructure-protection functions to Interior organizations.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "office_ids": ["OLV_SEAT_INTERIOR", "OLV_SEAT_DEFENSE"],
+      "process_ids": ["OLV_GROUP_NCA_PORTFOLIOS"]
+    },
+    {
+      "fact_id": "OLV_FACT_STRATEGIC_GOALS",
+      "statement": "DATE lists sovereignty, party defense, regional power, exclusion of stronger outside intervention, trade and energy security, resource access, military credibility, and nuclear standing among Olvanan goals.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "office_ids": ["OLV_SEAT_GENERAL_SECRETARY", "OLV_SEAT_PRESIDENT"],
+      "process_ids": ["OLV_GROUP_PARTY_DIRECTION"]
+    },
+    {
+      "fact_id": "OLV_FACT_NUCLEAR_POSTURE",
+      "statement": "The current DATE military page states that Olvana says it will not initiate nuclear launch and could use nuclear weapons if facing certain defeat with expected regime change or if attacked by a nuclear power.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "office_ids": ["OLV_SEAT_GENERAL_SECRETARY", "OLV_SEAT_PRESIDENT", "OLV_SEAT_DEFENSE", "OLV_SEAT_GENERAL_STAFF"],
+      "process_ids": []
+    },
+    {
+      "fact_id": "OLV_FACT_DATE_LIVING_PRODUCT",
+      "statement": "ODIN describes DATE as a living training product whose content may be updated and adapted for exercises.",
+      "source_ids": ["SRC_ODIN_DATE_HOME"],
+      "office_ids": [],
+      "process_ids": []
+    }
+  ],
+  "inferences": [
+    {
+      "inference_id": "OLV_INF_OBJECTIVES",
+      "statement": "The unweighted actor vector preserves sovereignty and party control, regional leverage, economic access, military credibility, and nuclear deterrence with escalation control.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL", "SRC_DATE_OLV_MILITARY"],
+      "fact_ids": ["OLV_FACT_PARTY_PRESERVATION", "OLV_FACT_STRATEGIC_GOALS", "OLV_FACT_NUCLEAR_POSTURE"],
+      "scope_ids": ["OLV_OBJ_SOVEREIGNTY_PARTY", "OLV_OBJ_REGIONAL_LEVERAGE", "OLV_OBJ_ECONOMIC_ACCESS", "OLV_OBJ_MILITARY_CREDIBILITY", "OLV_OBJ_ESCALATION_CONTROL"]
+    },
+    {
+      "inference_id": "OLV_INF_NCA_PORTFOLIO_PRODUCT",
+      "statement": "The five named NCA portfolio seats produce attributable positions before cross-domain integration; the machine procedure is not an official DATE meeting rule.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "fact_ids": ["OLV_FACT_NCA_PORTFOLIOS"],
+      "scope_ids": ["OLV_GROUP_NCA_PORTFOLIOS"]
+    },
+    {
+      "inference_id": "OLV_INF_SID_INTEGRATION",
+      "statement": "The Minister of National Security authors one integrated options product that preserves portfolio disagreement and command constraints.",
+      "source_ids": ["SRC_DATE_OLV_MILITARY"],
+      "fact_ids": ["OLV_FACT_SID_INTEGRATION", "OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_DEFENSE_COMMAND"],
+      "scope_ids": ["OLV_GROUP_SID_INTEGRATION"]
+    },
+    {
+      "inference_id": "OLV_INF_PARTY_NCA_ROUTE",
+      "statement": "The President chairs formal NCA review and confirms military command transmission, while the General Secretary owns final party-state direction for the first-episode ridge posture.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL", "SRC_DATE_OLV_MILITARY"],
+      "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PRESIDENT_COMMAND", "OLV_FACT_NCA_PORTFOLIOS"],
+      "scope_ids": ["OLV_GROUP_NCA_REVIEW", "OLV_GROUP_PARTY_DIRECTION", "OLV_ROUTE_RIDGE_POSTURE"]
+    },
+    {
+      "inference_id": "OLV_INF_INFORMATION_BOUNDARIES",
+      "statement": "Every seat receives the common picture plus only its portfolio, command, party, or integrated information and logged disclosures.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL", "SRC_DATE_OLV_MILITARY"],
+      "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_DEFENSE_COMMAND"],
+      "scope_ids": ["OLV_INFO_COMMON", "OLV_INFO_PARTY_PRIVATE", "OLV_INFO_PORTFOLIO_PRIVATE", "OLV_INFO_COMMAND_PRIVATE"]
+    },
+    {
+      "inference_id": "OLV_INF_FIRST_EPISODE_ACTIVATION",
+      "statement": "The ridge seizure, consolidation posture, outside-intervention risk, economic exposure, public narrative, and internal-control concern activate nine source-grounded seats for the first episode.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL", "SRC_DATE_OLV_MILITARY"],
+      "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_NCA_PORTFOLIOS", "OLV_FACT_STRATEGIC_GOALS", "OLV_FACT_INTERIOR_CONTROL"],
+      "scope_ids": ["OLV_ACT_FIRST_EPISODE"]
+    },
+    {
+      "inference_id": "OLV_INF_SOURCE_PINNING",
+      "statement": "The Charter binds exact retrieval dates and retains source drift as a gap instead of treating the current living page as timeless truth.",
+      "source_ids": ["SRC_ODIN_DATE_HOME"],
+      "fact_ids": ["OLV_FACT_DATE_LIVING_PRODUCT"],
+      "scope_ids": ["OLV_GAP_LIMITED_USE_SOURCE_DRIFT", "OLV_GAP_PENDING_MILITARY_OVERHAUL"]
+    },
+    {
+      "inference_id": "OLV_INF_DEVELOPMENT_OUTPUT",
+      "statement": "The no-model trace authors a bounded continue-hold decision and maps it to the already selected ridge-posture observation without treating either as observed model behavior.",
+      "source_ids": ["SRC_DATE_OLV_POLITICAL", "SRC_DATE_OLV_MILITARY"],
+      "fact_ids": ["OLV_FACT_PARTY_AUTHORITY", "OLV_FACT_PRESIDENT_COMMAND", "OLV_FACT_STRATEGIC_GOALS"],
+      "scope_ids": ["OLV_DECISION_RIDGE_HOLD_001", "OLV_OUTPUT_RIDGE_POSTURE_001"]
+    }
+  ],
+  "gaps": [
+    {
+      "gap_id": "OLV_GAP_PSC_COMPOSITION",
+      "statement": "DATE states the Politburo Standing Committee's size and political primacy but does not identify a stable office-by-office crisis roster; the candidate represents the General Secretary and does not invent PSC member seats or internal votes.",
+      "affected_ids": ["OLV_GROUP_PARTY_DIRECTION"],
+      "blocks_activation": false
+    },
+    {
+      "gap_id": "OLV_GAP_PARTY_NCA_PROCEDURE",
+      "statement": "DATE does not publish the machine sequence between party direction, SID integration, the President-chaired NCA, and military command; the candidate route is a labeled design inference requiring owner ratification.",
+      "affected_ids": ["OLV_GROUP_SID_INTEGRATION", "OLV_GROUP_NCA_REVIEW", "OLV_GROUP_PARTY_DIRECTION", "OLV_ROUTE_RIDGE_POSTURE"],
+      "blocks_activation": false
+    },
+    {
+      "gap_id": "OLV_GAP_NUCLEAR_DECISION_PATH",
+      "statement": "The current DATE source states posture and possible conditions but does not establish a complete launch forum, information path, confirmation map, or authenticated action route; every strategic or nuclear action therefore fails closed.",
+      "affected_ids": ["OLV_BLOCK_STRATEGIC_OR_NUCLEAR_ACTION"],
+      "blocks_activation": true
+    },
+    {
+      "gap_id": "OLV_GAP_LIMITED_USE_SOURCE_DRIFT",
+      "statement": "The 2026-08-26 refresh did not re-establish the older preserved wording about policymakers considering small coercive nuclear use; Module 13's limited-use debate remains non-runnable until its source version and claim are reconciled.",
+      "affected_ids": ["OLV_BLOCK_LIMITED_NUCLEAR_DEBATE"],
+      "blocks_activation": true
+    },
+    {
+      "gap_id": "OLV_GAP_PENDING_MILITARY_OVERHAUL",
+      "statement": "ODIN announces continuing Olvana military-variable revision, so this candidate pins the current page and requires a new Charter identity if the source changes before the pilot freeze.",
+      "affected_ids": ["SRC_DATE_OLV_MILITARY"],
+      "blocks_activation": false
+    },
+    {
+      "gap_id": "OLV_GAP_EFFECT_LEVEL_AUTHORITY",
+      "statement": "The candidate routes a Room decision but does not establish effect-level implementation authority or World capability for every open proposal.",
+      "affected_ids": ["OLV_ROUTE_RIDGE_POSTURE"],
+      "blocks_activation": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-08-21",
+  "executor_revision": "fd48b11e49675c3a8a82319e13f07c7900a5ddba",
+  "preflight": {
+    "status": "approved",
+    "attempts_passed": 6,
+    "network_calls": 6,
+    "transport_retries": 0,
+    "approved_receipt_sha256": "9a2f0fcda8b2424553d896abed94459b826d29fc29fe0f331534bc0c4a97f632"
+  },
+  "composition_smoke": {
+    "model_id": "deepseek_v4_flash_0731",
+    "attempts_tier_a": 3,
+    "fallback_count": 0,
+    "transport_retries": 0,
+    "manifest_sha256": "d8f4035719339d88fc486ab985d7a78109a59fa912e3c19efdf8ae964304cd4b",
+    "ledger_sha256": "5fb1afef038686683d321af110796b29f329a9f57f8f8b575bdfb9b21b0d1ca4",
+    "summary_sha256": "4cc65b91366b152780ef4fa6c94c75a3f489715a95e984d5fd94e4b88b671c04"
+  },
+  "sounding": {
+    "attempts": 18,
+    "tier_a": 12,
+    "tier_c": 6,
+    "tier_a_by_model": {
+      "deepseek_v4_flash_0731": 6,
+      "gpt_oss_20b": 6
+    },
+    "tier_c_by_reason": {
+      "channel_cap_exceeded": 4,
+      "provider_or_runner_error": 2
+    },
+    "eligible_rows": 12,
+    "primary_pairs": 5,
+    "reserved_planning_usd": 4.2771456,
+    "transport_retries": 4,
+    "equal_council_tier_a": {
+      "attempts": 4,
+      "deliberations": 324,
+      "disagreements": 123,
+      "executive_overrides": 35,
+      "threshold_failures": 13
+    },
+    "manifest_sha256": "3866b0a0991192734787bbb341031cef9100f546e59ec39133b28283ad1adae3",
+    "ledger_sha256": "842ababa6ac61ac1c66807f20f6f8d26b8023e026a8a1b1f8a33bc408f1b1899",
+    "analysis_sha256": "6e91fc648bd5edc44185282dd5ba3a24c53bf7e1f1a6b3160d1ea596a7b23e48",
+    "summary_sha256": "2cf716d812082abb012b54e5784e0497d0a514c1c241ef569de729390201623b"
+  },
+  "overlay_demo": {
+    "status": "failed_terminal",
+    "tier": "C",
+    "reason": "provider_or_runner_error",
+    "trace_count": 0,
+    "transport_retries": 0,
+    "manifest_sha256": "a2fd678e1226d088088d8aa7e6c4bada3eccc2134f0a924725d29011e0385e60",
+    "ledger_sha256": "8f490c91c101aafa69b9b11d36db0778853e80a321be27ab1d01bd9a6f2e0803",
+    "summary_sha256": "720a7411c0f1116bc29ba20d8e9647c05b1b810b40c3c33c42456bbd12e6fb96"
+  },
+  "claim_boundary": "The run is a descriptive Sounding. Missing pairs and six Tier-C cells preclude a complete three-seed Preset comparison."
+}

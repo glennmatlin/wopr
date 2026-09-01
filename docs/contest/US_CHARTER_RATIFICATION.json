@@ -1,0 +1,26 @@
+{
+  "schema_version": "us-charter-ratification.v0.1",
+  "ratification_id": "US_PUBLIC_2026Q3.ratification.D67",
+  "status": "ratified",
+  "ratified_on": "2026-08-26",
+  "decision_id": "D67",
+  "candidate_commit": "623612166aa65bb0c2f14a79ea6993cd02221f8d",
+  "source_register_id": "US_PUBLIC_2026Q3.sources",
+  "source_register_hash": "73dbda61ad01472abeadb5bd8aae2aead8a84b5596bbd00c5afbccba21d5051f",
+  "charter_id": "US_PUBLIC_2026Q3",
+  "charter_hash": "fe3837ad22a898218c3c298d1facf91e1ddd09b1a2d58dfc9a48b9d3c4bf83d2",
+  "review_artifact": "docs/contest/US_CHARTER_REVIEW.candidate.md",
+  "scope": {
+    "milestone": "M1",
+    "actor_id": "ACTOR_UNITED_STATES",
+    "contract": "source-bound first-episode U.S. Room Charter"
+  },
+  "claim_boundary": [
+    "no_room_execution",
+    "no_model_behavior_evidence",
+    "no_official_or_classified_fidelity_claim",
+    "no_effect_level_action_authority",
+    "no_counterpart_room_evidence",
+    "no_date_episode_evidence"
+  ]
+}

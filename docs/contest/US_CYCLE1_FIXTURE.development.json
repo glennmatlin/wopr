@@ -1,0 +1,683 @@
+{
+  "schema_version": "us-cycle-fixture.v0.1",
+  "fixture_id": "US_CYCLE1_NO_MODEL.development.v0_1",
+  "fixture_version": "0.1.0",
+  "status": "development_fixture_non_evidence",
+  "actor_id": "ACTOR_UNITED_STATES",
+  "cycle_id": "CYCLE_1",
+  "ratification_id": "US_PUBLIC_2026Q3.ratification.D67",
+  "ratification_hash": "0b831d55ba60dd458e44b0e63d714a82eaf05b508a32694f96181caba0b5ad13",
+  "source_register_hash": "73dbda61ad01472abeadb5bd8aae2aead8a84b5596bbd00c5afbccba21d5051f",
+  "charter_hash": "fe3837ad22a898218c3c298d1facf91e1ddd09b1a2d58dfc9a48b9d3c4bf83d2",
+  "action_class": "presidential_policy_direction",
+  "counterpart_fixtures": [
+    {
+      "fixture_id": "HIM_CYCLE1_REQUEST.development.v0_1",
+      "actor_id": "ACTOR_HIMALDESH",
+      "status": "development_fixture_non_evidence",
+      "outputs": [
+        {
+          "output_id": "HIM_OUTPUT_SUPPORT_REQUEST_001",
+          "content": {
+            "request_version": "HIM_REQUEST_001.v1",
+            "decision_clock_hours": 18,
+            "requested": [
+              "urgent consultation",
+              "private and public pressure for Olvanan withdrawal",
+              "time-sensitive intelligence sharing",
+              "planning, logistics, defensive materiel, and force-protection support for a Himaldeshi limited recapture",
+              "coordination on targeted economic pressure if Olvana does not withdraw"
+            ],
+            "excluded": [
+              "U.S. target nomination or target selection",
+              "U.S. fires",
+              "U.S. combat forces",
+              "a treaty guarantee"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "fixture_id": "OLV_CYCLE1_POSTURE.development.v0_1",
+      "actor_id": "ACTOR_OLVANA",
+      "status": "development_fixture_non_evidence",
+      "outputs": [
+        {
+          "output_id": "OLV_OUTPUT_RIDGE_POSTURE_001",
+          "content": {
+            "occupation_status": "confirmed",
+            "observed_activity": [
+              "Olvanan forces hold the limited ridge objective",
+              "field works and air-defense coverage are being strengthened",
+              "public messaging describes the move as locally defensive"
+            ],
+            "unresolved": [
+              "central authorization chain",
+              "intended duration",
+              "conditions for withdrawal",
+              "relationship between theater signaling and strategic-force messaging"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "watch_inputs": [
+    {
+      "input_id": "USC1_INPUT_COMMON_001",
+      "information_class_id": "INFO_COMMON_CRISIS_PICTURE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": [
+        "HIM_OUTPUT_SUPPORT_REQUEST_001",
+        "OLV_OUTPUT_RIDGE_POSTURE_001"
+      ],
+      "content": {
+        "as_of": "STARTEX plus 6 hours",
+        "confirmed": [
+          "Olvanan forces occupy the disputed ridge objective",
+          "Himaldesh has issued a bounded support request",
+          "Himaldesh is approaching an 18-hour limited-recapture decision point"
+        ],
+        "uncertain": [
+          "whether the seizure was centrally authorized",
+          "whether Olvana seeks a bargaining position or a durable frontier change",
+          "whether nuclear-related messaging is deliberate signaling or precaution"
+        ],
+        "constraints": [
+          "no U.S.-Himaldesh treaty guarantee is assumed",
+          "the request excludes U.S. combat and targeting",
+          "nuclear escalation is reachable but not scripted"
+        ]
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_RAW_WEATHER_001",
+      "information_class_id": "INFO_RAW_WEATHER_FORECAST",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": [],
+      "content": {
+        "forecast": "A high-altitude front may narrow observation and logistics windows near the ridge during the next operational period.",
+        "confidence": "moderate",
+        "risk_interval": "8 to 20 hours",
+        "affected_dependency_classes": [
+          "U.S.-enabled observation or ISR",
+          "Himaldeshi-controlled logistics or support"
+        ],
+        "not_yet_confirmed": true
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_DNI_PRIVATE_001",
+      "information_class_id": "INFO_INTELLIGENCE_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["OLV_OUTPUT_RIDGE_POSTURE_001"],
+      "content": {
+        "assessment": "Occupation is high confidence; authorization, intended duration, and strategic linkage remain competing hypotheses.",
+        "collection_gap": "No reliable direct report resolves the central decision chain.",
+        "dissent": "One analytic line assigns more weight to a preplanned limited fait accompli than to local initiative."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_CIA_PRIVATE_001",
+      "information_class_id": "INFO_FOREIGN_SOURCE_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["OLV_OUTPUT_RIDGE_POSTURE_001"],
+      "content": {
+        "leadership_assessment": "Public and military messaging is coordinated enough to sustain ambiguity but does not reveal the withdrawal threshold.",
+        "source_risk": "Reporting on inner-circle intent is fragmentary and may lag field decisions."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_STATE_PRIVATE_001",
+      "information_class_id": "INFO_DIPLOMATIC_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["HIM_OUTPUT_SUPPORT_REQUEST_001"],
+      "content": {
+        "partner_position": "Himaldesh seeks visible consultation and private pressure before its recapture clock expires.",
+        "available_channels": [
+          "direct private channel to Olvana",
+          "joint consultations with regional partners",
+          "public call for restoration of the prior position"
+        ],
+        "commitment_limit": "No treaty guarantee or U.S. combat commitment may be implied."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_TREASURY_PRIVATE_001",
+      "information_class_id": "INFO_FINANCIAL_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["OLV_OUTPUT_RIDGE_POSTURE_001"],
+      "content": {
+        "available_measures": [
+          "prepare reversible targeted financial designations",
+          "coordinate warning messages with exposed financial intermediaries"
+        ],
+        "constraint": "Premature broad measures could reduce bargaining room and produce avoidable civilian spillovers."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_DEFENSE_PRIVATE_001",
+      "information_class_id": "INFO_DEFENSE_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["HIM_OUTPUT_SUPPORT_REQUEST_001"],
+      "content": {
+        "support_capacity": [
+          "time-sensitive defensive intelligence sharing",
+          "noncombat planning and logistics support",
+          "defensive materiel and force-protection support"
+        ],
+        "excluded": ["U.S. fires", "U.S. target selection", "U.S. combat forces"],
+        "timing_risk": "Support usefulness declines if weather closes the relevant windows."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_ENERGY_PRIVATE_001",
+      "information_class_id": "INFO_NUCLEAR_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["OLV_OUTPUT_RIDGE_POSTURE_001"],
+      "content": {
+        "technical_status": "No confirmed nuclear movement is tied mechanically to the ridge operation.",
+        "warning": "Ambiguous strategic messaging and higher conventional alert create an escalation-monitoring requirement.",
+        "emergency_readiness": "Technical consultation and radiological consequence planning can be increased without public signaling."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_JUSTICE_PRIVATE_001",
+      "information_class_id": "INFO_LEGAL_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["HIM_OUTPUT_SUPPORT_REQUEST_001"],
+      "content": {
+        "review_scope": "Record the domestic and departmental basis, consultation, and unresolved authority for each proposed component.",
+        "constraint": "A policy decision does not itself establish downstream operational authority or capability."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_EOP_LEGAL_PRIVATE_001",
+      "information_class_id": "INFO_EOP_LEGAL_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": ["HIM_OUTPUT_SUPPORT_REQUEST_001"],
+      "content": {
+        "record_requirement": "The exact presidential decision, returned components, required consultations, and unresolved effect-level questions must be retained.",
+        "process_limit": "Confirmation of the record is not confirmation of later World effects."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_CJCS_PRIVATE_001",
+      "information_class_id": "INFO_MILITARY_ADVICE_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": [
+        "HIM_OUTPUT_SUPPORT_REQUEST_001",
+        "OLV_OUTPUT_RIDGE_POSTURE_001"
+      ],
+      "content": {
+        "military_advice": "Preserve a limited partner-support option while avoiding steps that could be read as preparation for direct U.S. combat.",
+        "risk": "Compressed timelines and weather may make otherwise bounded assistance arrive too late or appear escalatory."
+      }
+    },
+    {
+      "input_id": "USC1_INPUT_THEATER_PRIVATE_001",
+      "information_class_id": "INFO_THEATER_PRIVATE",
+      "sender_id": "SERVICE_WATCH",
+      "causal_parent_ids": [
+        "HIM_OUTPUT_SUPPORT_REQUEST_001",
+        "OLV_OUTPUT_RIDGE_POSTURE_001"
+      ],
+      "content": {
+        "functional_assessment": "Observation, access, and noncombat support windows are adequate now but weather-sensitive.",
+        "requirements": [
+          "early authorization for any releasable intelligence",
+          "clear noncombat boundaries",
+          "a reassessment trigger if access or force-protection conditions change"
+        ],
+        "command_limit": "This assessment supplies feasibility and risk; it issues no policy or operational order."
+      }
+    }
+  ],
+  "group_products": [
+    {
+      "product_id": "USC1_PRODUCT_THREAT_001",
+      "group_id": "GROUP_THREAT_ATTRIBUTION",
+      "product_schema_id": "PRODUCT_THREAT_ASSESSMENT",
+      "content": {
+        "hypotheses": [
+          "centrally authorized limited fait accompli",
+          "theater initiative later adopted by central leadership",
+          "coercive probe intended to test Himaldeshi and partner resolve"
+        ],
+        "confidence": {
+          "occupation": "high",
+          "central_authorization": "low to moderate",
+          "intended_duration": "low"
+        },
+        "alternatives": [
+          "temporary tactical action without a settled political end state",
+          "opening move for a broader coercive campaign"
+        ],
+        "gaps": [
+          "central decision-chain reporting",
+          "withdrawal threshold",
+          "link between theater and strategic messaging"
+        ],
+        "warning": "Do not collapse confirmed occupation into a confident judgment about authorization or long-term intent.",
+        "attribution_limits": "Available reporting supports actor attribution for the occupation but not a complete internal authorization account.",
+        "us_observation_window": "Currently usable; forecast degradation could reduce confidence and warning time.",
+        "material_dissent": "One line places greater prior probability on preplanning; the product retains rather than resolves that difference.",
+        "source_fact_ids": ["FACT_DNI_MANDATE", "FACT_CIA_MANDATE"]
+      }
+    },
+    {
+      "product_id": "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+      "group_id": "GROUP_DIPLOMATIC_ECONOMIC",
+      "product_schema_id": "PRODUCT_DIPLOMATIC_ECONOMIC_OPTIONS",
+      "content": {
+        "negotiation_options": [
+          "private demand for restoration of the prior position paired with a short response window",
+          "offer monitored disengagement talks without recognizing the seizure"
+        ],
+        "private_and_public_signaling": {
+          "private": "State the consequences of consolidation and the limits of U.S. restraint.",
+          "public": "Support territorial restoration and immediate consultations without announcing a combat commitment."
+        },
+        "partner_support": "Convene urgent consultations and coordinate messages before the Himaldeshi decision clock expires.",
+        "financial_and_trade_options": [
+          "prepare narrow reversible financial measures",
+          "defer broad measures while the withdrawal channel remains live"
+        ],
+        "humanitarian_considerations": "Protect cross-border civilian access and avoid measures that impede essential flows.",
+        "unsupported_commitment_checks": [
+          "no treaty guarantee",
+          "no promise of U.S. combat",
+          "no automatic sanctions trigger"
+        ],
+        "implementation_constraints": [
+          "regional partner coordination",
+          "clear off-ramp language",
+          "timing against the recapture clock"
+        ],
+        "material_dissent": "Treasury favors preparing measures now but withholding public activation; State favors signaling the preparation privately.",
+        "source_fact_ids": ["FACT_STATE_MANDATE", "FACT_TREASURY_MANDATE"]
+      }
+    },
+    {
+      "product_id": "USC1_PRODUCT_NUCLEAR_001",
+      "group_id": "GROUP_NUCLEAR_RADIOLOGICAL",
+      "product_schema_id": "PRODUCT_NUCLEAR_RADIOLOGICAL_ASSESSMENT",
+      "content": {
+        "technical_status": "No confirmed nuclear action is mechanically linked to the seizure.",
+        "warning_and_ambiguity": "Strategic messaging and conventional alert changes justify enhanced monitoring but support more than one interpretation.",
+        "deterrence_implications": "U.S. steps should preserve resolve without converting ambiguity into a public nuclear confrontation.",
+        "escalation_pathways": [
+          "misreading defensive support as preparation for direct intervention",
+          "compressed warning after weather degrades observation",
+          "public nuclear rhetoric narrowing off-ramps"
+        ],
+        "emergency_options": [
+          "increase technical monitoring",
+          "quietly review radiological consequence coordination",
+          "prepare a private strategic-stability channel"
+        ],
+        "authority_limits": "This product supplies technical and escalation analysis, not authorization for nuclear or operational action.",
+        "material_dissent": "Participants disagree on how much weight to assign strategic messaging, but agree it is not evidence of a decided nuclear action.",
+        "source_fact_ids": [
+          "FACT_ENERGY_NUCLEAR_MANDATE",
+          "FACT_CJCS_ADVICE_NO_COMMAND",
+          "FACT_DNI_MANDATE"
+        ]
+      }
+    },
+    {
+      "product_id": "USC1_PRODUCT_DEFENSE_001",
+      "group_id": "GROUP_DEFENSE_ESCALATION",
+      "product_schema_id": "PRODUCT_DEFENSE_ESCALATION_OPTIONS",
+      "content": {
+        "posture_and_readiness": "Maintain current U.S. defensive readiness and increase monitoring without direct combat positioning.",
+        "support_options": [
+          "releasable time-sensitive intelligence",
+          "noncombat planning and logistics advice",
+          "defensive materiel and force-protection support"
+        ],
+        "operational_feasibility": "The bounded package is feasible if release and logistics decisions occur before forecast degradation.",
+        "logistics_and_timing": "Utility falls as the weather window narrows; support must remain separable and reversible.",
+        "force_protection": "Increase protection and monitoring for exposed U.S. personnel without treating the request as combat tasking.",
+        "himaldeshi_support_window": "Open but weather-sensitive and controlled by Himaldeshi access and logistics decisions.",
+        "deterrence_and_escalation_pathways": [
+          "support may strengthen deterrence by denial",
+          "poorly bounded posture changes may be read as direct intervention",
+          "late support may increase pressure for riskier substitutes"
+        ],
+        "no_combat_authority_statement": "No component authorizes U.S. targeting, fires, or combat forces.",
+        "material_dissent": "Theater advice favors earlier preparatory logistics; Defense policy advice favors explicit presidential conditions before release.",
+        "source_fact_ids": [
+          "FACT_DEFENSE_MANDATE",
+          "FACT_CJCS_ADVICE_NO_COMMAND",
+          "FACT_COMBATANT_COMMAND_ROLE"
+        ]
+      }
+    },
+    {
+      "product_id": "USC1_PRODUCT_LEGAL_001",
+      "group_id": "GROUP_LEGAL_AUTHORITY",
+      "product_schema_id": "PRODUCT_LEGAL_AUTHORITY_REVIEW",
+      "content": {
+        "proposed_component_ids": [
+          "COMP_DIPLOMATIC_DEMARCHE",
+          "COMP_INTELLIGENCE_SHARING",
+          "COMP_DEFENSIVE_SUPPORT",
+          "COMP_ECONOMIC_PREPARATION",
+          "COMP_PUBLIC_COMMUNICATION",
+          "COMP_REASSESSMENT"
+        ],
+        "legal_basis_by_component": {
+          "COMP_DIPLOMATIC_DEMARCHE": "foreign-relations direction subject to exact implementation review",
+          "COMP_INTELLIGENCE_SHARING": "requires releasability and recipient restrictions",
+          "COMP_DEFENSIVE_SUPPORT": "requires component-specific authority, funding, and end-use review",
+          "COMP_ECONOMIC_PREPARATION": "design work may proceed; activation requires instrument-specific process",
+          "COMP_PUBLIC_COMMUNICATION": "must avoid creating an unsupported guarantee",
+          "COMP_REASSESSMENT": "record and scheduling function"
+        },
+        "owning_authority_by_component": {
+          "COMP_DIPLOMATIC_DEMARCHE": "SEAT_PRESIDENT",
+          "COMP_INTELLIGENCE_SHARING": "SEAT_PRESIDENT",
+          "COMP_DEFENSIVE_SUPPORT": "SEAT_PRESIDENT",
+          "COMP_ECONOMIC_PREPARATION": "SEAT_PRESIDENT",
+          "COMP_PUBLIC_COMMUNICATION": "SEAT_PRESIDENT",
+          "COMP_REASSESSMENT": "SEAT_NSA"
+        },
+        "required_consultations": [
+          "GROUP_PC",
+          "GROUP_LEGAL_AUTHORITY",
+          "component-specific implementation review"
+        ],
+        "missing_authority": [
+          "No effect-level authority or capability is established by this no-model record."
+        ],
+        "inadmissible_elements": [
+          "U.S. target selection",
+          "U.S. fires",
+          "U.S. combat forces",
+          "an implied treaty guarantee"
+        ],
+        "legal_disagreement": "No disagreement about preserving the effect-level gate; implementation details remain unadjudicated.",
+        "record_completeness": "Complete for record-level presidential routing; incomplete for downstream effects by design.",
+        "source_fact_ids": ["FACT_JUSTICE_MANDATE", "FACT_PUBLIC_ADVISER_STATUS"]
+      }
+    },
+    {
+      "product_id": "USC1_PRODUCT_SYNTHESIS_001",
+      "group_id": "GROUP_PRESIDENTIAL_SYNTHESIS",
+      "product_schema_id": "PRODUCT_PRESIDENTIAL_SYNTHESIS",
+      "content": {
+        "desired_end_state": "Restore the prior position without creating a U.S. combat commitment, preserve Himaldeshi choice, and keep escalation channels open.",
+        "objective_ids": [
+          "OBJ_US_PROTECT",
+          "OBJ_US_DETER",
+          "OBJ_US_SUPPORT_HIMALDESH",
+          "OBJ_US_PRESERVE_ACCESS",
+          "OBJ_US_STRATEGIC_STABILITY"
+        ],
+        "integrated_options": [
+          "conditional bounded-support package with private withdrawal demand",
+          "diplomacy-first package with prepared but withheld support",
+          "monitoring and consultation package with no immediate material support"
+        ],
+        "evidence_and_confidence": {
+          "occupation": "high",
+          "intent": "low",
+          "bounded_support_feasibility": "moderate",
+          "weather_risk": "moderate"
+        },
+        "material_dissent": [
+          "timing of preparatory logistics",
+          "whether to disclose prepared economic measures privately"
+        ],
+        "unresolved_questions": [
+          "Olvanan withdrawal threshold",
+          "future observation-window degradation",
+          "component-specific effect authority"
+        ],
+        "legal_status": "Record-level route is available; downstream authority remains component-specific and unconfirmed.",
+        "implementation_status": "Diplomatic, intelligence, support, economic, communication, and reassessment elements are separable and conditionable.",
+        "recommended_forum_route": "ROUTE_PRESIDENTIAL_POLICY",
+        "source_fact_ids": ["FACT_PUBLIC_PC_PROCESS"]
+      }
+    },
+    {
+      "product_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+      "group_id": "GROUP_PC",
+      "product_schema_id": "PRODUCT_POLICY_PACKAGE",
+      "content": {
+        "package_version": "US_POLICY_PACKAGE_001.v1",
+        "desired_end_state": "Restore the prior position, sustain Himaldeshi agency, avoid a U.S. combat commitment, and preserve strategic stability.",
+        "objective_ids": [
+          "OBJ_US_PROTECT",
+          "OBJ_US_DETER",
+          "OBJ_US_SUPPORT_HIMALDESH",
+          "OBJ_US_PRESERVE_ACCESS",
+          "OBJ_US_STRATEGIC_STABILITY"
+        ],
+        "evidence_basis": [
+          "USC1_PRODUCT_THREAT_001",
+          "USC1_PRODUCT_DIPLOMATIC_ECONOMIC_001",
+          "USC1_PRODUCT_NUCLEAR_001",
+          "USC1_PRODUCT_DEFENSE_001",
+          "USC1_PRODUCT_LEGAL_001",
+          "USC1_PRODUCT_SYNTHESIS_001"
+        ],
+        "current_assessment": "The seizure is confirmed; authorization and long-term intent remain uncertain; a bounded partner-support window is open but weather-sensitive.",
+        "competing_hypotheses": [
+          "limited centrally authorized coercion",
+          "local initiative accepted after the fact",
+          "opening move in a wider campaign"
+        ],
+        "confidence_and_gaps": {
+          "confidence": "mixed by claim",
+          "gaps": [
+            "central authorization",
+            "withdrawal threshold",
+            "future access conditions"
+          ]
+        },
+        "components": [
+          {
+            "component_id": "COMP_DIPLOMATIC_DEMARCHE",
+            "timing": "immediate",
+            "content": "Private withdrawal demand, urgent partner consultations, and a public call to restore the prior position.",
+            "safeguards": ["no treaty guarantee", "retain a monitored disengagement off-ramp"]
+          },
+          {
+            "component_id": "COMP_INTELLIGENCE_SHARING",
+            "timing": "conditional",
+            "content": "Release time-sensitive defensive intelligence within releasability and recipient restrictions.",
+            "safeguards": ["no U.S. target selection", "record provenance and recipient limits"]
+          },
+          {
+            "component_id": "COMP_DEFENSIVE_SUPPORT",
+            "timing": "conditional",
+            "content": "Prepare noncombat planning, logistics, defensive materiel, and force-protection support for Himaldesh's limited recapture.",
+            "safeguards": ["no U.S. fires", "no combat forces", "component-specific authority review"]
+          },
+          {
+            "component_id": "COMP_ECONOMIC_PREPARATION",
+            "timing": "prepare now; activate only if conditions are met",
+            "content": "Design narrow reversible financial measures and coordinate private warning.",
+            "safeguards": ["avoid broad civilian spillover", "preserve withdrawal incentives"]
+          },
+          {
+            "component_id": "COMP_PUBLIC_COMMUNICATION",
+            "timing": "immediate after partner coordination",
+            "content": "State support for restoration and consultation without announcing direct U.S. intervention.",
+            "safeguards": ["do not imply automatic military response"]
+          },
+          {
+            "component_id": "COMP_REASSESSMENT",
+            "timing": "at 6 hours or material change",
+            "content": "Reassess intent, partner decision, nuclear warning, and weather-sensitive access before any expansion.",
+            "safeguards": ["retain dissent and changed evidence"]
+          }
+        ],
+        "triggers_sequence_timing_dependencies": {
+          "sequence": [
+            "consult and demarche",
+            "prepare releasable intelligence and noncombat support",
+            "coordinate public and private messages",
+            "reassess before activation or expansion"
+          ],
+          "triggers": [
+            "Olvanan refusal or consolidation",
+            "Himaldeshi acceptance and end-use conditions",
+            "material weather or escalation change"
+          ],
+          "dependencies": [
+            "intelligence releasability",
+            "partner-controlled logistics",
+            "component-specific implementation authority"
+          ]
+        },
+        "authority_consultation_confirmation_safeguards": {
+          "route": "ROUTE_PRESIDENTIAL_POLICY",
+          "consultations": ["GROUP_PC", "GROUP_LEGAL_AUTHORITY"],
+          "record_confirmations": [
+            "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+            "CONFIRM_NSC_AUTHORITY_RECORD"
+          ],
+          "effect_boundary": "No World effect or effect-level authority is admitted in Milestone 2."
+        },
+        "domain_dispositions": [
+          {
+            "domain_id": "diplomacy_private_channels",
+            "responsible_seat_ids": ["SEAT_STATE", "SEAT_NSA"],
+            "deciding_forum_group_id": "GROUP_NSC",
+            "reason": "Create a withdrawal path before the partner clock expires.",
+            "disposition": "immediate_action"
+          },
+          {
+            "domain_id": "intelligence_collection_sharing",
+            "responsible_seat_ids": ["SEAT_DNI", "SEAT_CIA_DIRECTOR"],
+            "deciding_forum_group_id": "GROUP_NSC",
+            "reason": "Improve defensive warning while retaining releasability limits.",
+            "disposition": "conditional_action"
+          },
+          {
+            "domain_id": "defense_support_posture",
+            "responsible_seat_ids": ["SEAT_DEFENSE", "SEAT_CJCS", "SEAT_THEATER_COMMANDER"],
+            "deciding_forum_group_id": "GROUP_NSC",
+            "reason": "Prepare bounded noncombat support without creating direct U.S. participation.",
+            "disposition": "conditional_action"
+          },
+          {
+            "domain_id": "economic_financial_measures",
+            "responsible_seat_ids": ["SEAT_TREASURY", "SEAT_STATE"],
+            "deciding_forum_group_id": "GROUP_NSC",
+            "reason": "Preserve a reversible cost-imposition option if withdrawal fails.",
+            "disposition": "conditional_action"
+          },
+          {
+            "domain_id": "public_communication",
+            "responsible_seat_ids": ["SEAT_STATE", "SEAT_NSA", "SEAT_CHIEF_OF_STAFF"],
+            "deciding_forum_group_id": "GROUP_NSC",
+            "reason": "Support restoration and consultations without making an unsupported guarantee.",
+            "disposition": "immediate_action"
+          },
+          {
+            "domain_id": "contingency_reassessment",
+            "responsible_seat_ids": ["SEAT_NSA", "SEAT_DEFENSE", "SEAT_DNI"],
+            "deciding_forum_group_id": "GROUP_NSC",
+            "reason": "Revisit the package when intent, partner choice, nuclear warning, or access changes.",
+            "disposition": "immediate_action"
+          }
+        ],
+        "principal_policy_positions": {
+          "SEAT_STATE": "support",
+          "SEAT_TREASURY": "support with activation conditions",
+          "SEAT_DEFENSE": "support with explicit noncombat and authority limits",
+          "SEAT_ENERGY": "support with continued nuclear-risk monitoring",
+          "SEAT_ATTORNEY_GENERAL": "record complete for presidential routing; effects still gated",
+          "SEAT_VICE_PRESIDENT": "support",
+          "SEAT_CHIEF_OF_STAFF": "support"
+        },
+        "principal_attention_positions": {
+          "SEAT_STATE": "presidential attention required",
+          "SEAT_TREASURY": "presidential attention required",
+          "SEAT_DEFENSE": "presidential attention required",
+          "SEAT_ENERGY": "presidential attention required",
+          "SEAT_ATTORNEY_GENERAL": "presidential attention required",
+          "SEAT_VICE_PRESIDENT": "presidential attention required",
+          "SEAT_CHIEF_OF_STAFF": "presidential attention required"
+        },
+        "material_dissent": [
+          "whether preparatory logistics begin before the private response window closes",
+          "whether economic preparation is disclosed privately"
+        ],
+        "dissent_disposition": "Preserve both positions and route the package to the President without controller resolution.",
+        "decision_or_return_record": "Refer the integrated conditional package to the NSC for presidential decision.",
+        "reassessment_point": "Six hours after decision, or earlier upon material change in occupation, partner choice, nuclear warning, or weather-sensitive access.",
+        "source_fact_ids": ["FACT_PUBLIC_PC_PROCESS", "FACT_PUBLIC_EXECUTIVE_SECRETARY"],
+        "open_content_note": {
+          "purpose": "The package envelope is typed, but its policy components and cross-domain logic remain open authored content.",
+          "non_exhaustive": true
+        }
+      }
+    },
+    {
+      "product_id": "USC1_PRODUCT_NSC_DECISION_001",
+      "group_id": "GROUP_NSC",
+      "product_schema_id": "PRODUCT_NSC_DECISION_RECORD",
+      "content": {
+        "route_id": "ROUTE_PRESIDENTIAL_POLICY",
+        "policy_package_id": "USC1_PRODUCT_POLICY_PACKAGE_001",
+        "presidential_decision": "Approve the integrated package as conditional policy direction, subject to every component's recorded implementation and effect-level gates.",
+        "decided_components": [
+          "COMP_DIPLOMATIC_DEMARCHE",
+          "COMP_INTELLIGENCE_SHARING",
+          "COMP_DEFENSIVE_SUPPORT",
+          "COMP_ECONOMIC_PREPARATION",
+          "COMP_PUBLIC_COMMUNICATION",
+          "COMP_REASSESSMENT"
+        ],
+        "returned_or_rejected_components": [],
+        "required_confirmations": [
+          "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+          "CONFIRM_NSC_AUTHORITY_RECORD"
+        ],
+        "consultations": ["GROUP_PC", "GROUP_LEGAL_AUTHORITY"],
+        "material_dissent": [
+          "Preparatory logistics timing remains recorded for implementation review.",
+          "Private disclosure of economic preparation remains discretionary within the approved diplomatic sequence."
+        ],
+        "what_was_not_decided": [
+          "No World effect was admitted.",
+          "No U.S. target selection, fires, or combat force was authorized.",
+          "No treaty guarantee was created.",
+          "No effect-level authority or capability was inferred."
+        ],
+        "taskings": [
+          "Executive Secretary distributes the exact record.",
+          "Responsible departments return component-specific implementation checks.",
+          "NSA convenes the recorded reassessment."
+        ],
+        "reassessment_point": "Six hours or material change, whichever occurs first.",
+        "failure_records": [],
+        "source_fact_ids": [
+          "FACT_NSC_HSC_FUNCTION",
+          "FACT_PUBLIC_PC_PROCESS",
+          "FACT_PUBLIC_EXECUTIVE_SECRETARY"
+        ]
+      }
+    }
+  ],
+  "confirmations": [
+    {
+      "confirmation_id": "CONFIRM_NSC_PRESIDENTIAL_DECISION",
+      "confirmer_seat_ids": ["SEAT_PRESIDENT"],
+      "confirmed_record_id": "USC1_PRODUCT_NSC_DECISION_001",
+      "status": "confirmed"
+    },
+    {
+      "confirmation_id": "CONFIRM_NSC_AUTHORITY_RECORD",
+      "confirmer_seat_ids": ["SEAT_ATTORNEY_GENERAL", "SEAT_WHITE_HOUSE_COUNSEL"],
+      "confirmed_record_id": "USC1_PRODUCT_NSC_DECISION_001",
+      "status": "confirmed"
+    }
+  ]
+}

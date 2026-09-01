@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stage 3 Model Calibration Playground</title>
+    <link rel="stylesheet" href="stage3_results_playground.css">
+    <link rel="stylesheet" href="stage3_results_components.css">
+    <script src="stage3_results_data.js" defer></script>
+    <script src="stage3_results_helpers.js" defer></script>
+    <script src="stage3_results_playground.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Stage 3 model calibration walkthrough</h1>
+      <p>
+        A local visual breakdown of the bounded press-light robustness run,
+        the current candidate tiers, observed failure modes, and sampled press output.
+      </p>
+    </header>
+
+    <main>
+      <section class="notice" aria-label="Internal use notice">
+        Internal calibration artifact. Scrub model and provider identifiers before using this
+        outside the private research workflow.
+      </section>
+
+      <section class="summary-grid" id="summary-grid" aria-label="Run summary"></section>
+
+      <section class="walkthrough" aria-labelledby="walkthrough-title">
+        <h2 id="walkthrough-title">How We Got Here</h2>
+        <ol class="timeline" id="timeline"></ol>
+      </section>
+
+      <section class="tool" aria-labelledby="compare-title">
+        <h2 id="compare-title">Model Comparison</h2>
+        <div class="controls">
+          <div class="segments" aria-label="Tier filters">
+            <button type="button" data-filter="all">All</button>
+            <button type="button" data-filter="A">Tier A</button>
+            <button type="button" data-filter="B">Tier B</button>
+            <button type="button" data-filter="C">Tier C</button>
+            <button type="button" data-filter="D">Tier D</button>
+            <button type="button" data-filter="E">Tier E</button>
+          </div>
+          <label>
+            Sort
+            <select id="sort-models">
+              <option value="cost">Cost, low to high</option>
+              <option value="completion">Completed runs</option>
+              <option value="spoken">Spoken messages</option>
+              <option value="tier">Tier</option>
+            </select>
+          </label>
+        </div>
+        <p><span id="active-filter">All lanes</span> - <span id="model-count">0 shown</span></p>
+        <div class="comparison">
+          <div>
+            <div class="table-head" aria-hidden="true">
+              <span>Tier</span>
+              <span>Model</span>
+              <span>Runs</span>
+              <span>Speak/decline</span>
+              <span>Cost</span>
+              <span>Complete</span>
+              <span>Speech</span>
+            </div>
+            <div class="model-list" id="model-list"></div>
+          </div>
+          <aside class="detail" id="detail" aria-label="Selected model detail"></aside>
+        </div>
+      </section>
+
+      <section class="walkthrough" aria-labelledby="failures-title">
+        <h2 id="failures-title">What Still Failed</h2>
+        <div class="failure-list" id="failure-list"></div>
+      </section>
+
+      <section class="walkthrough" aria-labelledby="samples-title">
+        <h2 id="samples-title">Sampled Press Output</h2>
+        <div class="samples" id="samples"></div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+{
+  "approval_status": "approved",
+  "candidate_manifest_hash": "cc69c025b61160c3722320640de38aa8028126e08c7d591834efe8723ecd8349",
+  "cost_bound": {
+    "proposed_max_cost_usd": 500.0,
+    "upper_bound_usd": 477.52151
+  },
+  "credentials_read": true,
+  "live_preflight": {
+    "approval_status": "approved",
+    "attempts": [
+      {
+        "model_id": "deepseek_v4_flash_0731",
+        "prompt_sha256": "6cb8a8148dd378c12e98fd8b5b626bcefdd10b9ff0b0b4e16c95965d7f6617a8",
+        "provider_attempts": 1,
+        "provider_latency_ms": 1141,
+        "provider_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "provider_transport_retries": 0,
+        "provider_usage": {
+          "completion_tokens": 7,
+          "prompt_tokens": 25,
+          "total_tokens": 32
+        },
+        "request_body_sha256": "6c792ac3e23485ead13d5610db5ebd19271e77b9d9169cb005e4cd6c8f3b57d3",
+        "response_chars": 18,
+        "response_contract": {
+          "preflight": "ok"
+        },
+        "response_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "response_sha256": "c5f966c4d5f7c275b37c2aa91e9e27835665d8416e01f31ac181a098b3d0f35c",
+        "seed": 91,
+        "status": "passed"
+      },
+      {
+        "model_id": "deepseek_v4_flash_0731",
+        "prompt_sha256": "d2059c1c1a52866deaeb78545fd5c822ca4a07e15fd11098c6fa745a42ecbca8",
+        "provider_attempts": 1,
+        "provider_latency_ms": 521,
+        "provider_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "provider_transport_retries": 0,
+        "provider_usage": {
+          "completion_tokens": 7,
+          "prompt_tokens": 25,
+          "total_tokens": 32
+        },
+        "request_body_sha256": "26a4da0ee07d159208eeed30fb4612591b2cde668a6aa1527174d4d6bb713741",
+        "response_chars": 18,
+        "response_contract": {
+          "preflight": "ok"
+        },
+        "response_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "response_sha256": "c5f966c4d5f7c275b37c2aa91e9e27835665d8416e01f31ac181a098b3d0f35c",
+        "seed": 92,
+        "status": "passed"
+      },
+      {
+        "model_id": "deepseek_v4_flash_0731",
+        "prompt_sha256": "ca5e06ea827577b7b65a165bdd4006057b4660b1291ca4f9a6b7e8fd45895b19",
+        "provider_attempts": 1,
+        "provider_latency_ms": 1067,
+        "provider_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "provider_transport_retries": 0,
+        "provider_usage": {
+          "completion_tokens": 7,
+          "prompt_tokens": 25,
+          "total_tokens": 32
+        },
+        "request_body_sha256": "ae87a7020eeb994661fcbb0732fe2660fcc2b64837d98c98c35be392f6ab591e",
+        "response_chars": 18,
+        "response_contract": {
+          "preflight": "ok"
+        },
+        "response_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "response_sha256": "c5f966c4d5f7c275b37c2aa91e9e27835665d8416e01f31ac181a098b3d0f35c",
+        "seed": 93,
+        "status": "passed"
+      },
+      {
+        "model_id": "gpt_oss_20b",
+        "prompt_sha256": "6cb8a8148dd378c12e98fd8b5b626bcefdd10b9ff0b0b4e16c95965d7f6617a8",
+        "provider_attempts": 1,
+        "provider_latency_ms": 871,
+        "provider_model": "openai/gpt-oss-20b",
+        "provider_transport_retries": 0,
+        "provider_usage": {
+          "completion_tokens": 20,
+          "prompt_tokens": 88,
+          "reasoning_tokens": 0,
+          "total_tokens": 108
+        },
+        "request_body_sha256": "f80325956220a701c3d932c832082d643a6cd6f0da89b197053d0ae9e0c8ff4e",
+        "response_chars": 18,
+        "response_contract": {
+          "preflight": "ok"
+        },
+        "response_model": "openai/gpt-oss-20b",
+        "response_sha256": "c5f966c4d5f7c275b37c2aa91e9e27835665d8416e01f31ac181a098b3d0f35c",
+        "seed": 91,
+        "status": "passed"
+      },
+      {
+        "model_id": "gpt_oss_20b",
+        "prompt_sha256": "d2059c1c1a52866deaeb78545fd5c822ca4a07e15fd11098c6fa745a42ecbca8",
+        "provider_attempts": 1,
+        "provider_latency_ms": 529,
+        "provider_model": "openai/gpt-oss-20b",
+        "provider_transport_retries": 0,
+        "provider_usage": {
+          "completion_tokens": 20,
+          "prompt_tokens": 88,
+          "reasoning_tokens": 0,
+          "total_tokens": 108
+        },
+        "request_body_sha256": "290329bfbce4cb89426c5b79f20826ee6eb9f84863fc165cc261e8c7ed1eb856",
+        "response_chars": 18,
+        "response_contract": {
+          "preflight": "ok"
+        },
+        "response_model": "openai/gpt-oss-20b",
+        "response_sha256": "c5f966c4d5f7c275b37c2aa91e9e27835665d8416e01f31ac181a098b3d0f35c",
+        "seed": 92,
+        "status": "passed"
+      },
+      {
+        "model_id": "gpt_oss_20b",
+        "prompt_sha256": "ca5e06ea827577b7b65a165bdd4006057b4660b1291ca4f9a6b7e8fd45895b19",
+        "provider_attempts": 1,
+        "provider_latency_ms": 790,
+        "provider_model": "openai/gpt-oss-20b",
+        "provider_transport_retries": 0,
+        "provider_usage": {
+          "completion_tokens": 20,
+          "prompt_tokens": 88,
+          "reasoning_tokens": 0,
+          "total_tokens": 108
+        },
+        "request_body_sha256": "97acbcaff349deefc077571bc634e5f6c57774be6af5982db095cdfd0e4a6330",
+        "response_chars": 18,
+        "response_contract": {
+          "preflight": "ok"
+        },
+        "response_model": "openai/gpt-oss-20b",
+        "response_sha256": "c5f966c4d5f7c275b37c2aa91e9e27835665d8416e01f31ac181a098b3d0f35c",
+        "seed": 93,
+        "status": "passed"
+      }
+    ],
+    "authorization": {
+      "approved": true,
+      "candidate_manifest_hash": "cc69c025b61160c3722320640de38aa8028126e08c7d591834efe8723ecd8349",
+      "credential_envs": [
+        "TOGETHER_API_KEY"
+      ],
+      "endpoints": [
+        "https://api.together.ai/v1"
+      ],
+      "executor_revision": "09421afee7a0c763127d0ec5e460f7d94a596bdc",
+      "max_spend_usd": 500.0,
+      "model_ids": [
+        "deepseek_v4_flash_0731",
+        "gpt_oss_20b"
+      ],
+      "schema_version": 1
+    },
+    "candidate_manifest_hash": "cc69c025b61160c3722320640de38aa8028126e08c7d591834efe8723ecd8349",
+    "cost_bound": {
+      "study_max_cost_usd": 500.0,
+      "upper_bound_usd": 0.01622016
+    },
+    "credentials_read": true,
+    "executor_revision": "09421afee7a0c763127d0ec5e460f7d94a596bdc",
+    "network_calls": 6,
+    "preflight_seeds": [
+      91,
+      92,
+      93
+    ],
+    "promotion_approval": {
+      "approved": true,
+      "candidate_manifest_hash": "cc69c025b61160c3722320640de38aa8028126e08c7d591834efe8723ecd8349",
+      "credential_envs": [
+        "TOGETHER_API_KEY"
+      ],
+      "endpoints": [
+        "https://api.together.ai/v1"
+      ],
+      "executor_revision": "09421afee7a0c763127d0ec5e460f7d94a596bdc",
+      "live_receipt_sha256": "e371cabecfeea892509959111697f7faac539499767e1a2025596ee46df8cd12",
+      "max_spend_usd": 500.0,
+      "model_ids": [
+        "deepseek_v4_flash_0731",
+        "gpt_oss_20b"
+      ],
+      "schema_version": 1
+    },
+    "request_bound": {
+      "input_tokens_per_attempt": 8192,
+      "output_tokens_per_attempt": 512,
+      "provider_attempts": 18
+    },
+    "schema_version": 1,
+    "source_revision": "contest-model-pair-lock-2026-08-16",
+    "status": "passed",
+    "study_seeds": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  "manifest_id": "wopr-situation-room-model-pair-deepseek-flash-gpt-oss",
+  "network_calls": 0,
+  "offline_fixture": {
+    "observed_c2_calls_per_game": 564,
+    "observed_press_calls_per_game": 60,
+    "operational_cap_c2_calls_per_game": 2048,
+    "operational_cap_press_calls_per_game": 160
+  },
+  "offline_fixture_measurement": {
+    "artifact_sha256": "f46d8d771a0a2d2815a25557798e0dac5609eae01966211aa764520061d1e5d6",
+    "path": "M3_OFFLINE_FIXTURE_MEASUREMENTS.json",
+    "source_manifest_hash": "06a7063b4ac38fd12aaca8d23e732b36e3d821e5eb990ec539abc5ff786a0a41"
+  },
+  "preflight_seeds": [
+    91,
+    92,
+    93
+  ],
+  "request_bound": {
+    "base_calls_per_game": 2208,
+    "games_per_model": 20,
+    "input_tokens": 4341104640,
+    "input_tokens_per_request": 8192,
+    "models": [
+      {
+        "cost_usd": 341.86199,
+        "input_tokens": 2170552320,
+        "model_id": "deepseek_v4_flash_0731",
+        "output_tokens": 135659520,
+        "provider_model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "provider_request_attempts": 264960
+      },
+      {
+        "cost_usd": 135.65952,
+        "input_tokens": 2170552320,
+        "model_id": "gpt_oss_20b",
+        "output_tokens": 135659520,
+        "provider_model": "openai/gpt-oss-20b",
+        "provider_request_attempts": 264960
+      }
+    ],
+    "output_retries": 1,
+    "output_tokens": 271319040,
+    "output_tokens_per_request": 512,
+    "provider_request_attempts": 529920,
+    "retry_multiplier": 6,
+    "study_games": 40,
+    "transport_retry_margin": 2,
+    "upper_bound_usd": 477.52151
+  },
+  "source_revision": "contest-model-pair-lock-2026-08-16",
+  "status": "approved",
+  "study": {
+    "condition_count": 4,
+    "games": 40,
+    "seeds_per_condition": 5
+  },
+  "study_seeds": [
+    51,
+    52,
+    53,
+    54,
+    55
+  ]
+}

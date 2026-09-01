@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "manifest_id": "wopr-situation-room-model-pair-deepseek-flash-gpt-oss",
+  "source_revision": "contest-model-pair-lock-2026-08-16",
+  "offline_fixture_measurement": {
+    "path": "M3_OFFLINE_FIXTURE_MEASUREMENTS.json",
+    "source_manifest_hash": "06a7063b4ac38fd12aaca8d23e732b36e3d821e5eb990ec539abc5ff786a0a41",
+    "artifact_sha256": "f46d8d771a0a2d2815a25557798e0dac5609eae01966211aa764520061d1e5d6"
+  },
+  "preflight_seeds": [91, 92, 93],
+  "study_seeds": [51, 52, 53, 54, 55],
+  "study_design": {"condition_count": 4, "seeds_per_condition": 5},
+  "retry_policy": {"output_retries": 1, "transport_retry_margin": 2},
+  "request_budget": {
+    "max_tokens": 512,
+    "input_tokens_bound": 8192,
+    "proposed_max_cost_usd": 500.0
+  },
+  "offline_fixture": {
+    "observed_c2_calls_per_game": 564,
+    "observed_press_calls_per_game": 60,
+    "max_c2_calls_per_game": 2048,
+    "max_press_calls_per_game": 160
+  },
+  "models": [
+    {
+      "model_id": "deepseek_v4_flash_0731",
+      "model_family": "DeepSeek",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.0,
+        "max_tokens": 512,
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      },
+      "input_usd_per_million": 0.14,
+      "output_usd_per_million": 0.28
+    },
+    {
+      "model_id": "gpt_oss_20b",
+      "model_family": "GPT-OSS",
+      "backend": "concordia_http",
+      "provider": "together",
+      "client": {
+        "provider": "together",
+        "base_url": "https://api.together.ai/v1",
+        "model": "openai/gpt-oss-20b",
+        "api_key_env": "TOGETHER_API_KEY",
+        "provider_label": "together",
+        "timeout_seconds": 60,
+        "temperature": 0.0,
+        "max_tokens": 512,
+        "reasoning_effort": "low",
+        "reasoning_enabled": false,
+        "stream": true
+      },
+      "max_retries": 1,
+      "role_prompt_hashes": {
+        "executive": "f777ca5b076625cc8ff30e4929439086b31d2ed6573ac95b596c403e874365a9",
+        "strategic_advisor": "34a3b8b9dc25cd0899d776dabb4e5264696bfe044ec6f86f5294f824c452f963",
+        "risk_advisor": "5bf4a5fb48f6360e055ea5ec36068c34867be8fe4545d40b832dbed9204242f1"
+      },
+      "input_usd_per_million": 0.05,
+      "output_usd_per_million": 0.2
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+.comparison {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.9fr);
+  gap: 16px;
+}
+
+.table-head,
+.model-row {
+  display: grid;
+  grid-template-columns: 40px minmax(220px, 1fr) 64px 82px 84px 90px 90px;
+  gap: 10px;
+  align-items: center;
+}
+
+.table-head {
+  padding: 0 12px 8px;
+}
+
+.model-list {
+  display: grid;
+  gap: 6px;
+}
+
+.model-row {
+  width: 100%;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.model-row.active {
+  border-color: var(--red);
+  box-shadow: inset 3px 0 0 var(--red);
+}
+
+.model-name {
+  overflow-wrap: anywhere;
+}
+
+.tier {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+}
+
+.tier-A { background: var(--green); }
+.tier-B { background: var(--teal); }
+.tier-C { background: var(--gold); }
+.tier-D { background: var(--red); }
+.tier-E { background: #555; }
+
+meter {
+  width: 100%;
+  height: 12px;
+}
+
+meter::-webkit-meter-bar {
+  background: #ede8dd;
+  border: 0;
+  border-radius: 99px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: var(--teal);
+  border-radius: 99px;
+}
+
+.speech::-webkit-meter-optimum-value {
+  background: var(--red);
+}
+
+.detail {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  align-self: start;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 14px 0;
+}
+
+dd {
+  margin: 2px 0 0;
+  font-weight: 700;
+}
+
+.timeline {
+  display: grid;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+}
+
+.timeline li {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 12px;
+  border-left: 4px solid var(--teal);
+  padding: 8px 0 8px 12px;
+}
+
+.failure strong {
+  display: block;
+  font-size: 1.4rem;
+}
+
+.failure p,
+blockquote p,
+.detail p + p {
+  margin-top: 8px;
+  color: var(--muted);
+}
+
+.samples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 10px;
+}
+
+blockquote {
+  margin: 0;
+}
+
+footer {
+  margin-top: 10px;
+}
+@media (max-width: 900px) {
+  .comparison {
+    grid-template-columns: 1fr;
+  }
+  .table-head {
+    display: none;
+  }
+  .model-row {
+    grid-template-columns: 34px minmax(0, 1fr) 56px 70px;
+  }
+  .model-row meter,
+  .model-row span:nth-child(5) {
+    display: none;
+  }
+}

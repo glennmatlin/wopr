@@ -1,0 +1,137 @@
+{
+  "schema_version": "counterpart-room-fixture.v0.1",
+  "fixture_id": "OLVANA_ROOM_CYCLE1.development.v0_1",
+  "fixture_version": "0.1.0",
+  "status": "development_fixture_non_evidence",
+  "actor_id": "ACTOR_OLVANA",
+  "ratification_id": "COUNTERPART_MINIMUM_M5.ratification.D72",
+  "ratification_hash": "bbab62ea681f2e513407b926de5adfbfaeb8e73baf5fb86ea34808b9fa524384",
+  "source_register_hash": "932c12452ccb3373ccf4fc07c7d91f290d6812d1d8d1b227f49f0cf8eb4e06d5",
+  "charter_hash": "0aa48c3cb8e2980324b3db6d4c5426fb5ff67f746775728a0b00f38897fe389a",
+  "action_class": "limited_ridge_hold_and_integrated_pressure",
+  "watch_inputs": [
+    {
+      "input_id": "OLV_INPUT_COMMON_001",
+      "information_class_id": "OLV_INFO_COMMON",
+      "sender_id": "OLV_SERVICE_WATCH",
+      "content": {
+        "as_of": "STARTEX plus 4 hours",
+        "confirmed": ["Olvanan forces hold the limited ridge objective"],
+        "uncertain": ["outside intervention", "duration of the hold"],
+        "constraints": ["no further advance", "nuclear decision route remains unsupported"]
+      }
+    },
+    {"input_id": "OLV_INPUT_PARTY_001", "information_class_id": "OLV_INFO_PARTY_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "The party-state objective is a bounded hold that preserves coercive leverage without uncontrolled expansion."}},
+    {"input_id": "OLV_INPUT_PRESIDENT_001", "information_class_id": "OLV_INFO_PRESIDENT_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "Formal command confirmation requires a feasible, bounded posture after NCA review."}},
+    {"input_id": "OLV_INPUT_FOREIGN_001", "information_class_id": "OLV_INFO_FOREIGN_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "External pressure is rising; withdrawal conditions and a locally defensive public posture preserve an off-ramp."}},
+    {"input_id": "OLV_INPUT_PUBLIC_001", "information_class_id": "OLV_INFO_PUBLIC_INFORMATION_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "Messaging can describe the ridge hold as locally defensive without promising permanent annexation."}},
+    {"input_id": "OLV_INPUT_FINANCE_001", "information_class_id": "OLV_INFO_FINANCE_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "Prolonged consolidation increases exposure to targeted external economic pressure."}},
+    {"input_id": "OLV_INPUT_INTERIOR_001", "information_class_id": "OLV_INFO_INTERIOR_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "Internal control remains stable if the operation stays bounded and public claims remain limited."}},
+    {"input_id": "OLV_INPUT_DEFENSE_001", "information_class_id": "OLV_INFO_DEFENSE_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "A limited hold and defensive field preparation are feasible; further advance would widen force-protection and escalation demands."}},
+    {"input_id": "OLV_INPUT_GENERAL_STAFF_001", "information_class_id": "OLV_INFO_GENERAL_STAFF_PRIVATE", "sender_id": "OLV_SERVICE_WATCH", "content": {"brief": "The ridge position can be held defensively, but duration and outside intervention remain operational uncertainties."}}
+  ],
+  "group_products": [
+    {
+      "product_id": "OLV_PRODUCT_NCA_POSITIONS_001",
+      "group_id": "OLV_GROUP_NCA_PORTFOLIOS",
+      "product_schema_id": "OLV_PRODUCT_NCA_PORTFOLIO_BUNDLE",
+      "content": {
+        "ordered_positions": [
+          {"seat_id": "OLV_SEAT_FOREIGN_AFFAIRS", "position": "retain a bounded hold while preserving withdrawal conditions"},
+          {"seat_id": "OLV_SEAT_PUBLIC_INFORMATION", "position": "describe the move as locally defensive"},
+          {"seat_id": "OLV_SEAT_FINANCE", "position": "avoid steps likely to trigger broad external measures"},
+          {"seat_id": "OLV_SEAT_INTERIOR", "position": "retain internal control and avoid wider mobilization"},
+          {"seat_id": "OLV_SEAT_DEFENSE", "position": "strengthen defensive field works without further advance"}
+        ],
+        "evidence_references": ["OLV_INPUT_COMMON_001", "OLV_INPUT_FOREIGN_001", "OLV_INPUT_PUBLIC_001", "OLV_INPUT_FINANCE_001", "OLV_INPUT_INTERIOR_001", "OLV_INPUT_DEFENSE_001"],
+        "uncertainties": ["outside intervention", "intended duration"],
+        "conditions": ["no further advance", "retain a withdrawal off-ramp"],
+        "dissent": [{"seat_id": "OLV_SEAT_FOREIGN_AFFAIRS", "position": "publish withdrawal conditions earlier than Defense prefers"}]
+      }
+    },
+    {
+      "product_id": "OLV_PRODUCT_COMMAND_001",
+      "group_id": "OLV_GROUP_COMMAND_ASSESSMENT",
+      "product_schema_id": "OLV_PRODUCT_COMMAND_ASSESSMENT",
+      "content": {
+        "posture": "limited ridge hold with defensive preparation and no further advance",
+        "feasibility": "feasible under current force and access conditions",
+        "readiness": "conventional defensive readiness only",
+        "force_protection": ["strengthen field works", "maintain air-defense coverage"],
+        "command_integrity": "President confirmation remains required for the exact posture component",
+        "escalation_risk": ["outside intervention", "misreading consolidation as a broader advance"],
+        "alternatives": ["freeze preparation", "condition partial withdrawal on reciprocal steps"],
+        "dissent": ["General Staff assigns more weight than Defense to the risk of a prolonged hold"],
+        "gaps": ["OLV_GAP_NUCLEAR_DECISION_PATH", "OLV_GAP_LIMITED_USE_SOURCE_DRIFT"]
+      }
+    },
+    {
+      "product_id": "OLV_PRODUCT_SID_OPTIONS_001",
+      "group_id": "OLV_GROUP_SID_INTEGRATION",
+      "product_schema_id": "OLV_PRODUCT_SID_OPTIONS",
+      "content": {
+        "source_product_ids": ["OLV_PRODUCT_NCA_POSITIONS_001", "OLV_PRODUCT_COMMAND_001"],
+        "options": ["limited hold with defensive preparation", "hold with published withdrawal conditions", "freeze preparation pending talks"],
+        "instrument_dependencies": ["party direction", "President command confirmation", "Defense feasibility", "General Staff assessment"],
+        "contradictions": ["earlier public off-ramp versus retaining private ambiguity"],
+        "dissent": [{"seat_id": "OLV_SEAT_FOREIGN_AFFAIRS", "position": "earlier withdrawal language"}],
+        "stop_conditions": ["further advance", "loss of bounded command control", "unresolved posture confirmation"],
+        "gaps": ["no complete strategic or nuclear decision path", "no source-bound PSC vote"]
+      }
+    },
+    {
+      "product_id": "OLV_PRODUCT_NCA_REVIEW_001",
+      "group_id": "OLV_GROUP_NCA_REVIEW",
+      "product_schema_id": "OLV_PRODUCT_NCA_REVIEW",
+      "content": {
+        "options_hash": "fixture-reference::OLV_PRODUCT_SID_OPTIONS_001",
+        "president_position": {"seat_id": "OLV_SEAT_PRESIDENT", "position": "support a limited hold with no further advance"},
+        "ordered_portfolio_positions": "OLV_PRODUCT_NCA_POSITIONS_001",
+        "command_constraints": ["defensive posture only", "no strategic or nuclear component"],
+        "confirmations": ["OLV_CONFIRM_PRESIDENT_COMMAND", "OLV_CONFIRM_DEFENSE_FEASIBILITY", "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT"],
+        "dissent": [{"seat_id": "OLV_SEAT_FOREIGN_AFFAIRS", "position": "publish withdrawal conditions earlier"}],
+        "party_direction_request": "Decide whether to retain the limited hold and integrated pressure package."
+      }
+    },
+    {
+      "product_id": "OLV_PRODUCT_DECISION_001",
+      "group_id": "OLV_GROUP_PARTY_DIRECTION",
+      "product_schema_id": "OLV_PRODUCT_DECISION_RECORD",
+      "content": {
+        "action_class": "limited_ridge_hold_and_integrated_pressure",
+        "nca_review_hash": "fixture-reference::OLV_PRODUCT_NCA_REVIEW_001",
+        "general_secretary_decision": {"seat_id": "OLV_SEAT_GENERAL_SECRETARY", "decision": "approve_bounded_posture"},
+        "president_command_confirmation": "OLV_CONFIRM_PRESIDENT_COMMAND",
+        "professional_confirmations": ["OLV_CONFIRM_DEFENSE_FEASIBILITY", "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT"],
+        "retained_dissent": [{"seat_id": "OLV_SEAT_FOREIGN_AFFAIRS", "position": "publish withdrawal conditions earlier"}],
+        "blocked_components": ["further advance", "strategic or nuclear action", "Politburo vote"],
+        "output_components": {
+          "hold": "limited ridge objective",
+          "field_preparation": "defensive",
+          "public_posture": "locally defensive",
+          "withdrawal_conditions": ["reciprocal disengagement", "restoration talks"],
+          "no_further_advance": true
+        }
+      }
+    }
+  ],
+  "confirmations": [
+    {"confirmation_id": "OLV_CONFIRM_PRESIDENT_COMMAND", "confirmer_seat_ids": ["OLV_SEAT_PRESIDENT"], "confirmed_record_id": "OLV_PRODUCT_DECISION_001", "status": "confirmed"},
+    {"confirmation_id": "OLV_CONFIRM_DEFENSE_FEASIBILITY", "confirmer_seat_ids": ["OLV_SEAT_DEFENSE"], "confirmed_record_id": "OLV_PRODUCT_DECISION_001", "status": "confirmed"},
+    {"confirmation_id": "OLV_CONFIRM_GENERAL_STAFF_ASSESSMENT", "confirmer_seat_ids": ["OLV_SEAT_GENERAL_STAFF"], "confirmed_record_id": "OLV_PRODUCT_DECISION_001", "status": "confirmed"}
+  ],
+  "output_projection": {
+    "projection_id": "OLV_PROJECTION_RIDGE_POSTURE_001",
+    "projection_owner": "world_authored",
+    "mapping_type": "authored_world_projection",
+    "source_decision_record_id": "OLV_PRODUCT_DECISION_001",
+    "output": {
+      "output_id": "OLV_OUTPUT_RIDGE_POSTURE_001",
+      "content": {
+        "occupation_status": "confirmed",
+        "observed_activity": ["Olvanan forces hold the limited ridge objective", "field works and air-defense coverage are being strengthened", "public messaging describes the move as locally defensive"],
+        "unresolved": ["central authorization chain", "intended duration", "conditions for withdrawal", "relationship between theater signaling and strategic-force messaging"]
+      }
+    }
+  }
+}
