@@ -184,11 +184,11 @@
       "sha256": "8b36c1a99d10d69ea50c892d66b9fd4da82c53e1b9776debbe6b58dcf1b98e4b"
     },
     {
-      "bytes": 3552,
-      "git_blob": "18f11c81906788c4680047aa399d6cfe9b40cb35",
+      "bytes": 5151,
+      "git_blob": "311741a51dd9e1d70bf6d7507b6ac3b51fe59e9a",
       "git_mode": "100644",
       "path": "docs/contest/README.md",
-      "sha256": "439e9803e5ed830f1c78e772fe4fe84a50de739514d8b92cf905144c99981d18"
+      "sha256": "0b69b50c0859b9c45f33933baa4f77b38cae75506dffac07795494ffebf0777b"
     },
     {
       "bytes": 8583,
@@ -1327,6 +1327,6 @@
   ],
   "manifest_sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0",
   "schema_version": "contest-public-export-receipt.v1",
-  "source_revision": "9274cbcd6881b8ee2c3ceb8adf0e892f39b53a71",
-  "source_tree": "71cfd824ebc527e9ebafc5b3b011fe26d3a9dc60"
+  "source_revision": "70314878b79d65b7ccc6a1a821be5f92f0c46087",
+  "source_tree": "d26207663a9996bf7ce8c5ff1c86f6028204bef4"
 }

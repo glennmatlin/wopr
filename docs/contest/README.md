@@ -23,6 +23,32 @@ the deadline pivot in
 and the Episode 1 decisions linked from the episode packet without making the
 engineering chronology the public entry point.
 
+## Owner delivery requirements
+
+These requirements govern the handoff after deadline packaging:
+
+1. **Keep the DATE implementation in both repositories.** The private WOPR
+   repository retains the complete implementation and engineering history. The
+   public [WOPR repository](https://github.com/glennmatlin/wopr) receives the
+   manifest-selected DATE World, Situation Room, validation, replay, and
+   presentation artifacts. A verified remote ref, not a local checkout, is the
+   completion receipt for each destination.
+2. **Keep Episode 1 self-contained enough to present.** Start with
+   [`EPISODE_1.md`](EPISODE_1.md), then use the
+   [default profile](spec/13-first-episode-default-profile.md),
+   [DATE machine contract](spec/14-first-date-machine-contract.md), and
+   [proposal-to-consequence bridge](spec/17-open-proposal-consequence-bridge.md)
+   for detail. Together they explain Olvana's limited seizure, Himaldesh's
+   planned conventional recapture and U.S. support request, the two U.S. Room
+   cycles, weather pressure, open policy proposals, World-owned consequences,
+   and the reachable but non-scripted nuclear escalation path.
+3. **Prepare website inputs without making deployment a hidden prerequisite.**
+   The public application, evidence matrix, Episode 1 packet, protocol, source
+   treatment, and repository links are the website inputs. Website edits may be
+   tested and checkpointed on a separate topic branch for later deployment.
+   Preparing or submitting the contest entry does not imply that an unrun DATE
+   comparison or same-Room Nuclear War result exists.
+
 ## Run the offline Room rehearsal
 
 From `nuclear_war/`, install the development environment and run the checked-in
