@@ -10,13 +10,12 @@ Status: corrected three-Preset smoke passed 2026-08-21 on executor
 DeepSeek V4 Flash ran seed 51 for two turns in all three Presets. Every attempt
 was Tier A with 93 validated traces, zero fallback, zero validation errors, and
 zero transport retries. Receipt hashes are recorded in
-[CORRECTED_RUN_RECEIPT.json](CORRECTED_RUN_RECEIPT.json).
+[CORRECTED_RUN_RECEIPT.json](../../contest/CORRECTED_RUN_RECEIPT.json).
 
 An earlier corrected GPT-OSS smoke produced two Tier-A cells and one terminal
-equal-council failure. Those receipts remain under
-`/private/tmp/wopr-contest-smoke-fd48b11`; the predeclared smoke contract allows
-one model from the approved pair, so the complete DeepSeek smoke closed the
-composition gate.
+equal-council failure. Those receipts remained in the private working output
+tree; the predeclared smoke contract allowed one model from the approved pair,
+so the complete DeepSeek smoke closed the composition gate.
 
 ## Superseded August 18 smoke
 

@@ -1,5 +1,5 @@
 {
-  "file_count": 197,
+  "file_count": 200,
   "files": [
     {
       "bytes": 2945,
@@ -9,6 +9,13 @@
       "sha256": "c696370121fc1c27b79587c96bb9deade4a65fe4159159ac96304d0fde836899"
     },
     {
+      "bytes": 1834,
+      "git_blob": "62cba43078f49ed2f0a10ca76e6bafe38dbb3fb9",
+      "git_mode": "100644",
+      "path": "HISTORY.md",
+      "sha256": "c87302ffbe06761cd568005568cb2dabe4b73afe654852c05e8649499d18d344"
+    },
+    {
       "bytes": 1074,
       "git_blob": "4c56cc6597fba8a37ac761a1e01f355dc7ccd413",
       "git_mode": "100644",
@@ -16,11 +23,11 @@
       "sha256": "b15d9c8c4fc3d3ac7bba600e62d8c37d9a8a9e770a597f24cff54851595c65d9"
     },
     {
-      "bytes": 3575,
-      "git_blob": "88f49f2499314251d15b192fa984f1885ffbeb26",
+      "bytes": 3647,
+      "git_blob": "a913de3ff8345a8c8c8f95656e2f320df2479379",
       "git_mode": "100644",
       "path": "README.md",
-      "sha256": "90b7bf958bb7e12d958353c4117401317a2f99a7aec986ee3c582f5344875006"
+      "sha256": "691985635f423d110b38169e945bacf85f145778bd473a911be6fcdfa2d62dff"
     },
     {
       "bytes": 1505,
@@ -28,6 +35,20 @@
       "git_mode": "100644",
       "path": "docs/README.md",
       "sha256": "37c54a58bc495a002d85611f62ce380d5cdff6d132a5aca22a4466f5e4d449cc"
+    },
+    {
+      "bytes": 365,
+      "git_blob": "8933de1e33b5a942fd8878ebab1962d718a89a3e",
+      "git_mode": "100644",
+      "path": "docs/archive/README.md",
+      "sha256": "2a3bdec9883c772c659d75e2b24ea9ccf3f29e1a16342806d14636aa590d4e54"
+    },
+    {
+      "bytes": 1514,
+      "git_blob": "1afb95e22585b1fddd46989b89e7246488b5e3bb",
+      "git_mode": "100644",
+      "path": "docs/archive/chinatalk-pre-deadline/README.md",
+      "sha256": "e85f9f7166df46aa410c1a9d50e4fb5f913d15d055d346e2cf9f4a97bd6ad62f"
     },
     {
       "bytes": 9876,
@@ -184,11 +205,11 @@
       "sha256": "df2be01fd476aee332862ddb6e5ce0995b4b5d2c75734dbfb510549a8c8c4fa6"
     },
     {
-      "bytes": 5733,
-      "git_blob": "24526a5482174f6ecf3c1732b52be6a4dcfb6731",
+      "bytes": 5834,
+      "git_blob": "e731d5e9af56084b9042ea2a7a46f63e9740790b",
       "git_mode": "100644",
       "path": "docs/contest/PUBLIC_EXPORT_MANIFEST.json",
-      "sha256": "f506402add6996712f70dabe98eb30a13bfb512e1d6a291293e61322fdb5bcf4"
+      "sha256": "2c964556aef63b58e1625a4c93eed043111966a8cfb8f9335f212f28f99a1e7b"
     },
     {
       "bytes": 11240,
@@ -1381,8 +1402,8 @@
       "sha256": "b205e2ef42b51def83e6caf7627b8d38a4d3c437e4627e655626d6ee74993b6d"
     }
   ],
-  "manifest_sha256": "f506402add6996712f70dabe98eb30a13bfb512e1d6a291293e61322fdb5bcf4",
+  "manifest_sha256": "2c964556aef63b58e1625a4c93eed043111966a8cfb8f9335f212f28f99a1e7b",
   "schema_version": "contest-public-export-receipt.v1",
-  "source_revision": "a407262883aac934179120c2521fbdcef401c19d",
-  "source_tree": "3962aad8455efe123c5bcd0c3769757881b74c23"
+  "source_revision": "0c63cc6705a98ea6b590ffe77e4254502d735685",
+  "source_tree": "3eb1ab6020dd0b6e34eb3c21cfed18b6f5a08f01"
 }

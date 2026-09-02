@@ -19,6 +19,7 @@ game as a later comparison World.
 | How does the open crisis World work? | [DATE World](worlds/date/README.md) |
 | How does the closed game World work? | [Nuclear War World](worlds/nuclear-war/README.md) |
 | Where are the detailed documents? | [Documentation map](docs/README.md) |
+| Why did the design take this shape? | [Project history](HISTORY.md) |
 | Where is the implementation? | [Source map](src/README.md) |
 | How is it checked? | [Test map](tests/README.md) |
 

@@ -1,24 +1,26 @@
-# Nuclear War: Agent Handoff
+# Nuclear War development record
 
-> **Development record.** This file tracks how the engine was built,
+> **Historical development record.** This file tracks how the engine was built,
 > milestone by milestone. The `PR #N` links point at the private
 > development repository and will not resolve publicly; they are kept
 > because the milestone table is what the test suite checks against.
-> For design rather than chronology, start at `docs/contest/CURRENT_DESIGN.md`.
+> For the current project, start at the [WOPR landing page](../README.md) and
+> [contest Packet](contest/README.md).
 
-This is the entry point for an agent picking up this project. Read this file first, then the
-linked docs. Everything you need is in the repo. This file is self-contained.
+This file is retained for engine-development continuity and milestone tests. It
+is not the current public entry point; use the root README and contest Packet
+for the current project before consulting this chronology.
 Base Nuclear War handoff last updated 2026-07-05. ChinaTalk overlay added
 2026-08-30.
 
 ## ChinaTalk contest overlay
 
 For the current ChinaTalk Situation Room work, read
-[`contest/README.md`](contest/README.md) before using the older contest packet
-or the Nuclear War mission below. The contest now centers one complete U.S.
-Room across the open DATE crisis and the closed Nuclear War game. The remainder
-of this handoff still describes the Nuclear War engine foundation and should not
-override that dated contest status.
+[`contest/README.md`](contest/README.md) before using the Nuclear War mission
+below. The contest centers a U.S. Room in the open DATE crisis and proposes a
+later same-Room comparison in the closed Nuclear War game. That comparison has
+not been run. The remainder of this handoff describes the Nuclear War engine
+foundation and does not override the current Packet or evidence matrix.
 
 ## 1. The mission (end goal)
 

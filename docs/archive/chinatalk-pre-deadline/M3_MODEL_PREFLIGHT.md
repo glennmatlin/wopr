@@ -2,14 +2,14 @@
 
 Status: corrected six-cell live preflight passed and was promoted on 2026-08-21
 for executor `fd48b11e49675c3a8a82319e13f07c7900a5ddba`. Its compact receipt is
-[CORRECTED_RUN_RECEIPT.json](CORRECTED_RUN_RECEIPT.json). The historical executor is
+[CORRECTED_RUN_RECEIPT.json](../../contest/CORRECTED_RUN_RECEIPT.json). The historical executor is
 `09421afee7a0c763127d0ec5e460f7d94a596bdc`. Historical live receipt file:
-[MODEL_PREFLIGHT_RECEIPT.live.json](MODEL_PREFLIGHT_RECEIPT.live.json),
+[MODEL_PREFLIGHT_RECEIPT.live.json](../../contest/MODEL_PREFLIGHT_RECEIPT.live.json),
 SHA-256 `7dd927a53d97ffcce85d3562ef35446003f7f8f9beefe13f559a84ab948552a6`.
 The selected pair is recorded in
-[`MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json`](MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json)
+[`MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json`](../../contest/MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json)
 with the offline planning receipt
-[`MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json`](MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json).
+[`MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json`](../../contest/MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json).
 
 The owner has set a hard total API ceiling of $1,000, including screening,
 preflight,
@@ -31,9 +31,9 @@ screening rule:
 - `deepseek-ai/DeepSeek-V4-Flash-0731`, recorded as the DeepSeek family.
 - `openai/gpt-oss-20b`, recorded as the GPT-OSS family.
 
-The screening receipts are retained outside the repository under
-`/private/tmp/wopr-contest-screening-20260816`; they establish operational
-admissibility for these two lanes, not strategic behavior in the contest study.
+The screening receipts are retained in the private working output tree; they
+establish operational admissibility for these two lanes, not strategic behavior
+in the contest study.
 Current endpoint availability, pricing, prompt usage, and preflight behavior
 still require the owner-approved live preflight.
 
