@@ -1,6 +1,13 @@
 {
-  "file_count": 189,
+  "file_count": 197,
   "files": [
+    {
+      "bytes": 2945,
+      "git_blob": "4469c97944c4de8f63c25dac6ce4535d34f9078b",
+      "git_mode": "100644",
+      "path": "ARCHITECTURE.md",
+      "sha256": "c696370121fc1c27b79587c96bb9deade4a65fe4159159ac96304d0fde836899"
+    },
     {
       "bytes": 1074,
       "git_blob": "4c56cc6597fba8a37ac761a1e01f355dc7ccd413",
@@ -9,11 +16,18 @@
       "sha256": "b15d9c8c4fc3d3ac7bba600e62d8c37d9a8a9e770a597f24cff54851595c65d9"
     },
     {
-      "bytes": 3290,
-      "git_blob": "450c4a0c8f22518ded646e2e3e1643c31d1ba731",
+      "bytes": 3575,
+      "git_blob": "88f49f2499314251d15b192fa984f1885ffbeb26",
       "git_mode": "100644",
       "path": "README.md",
-      "sha256": "c1ce6462f92b5dc8f4951c850bf63ce4c51e07ded5bcb3b7810a808154998b2e"
+      "sha256": "90b7bf958bb7e12d958353c4117401317a2f99a7aec986ee3c582f5344875006"
+    },
+    {
+      "bytes": 1505,
+      "git_blob": "25adedf9649761dd1016a4cf9f7f134be69596e7",
+      "git_mode": "100644",
+      "path": "docs/README.md",
+      "sha256": "37c54a58bc495a002d85611f62ce380d5cdff6d132a5aca22a4466f5e4d449cc"
     },
     {
       "bytes": 9876,
@@ -170,11 +184,11 @@
       "sha256": "df2be01fd476aee332862ddb6e5ce0995b4b5d2c75734dbfb510549a8c8c4fa6"
     },
     {
-      "bytes": 5523,
-      "git_blob": "2dad7234bcdacab57c99ab1ee736ce55a7c1837c",
+      "bytes": 5733,
+      "git_blob": "24526a5482174f6ecf3c1732b52be6a4dcfb6731",
       "git_mode": "100644",
       "path": "docs/contest/PUBLIC_EXPORT_MANIFEST.json",
-      "sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0"
+      "sha256": "f506402add6996712f70dabe98eb30a13bfb512e1d6a291293e61322fdb5bcf4"
     },
     {
       "bytes": 11240,
@@ -511,6 +525,20 @@
       "git_mode": "100644",
       "path": "scripts/run_public_room_rehearsal.py",
       "sha256": "a6e8df02ac16f1006a69421fd085edbd5734df0af3a4e1dcd2b6bae738db3bb7"
+    },
+    {
+      "bytes": 2047,
+      "git_blob": "67aadba14fd2851fb9aba0933670ef0da4f4600c",
+      "git_mode": "100644",
+      "path": "situation-room/README.md",
+      "sha256": "08bbf985433f2cb42f8dfd0ecc2d0b6ef47acff2c5f2b11095faf7126ee7cd6f"
+    },
+    {
+      "bytes": 1743,
+      "git_blob": "d9ca56476a4f33c1ca4aff2ee1320c317bfa1f09",
+      "git_mode": "100644",
+      "path": "src/README.md",
+      "sha256": "5ac20169339bc5e6049bf92151db70ae29a08c0aa5c552f3170f6943e596d618"
     },
     {
       "bytes": 2068,
@@ -1318,15 +1346,43 @@
       "sha256": "9d18a7df9b573f5f9fd6f16e87ffbecd75293b75c7803e3e282e6fb463ac4611"
     },
     {
+      "bytes": 1242,
+      "git_blob": "01118f20158ef61578acd4e3927a352610254330",
+      "git_mode": "100644",
+      "path": "tests/README.md",
+      "sha256": "9f2654968e85844d9ebaf15506fbb0e435332c412280ebe4b4fc73cde9698fcb"
+    },
+    {
       "bytes": 255697,
       "git_blob": "b5e4194699cb73a5a1abc3c9f76da6da522f1941",
       "git_mode": "100644",
       "path": "uv.lock",
       "sha256": "9632d641cb2ed239458b1b60cfd4cd65b8f034630a28ee3dd51060698d5b73e4"
+    },
+    {
+      "bytes": 1139,
+      "git_blob": "5a653fccb1d0faeda830eb3ecc97461f0d98b375",
+      "git_mode": "100644",
+      "path": "worlds/README.md",
+      "sha256": "2150c0739ddc2c744b42d534f35a69fd3a863058b3f433997d8cbbb582f2ccaf"
+    },
+    {
+      "bytes": 2168,
+      "git_blob": "9fecd96f0aef0c430c809ce4dffe4cc798d81a35",
+      "git_mode": "100644",
+      "path": "worlds/date/README.md",
+      "sha256": "3a464adae81ea43b28d50c5ab858bc345cfb58ad7d663cc9f46efcc7b9d4ac65"
+    },
+    {
+      "bytes": 1522,
+      "git_blob": "87fb9bb0de22a348f6c32b8ef15be17db3ad6abc",
+      "git_mode": "100644",
+      "path": "worlds/nuclear-war/README.md",
+      "sha256": "b205e2ef42b51def83e6caf7627b8d38a4d3c437e4627e655626d6ee74993b6d"
     }
   ],
-  "manifest_sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0",
+  "manifest_sha256": "f506402add6996712f70dabe98eb30a13bfb512e1d6a291293e61322fdb5bcf4",
   "schema_version": "contest-public-export-receipt.v1",
-  "source_revision": "8eff7605cbe6cd23eadf35bc0cbb14e39fdca5ce",
-  "source_tree": "356320559292895f50e230e8867fb19645bb9c7c"
+  "source_revision": "a407262883aac934179120c2521fbdcef401c19d",
+  "source_tree": "3962aad8455efe123c5bcd0c3769757881b74c23"
 }
