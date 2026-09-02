@@ -1,6 +1,20 @@
 {
-  "file_count": 189,
+  "file_count": 203,
   "files": [
+    {
+      "bytes": 2945,
+      "git_blob": "4469c97944c4de8f63c25dac6ce4535d34f9078b",
+      "git_mode": "100644",
+      "path": "ARCHITECTURE.md",
+      "sha256": "c696370121fc1c27b79587c96bb9deade4a65fe4159159ac96304d0fde836899"
+    },
+    {
+      "bytes": 1834,
+      "git_blob": "62cba43078f49ed2f0a10ca76e6bafe38dbb3fb9",
+      "git_mode": "100644",
+      "path": "HISTORY.md",
+      "sha256": "c87302ffbe06761cd568005568cb2dabe4b73afe654852c05e8649499d18d344"
+    },
     {
       "bytes": 1074,
       "git_blob": "4c56cc6597fba8a37ac761a1e01f355dc7ccd413",
@@ -9,11 +23,32 @@
       "sha256": "b15d9c8c4fc3d3ac7bba600e62d8c37d9a8a9e770a597f24cff54851595c65d9"
     },
     {
-      "bytes": 3290,
-      "git_blob": "450c4a0c8f22518ded646e2e3e1643c31d1ba731",
+      "bytes": 3647,
+      "git_blob": "a913de3ff8345a8c8c8f95656e2f320df2479379",
       "git_mode": "100644",
       "path": "README.md",
-      "sha256": "c1ce6462f92b5dc8f4951c850bf63ce4c51e07ded5bcb3b7810a808154998b2e"
+      "sha256": "691985635f423d110b38169e945bacf85f145778bd473a911be6fcdfa2d62dff"
+    },
+    {
+      "bytes": 1505,
+      "git_blob": "25adedf9649761dd1016a4cf9f7f134be69596e7",
+      "git_mode": "100644",
+      "path": "docs/README.md",
+      "sha256": "37c54a58bc495a002d85611f62ce380d5cdff6d132a5aca22a4466f5e4d449cc"
+    },
+    {
+      "bytes": 365,
+      "git_blob": "8933de1e33b5a942fd8878ebab1962d718a89a3e",
+      "git_mode": "100644",
+      "path": "docs/archive/README.md",
+      "sha256": "2a3bdec9883c772c659d75e2b24ea9ccf3f29e1a16342806d14636aa590d4e54"
+    },
+    {
+      "bytes": 1514,
+      "git_blob": "1afb95e22585b1fddd46989b89e7246488b5e3bb",
+      "git_mode": "100644",
+      "path": "docs/archive/chinatalk-pre-deadline/README.md",
+      "sha256": "e85f9f7166df46aa410c1a9d50e4fb5f913d15d055d346e2cf9f4a97bd6ad62f"
     },
     {
       "bytes": 9876,
@@ -170,11 +205,11 @@
       "sha256": "df2be01fd476aee332862ddb6e5ce0995b4b5d2c75734dbfb510549a8c8c4fa6"
     },
     {
-      "bytes": 5523,
-      "git_blob": "2dad7234bcdacab57c99ab1ee736ce55a7c1837c",
+      "bytes": 5995,
+      "git_blob": "3e062301fffec2a07120241347a5c24e1eda5745",
       "git_mode": "100644",
       "path": "docs/contest/PUBLIC_EXPORT_MANIFEST.json",
-      "sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0"
+      "sha256": "be30527c1c02648366bf069603c33044dfbae6fb2676fd37448142ed60205c15"
     },
     {
       "bytes": 11240,
@@ -511,6 +546,20 @@
       "git_mode": "100644",
       "path": "scripts/run_public_room_rehearsal.py",
       "sha256": "a6e8df02ac16f1006a69421fd085edbd5734df0af3a4e1dcd2b6bae738db3bb7"
+    },
+    {
+      "bytes": 2047,
+      "git_blob": "67aadba14fd2851fb9aba0933670ef0da4f4600c",
+      "git_mode": "100644",
+      "path": "situation-room/README.md",
+      "sha256": "08bbf985433f2cb42f8dfd0ecc2d0b6ef47acff2c5f2b11095faf7126ee7cd6f"
+    },
+    {
+      "bytes": 1743,
+      "git_blob": "d9ca56476a4f33c1ca4aff2ee1320c317bfa1f09",
+      "git_mode": "100644",
+      "path": "src/README.md",
+      "sha256": "5ac20169339bc5e6049bf92151db70ae29a08c0aa5c552f3170f6943e596d618"
     },
     {
       "bytes": 2068,
@@ -1318,15 +1367,64 @@
       "sha256": "9d18a7df9b573f5f9fd6f16e87ffbecd75293b75c7803e3e282e6fb463ac4611"
     },
     {
+      "bytes": 1242,
+      "git_blob": "01118f20158ef61578acd4e3927a352610254330",
+      "git_mode": "100644",
+      "path": "tests/README.md",
+      "sha256": "9f2654968e85844d9ebaf15506fbb0e435332c412280ebe4b4fc73cde9698fcb"
+    },
+    {
+      "bytes": 3413,
+      "git_blob": "8fd35c926f3dc0a3b74493d70714bcc9318875b5",
+      "git_mode": "100644",
+      "path": "tests/integration/test_contest_microsite.py",
+      "sha256": "9034014ffe3dfa4048ca906df962b98645ee26d396bf8bd12f78f74d3f11e7b9"
+    },
+    {
+      "bytes": 5249,
+      "git_blob": "89c132847b02ae02ccd31112159e13fb415d94f6",
+      "git_mode": "100644",
+      "path": "tests/integration/test_public_export_release.py",
+      "sha256": "80d302edc736ba25fdb59b19611bf802637e113f15a7d26fb8071fb9f0ef5261"
+    },
+    {
+      "bytes": 2276,
+      "git_blob": "2ac56789501f4d040f6059c7a497c077b567c3df",
+      "git_mode": "100644",
+      "path": "tests/integration/test_repository_navigation.py",
+      "sha256": "7fe692c5811be6c4d231d57ca1561f593da00353f14f7b8cace1a38e6d7c3694"
+    },
+    {
       "bytes": 255697,
       "git_blob": "b5e4194699cb73a5a1abc3c9f76da6da522f1941",
       "git_mode": "100644",
       "path": "uv.lock",
       "sha256": "9632d641cb2ed239458b1b60cfd4cd65b8f034630a28ee3dd51060698d5b73e4"
+    },
+    {
+      "bytes": 1139,
+      "git_blob": "5a653fccb1d0faeda830eb3ecc97461f0d98b375",
+      "git_mode": "100644",
+      "path": "worlds/README.md",
+      "sha256": "2150c0739ddc2c744b42d534f35a69fd3a863058b3f433997d8cbbb582f2ccaf"
+    },
+    {
+      "bytes": 2168,
+      "git_blob": "9fecd96f0aef0c430c809ce4dffe4cc798d81a35",
+      "git_mode": "100644",
+      "path": "worlds/date/README.md",
+      "sha256": "3a464adae81ea43b28d50c5ab858bc345cfb58ad7d663cc9f46efcc7b9d4ac65"
+    },
+    {
+      "bytes": 1522,
+      "git_blob": "87fb9bb0de22a348f6c32b8ef15be17db3ad6abc",
+      "git_mode": "100644",
+      "path": "worlds/nuclear-war/README.md",
+      "sha256": "b205e2ef42b51def83e6caf7627b8d38a4d3c437e4627e655626d6ee74993b6d"
     }
   ],
-  "manifest_sha256": "01c07ae9efec439832253a46584263946945a90ba532067813996100e705c0e0",
+  "manifest_sha256": "be30527c1c02648366bf069603c33044dfbae6fb2676fd37448142ed60205c15",
   "schema_version": "contest-public-export-receipt.v1",
-  "source_revision": "8eff7605cbe6cd23eadf35bc0cbb14e39fdca5ce",
-  "source_tree": "356320559292895f50e230e8867fb19645bb9c7c"
+  "source_revision": "e88936af0a602e997e72936c7442cb06951a6e02",
+  "source_tree": "c08e7238a46d03d299b186c93517eae4e6e1fa17"
 }

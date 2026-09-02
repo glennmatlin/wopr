@@ -8,6 +8,7 @@ from pathlib import Path
 
 SITE = Path("docs/contest/site")
 INDEX = SITE / "index.html"
+STYLES = SITE / "styles.css"
 
 
 class _LinkParser(HTMLParser):
@@ -29,6 +30,23 @@ def _page() -> tuple[str, _LinkParser]:
     return text, parser
 
 
+def _relative_luminance(color: str) -> float:
+    channels = (int(color[index : index + 2], 16) / 255 for index in (1, 3, 5))
+    linear = tuple(
+        value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4
+        for value in channels
+    )
+    return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+
+def _contrast_ratio(foreground: str, background: str) -> float:
+    lighter, darker = sorted(
+        (_relative_luminance(foreground), _relative_luminance(background)),
+        reverse=True,
+    )
+    return (lighter + 0.05) / (darker + 0.05)
+
+
 def test_contest_microsite_has_truthful_accessible_structure() -> None:
     text, parser = _page()
 
@@ -36,10 +54,26 @@ def test_contest_microsite_has_truthful_accessible_structure() -> None:
     assert 'class="skip-link"' in text
     assert 'id="main"' in text
     assert 'type="application/ld+json"' in text
-    assert "Sounding complete; coverage incomplete" in text
-    assert "Six Tier-C cells and the failed Demo limit downstream comparisons." in text
-    assert "access-controlled" in text
+    assert "Put the Room between model choice and World consequence." in text
+    assert "This page reports no live DATE run." in text
+    assert "It is not model behavior or a live DATE run." in text
+    assert "NEXT EMPIRICAL STAGE" in text
+    assert 'href="../EVIDENCE_MATRIX.md"' in text
+    assert 'content="index, follow"' in text
+    assert '<link rel="canonical" href="https://glennmatlin.doctor/wopr/" />' in text
+    assert 'content="https://glennmatlin.doctor/wopr/"' in text
+    assert 'href="https://github.com/glennmatlin/wopr"' in text
+    assert 'href="../M6_CURRENT_STATUS.md"' not in text
+    assert "Sounding complete; coverage incomplete" not in text
     assert 'href="#"' not in text
+
+
+def test_contest_microsite_small_text_palette_meets_wcag_aa() -> None:
+    styles = STYLES.read_text(encoding="utf-8")
+    colors = dict(re.findall(r"--([\w-]+):\s*(#[0-9a-f]{6});", styles))
+
+    assert _contrast_ratio(colors["amber"], colors["paper"]) >= 4.5
+    assert _contrast_ratio(colors["amber"], colors["white"]) >= 4.5
 
 
 def test_contest_microsite_local_artifact_links_resolve() -> None:

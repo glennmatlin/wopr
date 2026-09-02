@@ -1,75 +1,90 @@
-# Nuclear War
+# WOPR
 
-I am building a deterministic implementation of Nuclear War for repeatable
-game runs and experiments. The package also contains the ChinaTalk Situation
-Room entry, which uses a separate DATE-backed crisis World and treats Nuclear
-War as a later closed-form comparison.
+WOPR is a research scaffold for studying how a simulated institution makes
+decisions across different crisis Worlds. The current contest entry models a
+U.S. Situation Room in an open-ended Himaldesh-Olvana crisis. The repository
+also retains a deterministic implementation of the closed-form Nuclear War
+game as a later comparison World.
 
-## Situation Room contest entry
+## Start here
 
-The current contest contribution is an institutional U.S. Room with distinct
-seats and mandates, selective information, working groups, preserved dissent,
-two decision cycles, open policy proposals, a constrained interpreter, and
-World-owned consequences. The realistic DATE evaluation is specified but not
-completed. The repository contains the working offline scaffold and only the
-evidence claimed in the
-[`contest Packet`](docs/contest/README.md) and
-[`evidence matrix`](docs/contest/EVIDENCE_MATRIX.md).
+| Question | Entry point |
+| --- | --- |
+| What is the submission? | [Contest Packet](docs/contest/README.md) |
+| What has actually been implemented or run? | [Evidence matrix](docs/contest/EVIDENCE_MATRIX.md) |
+| What happens in the first crisis episode? | [DATE Episode 1](docs/contest/EPISODE_1.md) |
+| How does the repository fit together? | [Architecture](ARCHITECTURE.md) |
+| How is the institutional Room modeled? | [Situation Room](situation-room/README.md) |
+| How do the two Worlds differ? | [Worlds](worlds/README.md) |
+| How does the open crisis World work? | [DATE World](worlds/date/README.md) |
+| How does the closed game World work? | [Nuclear War World](worlds/nuclear-war/README.md) |
+| Where are the detailed documents? | [Documentation map](docs/README.md) |
+| Why did the design take this shape? | [Project history](HISTORY.md) |
+| Where is the implementation? | [Source map](src/README.md) |
+| How is it checked? | [Test map](tests/README.md) |
 
-The historical v1 engine remains separate: language-model integration does not
-change the deterministic Nuclear War rules engine or its replay contract.
+## One Room, two Worlds
 
-## Start Here
+```mermaid
+flowchart LR
+    Seats[Institutional seats and portfolios] --> Room[U.S. Situation Room]
+    Room --> Package[Open policy package]
+    Package --> Date[DATE World]
+    Package -. proposed comparison .-> Game[Nuclear War World]
+    Date --> Validator[World validator and replay]
+    Game --> Engine[Closed rules engine and replay]
+```
 
-For the contest release, begin with the linked Packet and evidence matrix. The
-private engineering checkout retains its separate agent handoff and broader
-engine history.
+The Situation Room is not one decision-making agent. Source-bound seats
+receive different information, form working groups, preserve attributable
+advice and dissent, and produce an integrated policy package over two cycles.
+The DATE World admits only actions it can resolve and owns the resulting
+EXCON/MSEL consequences. Nuclear War supplies a bounded action grammar and
+deterministic rules instead.
 
-## V1 Target
+The DATE scaffold and scripted offline Room rehearsal are implemented. The
+live DATE evaluation and the same-Room comparison across both Worlds have not
+been run. The [evidence matrix](docs/contest/EVIDENCE_MATRIX.md) is the
+authoritative claim boundary.
 
-- Table play through a PettingZoo AEC environment.
-- Postal no-press play through a PettingZoo Parallel environment.
-- Scriptable CLI commands for rule validation, simulation, replay, and summaries.
-- Random and heuristic agents for baseline experiments.
-- Replay-safe JSON logs with seeds, actions, events, winner, final populations, and termination reason.
-- Tests that cover rules, hidden information, CLI behavior, PettingZoo compliance, and reproducibility.
+## Run the offline Room rehearsal
 
-## CLI
+The checked-in fixture exercises 114 scripted Room calls, selective
+information delivery, open-proposal materialization, deterministic World
+admission, and exact replay. It performs no model-provider or network call and
+does not constitute behavioral evaluation evidence.
 
-The package exposes `nuclear-war`.
+```bash
+uv sync --extra concordia
+REVISION="$(git rev-parse HEAD)"
+uv run python scripts/run_public_room_rehearsal.py \
+  docs/contest/US_TWO_CYCLE_FIXTURE.development.json \
+  "$REVISION" \
+  /tmp/us-room-rehearsal.json
+```
+
+## Nuclear War engine
+
+The original v1 package remains available through the `nuclear-war` command.
+Its deterministic rules live in `nuclear_war_env`; the PettingZoo interfaces,
+CLI, and agents do not resolve game rules independently.
 
 ```bash
 nuclear-war validate-rules
-nuclear-war simulate --mode table --players 3 --seed 1 --agent random --max-turns 50 --out run.json
-nuclear-war simulate --mode postal --players 3 --seed 1 --agent heuristic --out run.json
-nuclear-war experiment --mode table --players 3 --seed-start 1 --runs 10 --agent random --out batch.json
+nuclear-war simulate --mode table --players 3 --seed 1 --agent random --out run.json
 nuclear-war replay run.json
-nuclear-war summarize run.json
 ```
 
 ## Development
 
-1. Install dependencies: `uv pip install --system -e ".[dev]"`. The dev extra
-   includes the `concordia` extra (`gdm-concordia`), so the native Concordia
-   tests run.
-2. Run tests: `pytest`. The only expected skips are the two live-endpoint
-   smokes that need model env vars.
-3. Run lint: `ruff check src tests`
-4. Run type checks: `pyright`
-5. Run guardrails: `scripts/validate-phase`
+```bash
+uv sync --extra dev
+uv run pytest
+uv run ruff check src tests
+uv run pyright
+```
 
-The current implementation keeps deterministic rules in `nuclear_war_env`. PettingZoo, CLI, and agents are interfaces around that engine. They do not resolve rules independently. Rule coverage is tracked in `docs/rule_fidelity_matrix.md`.
-
-## Research Sources
-
-Imported source bundles live under `research/imports/`. The current source
-policy is documented in `docs/source_research_policy.md`.
-
-The v1 engine uses effect summaries and confidence-tracked card metadata. It
-does not publish exact card text or treat community card lists as authoritative
-wording.
-
-The 2026-06-14 research bundle is the current source import.
-`nuclear-war validate-rules` loads IDs from the imported `source_index.json`
-and reports unresolved source labels so the active registry stays tied to the
-bundle source ledger.
+The public repository is MIT licensed. Source treatment and publication
+boundaries for the contest release are recorded in the
+[source-rights register](docs/contest/SOURCE_RIGHTS_REGISTER.md) and
+[release checklist](docs/contest/PUBLIC_RELEASE_CHECKLIST.md).

@@ -15,9 +15,9 @@ cells. Under the frozen operational rule, the retained pair is:
   input/output tokens).
 
 The selected pair is captured in
-[`MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json`](MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json)
+[`MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json`](../../contest/MODEL_MANIFEST.deepseek_flash_gpt_oss_20b.candidate.json)
 and its zero-network receipt is
-[`MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json`](MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json).
+[`MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json`](../../contest/MODEL_PREFLIGHT_RECEIPT.deepseek_flash_gpt_oss_20b.json).
 The checked-in `MODEL_MANIFEST.candidate.json` remains the historical baseline.
 The live preflight and study are still owner-gated.
 
@@ -97,8 +97,8 @@ on the failed screen; any replacement would require a new screening or an
 explicit protocol amendment.
 
 The local calibration evidence is bounded and historical: see the
-[press-light scorecard](../../research/llm_model_calibration/stage3_press_light_scorecard.md)
-and [calibration findings](../../research/llm_model_calibration/findings.md).
+[press-light scorecard](../../../research/llm_model_calibration/stage3_press_light_scorecard.md)
+and [calibration findings](../../../research/llm_model_calibration/findings.md).
 It proves neither current catalog availability nor behavior on the full study.
 Hosted model families outside the confirmed endpoint path require a separate
 backend and manifest-validation change; they are not drop-in replacements in
@@ -163,5 +163,5 @@ receipt by hand.
 
 The authoritative procedures are [M3_MODEL_PREFLIGHT.md](M3_MODEL_PREFLIGHT.md),
 [M3_PROMOTION.md](M3_PROMOTION.md), and
-[EXECUTION_PLAN.md](EXECUTION_PLAN.md). This packet makes the decision fields
+[EXECUTION_PLAN.md](../../contest/EXECUTION_PLAN.md). This packet makes the decision fields
 explicit; it does not waive any of those gates.
