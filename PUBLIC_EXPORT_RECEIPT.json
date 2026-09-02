@@ -1,5 +1,5 @@
 {
-  "file_count": 200,
+  "file_count": 203,
   "files": [
     {
       "bytes": 2945,
@@ -205,11 +205,11 @@
       "sha256": "df2be01fd476aee332862ddb6e5ce0995b4b5d2c75734dbfb510549a8c8c4fa6"
     },
     {
-      "bytes": 5834,
-      "git_blob": "e731d5e9af56084b9042ea2a7a46f63e9740790b",
+      "bytes": 5995,
+      "git_blob": "3e062301fffec2a07120241347a5c24e1eda5745",
       "git_mode": "100644",
       "path": "docs/contest/PUBLIC_EXPORT_MANIFEST.json",
-      "sha256": "2c964556aef63b58e1625a4c93eed043111966a8cfb8f9335f212f28f99a1e7b"
+      "sha256": "be30527c1c02648366bf069603c33044dfbae6fb2676fd37448142ed60205c15"
     },
     {
       "bytes": 11240,
@@ -1374,6 +1374,27 @@
       "sha256": "9f2654968e85844d9ebaf15506fbb0e435332c412280ebe4b4fc73cde9698fcb"
     },
     {
+      "bytes": 3413,
+      "git_blob": "8fd35c926f3dc0a3b74493d70714bcc9318875b5",
+      "git_mode": "100644",
+      "path": "tests/integration/test_contest_microsite.py",
+      "sha256": "9034014ffe3dfa4048ca906df962b98645ee26d396bf8bd12f78f74d3f11e7b9"
+    },
+    {
+      "bytes": 5249,
+      "git_blob": "89c132847b02ae02ccd31112159e13fb415d94f6",
+      "git_mode": "100644",
+      "path": "tests/integration/test_public_export_release.py",
+      "sha256": "80d302edc736ba25fdb59b19611bf802637e113f15a7d26fb8071fb9f0ef5261"
+    },
+    {
+      "bytes": 2276,
+      "git_blob": "2ac56789501f4d040f6059c7a497c077b567c3df",
+      "git_mode": "100644",
+      "path": "tests/integration/test_repository_navigation.py",
+      "sha256": "7fe692c5811be6c4d231d57ca1561f593da00353f14f7b8cace1a38e6d7c3694"
+    },
+    {
       "bytes": 255697,
       "git_blob": "b5e4194699cb73a5a1abc3c9f76da6da522f1941",
       "git_mode": "100644",
@@ -1402,8 +1423,8 @@
       "sha256": "b205e2ef42b51def83e6caf7627b8d38a4d3c437e4627e655626d6ee74993b6d"
     }
   ],
-  "manifest_sha256": "2c964556aef63b58e1625a4c93eed043111966a8cfb8f9335f212f28f99a1e7b",
+  "manifest_sha256": "be30527c1c02648366bf069603c33044dfbae6fb2676fd37448142ed60205c15",
   "schema_version": "contest-public-export-receipt.v1",
-  "source_revision": "0c63cc6705a98ea6b590ffe77e4254502d735685",
-  "source_tree": "3eb1ab6020dd0b6e34eb3c21cfed18b6f5a08f01"
+  "source_revision": "e88936af0a602e997e72936c7442cb06951a6e02",
+  "source_tree": "c08e7238a46d03d299b186c93517eae4e6e1fa17"
 }
